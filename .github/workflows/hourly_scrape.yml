@@ -2,8 +2,8 @@ name: Hourly Polymarket Weather Forecast Scraper
 
 on:
   schedule:
-    # Runs at minute 0 of every hour UTC
-    - cron: '0 * * * *'
+    # Runs at minute 5 of every hour UTC (avoids top-of-hour GitHub Actions cron congestion)
+    - cron: '5 * * * *'
   workflow_dispatch:
     inputs:
       cities:
@@ -62,7 +62,7 @@ jobs:
             echo "No forecast changes to commit."
           else
             TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
-            git commit -m "chore(data): hourly weather forecast scrape ${TIMESTAMP} [skip ci]"
+            git commit -m "chore(data): hourly weather forecast scrape ${TIMESTAMP}"
             git pull --rebase origin main || true
             git push origin HEAD:main
           fi
