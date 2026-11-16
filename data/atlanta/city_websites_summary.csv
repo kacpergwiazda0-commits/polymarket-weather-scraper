@@ -1,36 +1,36 @@
 scraped_at_utc,city,city_slug,station_icao,website_id,website_name,date,unit,highest_temperature,highest_temperature_duration_hours,highest_temperature_hours,highest_temperature_max_consecutive_hours,highest_temperature_exact,highest_temperature_c,highest_temperature_f,consecutive_scrapes_with_same_high,lowest_temperature,lowest_temperature_duration_hours,avg_temperature,max_precip_prob_pct,total_precip_mm,max_wind_speed_kmh,avg_humidity_pct,dominant_condition,hours_analyzed,source_mode
-2026-11-16T15:34:41Z,Atlanta,atlanta,KATL,apple_weather,Apple Weather (WeatherKit),2026-11-16,F,59,2,14:00|15:00,2,59.07,15.04,59.07,2,41,1,50.82,0.0,0.0,12.38,55.5,MostlyClear,14,live_apple_weatherkit_feed
-2026-11-16T15:34:41Z,Atlanta,atlanta,KATL,apple_weather,Apple Weather (WeatherKit),2026-11-17,F,62,2,15:00|16:00,2,62.24,16.8,62.24,2,36,1,47.81,0.0,0.0,17.08,64.9,Clear,24,live_apple_weatherkit_feed
-2026-11-16T15:34:41Z,Atlanta,atlanta,KATL,apple_weather,Apple Weather (WeatherKit),2026-11-18,F,66,1,15:00,1,66.31,19.06,66.31,2,41,3,51.78,0.0,0.0,15.88,59.4,Clear,24,live_apple_weatherkit_feed
-2026-11-16T15:34:41Z,Atlanta,atlanta,KATL,apple_weather,Apple Weather (WeatherKit),2026-11-19,F,66,2,14:00|15:00,2,66.0,18.89,66.0,2,47,3,55.55,12.0,0.61,16.17,63.1,MostlyCloudy,24,live_apple_weatherkit_feed
-2026-11-16T15:34:41Z,Atlanta,atlanta,KATL,apple_weather,Apple Weather (WeatherKit),2026-11-20,F,65,4,13:00|14:00|15:00|16:00,4,65.46,18.59,65.46,2,53,2,58.76,22.0,2.69,15.68,71.1,Cloudy,24,live_apple_weatherkit_feed
-2026-11-16T15:34:41Z,Atlanta,atlanta,KATL,apple_weather,Apple Weather (WeatherKit),2026-11-21,F,66,2,14:00|15:00,2,65.5,18.61,65.5,2,54,2,59.2,44.0,21.31,15.71,74.9,Cloudy,24,live_apple_weatherkit_feed
-2026-11-16T15:34:41Z,Atlanta,atlanta,KATL,apple_weather,Apple Weather (WeatherKit),2026-11-22,F,68,2,14:00|15:00,2,67.66,19.81,67.66,2,55,4,60.6,11.0,0.5,9.23,76.9,PartlyCloudy,24,live_apple_weatherkit_feed
-2026-11-16T15:34:41Z,Atlanta,atlanta,KATL,foreca,Foreca,2026-11-16,F,59,1,15:00,1,59.0,15.0,59.0,2,46,1,52.79,2.0,0.0,18.0,48.6,Clear,14,live_web_scrape
-2026-11-16T15:34:41Z,Atlanta,atlanta,KATL,foreca,Foreca,2026-11-17,F,63,2,15:00|16:00,2,63.0,17.0,63.0,2,43,1,51.75,2.0,0.0,22.0,54.3,Clear,24,live_web_scrape
-2026-11-16T15:34:41Z,Atlanta,atlanta,KATL,foreca,Foreca,2026-11-18,F,66,2,15:00|16:00,2,66.0,19.0,66.0,2,46,6,54.58,2.0,0.0,22.0,51.3,Clear,24,live_web_scrape
-2026-11-16T15:34:41Z,Atlanta,atlanta,KATL,foreca,Foreca,2026-11-19,F,64,7,12:00|13:00|14:00|15:00|16:00|17:00|18:00,7,64.0,18.0,64.0,2,50,1,58.08,15.0,6.23,22.0,58.5,Overcast,24,live_web_scrape
-2026-11-16T15:34:41Z,Atlanta,atlanta,KATL,foreca,Foreca,2026-11-20,F,66,3,15:00|16:00|17:00,3,66.0,19.0,66.0,2,57,8,60.46,18.0,28.92,22.0,69.8,Overcast and showers,24,live_web_scrape
-2026-11-16T15:34:41Z,Atlanta,atlanta,KATL,foreca,Foreca,2026-11-21,F,68,1,15:00,1,68.0,20.0,68.0,2,55,1,60.54,23.0,2.73,22.0,74.7,Overcast,24,live_web_scrape
-2026-11-16T15:34:41Z,Atlanta,atlanta,KATL,foreca,Foreca,2026-11-22,F,68,4,13:00|14:00|15:00|16:00,4,68.0,20.0,68.0,2,52,1,59.62,20.0,0.0,11.0,63.0,Clear,24,live_web_scrape
-2026-11-16T15:34:41Z,Atlanta,atlanta,KATL,msn_weather,Microsoft Weather (MSN),2026-11-16,F,58,3,14:00|15:00|16:00,3,58.0,14.44,58.0,2,45,1,52.5,0.0,0.0,14.48,49.3,Sunny,14,live_web_scrape
-2026-11-16T15:34:41Z,Atlanta,atlanta,KATL,msn_weather,Microsoft Weather (MSN),2026-11-17,F,63,2,15:00|16:00,2,63.0,17.22,63.0,2,41,3,49.96,1.0,0.0,20.92,56.2,Clear,24,live_web_scrape
-2026-11-16T15:34:41Z,Atlanta,atlanta,KATL,msn_weather,Microsoft Weather (MSN),2026-11-18,F,67,2,15:00|16:00,2,67.0,19.44,67.0,2,41,1,52.88,1.0,0.0,20.92,48.8,Clear,24,live_web_scrape
-2026-11-16T15:34:41Z,Atlanta,atlanta,KATL,msn_weather,Microsoft Weather (MSN),2026-11-19,F,68,1,15:00,1,68.0,20.0,68.0,2,49,4,57.62,11.0,0.0,22.53,53.4,Mostly cloudy,24,live_web_scrape
-2026-11-16T15:34:41Z,Atlanta,atlanta,KATL,msn_weather,Microsoft Weather (MSN),2026-11-20,F,65,1,13:00,1,65.0,18.33,65.0,2,56,3,59.29,20.0,0.0,19.31,65.8,Mostly cloudy,24,live_web_scrape
-2026-11-16T15:34:41Z,Atlanta,atlanta,KATL,msn_weather,Microsoft Weather (MSN),2026-11-21,F,66,1,16:00,1,66.0,18.89,66.0,2,55,2,59.46,18.0,0.0,19.31,71.6,Mostly cloudy,24,live_web_scrape
-2026-11-16T15:34:41Z,Atlanta,atlanta,KATL,msn_weather,Microsoft Weather (MSN),2026-11-22,F,70,1,15:00,1,70.0,21.11,70.0,2,50,1,59.04,2.0,0.0,12.87,74.9,Mostly clear,24,live_web_scrape
-2026-11-16T15:34:41Z,Atlanta,atlanta,KATL,weather_com,The Weather Channel (weather.com),2026-11-16,F,57,3,14:00|15:00|16:00,3,57.0,13.89,57.0,2,46,1,52.46,1.0,0.0,19.31,47.8,Partly Cloudy,13,live_web_api
-2026-11-16T15:34:41Z,Atlanta,atlanta,KATL,weather_com,The Weather Channel (weather.com),2026-11-17,F,62,1,15:00,1,62.0,16.67,62.0,2,40,2,50.12,4.0,0.0,22.53,55.3,Clear,24,live_web_api
-2026-11-16T15:34:41Z,Atlanta,atlanta,KATL,weather_com,The Weather Channel (weather.com),2026-11-18,F,65,3,14:00|15:00|16:00,3,65.0,18.33,65.0,2,44,3,54.0,1.0,0.0,22.53,49.8,Mostly Clear,24,live_web_api
-2026-11-16T15:34:41Z,Atlanta,atlanta,KATL,weather_com,The Weather Channel (weather.com),2026-11-19,F,67,2,14:00|15:00,2,67.0,19.44,67.0,2,51,4,58.21,19.0,0.0,20.92,54.5,Mostly Cloudy,24,live_web_api
-2026-11-16T15:34:41Z,Atlanta,atlanta,KATL,weather_com,The Weather Channel (weather.com),2026-11-20,F,68,1,15:00,1,68.0,20.0,68.0,2,54,2,60.0,23.0,0.0,19.31,64.5,Mostly Cloudy,24,live_web_api
-2026-11-16T15:34:41Z,Atlanta,atlanta,KATL,weather_com,The Weather Channel (weather.com),2026-11-21,F,67,3,14:00|15:00|16:00,3,67.0,19.44,67.0,2,54,2,60.04,22.0,0.0,19.31,64.4,Mostly Cloudy,24,live_web_api
-2026-11-16T15:34:41Z,Atlanta,atlanta,KATL,weather_com,The Weather Channel (weather.com),2026-11-22,F,70,2,15:00|16:00,2,70.0,21.11,70.0,2,54,2,61.21,14.0,0.0,14.48,65.5,Partly Cloudy,24,live_web_api
-2026-11-16T15:34:41Z,Atlanta,atlanta,KATL,yr_no,Yr.no (MET Norway),2026-11-16,F,56,2,14:00|15:00,2,55.76,13.2,55.76,2,43,1,49.67,,0.0,14.76,57.8,Clearsky Night,14,live_official_api
-2026-11-16T15:34:41Z,Atlanta,atlanta,KATL,yr_no,Yr.no (MET Norway),2026-11-17,F,59,2,14:00|15:00,2,59.36,15.2,59.36,2,40,2,48.06,,0.0,17.28,64.3,Clearsky Day,24,live_official_api
-2026-11-16T15:34:41Z,Atlanta,atlanta,KATL,yr_no,Yr.no (MET Norway),2026-11-18,F,65,2,14:00|15:00,2,64.94,18.3,64.94,2,44,5,53.05,,0.0,19.8,55.6,Clearsky Day,24,live_official_api
-2026-11-16T15:34:41Z,Atlanta,atlanta,KATL,yr_no,Yr.no (MET Norway),2026-11-19,F,65,1,13:00,1,64.58,18.1,64.58,2,50,1,57.22,,1.22,19.44,62.5,Cloudy,24,live_official_api
-2026-11-16T15:34:41Z,Atlanta,atlanta,KATL,yr_no,Yr.no (MET Norway),2026-11-20,F,67,1,13:00,1,66.74,19.3,66.74,2,55,2,60.31,,0.34,15.84,74.2,Cloudy,24,live_official_api
-2026-11-16T15:34:41Z,Atlanta,atlanta,KATL,yr_no,Yr.no (MET Norway),2026-11-21,F,66,1,13:00,1,65.66,18.7,65.66,2,56,2,61.14,,2.04,15.12,78.6,Cloudy,24,live_official_api
-2026-11-16T15:34:41Z,Atlanta,atlanta,KATL,yr_no,Yr.no (MET Norway),2026-11-22,F,65,3,13:00|14:00|15:00,3,65.3,18.5,65.3,2,58,3,61.23,,0.24,11.88,84.2,Cloudy,24,live_official_api
+2026-11-16T23:40:52Z,Atlanta,atlanta,KATL,apple_weather,Apple Weather (WeatherKit),2026-11-16,F,54,1,18:00,1,54.14,12.3,54.14,1,39,1,44.63,0.0,0.0,8.51,68.0,Clear,6,live_apple_weatherkit_feed
+2026-11-16T23:40:52Z,Atlanta,atlanta,KATL,apple_weather,Apple Weather (WeatherKit),2026-11-17,F,62,2,14:00|15:00,2,62.2,16.78,62.2,3,37,1,47.42,0.0,0.0,17.22,65.0,Clear,24,live_apple_weatherkit_feed
+2026-11-16T23:40:52Z,Atlanta,atlanta,KATL,apple_weather,Apple Weather (WeatherKit),2026-11-18,F,66,1,15:00,1,65.79,18.77,65.79,3,40,4,51.51,0.0,0.0,16.2,60.8,Clear,24,live_apple_weatherkit_feed
+2026-11-16T23:40:52Z,Atlanta,atlanta,KATL,apple_weather,Apple Weather (WeatherKit),2026-11-19,F,66,2,15:00|16:00,2,65.71,18.73,65.71,3,48,2,56.07,9.0,0.45,15.95,63.5,MostlyCloudy,24,live_apple_weatherkit_feed
+2026-11-16T23:40:52Z,Atlanta,atlanta,KATL,apple_weather,Apple Weather (WeatherKit),2026-11-20,F,65,4,13:00|14:00|15:00|16:00,4,65.23,18.46,65.23,3,53,1,58.88,28.0,3.24,16.08,73.9,Cloudy,24,live_apple_weatherkit_feed
+2026-11-16T23:40:52Z,Atlanta,atlanta,KATL,apple_weather,Apple Weather (WeatherKit),2026-11-21,F,61,4,13:00|14:00|15:00|16:00,4,61.32,16.29,61.32,1,55,2,57.43,47.0,25.78,16.48,85.4,Rain,24,live_apple_weatherkit_feed
+2026-11-16T23:40:52Z,Atlanta,atlanta,KATL,apple_weather,Apple Weather (WeatherKit),2026-11-22,F,64,4,13:00|14:00|15:00|16:00,4,64.45,18.03,64.45,1,55,3,59.18,13.0,0.03,10.65,83.3,Cloudy,24,live_apple_weatherkit_feed
+2026-11-16T23:40:52Z,Atlanta,atlanta,KATL,foreca,Foreca,2026-11-16,F,54,1,18:00,1,54.0,12.0,54.0,1,48,3,50.0,2.0,0.0,14.0,53.7,Clear,6,live_web_scrape
+2026-11-16T23:40:52Z,Atlanta,atlanta,KATL,foreca,Foreca,2026-11-17,F,63,2,15:00|16:00,2,63.0,17.0,63.0,3,43,1,51.62,2.0,0.0,22.0,53.7,Clear,24,live_web_scrape
+2026-11-16T23:40:52Z,Atlanta,atlanta,KATL,foreca,Foreca,2026-11-18,F,66,3,14:00|15:00|16:00,3,66.0,19.0,66.0,3,46,6,54.96,4.0,0.0,22.0,52.1,Clear,24,live_web_scrape
+2026-11-16T23:40:52Z,Atlanta,atlanta,KATL,foreca,Foreca,2026-11-19,F,63,3,15:00|16:00|17:00,3,63.0,17.0,63.0,1,52,4,57.17,41.0,0.81,22.0,60.0,Overcast,24,live_web_scrape
+2026-11-16T23:40:52Z,Atlanta,atlanta,KATL,foreca,Foreca,2026-11-20,F,64,1,14:00,1,64.0,18.0,64.0,1,57,8,59.96,28.0,7.0,22.0,74.2,Overcast and light rain,24,live_web_scrape
+2026-11-16T23:40:52Z,Atlanta,atlanta,KATL,foreca,Foreca,2026-11-21,F,63,3,13:00|14:00|15:00,3,63.0,17.0,63.0,1,57,7,59.33,40.0,15.34,22.0,83.9,Overcast,24,live_web_scrape
+2026-11-16T23:40:52Z,Atlanta,atlanta,KATL,foreca,Foreca,2026-11-22,F,68,4,13:00|14:00|15:00|16:00,4,68.0,20.0,68.0,3,57,7,61.38,30.0,0.0,18.0,71.2,Clear,24,live_web_scrape
+2026-11-16T23:40:52Z,Atlanta,atlanta,KATL,msn_weather,Microsoft Weather (MSN),2026-11-16,F,51,2,18:00|19:00,2,51.0,10.56,51.0,1,46,2,48.33,0.0,0.0,4.83,59.3,Clear,6,live_web_scrape
+2026-11-16T23:40:52Z,Atlanta,atlanta,KATL,msn_weather,Microsoft Weather (MSN),2026-11-17,F,63,1,16:00,1,63.0,17.22,63.0,3,40,1,50.33,0.0,0.0,19.31,55.5,Clear,24,live_web_scrape
+2026-11-16T23:40:52Z,Atlanta,atlanta,KATL,msn_weather,Microsoft Weather (MSN),2026-11-18,F,68,2,15:00|16:00,2,68.0,20.0,68.0,1,43,1,54.88,1.0,0.0,22.53,47.1,Clear,24,live_web_scrape
+2026-11-16T23:40:52Z,Atlanta,atlanta,KATL,msn_weather,Microsoft Weather (MSN),2026-11-19,F,63,1,16:00,1,63.0,17.22,63.0,1,53,1,57.38,16.0,0.0,20.92,55.2,Mostly cloudy,24,live_web_scrape
+2026-11-16T23:40:52Z,Atlanta,atlanta,KATL,msn_weather,Microsoft Weather (MSN),2026-11-20,F,65,1,14:00,1,65.0,18.33,65.0,3,57,4,60.46,15.0,0.0,20.92,69.1,Mostly cloudy,24,live_web_scrape
+2026-11-16T23:40:52Z,Atlanta,atlanta,KATL,msn_weather,Microsoft Weather (MSN),2026-11-21,F,65,2,14:00|15:00,2,65.0,18.33,65.0,1,58,1,61.38,28.0,0.0,20.92,76.9,Mostly cloudy,24,live_web_scrape
+2026-11-16T23:40:52Z,Atlanta,atlanta,KATL,msn_weather,Microsoft Weather (MSN),2026-11-22,F,70,1,15:00,1,70.0,21.11,70.0,3,57,2,62.17,7.0,0.0,14.48,81.8,Partly cloudy,24,live_web_scrape
+2026-11-16T23:40:52Z,Atlanta,atlanta,KATL,weather_com,The Weather Channel (weather.com),2026-11-16,F,50,1,19:00,1,50.0,10.0,50.0,1,44,1,46.8,1.0,0.0,11.27,59.0,Clear,5,live_web_api
+2026-11-16T23:40:52Z,Atlanta,atlanta,KATL,weather_com,The Weather Channel (weather.com),2026-11-17,F,62,1,15:00,1,62.0,16.67,62.0,3,40,2,50.04,4.0,0.0,22.53,54.3,Clear,24,live_web_api
+2026-11-16T23:40:52Z,Atlanta,atlanta,KATL,weather_com,The Weather Channel (weather.com),2026-11-18,F,66,2,15:00|16:00,2,66.0,18.89,66.0,1,43,2,54.04,2.0,0.0,22.53,50.2,Clear,24,live_web_api
+2026-11-16T23:40:52Z,Atlanta,atlanta,KATL,weather_com,The Weather Channel (weather.com),2026-11-19,F,66,3,14:00|15:00|16:00,3,66.0,18.89,66.0,1,50,2,58.04,24.0,0.0,20.92,56.8,Cloudy,24,live_web_api
+2026-11-16T23:40:52Z,Atlanta,atlanta,KATL,weather_com,The Weather Channel (weather.com),2026-11-20,F,66,3,14:00|15:00|16:00,3,66.0,18.89,66.0,1,55,4,60.21,35.0,1.0,19.31,66.5,Cloudy,24,live_web_api
+2026-11-16T23:40:52Z,Atlanta,atlanta,KATL,weather_com,The Weather Channel (weather.com),2026-11-21,F,65,5,13:00|14:00|15:00|16:00|17:00,5,65.0,18.33,65.0,1,56,2,60.25,24.0,0.0,20.92,67.1,Cloudy,24,live_web_api
+2026-11-16T23:40:52Z,Atlanta,atlanta,KATL,weather_com,The Weather Channel (weather.com),2026-11-22,F,68,3,14:00|15:00|16:00,3,68.0,20.0,68.0,1,55,2,61.08,21.0,0.0,12.87,69.5,Mostly Cloudy,24,live_web_api
+2026-11-16T23:40:52Z,Atlanta,atlanta,KATL,yr_no,Yr.no (MET Norway),2026-11-16,F,48,1,18:00,1,48.38,9.1,48.38,1,43,1,45.35,,0.0,11.88,68.8,Clearsky Night,6,live_official_api
+2026-11-16T23:40:52Z,Atlanta,atlanta,KATL,yr_no,Yr.no (MET Norway),2026-11-17,F,60,1,15:00,1,59.72,15.4,59.72,1,39,1,48.09,,0.0,18.0,63.1,Clearsky Night,24,live_official_api
+2026-11-16T23:40:52Z,Atlanta,atlanta,KATL,yr_no,Yr.no (MET Norway),2026-11-18,F,65,1,15:00,1,64.94,18.3,64.94,3,42,2,52.51,,0.0,19.08,58.3,Clearsky Night,24,live_official_api
+2026-11-16T23:40:52Z,Atlanta,atlanta,KATL,yr_no,Yr.no (MET Norway),2026-11-19,F,57,7,15:00|16:00|17:00|18:00|19:00|20:00|21:00,7,57.38,14.1,57.38,1,50,2,54.15,,1.92,19.44,71.1,Lightrainshowers Day,24,live_official_api
+2026-11-16T23:40:52Z,Atlanta,atlanta,KATL,yr_no,Yr.no (MET Norway),2026-11-20,F,61,1,13:00,1,60.8,16.0,60.8,1,55,7,57.49,,9.86,19.44,90.1,Cloudy,24,live_official_api
+2026-11-16T23:40:52Z,Atlanta,atlanta,KATL,yr_no,Yr.no (MET Norway),2026-11-21,F,63,2,13:00|14:00,2,63.14,17.3,63.14,1,56,1,59.55,,10.0,18.72,91.5,Heavyrain,24,live_official_api
+2026-11-16T23:40:52Z,Atlanta,atlanta,KATL,yr_no,Yr.no (MET Norway),2026-11-22,F,65,1,13:00,1,64.58,18.1,64.58,3,56,1,59.78,,0.12,12.96,87.7,Cloudy,24,live_official_api

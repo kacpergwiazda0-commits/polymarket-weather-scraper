@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-16T23:40:52Z",
+  "city": "Chongqing",
+  "city_slug": "chongqing",
+  "station_icao": "ZUCK",
+  "station_name": "Chongqing Jiangbei International Airport",
+  "latitude": 29.7192,
+  "longitude": 106.6417,
+  "timezone": "Asia/Shanghai",
+  "polymarket_unit": "C",
+  "website_id": "accuweather",
+  "website_name": "AccuWeather",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.accuweather.com/en/cn/yubei-district/1715565/hourly-weather-forecast/1715565?day=1&unit=c failed after 3 attempts: HTTP Error 403: Forbidden",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

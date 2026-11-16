@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-16T23:40:52Z",
+  "city": "Taipei",
+  "city_slug": "taipei",
+  "station_icao": "RCSS",
+  "station_name": "Taipei Songshan Airport",
+  "latitude": 25.0694,
+  "longitude": 121.5525,
+  "timezone": "Asia/Taipei",
+  "polymarket_unit": "C",
+  "website_id": "accuweather",
+  "website_name": "AccuWeather",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.accuweather.com/en/tw/jingzhong-village/2516631/hourly-weather-forecast/2516631?day=1&unit=c failed after 3 attempts: HTTP Error 403: Forbidden",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}
