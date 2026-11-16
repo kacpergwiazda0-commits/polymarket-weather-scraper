@@ -1,78 +1,71 @@
 scraped_at_utc,city,city_slug,station_icao,website_id,website_name,date,unit,highest_temperature,highest_temperature_duration_hours,highest_temperature_hours,highest_temperature_max_consecutive_hours,highest_temperature_exact,highest_temperature_c,highest_temperature_f,consecutive_scrapes_with_same_high,lowest_temperature,lowest_temperature_duration_hours,avg_temperature,max_precip_prob_pct,total_precip_mm,max_wind_speed_kmh,avg_humidity_pct,dominant_condition,hours_analyzed,source_mode
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,accuweather,AccuWeather,2026-11-17,C,16,1,01:00,1,16.0,16.0,60.8,1,10,1,13.13,75.0,18.3,26.0,75.3,Cloudy,23,live_web_scrape
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,accuweather,AccuWeather,2026-11-18,C,19,1,15:00,1,19.0,19.0,66.2,1,11,1,15.46,51.0,0.6,20.0,83.0,Cloudy,24,live_web_scrape
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,accuweather,AccuWeather,2026-11-19,C,20,1,12:00,1,20.0,20.0,68.0,1,12,2,15.62,0.0,,30.0,60.1,Clear,24,live_web_scrape
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,accuweather,AccuWeather,2026-11-20,C,17,1,13:00,1,17.0,17.0,62.6,1,10,3,12.46,0.0,,28.0,42.4,Clear,24,live_web_scrape
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,accuweather,AccuWeather,2026-11-21,C,16,3,14:00|15:00|16:00,3,16.0,16.0,60.8,1,7,3,11.65,1.0,,19.0,,Plenty of sunshine,24,live_web_scrape
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,accuweather,AccuWeather,2026-11-22,C,15,3,14:00|15:00|16:00,3,15.0,15.0,59.0,1,8,3,11.6,25.0,,13.0,,Mostly sunny,24,live_web_scrape
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,accuweather,AccuWeather,2026-11-23,C,15,3,14:00|15:00|16:00,3,15.0,15.0,59.0,1,10,5,12.53,2.0,,13.0,,Mostly sunny,24,live_web_scrape
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,aerisweather,AerisWeather (Xweather),2026-11-17,C,16,3,00:00|01:00|02:00,3,15.8,15.8,60.44,1,10,2,13.21,100.0,28.0,40.7,70.2,Overcast,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,aerisweather,AerisWeather (Xweather),2026-11-18,C,18,8,12:00|13:00|14:00|15:00|16:00|17:00|18:00|19:00,8,18.2,18.2,64.76,1,11,2,15.22,100.0,6.2,25.7,74.2,Overcast,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,aerisweather,AerisWeather (Xweather),2026-11-19,C,18,4,11:00|12:00|13:00|14:00,4,18.3,18.3,64.94,1,10,2,14.88,10.0,0.9,33.4,44.8,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,aerisweather,AerisWeather (Xweather),2026-11-20,C,14,5,12:00|13:00|14:00|15:00|16:00,5,14.3,14.3,57.74,1,10,5,11.81,0.0,0.0,34.0,30.3,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,aerisweather,AerisWeather (Xweather),2026-11-21,C,17,2,14:00|15:00,2,16.8,16.8,62.24,1,9,1,13.03,0.0,0.0,48.3,36.3,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,aerisweather,AerisWeather (Xweather),2026-11-22,C,14,4,14:00|15:00|16:00|17:00,4,13.6,13.6,56.48,1,9,4,11.42,0.0,0.0,21.0,34.4,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,aerisweather,AerisWeather (Xweather),2026-11-23,C,14,4,16:00|17:00|18:00|19:00,4,13.7,13.7,56.66,1,9,4,11.55,3.0,0.0,17.6,46.1,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,apple_weather,Apple Weather (WeatherKit),2026-11-17,C,14,1,00:00,1,13.69,13.69,56.64,1,10,4,11.69,90.0,27.83,18.86,78.3,Cloudy,24,live_apple_weatherkit_feed
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,apple_weather,Apple Weather (WeatherKit),2026-11-18,C,20,1,14:00,1,19.66,19.66,67.39,1,10,3,14.9,79.0,14.24,15.23,80.4,PartlyCloudy,24,live_apple_weatherkit_feed
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,apple_weather,Apple Weather (WeatherKit),2026-11-19,C,17,4,11:00|12:00|13:00|14:00,4,17.06,17.06,62.71,1,8,1,13.13,14.0,0.32,17.67,63.8,Clear,24,live_apple_weatherkit_feed
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,apple_weather,Apple Weather (WeatherKit),2026-11-20,C,14,2,13:00|14:00,2,13.6,13.6,56.48,1,7,6,9.51,0.0,0.0,18.54,54.5,Clear,24,live_apple_weatherkit_feed
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,apple_weather,Apple Weather (WeatherKit),2026-11-21,C,15,2,14:00|15:00,2,14.76,14.76,58.57,1,5,2,9.1,0.0,0.0,15.37,59.2,Clear,24,live_apple_weatherkit_feed
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,apple_weather,Apple Weather (WeatherKit),2026-11-22,C,13,3,14:00|15:00|16:00,3,13.03,13.03,55.45,1,4,3,8.13,0.0,0.0,9.27,55.5,Clear,24,live_apple_weatherkit_feed
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,apple_weather,Apple Weather (WeatherKit),2026-11-23,C,15,1,15:00,1,14.53,14.53,58.15,1,4,5,8.71,0.0,0.0,7.18,65.0,Clear,24,live_apple_weatherkit_feed
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,foreca,Foreca,2026-11-17,C,15,1,00:00,1,15.0,15.0,59.0,1,11,3,13.21,98.0,22.99,32.0,76.5,Overcast and light rain,24,live_web_scrape
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,foreca,Foreca,2026-11-18,C,18,11,12:00|13:00|14:00|15:00|16:00|17:00|18:00|19:00|20:00|21:00|22:00,11,18.0,18.0,64.0,1,11,4,15.58,98.0,13.28,32.0,79.8,Clear,24,live_web_scrape
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,foreca,Foreca,2026-11-19,C,18,3,11:00|12:00|13:00,3,18.0,18.0,64.0,1,13,3,15.67,25.0,0.42,36.0,59.4,Clear,24,live_web_scrape
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,foreca,Foreca,2026-11-20,C,15,7,09:00|10:00|11:00|12:00|13:00|14:00|15:00,7,15.0,15.0,59.0,1,11,1,13.21,3.0,0.0,36.0,49.2,Clear,24,live_web_scrape
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,foreca,Foreca,2026-11-21,C,14,7,12:00|13:00|14:00|15:00|16:00|17:00|18:00,7,14.0,14.0,57.0,1,10,2,12.33,2.0,0.0,29.0,54.3,Clear,24,live_web_scrape
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,foreca,Foreca,2026-11-22,C,13,3,13:00|14:00|15:00,3,13.0,13.0,55.0,1,7,1,10.33,2.0,0.0,18.0,51.6,Clear,24,live_web_scrape
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,foreca,Foreca,2026-11-23,C,14,1,15:00,1,14.0,14.0,57.0,1,5,2,8.96,7.0,0.0,11.0,60.8,Clear,24,live_web_scrape
-2026-11-16T15:28:34Z,Tokyo,tokyo,RJTT,meteoblue,meteoblue,2026-11-17,C,14,6,00:00|01:00|02:00|12:00|13:00|14:00,3,13.8,13.8,56.84,1,10,4,12.38,100.0,11.4,20.0,75.2,Mainly clear,24,live_web_scrape+multimodel
-2026-11-16T15:28:34Z,Tokyo,tokyo,RJTT,meteoblue,meteoblue,2026-11-18,C,16,2,19:00|20:00,2,15.9,15.9,60.62,1,10,5,13.02,100.0,15.4,17.8,88.5,Clear sky,24,live_web_scrape+multimodel
-2026-11-16T15:28:34Z,Tokyo,tokyo,RJTT,meteoblue,meteoblue,2026-11-19,C,19,2,12:00|13:00,2,18.8,18.8,65.84,1,10,3,13.4,12.0,0.0,17.4,68.8,Clear sky,24,live_web_scrape+multimodel
-2026-11-16T15:28:34Z,Tokyo,tokyo,RJTT,meteoblue,meteoblue,2026-11-20,C,14,3,12:00|13:00|14:00,3,13.7,13.7,56.66,1,8,2,10.52,2.0,0.0,26.8,52.9,Clear sky,24,live_web_scrape+multimodel
-2026-11-16T15:28:34Z,Tokyo,tokyo,RJTT,meteoblue,meteoblue,2026-11-21,C,13,3,13:00|14:00|15:00,3,12.8,12.8,55.04,1,5,3,8.68,0.0,0.0,5.8,70.6,Clear sky,24,live_web_scrape+multimodel
-2026-11-16T15:28:34Z,Tokyo,tokyo,RJTT,meteoblue,meteoblue,2026-11-22,C,13,3,13:00|14:00|15:00,3,12.6,12.6,54.68,1,4,1,8.46,6.0,0.0,10.0,67.8,Clear sky,24,live_web_scrape+multimodel
-2026-11-16T15:28:34Z,Tokyo,tokyo,RJTT,meteoblue,meteoblue,2026-11-23,C,13,2,15:00|16:00,2,12.8,12.8,55.04,1,5,6,8.07,2.0,0.0,9.8,71.2,Clear sky,24,live_web_scrape+multimodel
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,msn_weather,Microsoft Weather (MSN),2026-11-17,C,15,2,00:00|01:00,2,15.0,15.0,59.0,1,10,1,13.17,86.0,0.96,29.0,76.2,Light rain,24,live_web_scrape
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,msn_weather,Microsoft Weather (MSN),2026-11-18,C,19,1,19:00,1,19.0,19.0,66.2,1,11,4,15.25,86.0,1.11,23.0,79.9,Partly cloudy,24,live_web_scrape
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,msn_weather,Microsoft Weather (MSN),2026-11-19,C,18,5,11:00|12:00|13:00|14:00|15:00,5,18.0,18.0,64.4,1,12,1,15.58,5.0,0.0,31.0,66.7,Sunny,24,live_web_scrape
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,msn_weather,Microsoft Weather (MSN),2026-11-20,C,15,1,13:00,1,15.0,15.0,59.0,1,10,1,12.17,1.0,0.0,31.0,48.5,Sunny,24,live_web_scrape
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,msn_weather,Microsoft Weather (MSN),2026-11-21,C,15,1,15:00,1,15.0,15.0,59.0,1,9,7,11.29,1.0,0.0,22.0,50.5,Mostly clear,24,live_web_scrape
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,msn_weather,Microsoft Weather (MSN),2026-11-22,C,13,5,13:00|14:00|15:00|16:00|17:00,5,13.0,13.0,55.4,1,7,2,10.12,1.0,0.0,15.0,56.1,Mostly clear,24,live_web_scrape
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,msn_weather,Microsoft Weather (MSN),2026-11-23,C,14,2,15:00|16:00,2,14.0,14.0,57.2,1,8,5,10.58,4.0,0.0,16.0,55.2,Partly cloudy,24,live_web_scrape
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,open_meteo,Open-Meteo,2026-11-17,C,14,6,00:00|01:00|02:00|12:00|13:00|14:00,3,13.8,13.8,56.84,1,10,4,12.38,100.0,11.4,20.0,75.2,Mainly clear,24,live_official_api
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,open_meteo,Open-Meteo,2026-11-18,C,16,2,19:00|20:00,2,15.9,15.9,60.62,1,10,5,13.02,100.0,15.4,17.8,88.5,Clear sky,24,live_official_api
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,open_meteo,Open-Meteo,2026-11-19,C,19,2,12:00|13:00,2,18.8,18.8,65.84,1,10,3,13.4,12.0,0.0,17.4,68.8,Clear sky,24,live_official_api
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,open_meteo,Open-Meteo,2026-11-20,C,14,3,12:00|13:00|14:00,3,13.7,13.7,56.66,1,8,2,10.52,2.0,0.0,26.8,52.9,Clear sky,24,live_official_api
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,open_meteo,Open-Meteo,2026-11-21,C,13,3,13:00|14:00|15:00,3,12.8,12.8,55.04,1,5,3,8.68,0.0,0.0,5.8,70.6,Clear sky,24,live_official_api
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,open_meteo,Open-Meteo,2026-11-22,C,13,3,13:00|14:00|15:00,3,12.6,12.6,54.68,1,4,1,8.46,6.0,0.0,10.0,67.8,Clear sky,24,live_official_api
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,open_meteo,Open-Meteo,2026-11-23,C,13,2,15:00|16:00,2,12.8,12.8,55.04,1,5,6,8.07,2.0,0.0,9.8,71.2,Clear sky,24,live_official_api
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,uk_met_office,UK Met Office,2026-11-17,C,14,6,00:00|01:00|02:00|03:00|09:00|10:00,4,14.2,14.2,57.56,1,11,6,12.67,95.0,20.5,14.8,78.5,Overcast,24,live_web_scrape+ukmo_model
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,uk_met_office,UK Met Office,2026-11-18,C,20,1,15:00,1,19.6,19.6,67.28,1,11,4,15.56,95.0,37.6,16.9,80.3,Clear night,24,live_web_scrape+ukmo_model
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,uk_met_office,UK Met Office,2026-11-19,C,18,4,00:00|13:00|14:00|15:00,3,17.9,17.9,64.22,1,12,2,15.14,10.0,0.3,18.4,59.0,Clear night,24,live_web_scrape+ukmo_model
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,uk_met_office,UK Met Office,2026-11-20,C,15,4,12:00|13:00|14:00|15:00,4,14.8,14.8,58.64,1,10,8,11.8,5.0,0.0,26.3,41.0,Clear night,24,live_web_scrape+ukmo_model
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,uk_met_office,UK Met Office,2026-11-21,C,15,3,14:00|15:00|16:00,3,14.9,14.9,58.82,1,7,2,10.81,5.0,0.0,17.6,46.9,Clear night,24,live_web_scrape+ukmo_model
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,uk_met_office,UK Met Office,2026-11-22,C,13,2,16:00|17:00,2,12.5,12.5,54.5,1,7,2,9.99,5.0,0.0,10.8,43.5,Clear night,24,live_web_scrape+ukmo_model
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,uk_met_office,UK Met Office,2026-11-23,C,10,1,00:00,1,9.5,9.5,49.1,1,7,6,7.82,5.0,0.0,7.2,65.7,Clear night,10,live_web_scrape+ukmo_model
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,weather_com,The Weather Channel (weather.com),2026-11-17,C,16,1,01:00,1,16.0,16.0,60.8,1,11,6,12.7,100.0,29.7,28.0,78.3,Rain,23,live_web_api
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,weather_com,The Weather Channel (weather.com),2026-11-18,C,19,2,15:00|16:00,2,19.0,19.0,66.2,1,12,5,15.62,100.0,13.8,23.0,80.6,Partly Cloudy,24,live_web_api
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,weather_com,The Weather Channel (weather.com),2026-11-19,C,18,3,12:00|13:00|14:00,3,18.0,18.0,64.4,1,12,2,15.5,20.0,0.0,31.0,57.8,Clear,24,live_web_api
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,weather_com,The Weather Channel (weather.com),2026-11-20,C,14,5,10:00|11:00|12:00|13:00|14:00,5,14.0,14.0,57.2,1,10,2,12.08,1.0,0.0,32.0,45.5,Clear,24,live_web_api
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,weather_com,The Weather Channel (weather.com),2026-11-21,C,14,4,13:00|14:00|15:00|16:00,4,14.0,14.0,57.2,1,9,7,11.17,2.0,0.0,24.0,50.3,Clear,24,live_web_api
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,weather_com,The Weather Channel (weather.com),2026-11-22,C,13,3,13:00|14:00|15:00,3,13.0,13.0,55.4,1,8,5,10.12,3.0,0.0,15.0,52.3,Clear,24,live_web_api
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,weather_com,The Weather Channel (weather.com),2026-11-23,C,13,3,14:00|15:00|16:00,3,13.0,13.0,55.4,1,7,5,9.92,6.0,0.0,16.0,62.4,Partly Cloudy,24,live_web_api
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,weatherbit,Weatherbit,2026-11-17,C,14,2,00:00|01:00,2,14.1,14.1,57.38,1,10,4,12.04,98.0,24.6,15.5,80.9,Overcast,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,weatherbit,Weatherbit,2026-11-18,C,19,4,13:00|14:00|15:00|16:00,4,19.0,19.0,66.2,1,10,1,15.3,98.0,13.4,11.8,83.2,Mainly clear,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,weatherbit,Weatherbit,2026-11-19,C,17,2,12:00|13:00,2,16.7,16.7,62.06,1,10,2,14.11,5.0,0.4,24.2,65.5,Clear sky,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,weatherbit,Weatherbit,2026-11-20,C,14,3,12:00|13:00|14:00,3,13.9,13.9,57.02,1,9,5,10.88,0.0,0.0,23.4,49.4,Clear sky,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,weatherbit,Weatherbit,2026-11-21,C,14,3,13:00|14:00|15:00,3,14.0,14.0,57.2,1,9,12,10.35,0.0,0.0,18.7,57.1,Clear sky,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,weatherbit,Weatherbit,2026-11-22,C,12,5,12:00|13:00|14:00|15:00|16:00,5,12.1,12.1,53.78,1,6,3,9.25,0.0,0.0,7.3,56.2,Clear sky,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,weatherbit,Weatherbit,2026-11-23,C,12,5,13:00|14:00|15:00|16:00|17:00,5,11.8,11.8,53.24,1,5,2,8.78,0.0,0.0,7.8,63.0,Mainly clear,22,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,yr_no,Yr.no (MET Norway),2026-11-17,C,14,6,00:00|01:00|02:00|03:00|04:00|05:00,6,14.2,14.2,57.56,1,10,2,12.55,,29.2,42.84,80.0,Cloudy,24,live_official_api
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,yr_no,Yr.no (MET Norway),2026-11-18,C,19,6,13:00|14:00|15:00|16:00|17:00|18:00,6,18.8,18.8,65.84,1,11,1,15.69,,8.7,51.12,75.9,Clearsky Day,24,live_official_api
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,yr_no,Yr.no (MET Norway),2026-11-19,C,17,3,12:00|13:00|14:00,3,16.8,16.8,62.24,1,12,3,14.39,,1.1,45.0,63.6,Clearsky Night,24,live_official_api
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,yr_no,Yr.no (MET Norway),2026-11-20,C,14,1,15:00,1,13.6,13.6,56.48,1,9,2,11.64,,0.0,34.56,56.3,Clearsky Night,24,live_official_api
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,yr_no,Yr.no (MET Norway),2026-11-21,C,13,3,14:00|15:00|16:00,3,13.3,13.3,55.94,1,7,1,9.78,,0.0,18.36,64.4,Clearsky Night,24,live_official_api
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,yr_no,Yr.no (MET Norway),2026-11-22,C,12,3,14:00|15:00|16:00,3,12.4,12.4,54.32,1,7,1,9.15,,0.0,15.12,62.7,Clearsky Night,24,live_official_api
-2026-11-16T15:26:25Z,Tokyo,tokyo,RJTT,yr_no,Yr.no (MET Norway),2026-11-23,C,13,1,15:00,1,12.7,12.7,54.86,1,6,1,9.45,,0.0,15.12,68.2,Clearsky Night,24,live_official_api
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,aerisweather,AerisWeather (Xweather),2026-11-17,C,16,3,00:00|01:00|02:00,3,15.8,15.8,60.44,2,10,2,13.21,100.0,28.0,40.7,70.2,Overcast,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,aerisweather,AerisWeather (Xweather),2026-11-18,C,18,8,12:00|13:00|14:00|15:00|16:00|17:00|18:00|19:00,8,18.2,18.2,64.76,2,11,2,15.22,100.0,6.2,25.7,74.2,Overcast,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,aerisweather,AerisWeather (Xweather),2026-11-19,C,18,4,11:00|12:00|13:00|14:00,4,18.3,18.3,64.94,2,10,2,14.88,10.0,0.9,33.4,44.8,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,aerisweather,AerisWeather (Xweather),2026-11-20,C,14,5,12:00|13:00|14:00|15:00|16:00,5,14.3,14.3,57.74,2,10,5,11.81,0.0,0.0,34.0,30.3,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,aerisweather,AerisWeather (Xweather),2026-11-21,C,17,2,14:00|15:00,2,16.8,16.8,62.24,2,9,1,13.03,0.0,0.0,48.3,36.3,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,aerisweather,AerisWeather (Xweather),2026-11-22,C,14,4,14:00|15:00|16:00|17:00,4,13.6,13.6,56.48,2,9,4,11.42,0.0,0.0,21.0,34.4,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,aerisweather,AerisWeather (Xweather),2026-11-23,C,14,4,16:00|17:00|18:00|19:00,4,13.7,13.7,56.66,2,9,4,11.55,3.0,0.0,17.6,46.1,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,apple_weather,Apple Weather (WeatherKit),2026-11-17,C,14,1,00:00,1,13.69,13.69,56.64,2,10,4,11.69,90.0,27.83,18.86,78.3,Cloudy,24,live_apple_weatherkit_feed
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,apple_weather,Apple Weather (WeatherKit),2026-11-18,C,20,1,14:00,1,19.66,19.66,67.39,2,10,3,14.9,79.0,14.24,15.23,80.4,PartlyCloudy,24,live_apple_weatherkit_feed
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,apple_weather,Apple Weather (WeatherKit),2026-11-19,C,17,4,11:00|12:00|13:00|14:00,4,17.06,17.06,62.71,2,8,1,13.13,14.0,0.32,17.67,63.8,Clear,24,live_apple_weatherkit_feed
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,apple_weather,Apple Weather (WeatherKit),2026-11-20,C,14,2,13:00|14:00,2,13.6,13.6,56.48,2,7,6,9.51,0.0,0.0,18.54,54.5,Clear,24,live_apple_weatherkit_feed
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,apple_weather,Apple Weather (WeatherKit),2026-11-21,C,15,2,14:00|15:00,2,14.76,14.76,58.57,2,5,2,9.1,0.0,0.0,15.37,59.2,Clear,24,live_apple_weatherkit_feed
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,apple_weather,Apple Weather (WeatherKit),2026-11-22,C,13,3,14:00|15:00|16:00,3,13.03,13.03,55.45,2,4,3,8.13,0.0,0.0,9.27,55.5,Clear,24,live_apple_weatherkit_feed
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,apple_weather,Apple Weather (WeatherKit),2026-11-23,C,15,1,15:00,1,14.53,14.53,58.15,2,4,5,8.71,0.0,0.0,7.18,65.0,Clear,24,live_apple_weatherkit_feed
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,foreca,Foreca,2026-11-17,C,15,1,00:00,1,15.0,15.0,59.0,2,11,3,13.21,98.0,22.99,32.0,76.5,Overcast and light rain,24,live_web_scrape
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,foreca,Foreca,2026-11-18,C,18,11,12:00|13:00|14:00|15:00|16:00|17:00|18:00|19:00|20:00|21:00|22:00,11,18.0,18.0,64.0,2,11,4,15.58,98.0,13.28,32.0,79.8,Clear,24,live_web_scrape
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,foreca,Foreca,2026-11-19,C,18,3,11:00|12:00|13:00,3,18.0,18.0,64.0,2,13,3,15.67,25.0,0.42,36.0,59.4,Clear,24,live_web_scrape
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,foreca,Foreca,2026-11-20,C,15,7,09:00|10:00|11:00|12:00|13:00|14:00|15:00,7,15.0,15.0,59.0,2,11,1,13.21,3.0,0.0,36.0,49.2,Clear,24,live_web_scrape
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,foreca,Foreca,2026-11-21,C,14,7,12:00|13:00|14:00|15:00|16:00|17:00|18:00,7,14.0,14.0,57.0,2,10,2,12.33,2.0,0.0,29.0,54.3,Clear,24,live_web_scrape
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,foreca,Foreca,2026-11-22,C,13,3,13:00|14:00|15:00,3,13.0,13.0,55.0,2,7,1,10.33,2.0,0.0,18.0,51.6,Clear,24,live_web_scrape
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,foreca,Foreca,2026-11-23,C,14,1,15:00,1,14.0,14.0,57.0,2,5,2,8.96,7.0,0.0,11.0,60.8,Clear,24,live_web_scrape
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,meteoblue,meteoblue,2026-11-17,C,14,6,00:00|01:00|02:00|12:00|13:00|14:00,3,13.8,13.8,56.84,2,10,4,12.38,100.0,11.4,20.0,75.2,Mainly clear,24,live_web_scrape+multimodel
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,meteoblue,meteoblue,2026-11-18,C,16,2,19:00|20:00,2,15.9,15.9,60.62,2,10,5,13.02,100.0,15.4,17.8,88.5,Clear sky,24,live_web_scrape+multimodel
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,meteoblue,meteoblue,2026-11-19,C,19,2,12:00|13:00,2,18.8,18.8,65.84,2,10,3,13.4,12.0,0.0,17.4,68.8,Clear sky,24,live_web_scrape+multimodel
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,meteoblue,meteoblue,2026-11-20,C,14,3,12:00|13:00|14:00,3,13.7,13.7,56.66,2,8,2,10.52,2.0,0.0,26.8,52.9,Clear sky,24,live_web_scrape+multimodel
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,meteoblue,meteoblue,2026-11-21,C,13,3,13:00|14:00|15:00,3,12.8,12.8,55.04,2,5,3,8.68,0.0,0.0,5.8,70.6,Clear sky,24,live_web_scrape+multimodel
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,meteoblue,meteoblue,2026-11-22,C,13,3,13:00|14:00|15:00,3,12.6,12.6,54.68,2,4,1,8.46,6.0,0.0,10.0,67.8,Clear sky,24,live_web_scrape+multimodel
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,meteoblue,meteoblue,2026-11-23,C,13,2,15:00|16:00,2,12.8,12.8,55.04,2,5,6,8.07,2.0,0.0,9.8,71.2,Clear sky,24,live_web_scrape+multimodel
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,msn_weather,Microsoft Weather (MSN),2026-11-17,C,15,2,00:00|01:00,2,15.0,15.0,59.0,2,10,1,13.17,86.0,0.96,29.0,76.2,Light rain,24,live_web_scrape
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,msn_weather,Microsoft Weather (MSN),2026-11-18,C,19,1,19:00,1,19.0,19.0,66.2,2,11,4,15.25,86.0,1.11,23.0,79.9,Partly cloudy,24,live_web_scrape
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,msn_weather,Microsoft Weather (MSN),2026-11-19,C,18,5,11:00|12:00|13:00|14:00|15:00,5,18.0,18.0,64.4,2,12,1,15.58,5.0,0.0,31.0,66.7,Sunny,24,live_web_scrape
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,msn_weather,Microsoft Weather (MSN),2026-11-20,C,15,1,13:00,1,15.0,15.0,59.0,2,10,1,12.17,1.0,0.0,31.0,48.5,Sunny,24,live_web_scrape
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,msn_weather,Microsoft Weather (MSN),2026-11-21,C,15,1,15:00,1,15.0,15.0,59.0,2,9,7,11.29,1.0,0.0,22.0,50.5,Mostly clear,24,live_web_scrape
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,msn_weather,Microsoft Weather (MSN),2026-11-22,C,13,5,13:00|14:00|15:00|16:00|17:00,5,13.0,13.0,55.4,2,7,2,10.12,1.0,0.0,15.0,56.1,Mostly clear,24,live_web_scrape
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,msn_weather,Microsoft Weather (MSN),2026-11-23,C,14,2,15:00|16:00,2,14.0,14.0,57.2,2,8,5,10.58,4.0,0.0,16.0,55.2,Partly cloudy,24,live_web_scrape
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,open_meteo,Open-Meteo,2026-11-17,C,14,6,00:00|01:00|02:00|12:00|13:00|14:00,3,13.8,13.8,56.84,2,10,4,12.38,100.0,11.4,20.0,75.2,Mainly clear,24,live_official_api
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,open_meteo,Open-Meteo,2026-11-18,C,16,2,19:00|20:00,2,15.9,15.9,60.62,2,10,5,13.02,100.0,15.4,17.8,88.5,Clear sky,24,live_official_api
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,open_meteo,Open-Meteo,2026-11-19,C,19,2,12:00|13:00,2,18.8,18.8,65.84,2,10,3,13.4,12.0,0.0,17.4,68.8,Clear sky,24,live_official_api
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,open_meteo,Open-Meteo,2026-11-20,C,14,3,12:00|13:00|14:00,3,13.7,13.7,56.66,2,8,2,10.52,2.0,0.0,26.8,52.9,Clear sky,24,live_official_api
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,open_meteo,Open-Meteo,2026-11-21,C,13,3,13:00|14:00|15:00,3,12.8,12.8,55.04,2,5,3,8.68,0.0,0.0,5.8,70.6,Clear sky,24,live_official_api
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,open_meteo,Open-Meteo,2026-11-22,C,13,3,13:00|14:00|15:00,3,12.6,12.6,54.68,2,4,1,8.46,6.0,0.0,10.0,67.8,Clear sky,24,live_official_api
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,open_meteo,Open-Meteo,2026-11-23,C,13,2,15:00|16:00,2,12.8,12.8,55.04,2,5,6,8.07,2.0,0.0,9.8,71.2,Clear sky,24,live_official_api
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,uk_met_office,UK Met Office,2026-11-17,C,14,6,00:00|01:00|02:00|03:00|09:00|10:00,4,14.2,14.2,57.56,2,11,6,12.67,95.0,20.5,14.8,78.5,Overcast,24,live_web_scrape+ukmo_model
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,uk_met_office,UK Met Office,2026-11-18,C,20,1,15:00,1,19.6,19.6,67.28,2,11,4,15.56,95.0,37.6,16.9,80.3,Clear night,24,live_web_scrape+ukmo_model
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,uk_met_office,UK Met Office,2026-11-19,C,18,4,00:00|13:00|14:00|15:00,3,17.9,17.9,64.22,2,12,2,15.14,10.0,0.3,18.4,59.0,Clear night,24,live_web_scrape+ukmo_model
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,uk_met_office,UK Met Office,2026-11-20,C,15,4,12:00|13:00|14:00|15:00,4,14.8,14.8,58.64,2,10,8,11.8,5.0,0.0,26.3,41.0,Clear night,24,live_web_scrape+ukmo_model
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,uk_met_office,UK Met Office,2026-11-21,C,15,3,14:00|15:00|16:00,3,14.9,14.9,58.82,2,7,2,10.81,5.0,0.0,17.6,46.9,Clear night,24,live_web_scrape+ukmo_model
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,uk_met_office,UK Met Office,2026-11-22,C,13,2,16:00|17:00,2,12.5,12.5,54.5,2,7,2,9.99,5.0,0.0,10.8,43.5,Clear night,24,live_web_scrape+ukmo_model
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,uk_met_office,UK Met Office,2026-11-23,C,10,1,00:00,1,9.5,9.5,49.1,2,7,6,7.82,5.0,0.0,7.2,65.7,Clear night,10,live_web_scrape+ukmo_model
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,weather_com,The Weather Channel (weather.com),2026-11-17,C,15,3,01:00|02:00|03:00,3,15.0,15.0,59.0,1,11,6,12.65,100.0,29.7,28.0,78.3,Rain,23,live_web_api
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,weather_com,The Weather Channel (weather.com),2026-11-18,C,19,2,15:00|16:00,2,19.0,19.0,66.2,2,12,5,15.62,100.0,13.8,23.0,80.6,Partly Cloudy,24,live_web_api
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,weather_com,The Weather Channel (weather.com),2026-11-19,C,18,3,12:00|13:00|14:00,3,18.0,18.0,64.4,2,12,2,15.5,20.0,0.0,31.0,57.8,Clear,24,live_web_api
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,weather_com,The Weather Channel (weather.com),2026-11-20,C,14,5,10:00|11:00|12:00|13:00|14:00,5,14.0,14.0,57.2,2,10,2,12.08,1.0,0.0,32.0,45.5,Clear,24,live_web_api
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,weather_com,The Weather Channel (weather.com),2026-11-21,C,14,4,13:00|14:00|15:00|16:00,4,14.0,14.0,57.2,2,9,7,11.17,2.0,0.0,24.0,50.3,Clear,24,live_web_api
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,weather_com,The Weather Channel (weather.com),2026-11-22,C,13,3,13:00|14:00|15:00,3,13.0,13.0,55.4,2,8,5,10.12,3.0,0.0,15.0,52.3,Clear,24,live_web_api
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,weather_com,The Weather Channel (weather.com),2026-11-23,C,13,3,14:00|15:00|16:00,3,13.0,13.0,55.4,2,7,5,9.92,6.0,0.0,16.0,62.4,Partly Cloudy,24,live_web_api
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,weatherbit,Weatherbit,2026-11-17,C,14,2,00:00|01:00,2,14.1,14.1,57.38,2,10,4,12.04,98.0,24.6,15.5,80.9,Overcast,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,weatherbit,Weatherbit,2026-11-18,C,19,4,13:00|14:00|15:00|16:00,4,19.0,19.0,66.2,2,10,1,15.3,98.0,13.4,11.8,83.2,Mainly clear,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,weatherbit,Weatherbit,2026-11-19,C,17,2,12:00|13:00,2,16.7,16.7,62.06,2,10,2,14.11,5.0,0.4,24.2,65.5,Clear sky,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,weatherbit,Weatherbit,2026-11-20,C,14,3,12:00|13:00|14:00,3,13.9,13.9,57.02,2,9,5,10.88,0.0,0.0,23.4,49.4,Clear sky,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,weatherbit,Weatherbit,2026-11-21,C,14,3,13:00|14:00|15:00,3,14.0,14.0,57.2,2,9,12,10.35,0.0,0.0,18.7,57.1,Clear sky,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,weatherbit,Weatherbit,2026-11-22,C,12,5,12:00|13:00|14:00|15:00|16:00,5,12.1,12.1,53.78,2,6,3,9.25,0.0,0.0,7.3,56.2,Clear sky,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,weatherbit,Weatherbit,2026-11-23,C,12,5,13:00|14:00|15:00|16:00|17:00,5,11.8,11.8,53.24,2,5,2,8.78,0.0,0.0,7.8,63.0,Mainly clear,22,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,yr_no,Yr.no (MET Norway),2026-11-17,C,14,6,00:00|01:00|02:00|03:00|04:00|05:00,6,14.2,14.2,57.56,2,10,2,12.55,,29.2,42.84,80.0,Cloudy,24,live_official_api
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,yr_no,Yr.no (MET Norway),2026-11-18,C,19,6,13:00|14:00|15:00|16:00|17:00|18:00,6,18.8,18.8,65.84,2,11,1,15.69,,8.7,51.12,75.9,Clearsky Day,24,live_official_api
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,yr_no,Yr.no (MET Norway),2026-11-19,C,17,3,12:00|13:00|14:00,3,16.8,16.8,62.24,2,12,3,14.39,,1.1,45.0,63.6,Clearsky Night,24,live_official_api
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,yr_no,Yr.no (MET Norway),2026-11-20,C,14,1,15:00,1,13.6,13.6,56.48,2,9,2,11.64,,0.0,34.56,56.3,Clearsky Night,24,live_official_api
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,yr_no,Yr.no (MET Norway),2026-11-21,C,13,3,14:00|15:00|16:00,3,13.3,13.3,55.94,2,7,1,9.78,,0.0,18.36,64.4,Clearsky Night,24,live_official_api
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,yr_no,Yr.no (MET Norway),2026-11-22,C,12,3,14:00|15:00|16:00,3,12.4,12.4,54.32,2,7,1,9.15,,0.0,15.12,62.7,Clearsky Night,24,live_official_api
+2026-11-16T15:34:41Z,Tokyo,tokyo,RJTT,yr_no,Yr.no (MET Norway),2026-11-23,C,13,1,15:00,1,12.7,12.7,54.86,2,6,1,9.45,,0.0,15.12,68.2,Clearsky Night,24,live_official_api

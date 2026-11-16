@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-16T15:34:41Z",
+  "city": "Jakarta",
+  "city_slug": "jakarta",
+  "station_icao": "WIHH",
+  "station_name": "Halim Perdanakusuma International Airport",
+  "latitude": -6.2666,
+  "longitude": 106.8906,
+  "timezone": "Asia/Jakarta",
+  "polymarket_unit": "C",
+  "website_id": "accuweather",
+  "website_name": "AccuWeather",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.accuweather.com/en/id/halim-perdana-kusumah/3450081/hourly-weather-forecast/3450081?day=1&unit=c failed after 3 attempts: HTTP Error 403: Forbidden",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}
