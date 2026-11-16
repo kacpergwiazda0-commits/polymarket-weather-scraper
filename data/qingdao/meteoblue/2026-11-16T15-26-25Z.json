@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-16T15:26:25Z",
+  "city": "Qingdao",
+  "city_slug": "qingdao",
+  "station_icao": "ZSQD",
+  "station_name": "Qingdao Jiaodong International Airport",
+  "latitude": 36.3667,
+  "longitude": 120.0944,
+  "timezone": "Asia/Shanghai",
+  "polymarket_unit": "C",
+  "website_id": "meteoblue",
+  "website_name": "meteoblue",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.meteoblue.com/en/weather/week/36.367N120.094E?day=1 failed after 3 attempts: HTTP Error 429: Too Many Requests",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

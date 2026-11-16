@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-16T15:26:25Z",
+  "city": "London",
+  "city_slug": "london",
+  "station_icao": "EGLC",
+  "station_name": "London City Airport",
+  "latitude": 51.5053,
+  "longitude": 0.0553,
+  "timezone": "Europe/London",
+  "polymarket_unit": "C",
+  "website_id": "meteoblue",
+  "website_name": "meteoblue",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.meteoblue.com/en/weather/week/51.505N0.055E?day=1 failed after 3 attempts: HTTP Error 429: Too Many Requests",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

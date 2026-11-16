@@ -1,0 +1,68 @@
+name: Hourly Polymarket Weather Forecast Scraper
+
+on:
+  schedule:
+    # Runs at minute 0 of every hour UTC
+    - cron: '0 * * * *'
+  workflow_dispatch:
+    inputs:
+      cities:
+        description: 'Optional comma-separated city slugs (leave blank for all 55 cities)'
+        required: false
+        default: ''
+      websites:
+        description: 'Optional comma-separated website IDs (leave blank for all 11 websites)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hourly-weather-scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape-forecasts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run 55-city x 11-website 7-day hourly forecast scraper
+        env:
+          WEATHERBIT_API_KEY: ${{ secrets.WEATHERBIT_API_KEY }}
+          AERIS_CLIENT_ID: ${{ secrets.AERIS_CLIENT_ID }}
+          AERIS_CLIENT_SECRET: ${{ secrets.AERIS_CLIENT_SECRET }}
+          APPLE_WEATHERKIT_BEARER_TOKEN: ${{ secrets.APPLE_WEATHERKIT_BEARER_TOKEN }}
+          METEOBLUE_API_KEY: ${{ secrets.METEOBLUE_API_KEY }}
+          ACCUWEATHER_API_KEY: ${{ secrets.ACCUWEATHER_API_KEY }}
+          TWC_API_KEY: ${{ secrets.TWC_API_KEY }}
+        run: |
+          python3 run_scraper.py \
+            --output-dir data \
+            --workers 16 \
+            --cities "${{ inputs.cities }}" \
+            --websites "${{ inputs.websites }}"
+
+      - name: Commit and push scraped forecast data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No forecast changes to commit."
+          else
+            TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+            git commit -m "chore(data): hourly weather forecast scrape ${TIMESTAMP} [skip ci]"
+            git pull --rebase origin main || true
+            git push origin HEAD:main
+          fi

@@ -1,0 +1,3 @@
+# Core scraper uses Python 3.11+ standard library (urllib, json, csv, zoneinfo, concurrent.futures)
+# tzdata ensures IANA timezone database is available on all platforms
+tzdata>=2024.1

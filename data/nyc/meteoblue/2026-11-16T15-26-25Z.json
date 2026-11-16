@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-16T15:26:25Z",
+  "city": "New York",
+  "city_slug": "nyc",
+  "station_icao": "KLGA",
+  "station_name": "LaGuardia Airport",
+  "latitude": 40.7769,
+  "longitude": -73.874,
+  "timezone": "America/New_York",
+  "polymarket_unit": "F",
+  "website_id": "meteoblue",
+  "website_name": "meteoblue",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.meteoblue.com/en/weather/week/40.777N-73.874E?day=1 failed after 3 attempts: HTTP Error 429: Too Many Requests",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

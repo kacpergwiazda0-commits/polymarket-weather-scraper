@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-16T15:26:25Z",
+  "city": "Tokyo",
+  "city_slug": "tokyo",
+  "station_icao": "RJTT",
+  "station_name": "Tokyo Haneda International Airport",
+  "latitude": 35.5494,
+  "longitude": 139.7798,
+  "timezone": "Asia/Tokyo",
+  "polymarket_unit": "C",
+  "website_id": "meteoblue",
+  "website_name": "meteoblue",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.meteoblue.com/en/weather/week/35.549N139.780E?day=1 failed after 3 attempts: HTTP Error 429: Too Many Requests",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

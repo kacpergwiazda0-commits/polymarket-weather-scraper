@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-16T15:26:25Z",
+  "city": "Tel Aviv",
+  "city_slug": "tel_aviv",
+  "station_icao": "LLBG",
+  "station_name": "Ben Gurion International Airport",
+  "latitude": 32.0114,
+  "longitude": 34.8867,
+  "timezone": "Asia/Jerusalem",
+  "polymarket_unit": "C",
+  "website_id": "meteoblue",
+  "website_name": "meteoblue",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.meteoblue.com/en/weather/week/32.011N34.887E?day=1 failed after 3 attempts: HTTP Error 429: Too Many Requests",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

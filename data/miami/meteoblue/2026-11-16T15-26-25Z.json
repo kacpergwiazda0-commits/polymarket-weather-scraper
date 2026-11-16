@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-16T15:26:25Z",
+  "city": "Miami",
+  "city_slug": "miami",
+  "station_icao": "KMIA",
+  "station_name": "Miami International Airport",
+  "latitude": 25.7959,
+  "longitude": -80.287,
+  "timezone": "America/New_York",
+  "polymarket_unit": "F",
+  "website_id": "meteoblue",
+  "website_name": "meteoblue",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.meteoblue.com/en/weather/week/25.796N-80.287E?day=1 failed after 3 attempts: HTTP Error 429: Too Many Requests",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

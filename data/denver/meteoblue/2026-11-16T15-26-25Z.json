@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-16T15:26:25Z",
+  "city": "Denver",
+  "city_slug": "denver",
+  "station_icao": "KBKF",
+  "station_name": "Buckley Space Force Base",
+  "latitude": 39.7017,
+  "longitude": -104.7517,
+  "timezone": "America/Denver",
+  "polymarket_unit": "F",
+  "website_id": "meteoblue",
+  "website_name": "meteoblue",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.meteoblue.com/en/weather/week/39.702N-104.752E?day=5 failed after 3 attempts: HTTP Error 429: Too Many Requests",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

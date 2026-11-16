@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-16T15:26:25Z",
+  "city": "Wellington",
+  "city_slug": "wellington",
+  "station_icao": "NZWN",
+  "station_name": "Wellington International Airport",
+  "latitude": -41.3272,
+  "longitude": 174.8053,
+  "timezone": "Pacific/Auckland",
+  "polymarket_unit": "C",
+  "website_id": "meteoblue",
+  "website_name": "meteoblue",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.meteoblue.com/en/weather/week/-41.327N174.805E?day=1 failed after 3 attempts: HTTP Error 429: Too Many Requests",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

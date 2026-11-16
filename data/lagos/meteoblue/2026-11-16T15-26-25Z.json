@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-16T15:26:25Z",
+  "city": "Lagos",
+  "city_slug": "lagos",
+  "station_icao": "DNMM",
+  "station_name": "Murtala Muhammed International Airport",
+  "latitude": 6.5774,
+  "longitude": 3.3212,
+  "timezone": "Africa/Lagos",
+  "polymarket_unit": "C",
+  "website_id": "meteoblue",
+  "website_name": "meteoblue",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.meteoblue.com/en/weather/week/6.577N3.321E?day=1 failed after 3 attempts: HTTP Error 429: Too Many Requests",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

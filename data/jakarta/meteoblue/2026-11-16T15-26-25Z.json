@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-16T15:26:25Z",
+  "city": "Jakarta",
+  "city_slug": "jakarta",
+  "station_icao": "WIHH",
+  "station_name": "Halim Perdanakusuma International Airport",
+  "latitude": -6.2666,
+  "longitude": 106.8906,
+  "timezone": "Asia/Jakarta",
+  "polymarket_unit": "C",
+  "website_id": "meteoblue",
+  "website_name": "meteoblue",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.meteoblue.com/en/weather/week/-6.267N106.891E?day=2 failed after 3 attempts: HTTP Error 429: Too Many Requests",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

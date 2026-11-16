@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-16T15:26:25Z",
+  "city": "Mexico City",
+  "city_slug": "mexico_city",
+  "station_icao": "MMMX",
+  "station_name": "Benito Juarez International Airport",
+  "latitude": 19.4363,
+  "longitude": -99.0721,
+  "timezone": "America/Mexico_City",
+  "polymarket_unit": "C",
+  "website_id": "meteoblue",
+  "website_name": "meteoblue",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.meteoblue.com/en/weather/week/19.436N-99.072E?day=1 failed after 3 attempts: HTTP Error 429: Too Many Requests",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

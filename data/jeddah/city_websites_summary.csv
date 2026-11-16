@@ -1,0 +1,78 @@
+scraped_at_utc,city,city_slug,station_icao,website_id,website_name,date,unit,highest_temperature,highest_temperature_duration_hours,highest_temperature_hours,highest_temperature_max_consecutive_hours,highest_temperature_exact,highest_temperature_c,highest_temperature_f,consecutive_scrapes_with_same_high,lowest_temperature,lowest_temperature_duration_hours,avg_temperature,max_precip_prob_pct,total_precip_mm,max_wind_speed_kmh,avg_humidity_pct,dominant_condition,hours_analyzed,source_mode
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,accuweather,AccuWeather,2026-11-16,C,29,3,19:00|20:00|21:00,3,29.0,29.0,84.2,1,28,2,28.6,0.0,,9.0,74.6,Clear,5,live_web_scrape
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,accuweather,AccuWeather,2026-11-17,C,34,1,13:00,1,34.0,34.0,93.2,1,26,1,29.5,0.0,,15.0,69.1,Clear,24,live_web_scrape
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,accuweather,AccuWeather,2026-11-18,C,34,1,12:00,1,34.0,34.0,93.2,1,26,1,29.58,7.0,,17.0,65.9,Hazy sunshine,24,live_web_scrape
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,accuweather,AccuWeather,2026-11-19,C,34,1,12:00,1,34.0,34.0,93.2,1,26,1,29.62,0.0,,17.0,60.6,Hazy sunshine,24,live_web_scrape
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,accuweather,AccuWeather,2026-11-20,C,35,3,14:00|15:00|16:00,3,35.0,35.0,95.0,1,25,3,30.22,0.0,,11.0,,Hazy sunshine,24,live_web_scrape
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,accuweather,AccuWeather,2026-11-21,C,35,3,14:00|15:00|16:00,3,35.0,35.0,95.0,1,25,3,30.22,0.0,,13.0,,Hazy sunshine,24,live_web_scrape
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,accuweather,AccuWeather,2026-11-22,C,33,4,14:00|15:00|16:00|19:00,3,33.0,33.0,91.4,1,25,3,29.15,25.0,,11.0,,Hazy sunshine,24,live_web_scrape
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,aerisweather,AerisWeather (Xweather),2026-11-16,C,33,2,12:00|13:00,2,33.0,33.0,91.4,1,26,4,28.58,0.0,0.0,22.8,63.1,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,aerisweather,AerisWeather (Xweather),2026-11-17,C,32,3,11:00|12:00|13:00,3,32.3,32.3,90.14,1,25,1,28.24,0.0,0.0,21.6,63.6,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,aerisweather,AerisWeather (Xweather),2026-11-18,C,33,1,13:00,1,32.5,32.5,90.5,1,25,2,28.32,5.0,0.0,24.7,59.9,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,aerisweather,AerisWeather (Xweather),2026-11-19,C,33,1,13:00,1,32.6,32.6,90.68,1,26,2,28.58,6.0,0.0,24.5,57.9,Overcast,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,aerisweather,AerisWeather (Xweather),2026-11-20,C,33,1,13:00,1,32.6,32.6,90.68,1,26,2,29.03,3.0,0.0,18.6,55.6,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,aerisweather,AerisWeather (Xweather),2026-11-21,C,33,1,13:00,1,32.5,32.5,90.5,1,25,1,28.75,0.0,0.0,15.7,56.1,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,aerisweather,AerisWeather (Xweather),2026-11-22,C,32,2,12:00|13:00,2,31.6,31.6,88.88,1,25,3,28.03,0.0,0.0,17.8,61.4,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,apple_weather,Apple Weather (WeatherKit),2026-11-16,C,30,1,18:00,1,29.74,29.74,85.53,1,27,1,28.43,0.0,0.0,9.91,73.5,Clear,6,live_apple_weatherkit_feed
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,apple_weather,Apple Weather (WeatherKit),2026-11-17,C,32,4,12:00|13:00|14:00|15:00,4,32.18,32.18,89.92,1,25,3,28.32,0.0,0.0,14.03,71.6,Clear,24,live_apple_weatherkit_feed
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,apple_weather,Apple Weather (WeatherKit),2026-11-18,C,32,3,12:00|13:00|14:00,3,31.98,31.98,89.56,1,25,5,28.07,3.0,0.17,15.07,68.5,Clear,24,live_apple_weatherkit_feed
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,apple_weather,Apple Weather (WeatherKit),2026-11-19,C,33,1,13:00,1,32.52,32.52,90.54,1,25,5,28.31,2.0,0.1,13.5,64.8,MostlyClear,24,live_apple_weatherkit_feed
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,apple_weather,Apple Weather (WeatherKit),2026-11-20,C,33,4,12:00|13:00|14:00|15:00,4,33.16,33.16,91.69,1,25,3,28.66,0.0,0.0,13.73,61.2,Clear,24,live_apple_weatherkit_feed
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,apple_weather,Apple Weather (WeatherKit),2026-11-21,C,33,3,12:00|13:00|14:00,3,32.87,32.87,91.17,1,23,1,28.12,0.0,0.0,13.13,65.6,Clear,24,live_apple_weatherkit_feed
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,apple_weather,Apple Weather (WeatherKit),2026-11-22,C,32,1,14:00,1,31.7,31.7,89.06,1,25,6,27.68,0.0,0.0,12.59,70.1,Clear,24,live_apple_weatherkit_feed
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,foreca,Foreca,2026-11-16,C,30,2,18:00|19:00,2,30.0,30.0,86.0,1,29,4,29.33,4.0,0.0,11.0,72.2,Clear,6,live_web_scrape
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,foreca,Foreca,2026-11-17,C,33,2,12:00|13:00,2,33.0,33.0,91.0,1,27,5,29.42,13.0,0.01,14.0,69.7,Clear,24,live_web_scrape
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,foreca,Foreca,2026-11-18,C,33,1,12:00,1,33.0,33.0,91.0,1,27,6,29.38,49.0,0.63,14.0,67.3,Clear,24,live_web_scrape
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,foreca,Foreca,2026-11-19,C,33,2,12:00|13:00,2,33.0,33.0,91.0,1,27,2,29.71,46.0,0.21,14.0,61.0,Clear,24,live_web_scrape
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,foreca,Foreca,2026-11-20,C,34,1,12:00,1,34.0,34.0,93.0,1,27,3,29.92,14.0,0.0,14.0,54.7,Clear,24,live_web_scrape
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,foreca,Foreca,2026-11-21,C,33,4,11:00|12:00|13:00|14:00,4,33.0,33.0,91.0,1,27,5,29.62,6.0,0.0,14.0,61.0,Clear,24,live_web_scrape
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,foreca,Foreca,2026-11-22,C,34,1,12:00,1,34.0,34.0,93.0,1,24,1,28.83,30.0,0.0,18.0,63.4,Clear,24,live_web_scrape
+2026-11-16T15:28:34Z,Jeddah,jeddah,OEJN,meteoblue,meteoblue,2026-11-16,C,34,2,11:00|12:00,2,34.0,34.0,93.2,1,27,6,29.58,0.0,0.0,18.0,,"Clear, cloudless sky",24,live_web_scrape+multimodel
+2026-11-16T15:28:34Z,Jeddah,jeddah,OEJN,meteoblue,meteoblue,2026-11-17,C,33,4,11:00|12:00|13:00|14:00,4,33.3,33.3,91.94,1,24,1,28.27,37.0,0.0,14.6,72.2,Clear sky,24,live_web_scrape+multimodel
+2026-11-16T15:28:34Z,Jeddah,jeddah,OEJN,meteoblue,meteoblue,2026-11-18,C,33,2,11:00|12:00,2,33.3,33.3,91.94,1,24,3,27.99,88.0,1.1,13.7,69.4,Clear sky,24,live_web_scrape+multimodel
+2026-11-16T15:28:34Z,Jeddah,jeddah,OEJN,meteoblue,meteoblue,2026-11-19,C,35,1,13:00,1,34.5,34.5,94.1,1,25,4,28.69,47.0,0.4,15.5,61.0,Clear sky,24,live_web_scrape+multimodel
+2026-11-16T15:28:34Z,Jeddah,jeddah,OEJN,meteoblue,meteoblue,2026-11-20,C,35,2,12:00|13:00,2,34.8,34.8,94.64,1,25,3,29.11,8.0,0.0,11.7,49.0,Clear sky,24,live_web_scrape+multimodel
+2026-11-16T15:28:34Z,Jeddah,jeddah,OEJN,meteoblue,meteoblue,2026-11-21,C,34,2,12:00|13:00,2,33.7,33.7,92.66,1,23,3,28.08,2.0,0.0,16.6,61.2,Clear sky,24,live_web_scrape+multimodel
+2026-11-16T15:28:34Z,Jeddah,jeddah,OEJN,meteoblue,meteoblue,2026-11-22,C,31,3,13:00|14:00|15:00,3,30.7,30.7,87.26,1,23,2,27.37,16.0,1.8,12.6,78.1,Clear sky,24,live_web_scrape+multimodel
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,msn_weather,Microsoft Weather (MSN),2026-11-16,C,30,2,18:00|19:00,2,30.0,30.0,86.0,1,28,1,29.17,0.0,0.0,9.0,71.2,Mostly clear,6,live_web_scrape
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,msn_weather,Microsoft Weather (MSN),2026-11-17,C,33,3,12:00|14:00|15:00,2,33.0,33.0,91.4,1,26,3,29.21,0.0,0.0,17.0,67.2,Mostly clear,24,live_web_scrape
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,msn_weather,Microsoft Weather (MSN),2026-11-18,C,33,1,13:00,1,33.0,33.0,91.4,1,26,4,28.92,1.0,0.0,17.0,65.8,Mostly clear,24,live_web_scrape
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,msn_weather,Microsoft Weather (MSN),2026-11-19,C,33,3,12:00|13:00|14:00,3,33.0,33.0,91.4,1,26,1,29.29,2.0,0.0,18.0,63.0,Mostly clear,24,live_web_scrape
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,msn_weather,Microsoft Weather (MSN),2026-11-20,C,34,2,12:00|13:00,2,34.0,34.0,93.2,1,26,2,29.62,1.0,0.0,15.0,61.7,Mostly clear,24,live_web_scrape
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,msn_weather,Microsoft Weather (MSN),2026-11-21,C,33,1,12:00,1,33.0,33.0,91.4,1,25,3,28.75,0.0,0.0,16.0,61.6,Mostly clear,24,live_web_scrape
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,msn_weather,Microsoft Weather (MSN),2026-11-22,C,31,6,12:00|13:00|14:00|15:00|16:00|17:00,6,31.0,31.0,87.8,1,25,1,28.42,0.0,0.0,16.0,60.8,Mostly clear,24,live_web_scrape
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,open_meteo,Open-Meteo,2026-11-16,C,35,1,12:00,1,34.8,34.8,94.64,1,25,2,28.9,29.0,0.0,15.8,68.4,Clear sky,24,live_official_api
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,open_meteo,Open-Meteo,2026-11-17,C,33,4,11:00|12:00|13:00|14:00,4,33.3,33.3,91.94,1,24,1,28.27,24.0,0.0,14.6,72.2,Clear sky,24,live_official_api
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,open_meteo,Open-Meteo,2026-11-18,C,33,2,11:00|12:00,2,33.3,33.3,91.94,1,24,3,27.99,90.0,1.1,13.7,69.4,Clear sky,24,live_official_api
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,open_meteo,Open-Meteo,2026-11-19,C,35,1,13:00,1,34.5,34.5,94.1,1,25,4,28.69,51.0,0.4,15.5,61.0,Clear sky,24,live_official_api
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,open_meteo,Open-Meteo,2026-11-20,C,35,2,12:00|13:00,2,34.8,34.8,94.64,1,25,3,29.11,12.0,0.0,11.7,49.0,Clear sky,24,live_official_api
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,open_meteo,Open-Meteo,2026-11-21,C,34,2,12:00|13:00,2,33.7,33.7,92.66,1,23,3,28.08,6.0,0.0,16.6,61.2,Clear sky,24,live_official_api
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,open_meteo,Open-Meteo,2026-11-22,C,31,3,13:00|14:00|15:00,3,30.7,30.7,87.26,1,23,2,27.37,16.0,1.8,12.6,78.1,Clear sky,24,live_official_api
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,uk_met_office,UK Met Office,2026-11-16,C,34,3,14:00|15:00|16:00,3,34.1,34.1,93.38,1,26,4,29.13,5.0,0.0,14.8,67.4,Clear sky,24,live_web_scrape+ukmo_model
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,uk_met_office,UK Met Office,2026-11-17,C,34,4,13:00|14:00|15:00|16:00,4,34.1,34.1,93.38,1,26,4,29.17,10.0,0.0,16.2,66.4,Clear night,24,live_web_scrape+ukmo_model
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,uk_met_office,UK Met Office,2026-11-18,C,35,2,14:00|15:00,2,34.9,34.9,94.82,1,25,3,29.12,20.0,0.0,16.9,60.7,Clear night,24,live_web_scrape+ukmo_model
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,uk_met_office,UK Met Office,2026-11-19,C,36,1,15:00,1,35.5,35.5,95.9,1,25,2,29.52,30.0,0.0,14.0,57.0,Clear night,24,live_web_scrape+ukmo_model
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,uk_met_office,UK Met Office,2026-11-20,C,34,4,13:00|14:00|15:00|16:00,4,34.3,34.3,93.74,1,25,3,29.07,5.0,0.0,13.7,56.5,Clear night,24,live_web_scrape+ukmo_model
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,uk_met_office,UK Met Office,2026-11-21,C,33,2,14:00|15:00,2,32.9,32.9,91.22,1,24,1,28.53,5.0,0.0,18.0,49.5,Clear night,24,live_web_scrape+ukmo_model
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,uk_met_office,UK Met Office,2026-11-22,C,33,3,14:00|15:00|16:00,3,32.9,32.9,91.22,1,25,5,28.35,5.0,0.0,14.0,65.6,Clear night,24,live_web_scrape+ukmo_model
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,weather_com,The Weather Channel (weather.com),2026-11-16,C,30,1,19:00,1,30.0,30.0,86.0,1,29,4,29.2,2.0,0.0,10.0,74.0,Clear,5,live_web_api
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,weather_com,The Weather Channel (weather.com),2026-11-17,C,34,1,12:00,1,34.0,34.0,93.2,1,26,2,29.71,6.0,0.0,18.0,65.5,Clear,24,live_web_api
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,weather_com,The Weather Channel (weather.com),2026-11-18,C,33,4,11:00|12:00|13:00|14:00,4,33.0,33.0,91.4,1,26,1,29.62,8.0,0.0,18.0,63.7,Sunny,24,live_web_api
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,weather_com,The Weather Channel (weather.com),2026-11-19,C,33,4,11:00|12:00|13:00|14:00,4,33.0,33.0,91.4,1,27,4,29.79,7.0,0.0,17.0,60.7,Mostly Clear,24,live_web_api
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,weather_com,The Weather Channel (weather.com),2026-11-20,C,34,3,12:00|13:00|14:00,3,34.0,34.0,93.2,1,27,4,30.08,4.0,0.0,17.0,57.5,Sunny,24,live_web_api
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,weather_com,The Weather Channel (weather.com),2026-11-21,C,34,3,12:00|13:00|14:00,3,34.0,34.0,93.2,1,26,3,29.71,4.0,0.0,18.0,55.1,Clear,24,live_web_api
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,weather_com,The Weather Channel (weather.com),2026-11-22,C,33,3,12:00|13:00|14:00,3,33.0,33.0,91.4,1,26,4,29.25,6.0,0.0,16.0,63.5,Clear,24,live_web_api
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,weatherbit,Weatherbit,2026-11-16,C,36,1,13:00,1,35.7,35.7,96.26,1,26,6,29.21,5.0,0.0,19.8,71.5,Mainly clear,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,weatherbit,Weatherbit,2026-11-17,C,33,3,12:00|13:00|14:00,3,33.4,33.4,92.12,1,25,3,28.33,3.0,0.0,17.6,72.4,Clear sky,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,weatherbit,Weatherbit,2026-11-18,C,33,4,12:00|13:00|14:00|15:00,4,33.2,33.2,91.76,1,25,6,28.23,5.0,0.0,17.1,70.3,Mainly clear,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,weatherbit,Weatherbit,2026-11-19,C,34,1,13:00,1,33.5,33.5,92.3,1,25,4,28.65,0.0,0.0,14.3,65.1,Partly cloudy,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,weatherbit,Weatherbit,2026-11-20,C,35,2,12:00|13:00,2,34.9,34.9,94.82,1,25,3,28.79,0.0,0.0,18.0,67.3,Clear sky,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,weatherbit,Weatherbit,2026-11-21,C,34,3,12:00|13:00|14:00,3,34.2,34.2,93.56,1,21,2,27.42,0.0,0.0,15.9,49.0,Clear sky,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,weatherbit,Weatherbit,2026-11-22,C,33,2,13:00|14:00,2,32.8,32.8,91.04,1,21,2,26.81,0.0,0.0,13.8,64.2,Clear sky,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,yr_no,Yr.no (MET Norway),2026-11-16,C,29,2,18:00|19:00,2,29.1,29.1,84.38,1,27,2,27.87,,0.0,14.4,76.8,Clearsky Night,6,live_official_api
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,yr_no,Yr.no (MET Norway),2026-11-17,C,33,3,12:00|13:00|14:00,3,33.3,33.3,91.94,1,24,3,28.16,,0.0,21.24,72.5,Clearsky Night,24,live_official_api
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,yr_no,Yr.no (MET Norway),2026-11-18,C,33,2,11:00|12:00,2,33.3,33.3,91.94,1,24,4,27.91,,1.2,19.08,69.7,Clearsky Night,24,live_official_api
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,yr_no,Yr.no (MET Norway),2026-11-19,C,33,1,15:00,1,32.6,32.6,90.68,1,25,6,28.25,,0.12,15.84,60.7,Clearsky Day,24,live_official_api
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,yr_no,Yr.no (MET Norway),2026-11-20,C,34,1,15:00,1,33.7,33.7,92.66,1,25,1,29.08,,0.0,12.6,49.6,Clearsky Night,24,live_official_api
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,yr_no,Yr.no (MET Norway),2026-11-21,C,32,3,14:00|15:00|16:00,3,32.3,32.3,90.14,1,24,1,28.29,,0.0,17.28,55.3,Clearsky Night,24,live_official_api
+2026-11-16T15:26:25Z,Jeddah,jeddah,OEJN,yr_no,Yr.no (MET Norway),2026-11-22,C,31,1,15:00,1,30.6,30.6,87.08,1,24,1,27.6,,1.8,13.32,76.7,Clearsky Night,24,live_official_api

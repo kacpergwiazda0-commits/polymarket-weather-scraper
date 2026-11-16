@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-16T15:26:25Z",
+  "city": "Seattle",
+  "city_slug": "seattle",
+  "station_icao": "KSEA",
+  "station_name": "Seattle-Tacoma International Airport",
+  "latitude": 47.4502,
+  "longitude": -122.3088,
+  "timezone": "America/Los_Angeles",
+  "polymarket_unit": "F",
+  "website_id": "meteoblue",
+  "website_name": "meteoblue",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.meteoblue.com/en/weather/week/47.450N-122.309E?day=1 failed after 3 attempts: HTTP Error 429: Too Many Requests",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-16T15:26:25Z",
+  "city": "Hong Kong",
+  "city_slug": "hong_kong",
+  "station_icao": "VHHH",
+  "station_name": "Hong Kong International Airport / HK Observatory",
+  "latitude": 22.308,
+  "longitude": 113.9185,
+  "timezone": "Asia/Hong_Kong",
+  "polymarket_unit": "C",
+  "website_id": "meteoblue",
+  "website_name": "meteoblue",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.meteoblue.com/en/weather/week/22.308N113.918E?day=1 failed after 3 attempts: HTTP Error 429: Too Many Requests",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

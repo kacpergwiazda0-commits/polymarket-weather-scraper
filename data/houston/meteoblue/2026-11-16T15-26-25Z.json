@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-16T15:26:25Z",
+  "city": "Houston",
+  "city_slug": "houston",
+  "station_icao": "KHOU",
+  "station_name": "William P. Hobby Airport",
+  "latitude": 29.6454,
+  "longitude": -95.2789,
+  "timezone": "America/Chicago",
+  "polymarket_unit": "F",
+  "website_id": "meteoblue",
+  "website_name": "meteoblue",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.meteoblue.com/en/weather/week/29.645N-95.279E?day=3 failed after 3 attempts: HTTP Error 429: Too Many Requests",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

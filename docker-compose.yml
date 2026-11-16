@@ -1,0 +1,16 @@
+services:
+  polymarket-weather-scraper:
+    build: .
+    container_name: polymarket-weather-scraper
+    restart: unless-stopped
+    env_file:
+      - path: .env
+        required: false
+    volumes:
+      - ./data:/app/data
+    command: >
+      python3 run_scraper.py
+      --output-dir /app/data
+      --workers 16
+      --loop
+      --interval-seconds 3600

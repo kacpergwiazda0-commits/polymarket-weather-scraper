@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-16T15:26:25Z",
+  "city": "Manila",
+  "city_slug": "manila",
+  "station_icao": "RPLL",
+  "station_name": "Ninoy Aquino International Airport",
+  "latitude": 14.5086,
+  "longitude": 121.0194,
+  "timezone": "Asia/Manila",
+  "polymarket_unit": "C",
+  "website_id": "meteoblue",
+  "website_name": "meteoblue",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.meteoblue.com/en/weather/week/14.509N121.019E?day=1 failed after 3 attempts: HTTP Error 429: Too Many Requests",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

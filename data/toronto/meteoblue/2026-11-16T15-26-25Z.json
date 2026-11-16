@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-16T15:26:25Z",
+  "city": "Toronto",
+  "city_slug": "toronto",
+  "station_icao": "CYYZ",
+  "station_name": "Toronto Pearson International Airport",
+  "latitude": 43.6777,
+  "longitude": -79.6248,
+  "timezone": "America/Toronto",
+  "polymarket_unit": "C",
+  "website_id": "meteoblue",
+  "website_name": "meteoblue",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.meteoblue.com/en/weather/week/43.678N-79.625E?day=1 failed after 3 attempts: HTTP Error 429: Too Many Requests",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}
