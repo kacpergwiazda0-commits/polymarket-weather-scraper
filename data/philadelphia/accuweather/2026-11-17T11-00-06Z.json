@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-17T11:00:06Z",
+  "city": "Philadelphia",
+  "city_slug": "philadelphia",
+  "station_icao": "KPHL",
+  "station_name": "Philadelphia International Airport",
+  "latitude": 39.8729,
+  "longitude": -75.2437,
+  "timezone": "America/New_York",
+  "polymarket_unit": "F",
+  "website_id": "accuweather",
+  "website_name": "AccuWeather",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.accuweather.com/en/us/philadelphia-international-airport/19153/hourly-weather-forecast/2627560?day=1&unit=f failed after 3 attempts: HTTP Error 403: Forbidden",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-17T11:00:06Z",
+  "city": "Panama City",
+  "city_slug": "panama_city",
+  "station_icao": "MPMG",
+  "station_name": "Marcos A. Gelabert International Airport",
+  "latitude": 8.9733,
+  "longitude": -79.5556,
+  "timezone": "America/Panama",
+  "polymarket_unit": "C",
+  "website_id": "accuweather",
+  "website_name": "AccuWeather",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.accuweather.com/en/pa/panama-city/259549/hourly-weather-forecast/259549?day=1&unit=c failed after 3 attempts: HTTP Error 403: Forbidden",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

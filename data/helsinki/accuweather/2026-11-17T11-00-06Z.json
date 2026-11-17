@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-17T11:00:06Z",
+  "city": "Helsinki",
+  "city_slug": "helsinki",
+  "station_icao": "EFHK",
+  "station_name": "Helsinki Vantaa Airport",
+  "latitude": 60.3172,
+  "longitude": 24.9633,
+  "timezone": "Europe/Helsinki",
+  "polymarket_unit": "C",
+  "website_id": "accuweather",
+  "website_name": "AccuWeather",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.accuweather.com/en/fi/myllykyla/133024/hourly-weather-forecast/133024?day=1&unit=c failed after 3 attempts: HTTP Error 403: Forbidden",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

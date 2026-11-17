@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-17T11:00:06Z",
+  "city": "Cape Town",
+  "city_slug": "cape_town",
+  "station_icao": "FACT",
+  "station_name": "Cape Town International Airport",
+  "latitude": -33.9715,
+  "longitude": 18.6021,
+  "timezone": "Africa/Johannesburg",
+  "polymarket_unit": "C",
+  "website_id": "accuweather",
+  "website_name": "AccuWeather",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.accuweather.com/en/za/crossroads/301113/hourly-weather-forecast/301113?day=1&unit=c failed after 3 attempts: HTTP Error 403: Forbidden",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

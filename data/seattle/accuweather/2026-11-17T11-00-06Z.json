@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-17T11:00:06Z",
+  "city": "Seattle",
+  "city_slug": "seattle",
+  "station_icao": "KSEA",
+  "station_name": "Seattle-Tacoma International Airport",
+  "latitude": 47.4502,
+  "longitude": -122.3088,
+  "timezone": "America/Los_Angeles",
+  "polymarket_unit": "F",
+  "website_id": "accuweather",
+  "website_name": "AccuWeather",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.accuweather.com/en/us/seatac/98148/hourly-weather-forecast/341357?day=1&unit=f failed after 3 attempts: HTTP Error 403: Forbidden",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}
