@@ -1,71 +1,71 @@
 scraped_at_utc,city,city_slug,station_icao,website_id,website_name,date,unit,highest_temperature,highest_temperature_duration_hours,highest_temperature_hours,highest_temperature_max_consecutive_hours,highest_temperature_exact,highest_temperature_c,highest_temperature_f,consecutive_scrapes_with_same_high,lowest_temperature,lowest_temperature_duration_hours,avg_temperature,max_precip_prob_pct,total_precip_mm,max_wind_speed_kmh,avg_humidity_pct,dominant_condition,hours_analyzed,source_mode
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,aerisweather,AerisWeather (Xweather),2026-11-17,C,28,4,12:00|13:00|14:00|15:00,4,28.0,28.0,82.4,7,18,1,22.66,0.0,0.0,15.0,29.3,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,aerisweather,AerisWeather (Xweather),2026-11-18,C,28,3,13:00|14:00|15:00,3,27.8,27.8,82.04,9,18,1,22.65,0.0,0.0,8.8,29.6,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,aerisweather,AerisWeather (Xweather),2026-11-19,C,27,4,12:00|13:00|14:00|15:00,4,27.4,27.4,81.32,1,18,1,22.58,0.0,0.0,5.2,33.8,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,aerisweather,AerisWeather (Xweather),2026-11-20,C,28,3,13:00|14:00|15:00,3,27.6,27.6,81.68,9,19,2,23.03,0.0,0.0,5.6,40.1,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,aerisweather,AerisWeather (Xweather),2026-11-21,C,28,2,13:00|14:00,2,27.6,27.6,81.68,9,19,1,23.09,0.0,0.0,4.6,39.8,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,aerisweather,AerisWeather (Xweather),2026-11-22,C,28,2,13:00|14:00,2,27.5,27.5,81.5,1,19,1,22.95,0.0,0.0,8.9,37.4,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,aerisweather,AerisWeather (Xweather),2026-11-23,C,27,4,12:00|13:00|14:00|15:00,4,27.4,27.4,81.32,7,19,4,22.66,0.0,0.0,6.1,35.5,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,apple_weather,Apple Weather (WeatherKit),2026-11-17,C,27,3,13:30|14:30|15:30,3,27.48,27.48,81.46,9,17,2,22.04,0.0,0.0,11.38,57.5,Clear,11,live_apple_weatherkit_feed
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,apple_weather,Apple Weather (WeatherKit),2026-11-18,C,27,2,13:30|14:30,2,26.66,26.66,79.99,9,14,2,19.64,0.0,0.0,6.09,65.6,Clear,24,live_apple_weatherkit_feed
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,apple_weather,Apple Weather (WeatherKit),2026-11-19,C,26,4,12:30|13:30|14:30|15:30,4,26.48,26.48,79.66,9,14,2,19.79,0.0,0.0,4.12,72.2,Clear,24,live_apple_weatherkit_feed
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,apple_weather,Apple Weather (WeatherKit),2026-11-20,C,27,2,13:30|14:30,2,26.88,26.88,80.38,9,15,4,20.28,0.0,0.0,4.66,73.7,Clear,24,live_apple_weatherkit_feed
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,apple_weather,Apple Weather (WeatherKit),2026-11-21,C,27,4,12:30|13:30|14:30|15:30,4,27.45,27.45,81.41,7,15,2,20.8,0.0,0.0,6.83,71.5,Clear,24,live_apple_weatherkit_feed
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,apple_weather,Apple Weather (WeatherKit),2026-11-22,C,26,4,12:30|13:30|14:30|15:30,4,26.42,26.42,79.56,1,18,6,21.21,0.0,0.0,7.25,71.3,MostlyClear,24,live_apple_weatherkit_feed
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,apple_weather,Apple Weather (WeatherKit),2026-11-23,C,25,4,12:30|13:30|14:30|15:30,4,25.45,25.45,77.81,7,15,1,20.21,0.0,0.0,7.86,66.1,Clear,24,live_apple_weatherkit_feed
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,foreca,Foreca,2026-11-17,C,28,1,14:30,1,28.0,28.0,82.0,7,17,1,22.45,1.0,0.0,14.0,59.6,Clear,11,live_web_scrape
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,foreca,Foreca,2026-11-18,C,27,2,13:30|14:30,2,27.0,27.0,81.0,9,14,2,19.96,1.0,0.0,11.0,68.0,Clear,24,live_web_scrape
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,foreca,Foreca,2026-11-19,C,27,1,14:30,1,27.0,27.0,81.0,7,14,2,19.71,1.0,0.0,7.0,71.8,Clear,24,live_web_scrape
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,foreca,Foreca,2026-11-20,C,27,1,14:30,1,27.0,27.0,81.0,9,14,2,19.92,1.0,0.0,7.0,75.2,Clear,24,live_web_scrape
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,foreca,Foreca,2026-11-21,C,26,3,13:30|14:30|15:30,3,26.0,26.0,79.0,7,14,1,19.75,6.0,0.0,7.0,75.8,Clear,24,live_web_scrape
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,foreca,Foreca,2026-11-22,C,26,3,13:30|14:30|15:30,3,26.0,26.0,79.0,9,14,1,19.67,10.0,0.0,11.0,74.3,Clear,24,live_web_scrape
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,foreca,Foreca,2026-11-23,C,25,2,13:30|14:30,2,25.0,25.0,77.0,7,16,1,19.79,9.0,0.0,11.0,72.1,Clear,24,live_web_scrape
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,meteoblue,meteoblue,2026-11-17,C,27,1,14:00,1,26.67,26.67,80.0,1,13,1,19.4,0.0,0.0,7.0,,"Clear, cloudless sky",24,live_web_scrape+multimodel
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,meteoblue,meteoblue,2026-11-18,C,26,3,12:00|13:00|14:00,3,26.0,26.0,78.8,9,14,2,19.25,0.0,0.0,6.8,65.3,Clear sky,24,live_web_scrape+multimodel
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,meteoblue,meteoblue,2026-11-19,C,25,4,12:00|13:00|14:00|15:00,4,25.4,25.4,77.72,9,13,1,18.93,0.0,0.0,5.7,71.4,Clear sky,24,live_web_scrape+multimodel
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,meteoblue,meteoblue,2026-11-20,C,26,3,13:00|14:00|15:00,3,25.8,25.8,78.44,1,14,1,19.44,0.0,0.0,5.8,76.3,Clear sky,24,live_web_scrape+multimodel
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,meteoblue,meteoblue,2026-11-21,C,27,3,12:00|13:00|14:00,3,27.1,27.1,80.78,1,15,2,20.61,2.0,0.0,7.1,73.8,Clear sky,24,live_web_scrape+multimodel
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,meteoblue,meteoblue,2026-11-22,C,27,3,12:00|13:00|14:00,3,27.1,27.1,80.78,1,19,3,21.92,4.0,0.0,8.1,68.2,Clear sky,24,live_web_scrape+multimodel
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,meteoblue,meteoblue,2026-11-23,C,24,3,11:00|12:00|13:00,3,24.1,24.1,75.38,7,15,4,18.96,4.0,0.0,8.6,71.1,Clear sky,24,live_web_scrape+multimodel
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,msn_weather,Microsoft Weather (MSN),2026-11-17,C,27,3,13:00|14:00|15:00,3,27.0,27.0,80.6,1,17,1,22.64,0.0,0.0,8.0,61.7,Sunny,11,live_web_scrape
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,msn_weather,Microsoft Weather (MSN),2026-11-18,C,26,3,13:00|14:00|15:00,3,26.0,26.0,78.8,1,15,3,20.0,0.0,0.0,7.0,71.0,Clear,24,live_web_scrape
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,msn_weather,Microsoft Weather (MSN),2026-11-19,C,26,1,14:00,1,26.0,26.0,78.8,1,15,3,19.67,0.0,0.0,6.0,75.8,Clear,24,live_web_scrape
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,msn_weather,Microsoft Weather (MSN),2026-11-20,C,26,1,14:00,1,26.0,26.0,78.8,4,15,2,19.79,0.0,0.0,5.0,79.4,Clear,24,live_web_scrape
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,msn_weather,Microsoft Weather (MSN),2026-11-21,C,25,2,14:00|15:00,2,25.0,25.0,77.0,1,15,2,19.54,8.0,0.0,5.0,82.2,Clear,24,live_web_scrape
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,msn_weather,Microsoft Weather (MSN),2026-11-22,C,25,1,15:00,1,25.0,25.0,77.0,4,15,4,18.96,7.0,0.0,7.0,90.5,Clear,24,live_web_scrape
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,msn_weather,Microsoft Weather (MSN),2026-11-23,C,24,1,13:00,1,24.0,24.0,75.2,4,14,5,18.46,0.0,0.0,7.0,89.7,Clear,24,live_web_scrape
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,open_meteo,Open-Meteo,2026-11-17,C,27,2,13:00|14:00,2,26.6,26.6,79.88,9,15,1,20.08,0.0,0.0,11.8,59.8,Clear sky,24,live_official_api
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,open_meteo,Open-Meteo,2026-11-18,C,26,3,12:00|13:00|14:00,3,26.0,26.0,78.8,9,14,2,19.25,0.0,0.0,6.8,65.3,Clear sky,24,live_official_api
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,open_meteo,Open-Meteo,2026-11-19,C,25,4,12:00|13:00|14:00|15:00,4,25.4,25.4,77.72,9,13,1,18.93,0.0,0.0,5.7,71.4,Clear sky,24,live_official_api
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,open_meteo,Open-Meteo,2026-11-20,C,26,3,13:00|14:00|15:00,3,25.8,25.8,78.44,1,14,1,19.44,0.0,0.0,5.8,76.3,Clear sky,24,live_official_api
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,open_meteo,Open-Meteo,2026-11-21,C,27,3,12:00|13:00|14:00,3,27.1,27.1,80.78,1,15,2,20.61,2.0,0.0,7.1,73.8,Clear sky,24,live_official_api
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,open_meteo,Open-Meteo,2026-11-22,C,27,3,12:00|13:00|14:00,3,27.1,27.1,80.78,1,19,3,21.92,4.0,0.0,8.1,68.2,Clear sky,24,live_official_api
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,open_meteo,Open-Meteo,2026-11-23,C,24,3,11:00|12:00|13:00,3,24.1,24.1,75.38,7,15,4,18.96,4.0,0.0,8.6,71.1,Clear sky,24,live_official_api
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,uk_met_office,UK Met Office,2026-11-17,C,27,3,13:00|14:00|15:00,3,27.0,27.0,80.6,9,16,2,20.69,0.0,0.0,12.2,61.2,Clear sky,24,live_web_scrape+ukmo_model
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,uk_met_office,UK Met Office,2026-11-18,C,26,3,13:00|14:00|15:00,3,26.0,26.0,78.8,9,15,4,19.76,0.0,0.0,7.2,62.6,Clear sky,24,live_web_scrape+ukmo_model
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,uk_met_office,UK Met Office,2026-11-19,C,26,1,14:00,1,25.8,25.8,78.44,7,16,2,20.28,0.0,0.0,6.1,75.2,Clear sky,24,live_web_scrape+ukmo_model
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,uk_met_office,UK Met Office,2026-11-20,C,26,1,14:00,1,25.6,25.6,78.08,9,16,3,20.29,0.0,0.0,8.3,77.5,Clear sky,24,live_web_scrape+ukmo_model
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,uk_met_office,UK Met Office,2026-11-21,C,26,2,13:00|14:00,2,25.9,25.9,78.62,7,16,3,20.78,0.0,0.0,9.7,76.1,Clear sky,24,live_web_scrape+ukmo_model
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,uk_met_office,UK Met Office,2026-11-22,C,26,2,13:00|14:00,2,26.4,26.4,79.52,7,18,2,21.79,0.0,0.0,8.6,73.3,Clear sky,24,live_web_scrape+ukmo_model
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,uk_met_office,UK Met Office,2026-11-23,C,24,4,11:00|12:00|13:00|14:00,4,24.0,24.0,75.2,7,18,3,21.15,0.0,0.0,10.1,68.3,Clear sky,18,live_web_scrape+ukmo_model
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,weather_com,The Weather Channel (weather.com),2026-11-17,C,27,1,14:30,1,27.0,27.0,80.6,9,16,1,21.2,2.0,0.0,15.0,65.5,Clear,10,live_web_api
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,weather_com,The Weather Channel (weather.com),2026-11-18,C,27,2,13:30|14:30,2,27.0,27.0,80.6,9,14,2,19.58,5.0,0.0,8.0,72.2,Clear,24,live_web_api
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,weather_com,The Weather Channel (weather.com),2026-11-19,C,27,2,13:30|14:30,2,27.0,27.0,80.6,7,14,2,19.71,6.0,0.0,7.0,78.8,Clear,24,live_web_api
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,weather_com,The Weather Channel (weather.com),2026-11-20,C,27,2,13:30|14:30,2,27.0,27.0,80.6,4,15,4,20.12,7.0,0.0,8.0,80.0,Clear,24,live_web_api
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,weather_com,The Weather Channel (weather.com),2026-11-21,C,27,2,13:30|14:30,2,27.0,27.0,80.6,1,16,3,20.79,5.0,0.0,8.0,78.2,Sunny,24,live_web_api
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,weather_com,The Weather Channel (weather.com),2026-11-22,C,26,4,12:30|13:30|14:30|15:30,4,26.0,26.0,78.8,9,17,2,21.08,9.0,0.0,10.0,76.1,Sunny,24,live_web_api
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,weather_com,The Weather Channel (weather.com),2026-11-23,C,25,3,12:30|13:30|14:30,3,25.0,25.0,77.0,7,15,1,19.58,5.0,0.0,12.0,74.2,Clear,24,live_web_api
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,weatherbit,Weatherbit,2026-11-17,C,27,3,12:00|13:00|14:00,3,27.3,27.3,81.14,9,14,1,19.73,0.0,0.0,10.9,73.9,Clear sky,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,weatherbit,Weatherbit,2026-11-18,C,26,3,12:00|13:00|14:00,3,25.9,25.9,78.62,9,14,3,18.69,0.0,0.0,5.8,75.1,Clear sky,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,weatherbit,Weatherbit,2026-11-19,C,26,2,13:00|14:00,2,25.6,25.6,78.08,9,13,5,18.45,0.0,0.0,5.0,79.2,Clear sky,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,weatherbit,Weatherbit,2026-11-20,C,26,3,12:00|13:00|14:00,3,26.0,26.0,78.8,7,14,2,19.4,0.0,0.0,5.7,80.2,Mainly clear,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,weatherbit,Weatherbit,2026-11-21,C,26,3,12:00|13:00|14:00,3,26.4,26.4,79.52,2,15,3,20.13,3.0,0.0,10.1,77.2,Partly cloudy,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,weatherbit,Weatherbit,2026-11-22,C,24,3,12:00|13:00|14:00,3,23.8,23.8,74.84,2,18,4,20.47,10.0,0.0,8.0,83.9,Overcast,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,weatherbit,Weatherbit,2026-11-23,C,26,2,13:00|14:00,2,26.2,26.2,79.16,2,16,2,20.07,4.0,0.0,9.5,83.8,Clear sky,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,yr_no,Yr.no (MET Norway),2026-11-17,C,26,3,13:30|14:30|15:30,3,26.2,26.2,79.16,9,18,2,21.59,,0.0,12.6,56.8,Clearsky Night,11,live_official_api
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,yr_no,Yr.no (MET Norway),2026-11-18,C,26,3,12:30|13:30|14:30,3,25.7,25.7,78.26,9,14,1,19.6,,0.0,9.0,65.4,Clearsky Night,24,live_official_api
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,yr_no,Yr.no (MET Norway),2026-11-19,C,25,4,12:30|13:30|14:30|15:30,4,25.4,25.4,77.72,7,14,3,19.21,,0.0,6.12,72.9,Clearsky Night,24,live_official_api
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,yr_no,Yr.no (MET Norway),2026-11-20,C,24,2,11:30|12:30,2,24.0,24.0,75.2,9,15,3,19.26,,0.0,3.96,73.5,Clearsky Night,24,live_official_api
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,yr_no,Yr.no (MET Norway),2026-11-21,C,24,1,11:30,1,23.9,23.9,75.02,6,14,2,18.89,,0.0,2.16,74.3,Clearsky Night,24,live_official_api
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,yr_no,Yr.no (MET Norway),2026-11-22,C,24,1,11:30,1,23.8,23.8,74.84,6,14,2,18.45,,0.0,4.68,75.4,Clearsky Night,24,live_official_api
-2026-11-17T08:22:59Z,Lucknow,lucknow,VILK,yr_no,Yr.no (MET Norway),2026-11-23,C,23,2,11:30|12:30,2,23.4,23.4,74.12,6,13,2,17.88,,0.0,5.76,74.9,Clearsky Night,24,live_official_api
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,aerisweather,AerisWeather (Xweather),2026-11-17,C,28,4,12:00|13:00|14:00|15:00,4,28.0,28.0,82.4,8,18,1,22.66,0.0,0.0,15.0,29.3,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,aerisweather,AerisWeather (Xweather),2026-11-18,C,28,3,13:00|14:00|15:00,3,27.8,27.8,82.04,10,18,1,22.65,0.0,0.0,8.8,29.6,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,aerisweather,AerisWeather (Xweather),2026-11-19,C,27,4,12:00|13:00|14:00|15:00,4,27.4,27.4,81.32,2,18,1,22.58,0.0,0.0,5.2,33.8,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,aerisweather,AerisWeather (Xweather),2026-11-20,C,28,3,13:00|14:00|15:00,3,27.6,27.6,81.68,10,19,2,23.03,0.0,0.0,5.6,40.1,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,aerisweather,AerisWeather (Xweather),2026-11-21,C,28,2,13:00|14:00,2,27.6,27.6,81.68,10,19,1,23.09,0.0,0.0,4.6,39.8,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,aerisweather,AerisWeather (Xweather),2026-11-22,C,28,2,13:00|14:00,2,27.5,27.5,81.5,2,19,1,22.95,0.0,0.0,8.9,37.4,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,aerisweather,AerisWeather (Xweather),2026-11-23,C,27,4,12:00|13:00|14:00|15:00,4,27.4,27.4,81.32,8,19,4,22.66,0.0,0.0,6.1,35.5,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,apple_weather,Apple Weather (WeatherKit),2026-11-17,C,27,2,14:30|15:30,2,27.47,27.47,81.45,10,17,2,21.5,0.0,0.0,11.38,59.2,Clear,10,live_apple_weatherkit_feed
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,apple_weather,Apple Weather (WeatherKit),2026-11-18,C,27,2,13:30|14:30,2,26.66,26.66,79.99,10,14,2,19.64,0.0,0.0,6.09,65.6,Clear,24,live_apple_weatherkit_feed
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,apple_weather,Apple Weather (WeatherKit),2026-11-19,C,26,4,12:30|13:30|14:30|15:30,4,26.48,26.48,79.66,10,14,2,19.79,0.0,0.0,4.12,72.2,Clear,24,live_apple_weatherkit_feed
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,apple_weather,Apple Weather (WeatherKit),2026-11-20,C,27,2,13:30|14:30,2,26.88,26.88,80.38,10,15,4,20.28,0.0,0.0,4.66,73.7,Clear,24,live_apple_weatherkit_feed
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,apple_weather,Apple Weather (WeatherKit),2026-11-21,C,27,4,12:30|13:30|14:30|15:30,4,27.45,27.45,81.41,8,15,2,20.8,0.0,0.0,6.83,71.5,Clear,24,live_apple_weatherkit_feed
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,apple_weather,Apple Weather (WeatherKit),2026-11-22,C,26,4,12:30|13:30|14:30|15:30,4,26.42,26.42,79.56,2,18,6,21.21,0.0,0.0,7.25,71.3,MostlyClear,24,live_apple_weatherkit_feed
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,apple_weather,Apple Weather (WeatherKit),2026-11-23,C,25,4,12:30|13:30|14:30|15:30,4,25.45,25.45,77.81,8,15,1,20.21,0.0,0.0,7.86,66.1,Clear,24,live_apple_weatherkit_feed
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,foreca,Foreca,2026-11-17,C,28,1,14:30,1,28.0,28.0,82.0,8,17,1,21.9,1.0,0.0,14.0,62.3,Clear,10,live_web_scrape
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,foreca,Foreca,2026-11-18,C,27,2,13:30|14:30,2,27.0,27.0,81.0,10,14,1,20.0,1.0,0.0,11.0,68.9,Clear,24,live_web_scrape
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,foreca,Foreca,2026-11-19,C,27,1,14:30,1,27.0,27.0,81.0,8,14,3,19.62,1.0,0.0,7.0,74.0,Clear,24,live_web_scrape
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,foreca,Foreca,2026-11-20,C,27,2,14:30|15:30,2,27.0,27.0,81.0,10,14,1,20.08,1.0,0.0,7.0,78.6,Clear,24,live_web_scrape
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,foreca,Foreca,2026-11-21,C,27,3,13:30|14:30|15:30,3,27.0,27.0,81.0,1,15,3,20.5,6.0,0.0,7.0,77.1,Clear,24,live_web_scrape
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,foreca,Foreca,2026-11-22,C,27,3,13:30|14:30|15:30,3,27.0,27.0,81.0,1,15,1,20.67,10.0,0.0,11.0,75.0,Clear,24,live_web_scrape
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,foreca,Foreca,2026-11-23,C,25,2,13:30|14:30,2,25.0,25.0,77.0,8,15,2,19.54,9.0,0.0,11.0,72.8,Clear,24,live_web_scrape
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,meteoblue,meteoblue,2026-11-17,C,27,1,14:00,1,27.22,27.22,81.0,2,13,1,19.54,0.0,0.0,7.0,,"Clear, cloudless sky",24,live_web_scrape+multimodel
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,meteoblue,meteoblue,2026-11-18,C,26,3,12:00|13:00|14:00,3,26.0,26.0,78.8,10,14,2,19.25,0.0,0.0,6.8,65.3,Clear sky,24,live_web_scrape+multimodel
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,meteoblue,meteoblue,2026-11-19,C,25,4,12:00|13:00|14:00|15:00,4,25.4,25.4,77.72,10,13,1,18.93,0.0,0.0,5.7,71.4,Clear sky,24,live_web_scrape+multimodel
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,meteoblue,meteoblue,2026-11-20,C,26,3,13:00|14:00|15:00,3,25.8,25.8,78.44,2,14,1,19.44,0.0,0.0,5.8,76.3,Clear sky,24,live_web_scrape+multimodel
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,meteoblue,meteoblue,2026-11-21,C,27,3,12:00|13:00|14:00,3,27.1,27.1,80.78,2,15,2,20.61,2.0,0.0,7.1,73.8,Clear sky,24,live_web_scrape+multimodel
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,meteoblue,meteoblue,2026-11-22,C,27,3,12:00|13:00|14:00,3,27.1,27.1,80.78,2,19,3,21.92,4.0,0.0,8.1,68.2,Clear sky,24,live_web_scrape+multimodel
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,meteoblue,meteoblue,2026-11-23,C,24,3,11:00|12:00|13:00,3,24.1,24.1,75.38,8,15,4,18.96,4.0,0.0,8.6,71.1,Clear sky,24,live_web_scrape+multimodel
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,msn_weather,Microsoft Weather (MSN),2026-11-17,C,27,2,14:00|15:00,2,27.0,27.0,80.6,2,17,1,22.2,0.0,0.0,7.0,64.0,Clear,10,live_web_scrape
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,msn_weather,Microsoft Weather (MSN),2026-11-18,C,26,3,13:00|14:00|15:00,3,26.0,26.0,78.8,2,15,3,20.0,0.0,0.0,7.0,71.0,Clear,24,live_web_scrape
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,msn_weather,Microsoft Weather (MSN),2026-11-19,C,26,1,14:00,1,26.0,26.0,78.8,2,15,3,19.67,0.0,0.0,6.0,75.8,Clear,24,live_web_scrape
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,msn_weather,Microsoft Weather (MSN),2026-11-20,C,26,1,14:00,1,26.0,26.0,78.8,5,15,2,19.79,0.0,0.0,5.0,79.4,Clear,24,live_web_scrape
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,msn_weather,Microsoft Weather (MSN),2026-11-21,C,25,2,14:00|15:00,2,25.0,25.0,77.0,2,15,2,19.54,8.0,0.0,5.0,82.2,Clear,24,live_web_scrape
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,msn_weather,Microsoft Weather (MSN),2026-11-22,C,25,1,15:00,1,25.0,25.0,77.0,5,15,4,18.96,7.0,0.0,7.0,90.5,Clear,24,live_web_scrape
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,msn_weather,Microsoft Weather (MSN),2026-11-23,C,24,1,13:00,1,24.0,24.0,75.2,5,14,5,18.46,0.0,0.0,7.0,89.7,Clear,24,live_web_scrape
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,open_meteo,Open-Meteo,2026-11-17,C,27,2,13:00|14:00,2,26.6,26.6,79.88,10,15,1,20.08,0.0,0.0,11.8,59.8,Clear sky,24,live_official_api
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,open_meteo,Open-Meteo,2026-11-18,C,26,3,12:00|13:00|14:00,3,26.0,26.0,78.8,10,14,2,19.25,0.0,0.0,6.8,65.3,Clear sky,24,live_official_api
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,open_meteo,Open-Meteo,2026-11-19,C,25,4,12:00|13:00|14:00|15:00,4,25.4,25.4,77.72,10,13,1,18.93,0.0,0.0,5.7,71.4,Clear sky,24,live_official_api
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,open_meteo,Open-Meteo,2026-11-20,C,26,3,13:00|14:00|15:00,3,25.8,25.8,78.44,2,14,1,19.44,0.0,0.0,5.8,76.3,Clear sky,24,live_official_api
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,open_meteo,Open-Meteo,2026-11-21,C,27,3,12:00|13:00|14:00,3,27.1,27.1,80.78,2,15,2,20.61,2.0,0.0,7.1,73.8,Clear sky,24,live_official_api
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,open_meteo,Open-Meteo,2026-11-22,C,27,3,12:00|13:00|14:00,3,27.1,27.1,80.78,2,19,3,21.92,4.0,0.0,8.1,68.2,Clear sky,24,live_official_api
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,open_meteo,Open-Meteo,2026-11-23,C,24,3,11:00|12:00|13:00,3,24.1,24.1,75.38,8,15,4,18.96,4.0,0.0,8.6,71.1,Clear sky,24,live_official_api
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,uk_met_office,UK Met Office,2026-11-17,C,27,3,13:00|14:00|15:00,3,26.9,26.9,80.42,10,16,2,20.68,0.0,0.0,14.4,62.2,Clear sky,24,live_web_scrape+ukmo_model
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,uk_met_office,UK Met Office,2026-11-18,C,26,3,13:00|14:00|15:00,3,26.1,26.1,78.98,10,15,3,19.91,0.0,0.0,6.5,65.0,Clear sky,24,live_web_scrape+ukmo_model
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,uk_met_office,UK Met Office,2026-11-19,C,26,3,13:00|14:00|15:00,3,26.1,26.1,78.98,8,16,3,20.47,0.0,0.0,6.1,78.5,Clear sky,24,live_web_scrape+ukmo_model
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,uk_met_office,UK Met Office,2026-11-20,C,26,2,13:00|14:00,2,25.9,25.9,78.62,10,17,5,20.44,0.0,0.0,7.9,78.0,Clear sky,24,live_web_scrape+ukmo_model
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,uk_met_office,UK Met Office,2026-11-21,C,27,3,13:00|14:00|15:00,3,27.0,27.0,80.6,1,17,3,21.46,0.0,0.0,8.3,72.4,Clear sky,24,live_web_scrape+ukmo_model
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,uk_met_office,UK Met Office,2026-11-22,C,27,1,14:00,1,26.5,26.5,79.7,1,18,3,21.82,0.0,0.0,10.1,68.2,Clear sky,24,live_web_scrape+ukmo_model
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,uk_met_office,UK Met Office,2026-11-23,C,24,2,13:00|14:00,2,23.5,23.5,74.3,8,16,2,20.0,0.0,0.0,9.4,62.2,Clear sky,24,live_web_scrape+ukmo_model
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,weather_com,The Weather Channel (weather.com),2026-11-17,C,28,1,14:30,1,28.0,28.0,82.4,1,16,1,21.5,2.0,0.0,13.0,65.6,Clear,10,live_web_api
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,weather_com,The Weather Channel (weather.com),2026-11-18,C,27,2,13:30|14:30,2,27.0,27.0,80.6,10,14,3,19.5,5.0,0.0,8.0,72.4,Clear,24,live_web_api
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,weather_com,The Weather Channel (weather.com),2026-11-19,C,27,2,13:30|14:30,2,27.0,27.0,80.6,8,14,2,19.71,6.0,0.0,6.0,79.3,Clear,24,live_web_api
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,weather_com,The Weather Channel (weather.com),2026-11-20,C,27,2,13:30|14:30,2,27.0,27.0,80.6,5,15,4,20.12,7.0,0.0,8.0,81.2,Clear,24,live_web_api
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,weather_com,The Weather Channel (weather.com),2026-11-21,C,27,2,13:30|14:30,2,27.0,27.0,80.6,2,16,2,20.96,5.0,0.0,8.0,79.5,Sunny,24,live_web_api
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,weather_com,The Weather Channel (weather.com),2026-11-22,C,26,4,12:30|13:30|14:30|15:30,4,26.0,26.0,78.8,10,17,1,21.25,4.0,0.0,10.0,77.2,Clear,24,live_web_api
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,weather_com,The Weather Channel (weather.com),2026-11-23,C,25,4,12:30|13:30|14:30|15:30,4,25.0,25.0,77.0,8,16,5,19.75,5.0,0.0,13.0,74.5,Clear,24,live_web_api
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,weatherbit,Weatherbit,2026-11-17,C,27,3,12:00|13:00|14:00,3,27.3,27.3,81.14,10,14,1,19.73,0.0,0.0,10.9,73.9,Clear sky,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,weatherbit,Weatherbit,2026-11-18,C,26,3,12:00|13:00|14:00,3,25.9,25.9,78.62,10,14,3,18.69,0.0,0.0,5.8,75.1,Clear sky,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,weatherbit,Weatherbit,2026-11-19,C,26,2,13:00|14:00,2,25.6,25.6,78.08,10,13,5,18.45,0.0,0.0,5.0,79.2,Clear sky,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,weatherbit,Weatherbit,2026-11-20,C,26,3,12:00|13:00|14:00,3,26.0,26.0,78.8,8,14,2,19.4,0.0,0.0,5.7,80.2,Mainly clear,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,weatherbit,Weatherbit,2026-11-21,C,26,3,12:00|13:00|14:00,3,26.4,26.4,79.52,3,15,3,20.13,3.0,0.0,10.1,77.2,Partly cloudy,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,weatherbit,Weatherbit,2026-11-22,C,24,3,12:00|13:00|14:00,3,23.8,23.8,74.84,3,18,4,20.47,10.0,0.0,8.0,83.9,Overcast,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,weatherbit,Weatherbit,2026-11-23,C,26,2,13:00|14:00,2,26.2,26.2,79.16,3,16,2,20.07,4.0,0.0,9.5,83.8,Clear sky,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,yr_no,Yr.no (MET Norway),2026-11-17,C,26,2,14:30|15:30,2,26.2,26.2,79.16,10,18,2,21.13,,0.0,12.6,58.4,Clearsky Night,10,live_official_api
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,yr_no,Yr.no (MET Norway),2026-11-18,C,26,3,12:30|13:30|14:30,3,25.7,25.7,78.26,10,14,1,19.6,,0.0,9.0,65.4,Clearsky Night,24,live_official_api
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,yr_no,Yr.no (MET Norway),2026-11-19,C,25,4,12:30|13:30|14:30|15:30,4,25.4,25.4,77.72,8,14,3,19.21,,0.0,6.12,72.9,Clearsky Night,24,live_official_api
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,yr_no,Yr.no (MET Norway),2026-11-20,C,24,2,11:30|12:30,2,24.0,24.0,75.2,10,15,3,19.26,,0.0,3.96,73.5,Clearsky Night,24,live_official_api
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,yr_no,Yr.no (MET Norway),2026-11-21,C,24,1,11:30,1,23.9,23.9,75.02,7,14,2,18.89,,0.0,2.16,74.3,Clearsky Night,24,live_official_api
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,yr_no,Yr.no (MET Norway),2026-11-22,C,24,1,11:30,1,23.8,23.8,74.84,7,14,2,18.45,,0.0,4.68,75.4,Clearsky Night,24,live_official_api
+2026-11-17T09:00:06Z,Lucknow,lucknow,VILK,yr_no,Yr.no (MET Norway),2026-11-23,C,23,2,11:30|12:30,2,23.4,23.4,74.12,7,13,2,17.88,,0.0,5.76,74.9,Clearsky Night,24,live_official_api

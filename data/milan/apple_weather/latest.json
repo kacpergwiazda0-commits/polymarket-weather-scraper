@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-17T08:22:59Z",
+  "scraped_at_utc": "2026-11-17T09:00:06Z",
   "city": "Milan",
   "city_slug": "milan",
   "station_icao": "LIMC",
@@ -36,20 +36,20 @@
       ],
       "highest_temperature_c": 9.39,
       "highest_temperature_f": 48.9,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-17T08:22:59Z",
-      "lowest_temperature": 6,
+      "lowest_temperature": 7,
       "lowest_temperature_duration_hours": 1,
       "lowest_temperature_hours": [
-        "09:00"
+        "10:00"
       ],
-      "lowest_temperature_exact": 6.47,
-      "avg_temperature": 8.34,
+      "lowest_temperature_exact": 6.94,
+      "avg_temperature": 8.48,
       "max_feels_like": 10,
       "min_feels_like": 7,
       "max_humidity_pct": 92.0,
       "min_humidity_pct": 84.0,
-      "avg_humidity_pct": 87.1,
+      "avg_humidity_pct": 86.9,
       "max_precip_prob_pct": 55.0,
       "total_precip_mm": 1.1,
       "total_rain_mm": 1.1,
@@ -58,11 +58,11 @@
       "max_wind_speed_mph": 3.46,
       "max_wind_gust_kmh": 12.4,
       "max_wind_gust_mph": 7.71,
-      "avg_cloud_cover_pct": 89.1,
-      "avg_pressure_hpa": 1004.4,
+      "avg_cloud_cover_pct": 88.3,
+      "avg_pressure_hpa": 1004.1,
       "max_uv_index": 2.0,
       "dominant_condition": "Drizzle",
-      "hours_analyzed": 15
+      "hours_analyzed": 14
     },
     {
       "date": "2026-11-18",
@@ -80,7 +80,7 @@
       ],
       "highest_temperature_c": 14.09,
       "highest_temperature_f": 57.36,
-      "consecutive_scrapes_with_same_high": 7,
+      "consecutive_scrapes_with_same_high": 8,
       "high_first_predicted_at_utc": "2026-11-16T23:40:52Z",
       "lowest_temperature": 6,
       "lowest_temperature_duration_hours": 4,
@@ -128,7 +128,7 @@
       ],
       "highest_temperature_c": 13.34,
       "highest_temperature_f": 56.01,
-      "consecutive_scrapes_with_same_high": 7,
+      "consecutive_scrapes_with_same_high": 8,
       "high_first_predicted_at_utc": "2026-11-16T23:40:52Z",
       "lowest_temperature": 8,
       "lowest_temperature_duration_hours": 5,
@@ -176,7 +176,7 @@
       ],
       "highest_temperature_c": 15.12,
       "highest_temperature_f": 59.22,
-      "consecutive_scrapes_with_same_high": 7,
+      "consecutive_scrapes_with_same_high": 8,
       "high_first_predicted_at_utc": "2026-11-16T23:40:52Z",
       "lowest_temperature": 6,
       "lowest_temperature_duration_hours": 4,
@@ -225,7 +225,7 @@
       ],
       "highest_temperature_c": 15.33,
       "highest_temperature_f": 59.59,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-17T08:22:59Z",
       "lowest_temperature": 5,
       "lowest_temperature_duration_hours": 4,
@@ -271,7 +271,7 @@
       ],
       "highest_temperature_c": 9.53,
       "highest_temperature_f": 49.15,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-17T08:22:59Z",
       "lowest_temperature": 6,
       "lowest_temperature_duration_hours": 9,
@@ -325,7 +325,7 @@
       ],
       "highest_temperature_c": 12.44,
       "highest_temperature_f": 54.39,
-      "consecutive_scrapes_with_same_high": 7,
+      "consecutive_scrapes_with_same_high": 8,
       "high_first_predicted_at_utc": "2026-11-16T23:40:52Z",
       "lowest_temperature": 3,
       "lowest_temperature_duration_hours": 2,
@@ -356,40 +356,6 @@
     }
   ],
   "hourly_7day_forecast": [
-    {
-      "time_local": "2026-11-17T09:00",
-      "date_local": "2026-11-17",
-      "hour_local": "09:00",
-      "time_utc": "2026-11-17T08:00:00Z",
-      "temperature_c": 6.47,
-      "temperature_f": 43.65,
-      "temperature_market": 6,
-      "temperature_market_raw": 6.47,
-      "feels_like_c": 6.87,
-      "feels_like_f": 44.37,
-      "feels_like_market": 7,
-      "dew_point_c": 4.95,
-      "dew_point_f": 40.91,
-      "humidity_pct": 90.0,
-      "precip_prob_pct": 0.0,
-      "precip_mm": 0.0,
-      "rain_mm": 0.0,
-      "snow_cm": 0.0,
-      "wind_speed_kmh": 2.83,
-      "wind_speed_mph": 1.76,
-      "wind_gust_kmh": 7.88,
-      "wind_gust_mph": 4.9,
-      "wind_direction_deg": 71,
-      "wind_direction_cardinal": "ENE",
-      "cloud_cover_pct": 100.0,
-      "pressure_hpa": 1008.6,
-      "visibility_km": 16.94,
-      "uv_index": 0.0,
-      "air_quality_index": null,
-      "condition": "Cloudy",
-      "is_daily_high_hour": false,
-      "is_daily_low_hour": true
-    },
     {
       "time_local": "2026-11-17T10:00",
       "date_local": "2026-11-17",
@@ -422,7 +388,7 @@
       "air_quality_index": null,
       "condition": "Cloudy",
       "is_daily_high_hour": false,
-      "is_daily_low_hour": false
+      "is_daily_low_hour": true
     },
     {
       "time_local": "2026-11-17T11:00",
@@ -5764,7 +5730,7 @@
     }
   ],
   "extra_metadata": {
-    "hours_count": 239,
+    "hours_count": 238,
     "reported_location": "Milan, Italy"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-17T08:22:59Z",
+  "scraped_at_utc": "2026-11-17T09:00:06Z",
   "city": "Jinan",
   "city_slug": "jinan",
   "station_icao": "ZSJN",
@@ -18,20 +18,20 @@
     {
       "date": "2026-11-17",
       "unit": "C",
-      "highest_temperature": 13,
+      "highest_temperature": 12,
       "highest_temperature_duration_hours": 1,
       "highest_temperature_hours": [
-        "16:00"
+        "17:00"
       ],
       "highest_temperature_max_consecutive_hours": 1,
-      "highest_temperature_exact": 12.73,
+      "highest_temperature_exact": 11.73,
       "highest_temperature_exact_hours": [
-        "16:00"
+        "17:00"
       ],
-      "highest_temperature_c": 12.73,
-      "highest_temperature_f": 54.91,
+      "highest_temperature_c": 11.73,
+      "highest_temperature_f": 53.11,
       "consecutive_scrapes_with_same_high": 1,
-      "high_first_predicted_at_utc": "2026-11-17T08:22:59Z",
+      "high_first_predicted_at_utc": "2026-11-17T09:00:06Z",
       "lowest_temperature": 9,
       "lowest_temperature_duration_hours": 2,
       "lowest_temperature_hours": [
@@ -39,25 +39,25 @@
         "23:00"
       ],
       "lowest_temperature_exact": 8.84,
-      "avg_temperature": 10.39,
-      "max_feels_like": 13,
+      "avg_temperature": 10.05,
+      "max_feels_like": 11,
       "min_feels_like": 9,
       "max_humidity_pct": 70.0,
-      "min_humidity_pct": 53.0,
-      "avg_humidity_pct": 63.9,
+      "min_humidity_pct": 57.0,
+      "avg_humidity_pct": 65.4,
       "max_precip_prob_pct": 0.0,
       "total_precip_mm": 0.0,
       "total_rain_mm": 0.0,
       "total_snow_cm": 0.0,
-      "max_wind_speed_kmh": 6.31,
-      "max_wind_speed_mph": 3.92,
+      "max_wind_speed_kmh": 5.92,
+      "max_wind_speed_mph": 3.68,
       "max_wind_gust_kmh": 13.48,
       "max_wind_gust_mph": 8.38,
-      "avg_cloud_cover_pct": 83.5,
+      "avg_cloud_cover_pct": 88.4,
       "avg_pressure_hpa": 1024.8,
       "max_uv_index": 0.0,
       "dominant_condition": "Cloudy",
-      "hours_analyzed": 8
+      "hours_analyzed": 7
     },
     {
       "date": "2026-11-18",
@@ -76,7 +76,7 @@
       ],
       "highest_temperature_c": 8.33,
       "highest_temperature_f": 46.99,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-17T08:22:59Z",
       "lowest_temperature": 2,
       "lowest_temperature_duration_hours": 1,
@@ -120,7 +120,7 @@
       ],
       "highest_temperature_c": 9.69,
       "highest_temperature_f": 49.44,
-      "consecutive_scrapes_with_same_high": 9,
+      "consecutive_scrapes_with_same_high": 10,
       "high_first_predicted_at_utc": "2026-11-16T15:26:25Z",
       "lowest_temperature": 2,
       "lowest_temperature_duration_hours": 7,
@@ -169,7 +169,7 @@
       ],
       "highest_temperature_c": 11.73,
       "highest_temperature_f": 53.11,
-      "consecutive_scrapes_with_same_high": 9,
+      "consecutive_scrapes_with_same_high": 10,
       "high_first_predicted_at_utc": "2026-11-16T15:26:25Z",
       "lowest_temperature": 0,
       "lowest_temperature_duration_hours": 3,
@@ -216,7 +216,7 @@
       ],
       "highest_temperature_c": 9.28,
       "highest_temperature_f": 48.7,
-      "consecutive_scrapes_with_same_high": 9,
+      "consecutive_scrapes_with_same_high": 10,
       "high_first_predicted_at_utc": "2026-11-16T15:26:25Z",
       "lowest_temperature": 1,
       "lowest_temperature_duration_hours": 2,
@@ -261,7 +261,7 @@
       ],
       "highest_temperature_c": 13.82,
       "highest_temperature_f": 56.88,
-      "consecutive_scrapes_with_same_high": 9,
+      "consecutive_scrapes_with_same_high": 10,
       "high_first_predicted_at_utc": "2026-11-16T15:26:25Z",
       "lowest_temperature": 3,
       "lowest_temperature_duration_hours": 2,
@@ -306,7 +306,7 @@
       ],
       "highest_temperature_c": 15.67,
       "highest_temperature_f": 60.21,
-      "consecutive_scrapes_with_same_high": 7,
+      "consecutive_scrapes_with_same_high": 8,
       "high_first_predicted_at_utc": "2026-11-16T23:40:52Z",
       "lowest_temperature": 7,
       "lowest_temperature_duration_hours": 4,
@@ -340,40 +340,6 @@
   ],
   "hourly_7day_forecast": [
     {
-      "time_local": "2026-11-17T16:00",
-      "date_local": "2026-11-17",
-      "hour_local": "16:00",
-      "time_utc": "2026-11-17T08:00:00Z",
-      "temperature_c": 12.73,
-      "temperature_f": 54.91,
-      "temperature_market": 13,
-      "temperature_market_raw": 12.73,
-      "feels_like_c": 12.61,
-      "feels_like_f": 54.7,
-      "feels_like_market": 13,
-      "dew_point_c": 3.39,
-      "dew_point_f": 38.1,
-      "humidity_pct": 53.0,
-      "precip_prob_pct": 0.0,
-      "precip_mm": 0.0,
-      "rain_mm": 0.0,
-      "snow_cm": 0.0,
-      "wind_speed_kmh": 6.31,
-      "wind_speed_mph": 3.92,
-      "wind_gust_kmh": 11.15,
-      "wind_gust_mph": 6.93,
-      "wind_direction_deg": 24,
-      "wind_direction_cardinal": "NNE",
-      "cloud_cover_pct": 49.0,
-      "pressure_hpa": 1024.2,
-      "visibility_km": 16.26,
-      "uv_index": 0.0,
-      "air_quality_index": null,
-      "condition": "PartlyCloudy",
-      "is_daily_high_hour": true,
-      "is_daily_low_hour": false
-    },
-    {
       "time_local": "2026-11-17T17:00",
       "date_local": "2026-11-17",
       "hour_local": "17:00",
@@ -404,7 +370,7 @@
       "uv_index": 0.0,
       "air_quality_index": null,
       "condition": "PartlyCloudy",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": false
     },
     {
@@ -5509,7 +5475,7 @@
     }
   ],
   "extra_metadata": {
-    "hours_count": 232,
+    "hours_count": 231,
     "reported_location": "Jinan, China"
   }
 }
