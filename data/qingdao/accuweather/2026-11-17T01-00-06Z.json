@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-17T01:00:06Z",
+  "city": "Qingdao",
+  "city_slug": "qingdao",
+  "station_icao": "ZSQD",
+  "station_name": "Qingdao Jiaodong International Airport",
+  "latitude": 36.3667,
+  "longitude": 120.0944,
+  "timezone": "Asia/Shanghai",
+  "polymarket_unit": "C",
+  "website_id": "accuweather",
+  "website_name": "AccuWeather",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.accuweather.com/en/cn/jiaozhou/60586/hourly-weather-forecast/60586?day=1&unit=c failed after 3 attempts: HTTP Error 403: Forbidden",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

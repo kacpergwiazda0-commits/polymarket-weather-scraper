@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-17T01:00:06Z",
+  "city": "Seoul",
+  "city_slug": "seoul",
+  "station_icao": "RKSI",
+  "station_name": "Incheon International Airport",
+  "latitude": 37.4602,
+  "longitude": 126.4407,
+  "timezone": "Asia/Seoul",
+  "polymarket_unit": "C",
+  "website_id": "accuweather",
+  "website_name": "AccuWeather",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.accuweather.com/en/kr/yunshu-dong/2331998/hourly-weather-forecast/2331998?day=1&unit=c failed after 3 attempts: HTTP Error 403: Forbidden",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

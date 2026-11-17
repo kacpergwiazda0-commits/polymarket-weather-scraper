@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-17T00:27:04Z",
+  "scraped_at_utc": "2026-11-17T01:00:06Z",
   "city": "Toronto",
   "city_slug": "toronto",
   "station_icao": "CYYZ",
@@ -18,45 +18,45 @@
     {
       "date": "2026-11-16",
       "unit": "C",
-      "highest_temperature": 7,
+      "highest_temperature": 6,
       "highest_temperature_duration_hours": 1,
       "highest_temperature_hours": [
-        "19:00"
+        "20:00"
       ],
       "highest_temperature_max_consecutive_hours": 1,
-      "highest_temperature_exact": 6.64,
+      "highest_temperature_exact": 6.0,
       "highest_temperature_exact_hours": [
-        "19:00"
+        "20:00"
       ],
-      "highest_temperature_c": 6.64,
-      "highest_temperature_f": 43.95,
+      "highest_temperature_c": 6.0,
+      "highest_temperature_f": 42.8,
       "consecutive_scrapes_with_same_high": 1,
-      "high_first_predicted_at_utc": "2026-11-17T00:27:04Z",
+      "high_first_predicted_at_utc": "2026-11-17T01:00:06Z",
       "lowest_temperature": 4,
       "lowest_temperature_duration_hours": 1,
       "lowest_temperature_hours": [
         "23:00"
       ],
       "lowest_temperature_exact": 3.81,
-      "avg_temperature": 5.28,
+      "avg_temperature": 4.94,
       "max_feels_like": 3,
       "min_feels_like": 0,
       "max_humidity_pct": 87.0,
-      "min_humidity_pct": 77.0,
-      "avg_humidity_pct": 82.0,
+      "min_humidity_pct": 79.0,
+      "avg_humidity_pct": 83.2,
       "max_precip_prob_pct": 0.0,
       "total_precip_mm": 0.0,
       "total_rain_mm": 0.0,
       "total_snow_cm": 0.0,
-      "max_wind_speed_kmh": 13.94,
-      "max_wind_speed_mph": 8.66,
+      "max_wind_speed_kmh": 12.72,
+      "max_wind_speed_mph": 7.9,
       "max_wind_gust_kmh": 28.69,
       "max_wind_gust_mph": 17.83,
-      "avg_cloud_cover_pct": 49.4,
+      "avg_cloud_cover_pct": 45.2,
       "avg_pressure_hpa": 1031.4,
       "max_uv_index": 0.0,
-      "dominant_condition": "MostlyCloudy",
-      "hours_analyzed": 5
+      "dominant_condition": "PartlyCloudy",
+      "hours_analyzed": 4
     },
     {
       "date": "2026-11-17",
@@ -75,7 +75,7 @@
       ],
       "highest_temperature_c": 13.23,
       "highest_temperature_f": 55.81,
-      "consecutive_scrapes_with_same_high": 4,
+      "consecutive_scrapes_with_same_high": 5,
       "high_first_predicted_at_utc": "2026-11-16T15:26:25Z",
       "lowest_temperature": 2,
       "lowest_temperature_duration_hours": 1,
@@ -118,7 +118,7 @@
       ],
       "highest_temperature_c": 13.79,
       "highest_temperature_f": 56.82,
-      "consecutive_scrapes_with_same_high": 2,
+      "consecutive_scrapes_with_same_high": 3,
       "high_first_predicted_at_utc": "2026-11-16T23:40:52Z",
       "lowest_temperature": 4,
       "lowest_temperature_duration_hours": 7,
@@ -168,7 +168,7 @@
       ],
       "highest_temperature_c": 13.81,
       "highest_temperature_f": 56.86,
-      "consecutive_scrapes_with_same_high": 4,
+      "consecutive_scrapes_with_same_high": 5,
       "high_first_predicted_at_utc": "2026-11-16T15:26:25Z",
       "lowest_temperature": 6,
       "lowest_temperature_duration_hours": 9,
@@ -221,7 +221,7 @@
       ],
       "highest_temperature_c": 14.07,
       "highest_temperature_f": 57.33,
-      "consecutive_scrapes_with_same_high": 4,
+      "consecutive_scrapes_with_same_high": 5,
       "high_first_predicted_at_utc": "2026-11-16T15:26:25Z",
       "lowest_temperature": 7,
       "lowest_temperature_duration_hours": 2,
@@ -265,7 +265,7 @@
       ],
       "highest_temperature_c": 12.58,
       "highest_temperature_f": 54.64,
-      "consecutive_scrapes_with_same_high": 2,
+      "consecutive_scrapes_with_same_high": 3,
       "high_first_predicted_at_utc": "2026-11-16T23:40:52Z",
       "lowest_temperature": 7,
       "lowest_temperature_duration_hours": 1,
@@ -311,7 +311,7 @@
       ],
       "highest_temperature_c": 13.24,
       "highest_temperature_f": 55.83,
-      "consecutive_scrapes_with_same_high": 4,
+      "consecutive_scrapes_with_same_high": 5,
       "high_first_predicted_at_utc": "2026-11-16T15:26:25Z",
       "lowest_temperature": 5,
       "lowest_temperature_duration_hours": 1,
@@ -341,40 +341,6 @@
     }
   ],
   "hourly_7day_forecast": [
-    {
-      "time_local": "2026-11-16T19:00",
-      "date_local": "2026-11-16",
-      "hour_local": "19:00",
-      "time_utc": "2026-11-17T00:00:00Z",
-      "temperature_c": 6.64,
-      "temperature_f": 43.95,
-      "temperature_market": 7,
-      "temperature_market_raw": 6.64,
-      "feels_like_c": 2.92,
-      "feels_like_f": 37.26,
-      "feels_like_market": 3,
-      "dew_point_c": 2.89,
-      "dew_point_f": 37.2,
-      "humidity_pct": 77.0,
-      "precip_prob_pct": 0.0,
-      "precip_mm": 0.0,
-      "rain_mm": 0.0,
-      "snow_cm": 0.0,
-      "wind_speed_kmh": 13.94,
-      "wind_speed_mph": 8.66,
-      "wind_gust_kmh": 28.09,
-      "wind_gust_mph": 17.45,
-      "wind_direction_deg": 258,
-      "wind_direction_cardinal": "WSW",
-      "cloud_cover_pct": 66.0,
-      "pressure_hpa": 1031.2,
-      "visibility_km": 24.38,
-      "uv_index": 0.0,
-      "air_quality_index": null,
-      "condition": "MostlyCloudy",
-      "is_daily_high_hour": true,
-      "is_daily_low_hour": false
-    },
     {
       "time_local": "2026-11-16T20:00",
       "date_local": "2026-11-16",
@@ -406,7 +372,7 @@
       "uv_index": 0.0,
       "air_quality_index": null,
       "condition": "MostlyCloudy",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": false
     },
     {
@@ -5409,7 +5375,7 @@
     }
   ],
   "extra_metadata": {
-    "hours_count": 229,
+    "hours_count": 228,
     "reported_location": "Toronto, Canada"
   }
 }

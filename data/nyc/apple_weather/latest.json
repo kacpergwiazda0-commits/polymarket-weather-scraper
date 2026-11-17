@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-17T00:27:04Z",
+  "scraped_at_utc": "2026-11-17T01:00:06Z",
   "city": "New York",
   "city_slug": "nyc",
   "station_icao": "KLGA",
@@ -18,32 +18,32 @@
     {
       "date": "2026-11-16",
       "unit": "F",
-      "highest_temperature": 49,
+      "highest_temperature": 46,
       "highest_temperature_duration_hours": 1,
       "highest_temperature_hours": [
-        "19:00"
+        "20:00"
       ],
       "highest_temperature_max_consecutive_hours": 1,
-      "highest_temperature_exact": 49.21,
+      "highest_temperature_exact": 45.66,
       "highest_temperature_exact_hours": [
-        "19:00"
+        "20:00"
       ],
-      "highest_temperature_c": 9.56,
-      "highest_temperature_f": 49.21,
+      "highest_temperature_c": 7.59,
+      "highest_temperature_f": 45.66,
       "consecutive_scrapes_with_same_high": 1,
-      "high_first_predicted_at_utc": "2026-11-17T00:27:04Z",
+      "high_first_predicted_at_utc": "2026-11-17T01:00:06Z",
       "lowest_temperature": 41,
       "lowest_temperature_duration_hours": 1,
       "lowest_temperature_hours": [
         "23:00"
       ],
       "lowest_temperature_exact": 41.22,
-      "avg_temperature": 44.57,
-      "max_feels_like": 45,
+      "avg_temperature": 43.41,
+      "max_feels_like": 39,
       "min_feels_like": 37,
       "max_humidity_pct": 80.0,
-      "min_humidity_pct": 55.0,
-      "avg_humidity_pct": 70.8,
+      "min_humidity_pct": 69.0,
+      "avg_humidity_pct": 74.8,
       "max_precip_prob_pct": 0.0,
       "total_precip_mm": 0.0,
       "total_rain_mm": 0.0,
@@ -52,11 +52,11 @@
       "max_wind_speed_mph": 7.29,
       "max_wind_gust_kmh": 26.63,
       "max_wind_gust_mph": 16.55,
-      "avg_cloud_cover_pct": 6.4,
-      "avg_pressure_hpa": 1030.3,
+      "avg_cloud_cover_pct": 8.0,
+      "avg_pressure_hpa": 1030.5,
       "max_uv_index": 0.0,
       "dominant_condition": "Clear",
-      "hours_analyzed": 5
+      "hours_analyzed": 4
     },
     {
       "date": "2026-11-17",
@@ -73,7 +73,7 @@
       ],
       "highest_temperature_c": 13.86,
       "highest_temperature_f": 56.95,
-      "consecutive_scrapes_with_same_high": 4,
+      "consecutive_scrapes_with_same_high": 5,
       "high_first_predicted_at_utc": "2026-11-16T15:26:25Z",
       "lowest_temperature": 37,
       "lowest_temperature_duration_hours": 1,
@@ -117,7 +117,7 @@
       ],
       "highest_temperature_c": 16.08,
       "highest_temperature_f": 60.94,
-      "consecutive_scrapes_with_same_high": 4,
+      "consecutive_scrapes_with_same_high": 5,
       "high_first_predicted_at_utc": "2026-11-16T15:26:25Z",
       "lowest_temperature": 41,
       "lowest_temperature_duration_hours": 2,
@@ -162,7 +162,7 @@
       ],
       "highest_temperature_c": 16.37,
       "highest_temperature_f": 61.47,
-      "consecutive_scrapes_with_same_high": 2,
+      "consecutive_scrapes_with_same_high": 3,
       "high_first_predicted_at_utc": "2026-11-16T23:40:52Z",
       "lowest_temperature": 43,
       "lowest_temperature_duration_hours": 2,
@@ -207,7 +207,7 @@
       ],
       "highest_temperature_c": 17.61,
       "highest_temperature_f": 63.7,
-      "consecutive_scrapes_with_same_high": 4,
+      "consecutive_scrapes_with_same_high": 5,
       "high_first_predicted_at_utc": "2026-11-16T15:26:25Z",
       "lowest_temperature": 43,
       "lowest_temperature_duration_hours": 2,
@@ -252,7 +252,7 @@
       ],
       "highest_temperature_c": 15.41,
       "highest_temperature_f": 59.74,
-      "consecutive_scrapes_with_same_high": 2,
+      "consecutive_scrapes_with_same_high": 3,
       "high_first_predicted_at_utc": "2026-11-16T23:40:52Z",
       "lowest_temperature": 43,
       "lowest_temperature_duration_hours": 2,
@@ -299,7 +299,7 @@
       ],
       "highest_temperature_c": 15.77,
       "highest_temperature_f": 60.39,
-      "consecutive_scrapes_with_same_high": 2,
+      "consecutive_scrapes_with_same_high": 3,
       "high_first_predicted_at_utc": "2026-11-16T23:40:52Z",
       "lowest_temperature": 51,
       "lowest_temperature_duration_hours": 6,
@@ -335,40 +335,6 @@
   ],
   "hourly_7day_forecast": [
     {
-      "time_local": "2026-11-16T19:00",
-      "date_local": "2026-11-16",
-      "hour_local": "19:00",
-      "time_utc": "2026-11-17T00:00:00Z",
-      "temperature_c": 9.56,
-      "temperature_f": 49.21,
-      "temperature_market": 49,
-      "temperature_market_raw": 49.21,
-      "feels_like_c": 7.27,
-      "feels_like_f": 45.09,
-      "feels_like_market": 45,
-      "dew_point_c": 0.96,
-      "dew_point_f": 33.73,
-      "humidity_pct": 55.0,
-      "precip_prob_pct": 0.0,
-      "precip_mm": 0.0,
-      "rain_mm": 0.0,
-      "snow_cm": 0.0,
-      "wind_speed_kmh": 7.32,
-      "wind_speed_mph": 4.55,
-      "wind_gust_kmh": 19.5,
-      "wind_gust_mph": 12.12,
-      "wind_direction_deg": 333,
-      "wind_direction_cardinal": "NNW",
-      "cloud_cover_pct": 0.0,
-      "pressure_hpa": 1029.6,
-      "visibility_km": 33.85,
-      "uv_index": 0.0,
-      "air_quality_index": null,
-      "condition": "Clear",
-      "is_daily_high_hour": true,
-      "is_daily_low_hour": false
-    },
-    {
       "time_local": "2026-11-16T20:00",
       "date_local": "2026-11-16",
       "hour_local": "20:00",
@@ -399,7 +365,7 @@
       "uv_index": 0.0,
       "air_quality_index": null,
       "condition": "Clear",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": false
     },
     {
@@ -5402,7 +5368,7 @@
     }
   ],
   "extra_metadata": {
-    "hours_count": 229,
+    "hours_count": 228,
     "reported_location": "New York, NY"
   }
 }

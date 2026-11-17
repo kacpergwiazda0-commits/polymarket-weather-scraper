@@ -1,71 +1,71 @@
 scraped_at_utc,city,city_slug,station_icao,website_id,website_name,date,unit,highest_temperature,highest_temperature_duration_hours,highest_temperature_hours,highest_temperature_max_consecutive_hours,highest_temperature_exact,highest_temperature_c,highest_temperature_f,consecutive_scrapes_with_same_high,lowest_temperature,lowest_temperature_duration_hours,avg_temperature,max_precip_prob_pct,total_precip_mm,max_wind_speed_kmh,avg_humidity_pct,dominant_condition,hours_analyzed,source_mode
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,aerisweather,AerisWeather (Xweather),2026-11-17,C,15,2,22:00|23:00,2,14.6,14.6,58.28,4,11,2,12.58,6.0,0.0,30.3,86.0,Overcast,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,aerisweather,AerisWeather (Xweather),2026-11-18,C,18,1,18:00,1,17.6,17.6,63.68,2,14,8,15.28,88.0,5.2,52.0,89.6,Overcast,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,aerisweather,AerisWeather (Xweather),2026-11-19,C,16,5,00:00|01:00|02:00|03:00|04:00,5,16.3,16.3,61.34,2,11,1,13.88,89.0,8.7,41.1,57.6,Overcast,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,aerisweather,AerisWeather (Xweather),2026-11-20,C,15,4,14:00|15:00|16:00|17:00,4,15.3,15.3,59.54,2,8,2,11.08,0.0,0.0,16.4,65.8,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,aerisweather,AerisWeather (Xweather),2026-11-21,C,15,3,15:00|16:00|17:00,3,15.0,15.0,59.0,2,8,2,11.17,17.0,0.0,7.8,63.5,Overcast,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,aerisweather,AerisWeather (Xweather),2026-11-22,C,16,2,15:00|16:00,2,15.6,15.6,60.08,2,10,2,12.13,23.0,0.9,12.5,70.2,Overcast,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,aerisweather,AerisWeather (Xweather),2026-11-23,C,15,1,16:00,1,14.7,14.7,58.46,2,8,5,10.94,4.0,0.0,8.2,73.2,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,apple_weather,Apple Weather (WeatherKit),2026-11-17,C,14,1,21:00,1,13.69,13.69,56.64,1,2,3,6.31,0.0,0.0,25.89,73.7,Clear,23,live_apple_weatherkit_feed
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,apple_weather,Apple Weather (WeatherKit),2026-11-18,C,15,3,21:00|22:00|23:00,3,15.03,15.03,59.05,1,4,4,8.03,0.0,0.0,29.62,71.4,Windy,24,live_apple_weatherkit_feed
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,apple_weather,Apple Weather (WeatherKit),2026-11-19,C,17,3,20:00|21:00|22:00,3,17.36,17.36,63.25,1,6,2,11.1,0.0,0.0,25.13,73.5,Clear,24,live_apple_weatherkit_feed
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,apple_weather,Apple Weather (WeatherKit),2026-11-20,C,18,1,22:00,1,17.78,17.78,64.0,1,8,8,11.15,0.0,0.0,29.88,82.7,PartlyCloudy,24,live_apple_weatherkit_feed
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,apple_weather,Apple Weather (WeatherKit),2026-11-21,C,16,2,00:00|01:00,2,16.26,16.26,61.27,1,11,1,13.83,29.0,4.97,27.76,81.5,Windy,24,live_apple_weatherkit_feed
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,apple_weather,Apple Weather (WeatherKit),2026-11-22,C,9,1,00:00,1,8.96,8.96,48.13,1,1,2,4.92,12.0,0.18,18.71,71.9,MostlyClear,24,live_apple_weatherkit_feed
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,apple_weather,Apple Weather (WeatherKit),2026-11-23,C,9,1,21:00,1,8.61,8.61,47.5,1,-2,3,2.85,0.0,0.0,13.82,74.8,PartlyCloudy,24,live_apple_weatherkit_feed
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,foreca,Foreca,2026-11-17,C,14,10,14:00|15:00|16:00|17:00|18:00|19:00|20:00|21:00|22:00|23:00,10,14.0,14.0,57.0,2,11,7,12.65,56.0,0.72,18.0,90.7,Overcast,23,live_web_scrape
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,foreca,Foreca,2026-11-18,C,16,4,13:00|14:00|15:00|16:00,4,16.0,16.0,61.0,4,14,10,14.75,88.0,19.14,22.0,92.3,Overcast and rain,24,live_web_scrape
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,foreca,Foreca,2026-11-19,C,15,2,00:00|01:00,2,15.0,15.0,59.0,2,10,4,12.29,87.0,1.45,22.0,75.1,Clear,24,live_web_scrape
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,foreca,Foreca,2026-11-20,C,13,2,15:00|16:00,2,13.0,13.0,55.0,2,8,7,9.88,4.0,0.0,11.0,81.2,Cloudy,24,live_web_scrape
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,foreca,Foreca,2026-11-21,C,12,4,14:00|15:00|16:00|17:00,4,12.0,12.0,54.0,2,8,7,9.75,47.0,0.19,11.0,81.9,Cloudy,24,live_web_scrape
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,foreca,Foreca,2026-11-22,C,14,1,16:00,1,14.0,14.0,57.0,4,8,2,10.33,55.0,2.6,11.0,77.5,Clear,24,live_web_scrape
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,foreca,Foreca,2026-11-23,C,12,3,15:00|16:00|17:00,3,12.0,12.0,54.0,2,4,1,8.21,14.0,0.08,7.0,82.8,Partly cloudy,24,live_web_scrape
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,meteoblue,meteoblue,2026-11-17,C,15,8,15:00|16:00|17:00|18:00|19:00|20:00|21:00|22:00,8,15.0,15.0,59.0,2,10,5,12.94,25.0,0.0,12.0,,Mostly cloudy and cirrus,24,live_web_scrape+multimodel
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,meteoblue,meteoblue,2026-11-18,C,17,2,12:00|13:00,2,16.7,16.7,62.06,4,15,13,15.51,73.0,11.8,17.6,87.4,Overcast,24,live_web_scrape+multimodel
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,meteoblue,meteoblue,2026-11-19,C,16,1,00:00,1,16.2,16.2,61.16,2,10,5,12.6,66.0,0.1,18.5,66.6,Clear sky,24,live_web_scrape+multimodel
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,meteoblue,meteoblue,2026-11-20,C,15,1,16:00,1,14.5,14.5,58.1,2,7,4,10.17,1.0,0.0,8.4,78.9,Overcast,24,live_web_scrape+multimodel
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,meteoblue,meteoblue,2026-11-21,C,13,2,15:00|16:00,2,12.8,12.8,55.04,4,7,5,9.65,51.0,1.8,4.4,85.6,Overcast,24,live_web_scrape+multimodel
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,meteoblue,meteoblue,2026-11-22,C,16,3,15:00|16:00|17:00,3,16.3,16.3,61.34,2,10,9,12.04,53.0,9.9,10.2,90.6,Slight rain,24,live_web_scrape+multimodel
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,meteoblue,meteoblue,2026-11-23,C,15,3,14:00|15:00|16:00,3,14.9,14.9,58.82,2,8,7,10.68,6.0,0.0,8.5,90.1,Fog,24,live_web_scrape+multimodel
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,msn_weather,Microsoft Weather (MSN),2026-11-17,C,14,9,15:00|16:00|17:00|18:00|19:00|20:00|21:00|22:00|23:00,9,14.0,14.0,57.2,2,10,2,12.57,27.0,0.0,21.0,89.3,Mostly cloudy,23,live_web_scrape
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,msn_weather,Microsoft Weather (MSN),2026-11-18,C,17,4,14:00|15:00|16:00|17:00,4,17.0,17.0,62.6,2,14,3,15.54,85.0,0.48,27.0,89.3,Light rain,24,live_web_scrape
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,msn_weather,Microsoft Weather (MSN),2026-11-19,C,16,3,00:00|01:00|16:00,2,16.0,16.0,60.8,4,9,1,13.46,76.0,0.39,25.0,75.6,Clear,24,live_web_scrape
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,msn_weather,Microsoft Weather (MSN),2026-11-20,C,14,4,14:00|15:00|16:00|17:00,4,14.0,14.0,57.2,2,7,1,10.12,1.0,0.0,15.0,75.8,Partly sunny,24,live_web_scrape
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,msn_weather,Microsoft Weather (MSN),2026-11-21,C,14,2,16:00|17:00,2,14.0,14.0,57.2,2,5,1,9.08,3.0,0.0,5.0,86.3,Partly cloudy,24,live_web_scrape
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,msn_weather,Microsoft Weather (MSN),2026-11-22,C,16,1,15:00,1,16.0,16.0,60.8,2,6,1,11.04,52.0,0.06,12.0,84.0,Sunny,24,live_web_scrape
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,msn_weather,Microsoft Weather (MSN),2026-11-23,C,13,1,15:00,1,13.0,13.0,55.4,2,2,3,7.33,9.0,0.0,6.0,88.1,Clear,24,live_web_scrape
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,open_meteo,Open-Meteo,2026-11-17,C,16,1,23:00,1,15.6,15.6,60.08,4,11,3,13.25,8.0,0.2,17.7,84.6,Overcast,24,live_official_api
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,open_meteo,Open-Meteo,2026-11-18,C,17,2,12:00|13:00,2,16.7,16.7,62.06,4,15,13,15.51,73.0,11.8,17.6,87.4,Overcast,24,live_official_api
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,open_meteo,Open-Meteo,2026-11-19,C,16,1,00:00,1,16.2,16.2,61.16,2,10,5,12.6,66.0,0.1,18.5,66.6,Clear sky,24,live_official_api
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,open_meteo,Open-Meteo,2026-11-20,C,15,1,16:00,1,14.5,14.5,58.1,2,7,4,10.17,1.0,0.0,8.4,78.9,Overcast,24,live_official_api
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,open_meteo,Open-Meteo,2026-11-21,C,13,2,15:00|16:00,2,12.8,12.8,55.04,4,7,5,9.65,51.0,1.8,4.4,85.6,Overcast,24,live_official_api
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,open_meteo,Open-Meteo,2026-11-22,C,16,3,15:00|16:00|17:00,3,16.3,16.3,61.34,2,10,9,12.04,53.0,9.9,10.2,90.6,Slight rain,24,live_official_api
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,open_meteo,Open-Meteo,2026-11-23,C,15,3,14:00|15:00|16:00,3,14.9,14.9,58.82,2,8,7,10.68,6.0,0.0,8.5,90.1,Fog,24,live_official_api
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,uk_met_office,UK Met Office,2026-11-17,C,16,5,15:00|16:00|17:00|18:00|19:00,5,16.4,16.4,61.52,4,12,10,13.61,30.0,0.6,23.0,89.8,Drizzle,24,live_web_scrape+ukmo_model
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,uk_met_office,UK Met Office,2026-11-18,C,18,5,13:00|14:00|15:00|18:00|19:00,3,18.1,18.1,64.58,2,14,1,16.32,70.0,3.9,36.4,86.5,Cloudy,24,live_web_scrape+ukmo_model
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,uk_met_office,UK Met Office,2026-11-19,C,15,1,00:00,1,15.2,15.2,59.36,4,9,1,12.06,60.0,1.1,23.8,71.0,Clear night,24,live_web_scrape+ukmo_model
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,uk_met_office,UK Met Office,2026-11-20,C,13,2,15:00|16:00,2,12.6,12.6,54.68,4,6,1,9.2,5.0,0.0,15.5,82.7,Clear night,24,live_web_scrape+ukmo_model
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,uk_met_office,UK Met Office,2026-11-21,C,12,2,15:00|16:00,2,11.7,11.7,53.06,4,6,7,8.05,30.0,0.2,5.8,91.7,Sunny intervals,24,live_web_scrape+ukmo_model
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,uk_met_office,UK Met Office,2026-11-22,C,13,4,12:00|13:00|14:00|15:00,4,13.1,13.1,55.58,4,7,1,10.33,50.0,1.9,11.2,80.5,Sunny intervals,24,live_web_scrape+ukmo_model
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,uk_met_office,UK Met Office,2026-11-23,C,11,1,13:00,1,10.5,10.5,50.9,2,4,2,6.39,10.0,0.0,7.9,83.0,Clear night,14,live_web_scrape+ukmo_model
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,weather_com,The Weather Channel (weather.com),2026-11-17,C,16,2,17:00|19:00,1,16.0,16.0,60.8,4,10,1,13.41,63.0,0.09,21.0,88.0,Cloudy,22,live_web_api
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,weather_com,The Weather Channel (weather.com),2026-11-18,C,17,8,12:00|13:00|14:00|15:00|16:00|17:00|18:00|19:00,8,17.0,17.0,62.6,4,14,3,15.79,96.0,18.9,26.0,87.9,Rain,24,live_web_api
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,weather_com,The Weather Channel (weather.com),2026-11-19,C,16,1,00:00,1,16.0,16.0,60.8,2,9,1,12.88,58.0,1.1,27.0,71.0,Clear,24,live_web_api
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,weather_com,The Weather Channel (weather.com),2026-11-20,C,14,4,14:00|15:00|16:00|17:00,4,14.0,14.0,57.2,4,6,2,9.58,8.0,0.0,13.0,78.0,Partly Cloudy,24,live_web_api
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,weather_com,The Weather Channel (weather.com),2026-11-21,C,13,3,15:00|16:00|17:00,3,13.0,13.0,55.4,4,5,1,8.96,36.0,0.1,6.0,80.1,Cloudy,24,live_web_api
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,weather_com,The Weather Channel (weather.com),2026-11-22,C,15,3,14:00|15:00|16:00,3,15.0,15.0,59.0,4,7,2,10.54,52.0,1.1,10.0,75.9,Partly Cloudy,24,live_web_api
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,weather_com,The Weather Channel (weather.com),2026-11-23,C,13,3,15:00|16:00|17:00,3,13.0,13.0,55.4,2,2,1,7.5,21.0,0.0,8.0,78.5,Partly Cloudy,24,live_web_api
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,weatherbit,Weatherbit,2026-11-17,C,16,1,23:00,1,15.6,15.6,60.08,4,11,3,13.2,8.0,0.2,17.4,84.6,Overcast,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,weatherbit,Weatherbit,2026-11-18,C,17,2,12:00|13:00,2,16.6,16.6,61.88,2,15,13,15.47,73.0,12.4,17.6,87.5,Overcast,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,weatherbit,Weatherbit,2026-11-19,C,16,1,00:00,1,16.2,16.2,61.16,4,9,1,12.56,66.0,0.1,18.5,66.9,Clear sky,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,weatherbit,Weatherbit,2026-11-20,C,14,3,15:00|16:00|17:00,3,14.4,14.4,57.92,2,7,4,10.09,1.0,0.0,8.4,79.2,Overcast,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,weatherbit,Weatherbit,2026-11-21,C,13,2,15:00|16:00,2,12.7,12.7,54.86,4,7,4,9.7,51.0,1.8,4.3,85.4,Overcast,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,weatherbit,Weatherbit,2026-11-22,C,16,3,15:00|16:00|17:00,3,16.4,16.4,61.52,2,10,8,12.1,53.0,9.9,10.0,90.4,Slight rain,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,weatherbit,Weatherbit,2026-11-23,C,15,3,14:00|15:00|16:00,3,14.8,14.8,58.64,2,8,3,10.91,5.0,0.0,7.0,90.0,Fog,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,yr_no,Yr.no (MET Norway),2026-11-17,C,15,7,14:00|15:00|16:00|17:00|18:00|19:00|20:00,7,14.9,14.9,58.82,2,10,3,12.88,,0.1,23.04,89.9,Cloudy,23,live_official_api
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,yr_no,Yr.no (MET Norway),2026-11-18,C,17,2,15:00|16:00,2,17.0,17.0,62.6,2,13,4,14.43,,17.8,23.04,93.3,Heavyrain,24,live_official_api
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,yr_no,Yr.no (MET Norway),2026-11-19,C,15,1,13:00,1,15.1,15.1,59.18,4,9,3,12.21,,0.5,22.32,71.2,Fair Day,24,live_official_api
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,yr_no,Yr.no (MET Norway),2026-11-20,C,12,2,13:00|14:00,2,12.2,12.2,53.96,2,7,6,8.93,,0.0,9.0,82.4,Cloudy,24,live_official_api
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,yr_no,Yr.no (MET Norway),2026-11-21,C,11,2,13:00|14:00,2,10.9,10.9,51.62,2,5,4,7.96,,0.15,4.68,90.4,Cloudy,24,live_official_api
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,yr_no,Yr.no (MET Norway),2026-11-22,C,14,1,13:00,1,13.8,13.8,56.84,4,6,1,9.73,,3.51,11.16,77.9,Rain,24,live_official_api
-2026-11-17T00:27:04Z,Madrid,madrid,LEMD,yr_no,Yr.no (MET Norway),2026-11-23,C,11,3,13:00|14:00|15:00,3,11.4,11.4,52.52,2,2,1,6.94,,0.0,7.56,78.6,Clearsky Night,24,live_official_api
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,aerisweather,AerisWeather (Xweather),2026-11-17,C,15,2,22:00|23:00,2,14.6,14.6,58.28,5,11,2,12.58,6.0,0.0,30.3,86.0,Overcast,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,aerisweather,AerisWeather (Xweather),2026-11-18,C,18,1,18:00,1,17.6,17.6,63.68,3,14,8,15.28,88.0,5.2,52.0,89.6,Overcast,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,aerisweather,AerisWeather (Xweather),2026-11-19,C,16,5,00:00|01:00|02:00|03:00|04:00,5,16.3,16.3,61.34,3,11,1,13.88,89.0,8.7,41.1,57.6,Overcast,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,aerisweather,AerisWeather (Xweather),2026-11-20,C,15,4,14:00|15:00|16:00|17:00,4,15.3,15.3,59.54,3,8,2,11.08,0.0,0.0,16.4,65.8,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,aerisweather,AerisWeather (Xweather),2026-11-21,C,15,3,15:00|16:00|17:00,3,15.0,15.0,59.0,3,8,2,11.17,17.0,0.0,7.8,63.5,Overcast,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,aerisweather,AerisWeather (Xweather),2026-11-22,C,16,2,15:00|16:00,2,15.6,15.6,60.08,3,10,2,12.13,23.0,0.9,12.5,70.2,Overcast,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,aerisweather,AerisWeather (Xweather),2026-11-23,C,15,1,16:00,1,14.7,14.7,58.46,3,8,5,10.94,4.0,0.0,8.2,73.2,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,apple_weather,Apple Weather (WeatherKit),2026-11-17,C,14,1,21:00,1,13.69,13.69,56.64,2,2,3,6.21,0.0,0.0,25.89,74.2,PartlyCloudy,22,live_apple_weatherkit_feed
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,apple_weather,Apple Weather (WeatherKit),2026-11-18,C,15,3,21:00|22:00|23:00,3,15.03,15.03,59.05,2,4,4,8.03,0.0,0.0,29.62,71.4,Windy,24,live_apple_weatherkit_feed
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,apple_weather,Apple Weather (WeatherKit),2026-11-19,C,17,3,20:00|21:00|22:00,3,17.36,17.36,63.25,2,6,2,11.1,0.0,0.0,25.13,73.5,Clear,24,live_apple_weatherkit_feed
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,apple_weather,Apple Weather (WeatherKit),2026-11-20,C,18,1,22:00,1,17.78,17.78,64.0,2,8,8,11.15,0.0,0.0,29.88,82.7,PartlyCloudy,24,live_apple_weatherkit_feed
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,apple_weather,Apple Weather (WeatherKit),2026-11-21,C,16,2,00:00|01:00,2,16.26,16.26,61.27,2,11,1,13.83,29.0,4.97,27.76,81.5,Windy,24,live_apple_weatherkit_feed
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,apple_weather,Apple Weather (WeatherKit),2026-11-22,C,9,1,00:00,1,8.96,8.96,48.13,2,1,2,4.92,12.0,0.18,18.71,71.9,MostlyClear,24,live_apple_weatherkit_feed
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,apple_weather,Apple Weather (WeatherKit),2026-11-23,C,9,1,21:00,1,8.61,8.61,47.5,2,-2,3,2.85,0.0,0.0,13.82,74.8,PartlyCloudy,24,live_apple_weatherkit_feed
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,foreca,Foreca,2026-11-17,C,14,9,15:00|16:00|17:00|18:00|19:00|20:00|21:00|22:00|23:00,9,14.0,14.0,57.0,3,11,7,12.64,56.0,0.72,18.0,91.0,Overcast,22,live_web_scrape
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,foreca,Foreca,2026-11-18,C,16,6,12:00|13:00|14:00|15:00|16:00|17:00,6,16.0,16.0,61.0,5,14,10,14.83,88.0,19.14,22.0,92.8,Overcast and rain,24,live_web_scrape
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,foreca,Foreca,2026-11-19,C,15,2,00:00|01:00,2,15.0,15.0,59.0,3,9,1,12.21,87.0,1.45,22.0,74.9,Clear,24,live_web_scrape
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,foreca,Foreca,2026-11-20,C,13,2,15:00|16:00,2,13.0,13.0,55.0,3,8,8,9.79,4.0,0.0,11.0,80.8,Cloudy,24,live_web_scrape
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,foreca,Foreca,2026-11-21,C,13,1,16:00,1,13.0,13.0,55.0,1,8,9,9.75,47.0,0.19,7.0,81.5,Cloudy,24,live_web_scrape
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,foreca,Foreca,2026-11-22,C,14,1,16:00,1,14.0,14.0,57.0,5,7,1,10.67,55.0,2.6,11.0,77.0,Clear,24,live_web_scrape
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,foreca,Foreca,2026-11-23,C,12,1,16:00,1,12.0,12.0,54.0,3,3,1,7.58,14.0,0.08,7.0,76.0,Partly cloudy,24,live_web_scrape
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,meteoblue,meteoblue,2026-11-17,C,15,8,15:00|16:00|17:00|18:00|19:00|20:00|21:00|22:00,8,15.0,15.0,59.0,3,11,7,13.17,25.0,0.0,12.0,,Mostly cloudy and cirrus,24,live_web_scrape+multimodel
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,meteoblue,meteoblue,2026-11-18,C,17,2,12:00|13:00,2,16.7,16.7,62.06,5,15,13,15.51,73.0,11.8,17.6,87.4,Overcast,24,live_web_scrape+multimodel
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,meteoblue,meteoblue,2026-11-19,C,16,1,00:00,1,16.2,16.2,61.16,3,10,5,12.6,66.0,0.1,18.5,66.6,Clear sky,24,live_web_scrape+multimodel
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,meteoblue,meteoblue,2026-11-20,C,15,1,16:00,1,14.5,14.5,58.1,3,7,4,10.17,1.0,0.0,8.4,78.9,Overcast,24,live_web_scrape+multimodel
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,meteoblue,meteoblue,2026-11-21,C,13,2,15:00|16:00,2,12.8,12.8,55.04,5,7,5,9.65,51.0,1.8,4.4,85.6,Overcast,24,live_web_scrape+multimodel
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,meteoblue,meteoblue,2026-11-22,C,16,3,15:00|16:00|17:00,3,16.3,16.3,61.34,3,10,9,12.04,53.0,9.9,10.2,90.6,Slight rain,24,live_web_scrape+multimodel
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,meteoblue,meteoblue,2026-11-23,C,15,3,14:00|15:00|16:00,3,14.9,14.9,58.82,3,8,7,10.68,6.0,0.0,8.5,90.1,Fog,24,live_web_scrape+multimodel
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,msn_weather,Microsoft Weather (MSN),2026-11-17,C,15,1,23:00,1,15.0,15.0,59.0,1,11,6,12.77,30.0,0.0,21.0,88.5,Mostly cloudy,22,live_web_scrape
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,msn_weather,Microsoft Weather (MSN),2026-11-18,C,17,4,14:00|15:00|16:00|17:00,4,17.0,17.0,62.6,3,14,3,15.54,85.0,0.48,27.0,89.3,Light rain,24,live_web_scrape
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,msn_weather,Microsoft Weather (MSN),2026-11-19,C,16,3,00:00|01:00|16:00,2,16.0,16.0,60.8,5,9,1,13.46,76.0,0.39,25.0,75.6,Clear,24,live_web_scrape
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,msn_weather,Microsoft Weather (MSN),2026-11-20,C,14,4,14:00|15:00|16:00|17:00,4,14.0,14.0,57.2,3,7,1,10.12,1.0,0.0,15.0,75.8,Partly sunny,24,live_web_scrape
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,msn_weather,Microsoft Weather (MSN),2026-11-21,C,14,2,16:00|17:00,2,14.0,14.0,57.2,3,5,1,9.08,3.0,0.0,5.0,86.3,Partly cloudy,24,live_web_scrape
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,msn_weather,Microsoft Weather (MSN),2026-11-22,C,16,1,15:00,1,16.0,16.0,60.8,3,6,1,11.04,52.0,0.06,12.0,84.0,Sunny,24,live_web_scrape
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,msn_weather,Microsoft Weather (MSN),2026-11-23,C,13,1,15:00,1,13.0,13.0,55.4,3,2,3,7.33,9.0,0.0,6.0,88.1,Clear,24,live_web_scrape
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,open_meteo,Open-Meteo,2026-11-17,C,16,1,23:00,1,15.6,15.6,60.08,5,11,3,13.25,8.0,0.2,17.7,84.6,Overcast,24,live_official_api
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,open_meteo,Open-Meteo,2026-11-18,C,17,2,12:00|13:00,2,16.7,16.7,62.06,5,15,13,15.51,73.0,11.8,17.6,87.4,Overcast,24,live_official_api
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,open_meteo,Open-Meteo,2026-11-19,C,16,1,00:00,1,16.2,16.2,61.16,3,10,5,12.6,66.0,0.1,18.5,66.6,Clear sky,24,live_official_api
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,open_meteo,Open-Meteo,2026-11-20,C,15,1,16:00,1,14.5,14.5,58.1,3,7,4,10.17,1.0,0.0,8.4,78.9,Overcast,24,live_official_api
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,open_meteo,Open-Meteo,2026-11-21,C,13,2,15:00|16:00,2,12.8,12.8,55.04,5,7,5,9.65,51.0,1.8,4.4,85.6,Overcast,24,live_official_api
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,open_meteo,Open-Meteo,2026-11-22,C,16,3,15:00|16:00|17:00,3,16.3,16.3,61.34,3,10,9,12.04,53.0,9.9,10.2,90.6,Slight rain,24,live_official_api
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,open_meteo,Open-Meteo,2026-11-23,C,15,3,14:00|15:00|16:00,3,14.9,14.9,58.82,3,8,7,10.68,6.0,0.0,8.5,90.1,Fog,24,live_official_api
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,uk_met_office,UK Met Office,2026-11-17,C,16,5,15:00|16:00|17:00|18:00|19:00,5,16.4,16.4,61.52,5,12,10,13.61,30.0,0.6,23.0,89.8,Overcast,24,live_web_scrape+ukmo_model
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,uk_met_office,UK Met Office,2026-11-18,C,18,5,13:00|14:00|15:00|18:00|19:00,3,18.1,18.1,64.58,3,14,1,16.32,70.0,3.9,36.4,86.5,Cloudy,24,live_web_scrape+ukmo_model
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,uk_met_office,UK Met Office,2026-11-19,C,15,1,00:00,1,15.2,15.2,59.36,5,9,1,12.06,60.0,1.1,23.8,71.0,Clear night,24,live_web_scrape+ukmo_model
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,uk_met_office,UK Met Office,2026-11-20,C,13,2,15:00|16:00,2,12.6,12.6,54.68,5,6,1,9.2,5.0,0.0,15.5,82.7,Clear night,24,live_web_scrape+ukmo_model
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,uk_met_office,UK Met Office,2026-11-21,C,12,2,15:00|16:00,2,11.7,11.7,53.06,5,6,7,8.05,30.0,0.2,5.8,91.7,Sunny intervals,24,live_web_scrape+ukmo_model
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,uk_met_office,UK Met Office,2026-11-22,C,13,4,12:00|13:00|14:00|15:00,4,13.1,13.1,55.58,5,7,1,10.33,50.0,1.9,11.2,80.5,Sunny intervals,24,live_web_scrape+ukmo_model
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,uk_met_office,UK Met Office,2026-11-23,C,11,1,13:00,1,10.5,10.5,50.9,3,4,2,6.39,10.0,0.0,7.9,83.0,Clear night,14,live_web_scrape+ukmo_model
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,weather_com,The Weather Channel (weather.com),2026-11-17,C,16,2,17:00|19:00,1,16.0,16.0,60.8,5,10,1,13.41,88.0,0.83,21.0,88.2,Cloudy,22,live_web_api
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,weather_com,The Weather Channel (weather.com),2026-11-18,C,17,8,12:00|13:00|14:00|15:00|16:00|17:00|18:00|19:00,8,17.0,17.0,62.6,5,14,3,15.79,95.0,17.5,26.0,87.7,Rain,24,live_web_api
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,weather_com,The Weather Channel (weather.com),2026-11-19,C,16,1,00:00,1,16.0,16.0,60.8,3,9,1,12.92,66.0,1.1,27.0,71.0,Clear,24,live_web_api
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,weather_com,The Weather Channel (weather.com),2026-11-20,C,14,4,14:00|15:00|16:00|17:00,4,14.0,14.0,57.2,5,6,2,9.54,7.0,0.0,13.0,78.1,Partly Cloudy,24,live_web_api
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,weather_com,The Weather Channel (weather.com),2026-11-21,C,13,5,14:00|15:00|16:00|17:00|18:00,5,13.0,13.0,55.4,5,5,1,9.08,36.0,0.1,7.0,79.9,Cloudy,24,live_web_api
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,weather_com,The Weather Channel (weather.com),2026-11-22,C,15,3,14:00|15:00|16:00,3,15.0,15.0,59.0,5,7,2,10.54,61.0,1.3,9.0,76.2,Partly Cloudy,24,live_web_api
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,weather_com,The Weather Channel (weather.com),2026-11-23,C,13,3,15:00|16:00|17:00,3,13.0,13.0,55.4,3,2,1,7.5,20.0,0.0,8.0,77.3,Partly Cloudy,24,live_web_api
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,weatherbit,Weatherbit,2026-11-17,C,16,1,23:00,1,15.6,15.6,60.08,5,11,3,13.2,8.0,0.2,17.4,84.6,Overcast,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,weatherbit,Weatherbit,2026-11-18,C,17,2,12:00|13:00,2,16.6,16.6,61.88,3,15,13,15.47,73.0,12.4,17.6,87.5,Overcast,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,weatherbit,Weatherbit,2026-11-19,C,16,1,00:00,1,16.2,16.2,61.16,5,9,1,12.56,66.0,0.1,18.5,66.9,Clear sky,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,weatherbit,Weatherbit,2026-11-20,C,14,3,15:00|16:00|17:00,3,14.4,14.4,57.92,3,7,4,10.09,1.0,0.0,8.4,79.2,Overcast,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,weatherbit,Weatherbit,2026-11-21,C,13,2,15:00|16:00,2,12.7,12.7,54.86,5,7,4,9.7,51.0,1.8,4.3,85.4,Overcast,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,weatherbit,Weatherbit,2026-11-22,C,16,3,15:00|16:00|17:00,3,16.4,16.4,61.52,3,10,8,12.1,53.0,9.9,10.0,90.4,Slight rain,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,weatherbit,Weatherbit,2026-11-23,C,15,3,14:00|15:00|16:00,3,14.8,14.8,58.64,3,8,3,10.91,5.0,0.0,7.0,90.0,Fog,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,yr_no,Yr.no (MET Norway),2026-11-17,C,15,7,14:00|15:00|16:00|17:00|18:00|19:00|20:00,7,14.9,14.9,58.82,3,10,2,13.01,,0.1,23.04,89.7,Cloudy,22,live_official_api
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,yr_no,Yr.no (MET Norway),2026-11-18,C,17,2,15:00|16:00,2,17.0,17.0,62.6,3,13,4,14.43,,17.8,23.04,93.3,Heavyrain,24,live_official_api
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,yr_no,Yr.no (MET Norway),2026-11-19,C,15,1,13:00,1,15.1,15.1,59.18,5,9,3,12.21,,0.5,22.32,71.2,Fair Day,24,live_official_api
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,yr_no,Yr.no (MET Norway),2026-11-20,C,12,2,13:00|14:00,2,12.2,12.2,53.96,3,7,6,8.93,,0.0,9.0,82.4,Cloudy,24,live_official_api
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,yr_no,Yr.no (MET Norway),2026-11-21,C,11,2,13:00|14:00,2,10.9,10.9,51.62,3,5,4,7.96,,0.15,4.68,90.4,Cloudy,24,live_official_api
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,yr_no,Yr.no (MET Norway),2026-11-22,C,14,1,13:00,1,13.8,13.8,56.84,5,6,1,9.73,,3.51,11.16,77.9,Rain,24,live_official_api
+2026-11-17T01:00:06Z,Madrid,madrid,LEMD,yr_no,Yr.no (MET Norway),2026-11-23,C,11,3,13:00|14:00|15:00,3,11.4,11.4,52.52,3,2,1,6.94,,0.0,7.56,78.6,Clearsky Night,24,live_official_api
