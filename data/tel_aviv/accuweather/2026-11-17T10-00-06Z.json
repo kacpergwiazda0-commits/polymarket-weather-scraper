@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-17T10:00:06Z",
+  "city": "Tel Aviv",
+  "city_slug": "tel_aviv",
+  "station_icao": "LLBG",
+  "station_name": "Ben Gurion International Airport",
+  "latitude": 32.0114,
+  "longitude": 34.8867,
+  "timezone": "Asia/Jerusalem",
+  "polymarket_unit": "C",
+  "website_id": "accuweather",
+  "website_name": "AccuWeather",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.accuweather.com/en/il/yagel/212582/hourly-weather-forecast/212582?day=1&unit=c failed after 3 attempts: HTTP Error 403: Forbidden",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

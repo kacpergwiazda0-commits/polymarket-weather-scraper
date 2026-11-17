@@ -1,71 +1,71 @@
 scraped_at_utc,city,city_slug,station_icao,website_id,website_name,date,unit,highest_temperature,highest_temperature_duration_hours,highest_temperature_hours,highest_temperature_max_consecutive_hours,highest_temperature_exact,highest_temperature_c,highest_temperature_f,consecutive_scrapes_with_same_high,lowest_temperature,lowest_temperature_duration_hours,avg_temperature,max_precip_prob_pct,total_precip_mm,max_wind_speed_kmh,avg_humidity_pct,dominant_condition,hours_analyzed,source_mode
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,aerisweather,AerisWeather (Xweather),2026-11-17,C,14,3,00:00|13:00|14:00,2,14.4,14.4,57.92,10,11,6,12.35,100.0,5.6,21.3,85.1,Overcast,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,aerisweather,AerisWeather (Xweather),2026-11-18,C,14,1,12:00,1,13.5,13.5,56.3,2,7,1,10.64,3.0,0.0,26.6,60.3,Overcast,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,aerisweather,AerisWeather (Xweather),2026-11-19,C,14,1,15:00,1,13.7,13.7,56.66,10,5,1,8.99,0.0,0.0,15.6,49.2,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,aerisweather,AerisWeather (Xweather),2026-11-20,C,15,3,14:00|15:00|16:00,3,14.7,14.7,58.46,10,7,4,10.57,0.0,0.0,15.4,49.5,Overcast,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,aerisweather,AerisWeather (Xweather),2026-11-21,C,17,1,15:00,1,16.5,16.5,61.7,8,8,3,11.98,0.0,0.0,11.5,51.7,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,aerisweather,AerisWeather (Xweather),2026-11-22,C,16,5,12:00|13:00|14:00|15:00|16:00,5,16.3,16.3,61.34,2,9,1,12.81,0.0,0.0,20.1,56.9,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,aerisweather,AerisWeather (Xweather),2026-11-23,C,15,3,14:00|15:00|16:00,3,14.8,14.8,58.64,2,11,1,12.84,26.0,0.0,10.8,65.8,Overcast,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,apple_weather,Apple Weather (WeatherKit),2026-11-17,C,12,5,17:00|18:00|19:00|20:00|22:00,4,12.02,12.02,53.64,1,11,2,11.64,29.0,0.96,16.3,89.7,Cloudy,7,live_apple_weatherkit_feed
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,apple_weather,Apple Weather (WeatherKit),2026-11-18,C,13,5,11:00|12:00|13:00|14:00|15:00,5,13.31,13.31,55.96,10,8,4,10.82,32.0,0.8,18.98,67.3,PartlyCloudy,24,live_apple_weatherkit_feed
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,apple_weather,Apple Weather (WeatherKit),2026-11-19,C,14,1,14:00,1,13.5,13.5,56.3,10,6,4,10.0,0.0,0.0,11.21,61.0,Clear,24,live_apple_weatherkit_feed
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,apple_weather,Apple Weather (WeatherKit),2026-11-20,C,13,2,14:00|15:00,2,12.67,12.67,54.81,7,9,3,10.77,0.0,0.0,9.26,62.0,Clear,24,live_apple_weatherkit_feed
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,apple_weather,Apple Weather (WeatherKit),2026-11-21,C,18,1,17:00,1,17.55,17.55,63.59,10,9,4,13.38,0.0,0.0,8.19,58.2,Clear,24,live_apple_weatherkit_feed
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,apple_weather,Apple Weather (WeatherKit),2026-11-22,C,15,3,13:00|14:00|15:00,3,15.46,15.46,59.83,10,12,7,13.12,7.0,0.01,12.44,64.6,MostlyCloudy,24,live_apple_weatherkit_feed
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,apple_weather,Apple Weather (WeatherKit),2026-11-23,C,16,4,13:00|14:00|15:00|16:00,4,16.07,16.07,60.93,8,8,2,12.12,30.0,3.48,5.28,83.2,MostlyCloudy,24,live_apple_weatherkit_feed
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,foreca,Foreca,2026-11-17,C,12,2,17:00|18:00,2,12.0,12.0,54.0,2,11,5,11.29,47.0,0.02,18.0,80.4,Overcast,7,live_web_scrape
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,foreca,Foreca,2026-11-18,C,13,5,12:00|13:00|14:00|15:00|16:00,5,13.0,13.0,55.0,8,7,2,10.62,30.0,0.0,25.0,51.1,Mostly clear,24,live_web_scrape
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,foreca,Foreca,2026-11-19,C,14,3,14:00|15:00|16:00,3,14.0,14.0,57.0,10,5,4,9.04,2.0,0.0,11.0,54.2,Clear,24,live_web_scrape
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,foreca,Foreca,2026-11-20,C,14,3,13:00|14:00|15:00,3,14.0,14.0,57.0,10,5,1,9.67,2.0,0.0,11.0,57.4,Clear,24,live_web_scrape
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,foreca,Foreca,2026-11-21,C,16,2,14:00|15:00,2,16.0,16.0,61.0,10,6,1,11.0,2.0,0.0,11.0,62.8,Clear,24,live_web_scrape
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,foreca,Foreca,2026-11-22,C,16,2,13:00|14:00,2,16.0,16.0,61.0,8,10,5,12.79,10.0,0.0,14.0,55.8,Cloudy,24,live_web_scrape
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,foreca,Foreca,2026-11-23,C,16,1,14:00,1,16.0,16.0,61.0,8,11,8,12.71,49.0,1.08,11.0,77.0,Cloudy,24,live_web_scrape
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,meteoblue,meteoblue,2026-11-17,C,15,3,12:00|13:00|14:00,3,15.3,15.3,59.54,1,11,2,13.14,100.0,3.0,17.0,84.3,Overcast,24,multimodel_nwp_feed
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,meteoblue,meteoblue,2026-11-18,C,14,5,11:00|12:00|13:00|14:00|15:00,5,14.3,14.3,57.74,8,6,1,11.07,6.0,0.0,23.2,52.5,Overcast,24,multimodel_nwp_feed
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,meteoblue,meteoblue,2026-11-19,C,15,1,14:00,1,14.7,14.7,58.46,10,4,3,8.64,0.0,0.2,13.9,57.1,Clear sky,24,multimodel_nwp_feed
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,meteoblue,meteoblue,2026-11-20,C,15,4,13:00|14:00|15:00|16:00,4,15.1,15.1,59.18,10,5,1,9.27,0.0,0.0,9.8,60.5,Clear sky,24,multimodel_nwp_feed
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,meteoblue,meteoblue,2026-11-21,C,17,3,13:00|14:00|15:00,3,17.4,17.4,63.32,7,5,3,10.54,0.0,0.0,9.6,62.8,Clear sky,24,multimodel_nwp_feed
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,meteoblue,meteoblue,2026-11-22,C,17,1,14:00,1,16.7,16.7,62.06,2,10,2,12.96,6.0,0.0,15.1,56.3,Overcast,24,multimodel_nwp_feed
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,meteoblue,meteoblue,2026-11-23,C,15,3,13:00|14:00|15:00,3,14.7,14.7,58.46,2,10,1,12.42,35.0,0.6,8.1,77.0,Overcast,24,multimodel_nwp_feed
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,msn_weather,Microsoft Weather (MSN),2026-11-17,C,13,1,17:00,1,13.0,13.0,55.4,8,11,2,11.86,28.0,0.0,11.0,89.3,Cloudy,7,live_web_scrape
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,msn_weather,Microsoft Weather (MSN),2026-11-18,C,14,3,13:00|14:00|15:00,3,14.0,14.0,57.2,10,7,1,11.0,16.0,0.0,17.0,68.6,Mostly cloudy,24,live_web_scrape
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,msn_weather,Microsoft Weather (MSN),2026-11-19,C,15,1,15:00,1,15.0,15.0,59.0,10,4,6,8.75,0.0,0.0,10.0,66.8,Mostly clear,24,live_web_scrape
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,msn_weather,Microsoft Weather (MSN),2026-11-20,C,16,2,15:00|16:00,2,16.0,16.0,60.8,8,5,1,9.67,2.0,0.0,10.0,58.8,Mostly clear,24,live_web_scrape
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,msn_weather,Microsoft Weather (MSN),2026-11-21,C,18,1,15:00,1,18.0,18.0,64.4,10,6,3,11.12,0.0,0.0,8.0,67.2,Mostly clear,24,live_web_scrape
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,msn_weather,Microsoft Weather (MSN),2026-11-22,C,17,3,14:00|15:00|16:00,3,17.0,17.0,62.6,8,9,1,13.21,1.0,0.0,12.0,62.9,Mostly cloudy,24,live_web_scrape
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,msn_weather,Microsoft Weather (MSN),2026-11-23,C,14,2,14:00|15:00,2,14.0,14.0,57.2,2,11,3,12.42,17.0,0.0,8.0,72.3,Mostly cloudy,24,live_web_scrape
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,open_meteo,Open-Meteo,2026-11-17,C,15,3,12:00|13:00|14:00,3,15.3,15.3,59.54,2,11,2,13.14,100.0,3.0,17.0,84.3,Overcast,24,live_official_api
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,open_meteo,Open-Meteo,2026-11-18,C,14,5,11:00|12:00|13:00|14:00|15:00,5,14.3,14.3,57.74,8,6,1,11.07,6.0,0.0,23.2,52.5,Overcast,24,live_official_api
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,open_meteo,Open-Meteo,2026-11-19,C,15,1,14:00,1,14.7,14.7,58.46,10,4,3,8.64,0.0,0.2,13.9,57.1,Clear sky,24,live_official_api
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,open_meteo,Open-Meteo,2026-11-20,C,15,4,13:00|14:00|15:00|16:00,4,15.1,15.1,59.18,10,5,1,9.27,0.0,0.0,9.8,60.5,Clear sky,24,live_official_api
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,open_meteo,Open-Meteo,2026-11-21,C,17,3,13:00|14:00|15:00,3,17.4,17.4,63.32,7,5,3,10.54,0.0,0.0,9.6,62.8,Clear sky,24,live_official_api
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,open_meteo,Open-Meteo,2026-11-22,C,17,1,14:00,1,16.7,16.7,62.06,2,10,2,12.96,6.0,0.0,15.1,56.3,Overcast,24,live_official_api
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,open_meteo,Open-Meteo,2026-11-23,C,15,3,13:00|14:00|15:00,3,14.7,14.7,58.46,2,10,1,12.42,35.0,0.6,8.1,77.0,Overcast,24,live_official_api
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,uk_met_office,UK Met Office,2026-11-17,C,14,3,00:00|01:00|12:00,2,13.8,13.8,56.84,10,11,1,12.65,100.0,4.2,16.9,90.7,Light drizzle,24,live_web_scrape+ukmo_model
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,uk_met_office,UK Met Office,2026-11-18,C,14,4,12:00|13:00|14:00|15:00,4,14.0,14.0,57.2,10,6,1,10.76,10.0,0.0,23.4,67.1,Sunny day,24,live_web_scrape+ukmo_model
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,uk_met_office,UK Met Office,2026-11-19,C,14,3,13:00|14:00|15:00,3,14.1,14.1,57.38,10,4,5,8.72,5.0,0.0,11.5,70.8,Clear night,24,live_web_scrape+ukmo_model
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,uk_met_office,UK Met Office,2026-11-20,C,14,4,12:00|13:00|14:00|15:00,4,14.4,14.4,57.92,8,5,7,9.07,5.0,0.0,10.1,71.9,Clear night,24,live_web_scrape+ukmo_model
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,uk_met_office,UK Met Office,2026-11-21,C,16,3,13:00|14:00|15:00,3,16.3,16.3,61.34,10,6,4,10.55,5.0,0.0,13.0,69.2,Clear night,24,live_web_scrape+ukmo_model
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,uk_met_office,UK Met Office,2026-11-22,C,16,5,12:00|13:00|14:00|15:00|16:00,5,16.3,16.3,61.34,8,10,3,12.94,5.0,0.0,14.0,65.4,Sunny intervals,24,live_web_scrape+ukmo_model
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,uk_met_office,UK Met Office,2026-11-23,C,17,3,13:00|14:00|15:00,3,17.0,17.0,62.6,8,11,2,13.34,20.0,4.8,7.2,86.2,Cloudy,24,live_web_scrape+ukmo_model
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,weather_com,The Weather Channel (weather.com),2026-11-17,C,12,1,17:00,1,12.0,12.0,53.6,5,11,6,11.14,24.0,0.0,17.0,93.9,Cloudy,7,live_web_api
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,weather_com,The Weather Channel (weather.com),2026-11-18,C,14,3,13:00|14:00|15:00,3,14.0,14.0,57.2,10,6,1,10.83,8.0,0.0,21.0,65.4,Cloudy,24,live_web_api
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,weather_com,The Weather Channel (weather.com),2026-11-19,C,15,1,15:00,1,15.0,15.0,59.0,10,3,2,8.58,8.0,0.0,10.0,66.8,Clear,24,live_web_api
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,weather_com,The Weather Channel (weather.com),2026-11-20,C,16,2,14:00|15:00,2,16.0,16.0,60.8,8,4,2,9.38,5.0,0.0,9.0,66.9,Sunny,24,live_web_api
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,weather_com,The Weather Channel (weather.com),2026-11-21,C,17,2,14:00|15:00,2,17.0,17.0,62.6,10,5,3,10.38,6.0,0.0,9.0,71.8,Clear,24,live_web_api
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,weather_com,The Weather Channel (weather.com),2026-11-22,C,17,3,14:00|15:00|16:00,3,17.0,17.0,62.6,10,8,3,12.29,4.0,0.0,13.0,68.6,Partly Cloudy,24,live_web_api
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,weather_com,The Weather Channel (weather.com),2026-11-23,C,15,3,13:00|14:00|15:00,3,15.0,15.0,59.0,5,11,5,12.54,21.0,0.0,7.0,77.8,Cloudy,24,live_web_api
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,weatherbit,Weatherbit,2026-11-17,C,13,6,00:00|01:00|02:00|03:00|04:00|05:00,6,13.3,13.3,55.94,10,11,4,11.96,100.0,3.9,15.5,91.6,Overcast,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,weatherbit,Weatherbit,2026-11-18,C,13,4,12:00|13:00|14:00|15:00,4,12.9,12.9,55.22,10,7,3,10.36,35.0,0.0,20.7,67.2,Overcast,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,weatherbit,Weatherbit,2026-11-19,C,13,4,13:00|14:00|15:00|16:00,4,13.0,13.0,55.4,10,4,1,8.38,0.0,0.0,11.8,62.9,Clear sky,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,weatherbit,Weatherbit,2026-11-20,C,15,2,14:00|15:00,2,14.9,14.9,58.82,10,4,3,9.31,0.0,0.0,11.9,69.8,Clear sky,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,weatherbit,Weatherbit,2026-11-21,C,16,3,13:00|14:00|15:00,3,16.0,16.0,60.8,10,7,6,10.66,0.0,0.0,7.3,72.7,Clear sky,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,weatherbit,Weatherbit,2026-11-22,C,15,2,14:00|15:00,2,14.6,14.6,58.28,3,9,9,11.29,0.0,0.0,12.7,73.6,Partly cloudy,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,weatherbit,Weatherbit,2026-11-23,C,14,4,14:00|15:00|16:00|17:00,4,14.0,14.0,57.2,3,9,1,11.42,23.0,0.3,5.8,86.5,Overcast,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,yr_no,Yr.no (MET Norway),2026-11-17,C,13,1,17:00,1,12.6,12.6,54.68,2,11,2,11.91,,0.0,17.28,83.0,Cloudy,7,live_official_api
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,yr_no,Yr.no (MET Norway),2026-11-18,C,14,5,11:00|12:00|13:00|14:00|15:00,5,14.2,14.2,57.56,8,6,2,11.06,,0.0,24.84,52.5,Cloudy,24,live_official_api
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,yr_no,Yr.no (MET Norway),2026-11-19,C,15,1,14:00,1,14.6,14.6,58.28,10,3,1,8.56,,0.2,14.4,56.0,Clearsky Night,24,live_official_api
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,yr_no,Yr.no (MET Norway),2026-11-20,C,15,1,14:00,1,14.9,14.9,58.82,10,5,2,8.93,,0.0,8.28,64.0,Cloudy,24,live_official_api
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,yr_no,Yr.no (MET Norway),2026-11-21,C,18,1,14:00,1,17.7,17.7,63.86,8,7,9,10.64,,0.0,9.36,64.1,Clearsky Day,24,live_official_api
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,yr_no,Yr.no (MET Norway),2026-11-22,C,16,1,14:00,1,16.1,16.1,60.98,8,11,9,12.67,,0.12,12.6,53.8,Cloudy,24,live_official_api
-2026-11-17T09:00:06Z,Wuhan,wuhan,ZHHH,yr_no,Yr.no (MET Norway),2026-11-23,C,13,1,14:00,1,12.5,12.5,54.5,8,9,3,11.44,,2.64,9.36,78.7,Cloudy,24,live_official_api
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,aerisweather,AerisWeather (Xweather),2026-11-17,C,14,3,00:00|13:00|14:00,2,14.4,14.4,57.92,11,11,6,12.35,100.0,5.6,21.3,85.1,Overcast,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,aerisweather,AerisWeather (Xweather),2026-11-18,C,14,1,12:00,1,13.5,13.5,56.3,3,7,1,10.64,3.0,0.0,26.6,60.3,Overcast,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,aerisweather,AerisWeather (Xweather),2026-11-19,C,14,1,15:00,1,13.7,13.7,56.66,11,5,1,8.99,0.0,0.0,15.6,49.2,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,aerisweather,AerisWeather (Xweather),2026-11-20,C,15,3,14:00|15:00|16:00,3,14.7,14.7,58.46,11,7,4,10.57,0.0,0.0,15.4,49.5,Overcast,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,aerisweather,AerisWeather (Xweather),2026-11-21,C,17,1,15:00,1,16.5,16.5,61.7,9,8,3,11.98,0.0,0.0,11.5,51.7,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,aerisweather,AerisWeather (Xweather),2026-11-22,C,16,5,12:00|13:00|14:00|15:00|16:00,5,16.3,16.3,61.34,3,9,1,12.81,0.0,0.0,20.1,56.9,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,aerisweather,AerisWeather (Xweather),2026-11-23,C,15,3,14:00|15:00|16:00,3,14.8,14.8,58.64,3,11,1,12.84,26.0,0.0,10.8,65.8,Overcast,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,apple_weather,Apple Weather (WeatherKit),2026-11-17,C,12,5,18:00|19:00|20:00|21:00|22:00,5,12.21,12.21,53.98,2,11,1,11.73,29.0,0.85,16.3,88.3,Cloudy,6,live_apple_weatherkit_feed
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,apple_weather,Apple Weather (WeatherKit),2026-11-18,C,13,5,11:00|12:00|13:00|14:00|15:00,5,13.4,13.4,56.12,11,8,4,10.92,32.0,0.8,18.98,66.9,PartlyCloudy,24,live_apple_weatherkit_feed
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,apple_weather,Apple Weather (WeatherKit),2026-11-19,C,14,1,14:00,1,13.5,13.5,56.3,11,6,4,10.0,0.0,0.0,11.21,61.0,Clear,24,live_apple_weatherkit_feed
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,apple_weather,Apple Weather (WeatherKit),2026-11-20,C,13,2,14:00|15:00,2,12.67,12.67,54.81,8,9,3,10.77,0.0,0.0,9.26,62.0,Clear,24,live_apple_weatherkit_feed
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,apple_weather,Apple Weather (WeatherKit),2026-11-21,C,18,1,17:00,1,17.55,17.55,63.59,11,9,4,13.38,0.0,0.0,8.19,58.2,Clear,24,live_apple_weatherkit_feed
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,apple_weather,Apple Weather (WeatherKit),2026-11-22,C,15,3,13:00|14:00|15:00,3,15.46,15.46,59.83,11,12,7,13.12,7.0,0.01,12.44,64.6,MostlyCloudy,24,live_apple_weatherkit_feed
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,apple_weather,Apple Weather (WeatherKit),2026-11-23,C,16,4,13:00|14:00|15:00|16:00,4,16.07,16.07,60.93,9,8,2,12.12,30.0,3.48,5.28,83.2,MostlyCloudy,24,live_apple_weatherkit_feed
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,foreca,Foreca,2026-11-17,C,11,5,18:00|19:00|20:00|22:00|23:00,3,11.0,11.0,52.0,1,10,1,10.83,54.0,0.08,18.0,83.2,Overcast,6,live_web_scrape
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,foreca,Foreca,2026-11-18,C,12,6,11:00|12:00|13:00|14:00|15:00|16:00,6,12.0,12.0,54.0,1,7,2,10.25,32.0,0.0,22.0,51.6,Clear,24,live_web_scrape
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,foreca,Foreca,2026-11-19,C,13,4,13:00|14:00|15:00|16:00,4,13.0,13.0,55.0,1,4,1,8.58,4.0,0.22,14.0,55.0,Clear,24,live_web_scrape
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,foreca,Foreca,2026-11-20,C,15,1,16:00,1,15.0,15.0,59.0,1,5,1,9.58,2.0,0.0,11.0,59.2,Clear,24,live_web_scrape
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,foreca,Foreca,2026-11-21,C,16,1,14:00,1,16.0,16.0,61.0,11,6,1,10.88,2.0,0.0,11.0,62.0,Clear,24,live_web_scrape
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,foreca,Foreca,2026-11-22,C,16,1,14:00,1,16.0,16.0,61.0,9,10,6,12.58,9.0,0.0,14.0,55.7,Overcast,24,live_web_scrape
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,foreca,Foreca,2026-11-23,C,15,4,12:00|13:00|14:00|15:00,4,15.0,15.0,59.0,1,11,6,12.67,55.0,1.62,11.0,78.7,Overcast and light rain,24,live_web_scrape
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,meteoblue,meteoblue,2026-11-17,C,15,3,12:00|13:00|14:00,3,15.3,15.3,59.54,2,11,2,13.14,100.0,3.0,17.0,84.3,Overcast,24,multimodel_nwp_feed
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,meteoblue,meteoblue,2026-11-18,C,14,5,11:00|12:00|13:00|14:00|15:00,5,14.3,14.3,57.74,9,6,1,11.07,6.0,0.0,23.2,52.5,Overcast,24,multimodel_nwp_feed
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,meteoblue,meteoblue,2026-11-19,C,15,1,14:00,1,14.7,14.7,58.46,11,4,3,8.64,0.0,0.2,13.9,57.1,Clear sky,24,multimodel_nwp_feed
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,meteoblue,meteoblue,2026-11-20,C,15,4,13:00|14:00|15:00|16:00,4,15.1,15.1,59.18,11,5,1,9.27,0.0,0.0,9.8,60.5,Clear sky,24,multimodel_nwp_feed
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,meteoblue,meteoblue,2026-11-21,C,17,3,13:00|14:00|15:00,3,17.4,17.4,63.32,8,5,3,10.54,0.0,0.0,9.6,62.8,Clear sky,24,multimodel_nwp_feed
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,meteoblue,meteoblue,2026-11-22,C,17,1,14:00,1,16.7,16.7,62.06,3,10,2,12.96,6.0,0.0,15.1,56.3,Overcast,24,multimodel_nwp_feed
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,meteoblue,meteoblue,2026-11-23,C,15,3,13:00|14:00|15:00,3,14.7,14.7,58.46,3,10,1,12.42,35.0,0.6,8.1,77.0,Overcast,24,multimodel_nwp_feed
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,msn_weather,Microsoft Weather (MSN),2026-11-17,C,12,3,18:00|19:00|20:00,3,12.0,12.0,53.6,1,11,3,11.5,30.0,0.0,11.0,90.5,Cloudy,6,live_web_scrape
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,msn_weather,Microsoft Weather (MSN),2026-11-18,C,14,1,15:00,1,14.0,14.0,57.2,11,6,1,10.75,16.0,0.0,17.0,69.2,Mostly cloudy,24,live_web_scrape
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,msn_weather,Microsoft Weather (MSN),2026-11-19,C,15,1,15:00,1,15.0,15.0,59.0,11,3,3,8.62,1.0,0.0,11.0,68.2,Mostly clear,24,live_web_scrape
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,msn_weather,Microsoft Weather (MSN),2026-11-20,C,16,2,15:00|16:00,2,16.0,16.0,60.8,9,5,3,9.54,0.0,0.0,10.0,58.8,Mostly clear,24,live_web_scrape
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,msn_weather,Microsoft Weather (MSN),2026-11-21,C,18,2,14:00|15:00,2,18.0,18.0,64.4,11,6,5,11.08,0.0,0.0,8.0,65.6,Mostly clear,24,live_web_scrape
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,msn_weather,Microsoft Weather (MSN),2026-11-22,C,18,1,15:00,1,18.0,18.0,64.4,1,9,2,12.96,1.0,0.0,12.0,61.1,Mostly clear,24,live_web_scrape
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,msn_weather,Microsoft Weather (MSN),2026-11-23,C,15,1,16:00,1,15.0,15.0,59.0,1,10,1,12.92,11.0,0.0,6.0,69.0,Mostly cloudy,24,live_web_scrape
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,open_meteo,Open-Meteo,2026-11-17,C,15,3,12:00|13:00|14:00,3,15.3,15.3,59.54,3,11,2,13.14,100.0,3.0,17.0,84.3,Overcast,24,live_official_api
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,open_meteo,Open-Meteo,2026-11-18,C,14,5,11:00|12:00|13:00|14:00|15:00,5,14.3,14.3,57.74,9,6,1,11.07,6.0,0.0,23.2,52.5,Overcast,24,live_official_api
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,open_meteo,Open-Meteo,2026-11-19,C,15,1,14:00,1,14.7,14.7,58.46,11,4,3,8.64,0.0,0.2,13.9,57.1,Clear sky,24,live_official_api
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,open_meteo,Open-Meteo,2026-11-20,C,15,4,13:00|14:00|15:00|16:00,4,15.1,15.1,59.18,11,5,1,9.27,0.0,0.0,9.8,60.5,Clear sky,24,live_official_api
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,open_meteo,Open-Meteo,2026-11-21,C,17,3,13:00|14:00|15:00,3,17.4,17.4,63.32,8,5,3,10.54,0.0,0.0,9.6,62.8,Clear sky,24,live_official_api
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,open_meteo,Open-Meteo,2026-11-22,C,17,1,14:00,1,16.7,16.7,62.06,3,10,2,12.96,6.0,0.0,15.1,56.3,Overcast,24,live_official_api
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,open_meteo,Open-Meteo,2026-11-23,C,15,3,13:00|14:00|15:00,3,14.7,14.7,58.46,3,10,1,12.42,35.0,0.6,8.1,77.0,Overcast,24,live_official_api
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,uk_met_office,UK Met Office,2026-11-17,C,14,3,00:00|01:00|12:00,2,13.8,13.8,56.84,11,11,1,12.65,100.0,4.2,16.9,90.7,Light drizzle,24,live_web_scrape+ukmo_model
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,uk_met_office,UK Met Office,2026-11-18,C,14,4,12:00|13:00|14:00|15:00,4,14.0,14.0,57.2,11,6,1,10.76,10.0,0.0,23.4,67.1,Sunny day,24,live_web_scrape+ukmo_model
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,uk_met_office,UK Met Office,2026-11-19,C,14,3,13:00|14:00|15:00,3,14.1,14.1,57.38,11,4,5,8.72,5.0,0.0,11.5,70.8,Clear night,24,live_web_scrape+ukmo_model
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,uk_met_office,UK Met Office,2026-11-20,C,14,4,12:00|13:00|14:00|15:00,4,14.4,14.4,57.92,9,5,7,9.07,5.0,0.0,10.1,71.9,Clear night,24,live_web_scrape+ukmo_model
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,uk_met_office,UK Met Office,2026-11-21,C,16,3,13:00|14:00|15:00,3,16.3,16.3,61.34,11,6,4,10.55,5.0,0.0,13.0,69.2,Clear night,24,live_web_scrape+ukmo_model
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,uk_met_office,UK Met Office,2026-11-22,C,16,5,12:00|13:00|14:00|15:00|16:00,5,16.3,16.3,61.34,9,10,3,12.94,10.0,0.0,14.0,65.4,Sunny intervals,24,live_web_scrape+ukmo_model
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,uk_met_office,UK Met Office,2026-11-23,C,17,3,13:00|14:00|15:00,3,17.0,17.0,62.6,9,11,2,13.34,30.0,4.8,7.2,86.2,Cloudy,24,live_web_scrape+ukmo_model
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,weather_com,The Weather Channel (weather.com),2026-11-17,C,11,6,18:00|19:00|20:00|21:00|22:00|23:00,6,11.0,11.0,51.8,1,11,6,11.0,36.0,0.07,17.0,93.7,Cloudy,6,live_web_api
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,weather_com,The Weather Channel (weather.com),2026-11-18,C,14,3,13:00|14:00|15:00,3,14.0,14.0,57.2,11,6,1,10.83,7.0,0.0,21.0,65.4,Cloudy,24,live_web_api
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,weather_com,The Weather Channel (weather.com),2026-11-19,C,15,1,15:00,1,15.0,15.0,59.0,11,3,2,8.58,8.0,0.0,10.0,66.8,Clear,24,live_web_api
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,weather_com,The Weather Channel (weather.com),2026-11-20,C,16,2,14:00|15:00,2,16.0,16.0,60.8,9,4,2,9.38,5.0,0.0,9.0,66.9,Sunny,24,live_web_api
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,weather_com,The Weather Channel (weather.com),2026-11-21,C,17,2,14:00|15:00,2,17.0,17.0,62.6,11,5,3,10.38,6.0,0.0,9.0,71.8,Clear,24,live_web_api
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,weather_com,The Weather Channel (weather.com),2026-11-22,C,17,3,14:00|15:00|16:00,3,17.0,17.0,62.6,11,8,3,12.29,4.0,0.0,13.0,68.7,Partly Cloudy,24,live_web_api
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,weather_com,The Weather Channel (weather.com),2026-11-23,C,15,3,13:00|14:00|15:00,3,15.0,15.0,59.0,6,11,5,12.54,21.0,0.0,7.0,77.8,Cloudy,24,live_web_api
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,weatherbit,Weatherbit,2026-11-17,C,13,6,00:00|01:00|02:00|03:00|04:00|05:00,6,13.3,13.3,55.94,11,11,5,11.95,100.0,3.9,15.5,91.7,Overcast,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,weatherbit,Weatherbit,2026-11-18,C,13,4,12:00|13:00|14:00|15:00,4,13.3,13.3,55.94,11,7,2,10.5,35.0,0.3,20.7,66.6,Overcast,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,weatherbit,Weatherbit,2026-11-19,C,13,3,14:00|15:00|16:00,3,12.8,12.8,55.04,11,4,1,8.48,0.0,0.0,11.2,63.8,Clear sky,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,weatherbit,Weatherbit,2026-11-20,C,14,4,13:00|14:00|15:00|16:00,4,14.2,14.2,57.56,1,5,5,9.1,0.0,0.0,10.8,67.2,Clear sky,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,weatherbit,Weatherbit,2026-11-21,C,16,2,14:00|15:00,2,15.7,15.7,60.26,11,6,2,10.39,0.0,0.0,6.2,73.2,Clear sky,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,weatherbit,Weatherbit,2026-11-22,C,15,1,15:00,1,14.6,14.6,58.28,4,8,6,10.78,0.0,0.0,11.4,74.3,Partly cloudy,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,weatherbit,Weatherbit,2026-11-23,C,14,4,14:00|15:00|16:00|17:00,4,14.0,14.0,57.2,4,9,1,11.42,23.0,0.3,5.8,86.5,Overcast,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,yr_no,Yr.no (MET Norway),2026-11-17,C,12,4,18:00|19:00|20:00|23:00,3,12.3,12.3,54.14,1,11,2,11.8,,0.0,17.28,82.5,Cloudy,6,live_official_api
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,yr_no,Yr.no (MET Norway),2026-11-18,C,14,5,11:00|12:00|13:00|14:00|15:00,5,14.2,14.2,57.56,9,6,2,11.06,,0.0,24.84,52.5,Cloudy,24,live_official_api
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,yr_no,Yr.no (MET Norway),2026-11-19,C,15,1,14:00,1,14.6,14.6,58.28,11,3,1,8.56,,0.2,14.4,56.0,Clearsky Night,24,live_official_api
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,yr_no,Yr.no (MET Norway),2026-11-20,C,15,1,14:00,1,14.9,14.9,58.82,11,5,2,8.93,,0.0,8.28,64.0,Cloudy,24,live_official_api
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,yr_no,Yr.no (MET Norway),2026-11-21,C,18,1,14:00,1,17.7,17.7,63.86,9,7,9,10.64,,0.0,9.36,64.1,Clearsky Day,24,live_official_api
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,yr_no,Yr.no (MET Norway),2026-11-22,C,16,1,14:00,1,16.1,16.1,60.98,9,11,9,12.67,,0.12,12.6,53.8,Cloudy,24,live_official_api
+2026-11-17T10:00:06Z,Wuhan,wuhan,ZHHH,yr_no,Yr.no (MET Norway),2026-11-23,C,13,1,14:00,1,12.5,12.5,54.5,9,9,3,11.44,,2.64,9.36,78.7,Cloudy,24,live_official_api

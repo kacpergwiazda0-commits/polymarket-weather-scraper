@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-17T09:00:06Z",
+  "scraped_at_utc": "2026-11-17T10:00:06Z",
   "city": "Manila",
   "city_slug": "manila",
   "station_icao": "RPLL",
@@ -18,20 +18,20 @@
     {
       "date": "2026-11-17",
       "unit": "C",
-      "highest_temperature": 32,
+      "highest_temperature": 31,
       "highest_temperature_duration_hours": 1,
       "highest_temperature_hours": [
-        "17:00"
+        "18:00"
       ],
       "highest_temperature_max_consecutive_hours": 1,
-      "highest_temperature_exact": 32.38,
+      "highest_temperature_exact": 30.72,
       "highest_temperature_exact_hours": [
-        "17:00"
+        "18:00"
       ],
-      "highest_temperature_c": 32.38,
-      "highest_temperature_f": 90.28,
+      "highest_temperature_c": 30.72,
+      "highest_temperature_f": 87.3,
       "consecutive_scrapes_with_same_high": 1,
-      "high_first_predicted_at_utc": "2026-11-17T09:00:06Z",
+      "high_first_predicted_at_utc": "2026-11-17T10:00:06Z",
       "lowest_temperature": 26,
       "lowest_temperature_duration_hours": 2,
       "lowest_temperature_hours": [
@@ -39,12 +39,12 @@
         "23:00"
       ],
       "lowest_temperature_exact": 25.91,
-      "avg_temperature": 28.45,
-      "max_feels_like": 33,
+      "avg_temperature": 27.79,
+      "max_feels_like": 31,
       "min_feels_like": 27,
       "max_humidity_pct": 78.0,
-      "min_humidity_pct": 56.0,
-      "avg_humidity_pct": 68.0,
+      "min_humidity_pct": 60.0,
+      "avg_humidity_pct": 70.0,
       "max_precip_prob_pct": 0.0,
       "total_precip_mm": 0.0,
       "total_rain_mm": 0.0,
@@ -53,11 +53,11 @@
       "max_wind_speed_mph": 5.16,
       "max_wind_gust_kmh": 23.94,
       "max_wind_gust_mph": 14.88,
-      "avg_cloud_cover_pct": 47.9,
-      "avg_pressure_hpa": 1014.2,
+      "avg_cloud_cover_pct": 49.2,
+      "avg_pressure_hpa": 1014.4,
       "max_uv_index": 0.0,
       "dominant_condition": "PartlyCloudy",
-      "hours_analyzed": 7
+      "hours_analyzed": 6
     },
     {
       "date": "2026-11-18",
@@ -78,7 +78,7 @@
       ],
       "highest_temperature_c": 33.21,
       "highest_temperature_f": 91.78,
-      "consecutive_scrapes_with_same_high": 8,
+      "consecutive_scrapes_with_same_high": 9,
       "high_first_predicted_at_utc": "2026-11-16T23:40:52Z",
       "lowest_temperature": 24,
       "lowest_temperature_duration_hours": 3,
@@ -123,7 +123,7 @@
       ],
       "highest_temperature_c": 33.9,
       "highest_temperature_f": 93.02,
-      "consecutive_scrapes_with_same_high": 10,
+      "consecutive_scrapes_with_same_high": 11,
       "high_first_predicted_at_utc": "2026-11-16T15:26:25Z",
       "lowest_temperature": 25,
       "lowest_temperature_duration_hours": 2,
@@ -170,7 +170,7 @@
       ],
       "highest_temperature_c": 32.48,
       "highest_temperature_f": 90.46,
-      "consecutive_scrapes_with_same_high": 10,
+      "consecutive_scrapes_with_same_high": 11,
       "high_first_predicted_at_utc": "2026-11-16T15:26:25Z",
       "lowest_temperature": 25,
       "lowest_temperature_duration_hours": 3,
@@ -218,7 +218,7 @@
       ],
       "highest_temperature_c": 32.46,
       "highest_temperature_f": 90.43,
-      "consecutive_scrapes_with_same_high": 2,
+      "consecutive_scrapes_with_same_high": 3,
       "high_first_predicted_at_utc": "2026-11-17T08:22:59Z",
       "lowest_temperature": 25,
       "lowest_temperature_duration_hours": 5,
@@ -269,7 +269,7 @@
       ],
       "highest_temperature_c": 32.38,
       "highest_temperature_f": 90.28,
-      "consecutive_scrapes_with_same_high": 10,
+      "consecutive_scrapes_with_same_high": 11,
       "high_first_predicted_at_utc": "2026-11-16T15:26:25Z",
       "lowest_temperature": 24,
       "lowest_temperature_duration_hours": 1,
@@ -315,7 +315,7 @@
       ],
       "highest_temperature_c": 32.45,
       "highest_temperature_f": 90.41,
-      "consecutive_scrapes_with_same_high": 8,
+      "consecutive_scrapes_with_same_high": 9,
       "high_first_predicted_at_utc": "2026-11-16T23:40:52Z",
       "lowest_temperature": 24,
       "lowest_temperature_duration_hours": 4,
@@ -349,40 +349,6 @@
   ],
   "hourly_7day_forecast": [
     {
-      "time_local": "2026-11-17T17:00",
-      "date_local": "2026-11-17",
-      "hour_local": "17:00",
-      "time_utc": "2026-11-17T09:00:00Z",
-      "temperature_c": 32.38,
-      "temperature_f": 90.28,
-      "temperature_market": 32,
-      "temperature_market_raw": 32.38,
-      "feels_like_c": 33.45,
-      "feels_like_f": 92.21,
-      "feels_like_market": 33,
-      "dew_point_c": 22.48,
-      "dew_point_f": 72.46,
-      "humidity_pct": 56.0,
-      "precip_prob_pct": 0.0,
-      "precip_mm": 0.0,
-      "rain_mm": 0.0,
-      "snow_cm": 0.0,
-      "wind_speed_kmh": 6.71,
-      "wind_speed_mph": 4.17,
-      "wind_gust_kmh": 23.84,
-      "wind_gust_mph": 14.81,
-      "wind_direction_deg": 99,
-      "wind_direction_cardinal": "E",
-      "cloud_cover_pct": 40.0,
-      "pressure_hpa": 1012.7,
-      "visibility_km": 31.88,
-      "uv_index": 0.0,
-      "air_quality_index": null,
-      "condition": "PartlyCloudy",
-      "is_daily_high_hour": true,
-      "is_daily_low_hour": false
-    },
-    {
       "time_local": "2026-11-17T18:00",
       "date_local": "2026-11-17",
       "hour_local": "18:00",
@@ -413,7 +379,7 @@
       "uv_index": 0.0,
       "air_quality_index": null,
       "condition": "MostlyClear",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": false
     },
     {
@@ -5484,7 +5450,7 @@
     }
   ],
   "extra_metadata": {
-    "hours_count": 231,
+    "hours_count": 230,
     "reported_location": "Manila, Philippines"
   }
 }

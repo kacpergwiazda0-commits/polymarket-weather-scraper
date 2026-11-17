@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-17T10:00:06Z",
+  "city": "Buenos Aires",
+  "city_slug": "buenos_aires",
+  "station_icao": "SAEZ",
+  "station_name": "Ministro Pistarini International Airport",
+  "latitude": -34.8222,
+  "longitude": -58.5358,
+  "timezone": "America/Argentina/Buenos_Aires",
+  "polymarket_unit": "C",
+  "website_id": "accuweather",
+  "website_name": "AccuWeather",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.accuweather.com/en/ar/barrio-esteban-echeverria/1864638/hourly-weather-forecast/1864638?day=1&unit=c failed after 3 attempts: HTTP Error 403: Forbidden",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}
