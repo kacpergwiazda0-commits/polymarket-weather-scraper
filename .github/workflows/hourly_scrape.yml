@@ -2,8 +2,14 @@ name: Hourly Polymarket Weather Forecast Scraper
 
 on:
   schedule:
-    # Runs at minute 5 of every hour UTC (avoids top-of-hour GitHub Actions cron congestion)
+    # Fallback cron triggers (if no runner is currently active, starts a new 5-hour cycle)
     - cron: '5 * * * *'
+    - cron: '35 * * * *'
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/hourly_scrape.yml'
   workflow_dispatch:
     inputs:
       cities:
@@ -25,19 +31,19 @@ concurrency:
 jobs:
   scrape-forecasts:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 330
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          fetch-depth: 5
 
       - name: Set up Python 3.11
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Run 55-city x 11-website 7-day hourly forecast scraper
+      - name: Run hourly forecast scraper loop (exact top-of-hour execution)
         env:
           WEATHERBIT_API_KEY: ${{ secrets.WEATHERBIT_API_KEY }}
           AERIS_CLIENT_ID: ${{ secrets.AERIS_CLIENT_ID }}
@@ -47,22 +53,47 @@ jobs:
           ACCUWEATHER_API_KEY: ${{ secrets.ACCUWEATHER_API_KEY }}
           TWC_API_KEY: ${{ secrets.TWC_API_KEY }}
         run: |
-          python3 run_scraper.py \
-            --output-dir data \
-            --workers 16 \
-            --cities "${{ inputs.cities }}" \
-            --websites "${{ inputs.websites }}"
-
-      - name: Commit and push scraped forecast data
-        run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/
-          if git diff --cached --quiet; then
-            echo "No forecast changes to commit."
-          else
-            TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
-            git commit -m "chore(data): hourly weather forecast scrape ${TIMESTAMP}"
+
+          for CYCLE in 1 2 3 4 5; do
+            echo "=== Cycle ${CYCLE}/5 at $(date -u +"%Y-%m-%dT%H:%M:%SZ") ==="
+            git fetch origin main --depth=5 || true
             git pull --rebase origin main || true
-            git push origin HEAD:main
-          fi
+
+            LAST_DATA_TS=$(git log -1 --grep="chore(data):" --format=%ct origin/main 2>/dev/null || echo 0)
+            if [ -z "$LAST_DATA_TS" ]; then LAST_DATA_TS=0; fi
+            LAST_HOUR=$(date -u -d "@${LAST_DATA_TS}" +"%Y-%m-%d-%H" 2>/dev/null || echo "none")
+            CURR_HOUR=$(date -u +"%Y-%m-%d-%H")
+
+            echo "Last data scrape hour: ${LAST_HOUR} | Current UTC hour: ${CURR_HOUR}"
+
+            if [ "$LAST_HOUR" != "$CURR_HOUR" ] || [ "${{ github.event_name }}" = "workflow_dispatch" -a "$CYCLE" = "1" ]; then
+              python3 run_scraper.py \
+                --output-dir data \
+                --workers 16 \
+                --cities "${{ inputs.cities }}" \
+                --websites "${{ inputs.websites }}"
+
+              git add data/
+              if git diff --cached --quiet; then
+                echo "No forecast changes to commit."
+              else
+                TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+                git commit -m "chore(data): hourly weather forecast scrape ${TIMESTAMP}"
+                git pull --rebase origin main || true
+                git push origin HEAD:main
+                echo "Committed and pushed scrape at ${TIMESTAMP}"
+              fi
+            else
+              echo "Current UTC hour (${CURR_HOUR}) already scraped; waiting for next top-of-hour."
+            fi
+
+            if [ "$CYCLE" -lt 5 ]; then
+              NOW_EPOCH=$(date -u +%s)
+              SLEEP_SECS=$(( 3600 - (NOW_EPOCH % 3600) + 5 ))
+              NEXT_RUN=$(date -u -d "@$((NOW_EPOCH + SLEEP_SECS))" +"%Y-%m-%dT%H:%M:%SZ")
+              echo "Sleeping ${SLEEP_SECS}s until next exact top-of-hour (${NEXT_RUN})..."
+              sleep "$SLEEP_SECS"
+            fi
+          done
