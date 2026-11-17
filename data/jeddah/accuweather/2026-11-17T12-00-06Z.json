@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-17T12:00:06Z",
+  "city": "Jeddah",
+  "city_slug": "jeddah",
+  "station_icao": "OEJN",
+  "station_name": "King Abdulaziz International Airport",
+  "latitude": 21.6796,
+  "longitude": 39.1565,
+  "timezone": "Asia/Riyadh",
+  "polymarket_unit": "C",
+  "website_id": "accuweather",
+  "website_name": "AccuWeather",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.accuweather.com/en/sa/al-mohammdeyyah/293895/hourly-weather-forecast/293895?day=1&unit=c failed after 3 attempts: HTTP Error 403: Forbidden",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

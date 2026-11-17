@@ -1,36 +1,36 @@
 scraped_at_utc,city,city_slug,station_icao,website_id,website_name,date,unit,highest_temperature,highest_temperature_duration_hours,highest_temperature_hours,highest_temperature_max_consecutive_hours,highest_temperature_exact,highest_temperature_c,highest_temperature_f,consecutive_scrapes_with_same_high,lowest_temperature,lowest_temperature_duration_hours,avg_temperature,max_precip_prob_pct,total_precip_mm,max_wind_speed_kmh,avg_humidity_pct,dominant_condition,hours_analyzed,source_mode
-2026-11-17T11:00:06Z,Houston,houston,KHOU,apple_weather,Apple Weather (WeatherKit),2026-11-17,F,68,2,15:00|16:00,2,68.04,20.02,68.04,10,45,1,58.02,0.0,0.0,12.83,63.6,Clear,19,live_apple_weatherkit_feed
-2026-11-17T11:00:06Z,Houston,houston,KHOU,apple_weather,Apple Weather (WeatherKit),2026-11-18,F,72,2,15:00|16:00,2,72.01,22.23,72.01,6,51,1,60.6,0.0,0.0,10.26,80.2,MostlyCloudy,24,live_apple_weatherkit_feed
-2026-11-17T11:00:06Z,Houston,houston,KHOU,apple_weather,Apple Weather (WeatherKit),2026-11-19,F,75,1,14:00,1,74.52,23.62,74.52,10,56,2,64.65,0.0,0.0,10.41,79.5,Cloudy,24,live_apple_weatherkit_feed
-2026-11-17T11:00:06Z,Houston,houston,KHOU,apple_weather,Apple Weather (WeatherKit),2026-11-20,F,76,2,14:00|15:00,2,75.81,24.34,75.81,1,59,4,66.48,0.0,0.0,8.8,79.8,PartlyCloudy,24,live_apple_weatherkit_feed
-2026-11-17T11:00:06Z,Houston,houston,KHOU,apple_weather,Apple Weather (WeatherKit),2026-11-21,F,76,1,15:00,1,75.79,24.33,75.79,1,60,1,67.29,0.0,0.0,5.59,79.1,PartlyCloudy,24,live_apple_weatherkit_feed
-2026-11-17T11:00:06Z,Houston,houston,KHOU,apple_weather,Apple Weather (WeatherKit),2026-11-22,F,75,2,14:00|15:00,2,75.11,23.95,75.11,4,63,3,67.63,0.0,0.0,7.75,78.6,MostlyCloudy,24,live_apple_weatherkit_feed
-2026-11-17T11:00:06Z,Houston,houston,KHOU,apple_weather,Apple Weather (WeatherKit),2026-11-23,F,72,3,13:00|14:00|15:00,3,72.21,22.34,72.21,4,57,1,64.82,15.0,0.32,10.67,73.7,MostlyClear,24,live_apple_weatherkit_feed
-2026-11-17T11:00:06Z,Houston,houston,KHOU,foreca,Foreca,2026-11-17,F,68,2,15:00|16:00,2,68.0,20.0,68.0,8,48,2,59.32,2.0,0.0,18.0,54.9,Clear,19,live_web_scrape
-2026-11-17T11:00:06Z,Houston,houston,KHOU,foreca,Foreca,2026-11-18,F,72,2,15:00|16:00,2,72.0,22.0,72.0,2,57,4,63.21,2.0,0.0,18.0,74.4,Partly cloudy,24,live_web_scrape
-2026-11-17T11:00:06Z,Houston,houston,KHOU,foreca,Foreca,2026-11-19,F,73,2,15:00|16:00,2,73.0,23.0,73.0,8,59,3,65.58,2.0,0.0,18.0,75.5,Cloudy,24,live_web_scrape
-2026-11-17T11:00:06Z,Houston,houston,KHOU,foreca,Foreca,2026-11-20,F,73,5,13:00|14:00|15:00|16:00|17:00,5,73.0,23.0,73.0,3,61,3,67.21,6.0,0.06,18.0,77.1,Clear,24,live_web_scrape
-2026-11-17T11:00:06Z,Houston,houston,KHOU,foreca,Foreca,2026-11-21,F,75,2,15:00|16:00,2,75.0,24.0,75.0,12,63,3,68.25,15.0,0.0,14.0,80.8,Clear,24,live_web_scrape
-2026-11-17T11:00:06Z,Houston,houston,KHOU,foreca,Foreca,2026-11-22,F,75,1,16:00,1,75.0,24.0,75.0,2,64,6,68.25,30.0,0.6,18.0,75.7,Mostly clear,24,live_web_scrape
-2026-11-17T11:00:06Z,Houston,houston,KHOU,foreca,Foreca,2026-11-23,F,72,1,15:00,1,72.0,22.0,72.0,4,59,2,64.0,41.0,0.1,11.0,63.2,Clear,24,live_web_scrape
-2026-11-17T11:00:06Z,Houston,houston,KHOU,msn_weather,Microsoft Weather (MSN),2026-11-17,F,69,1,15:00,1,69.0,20.56,69.0,4,50,2,59.74,0.0,0.0,11.27,54.6,Sunny,19,live_web_scrape
-2026-11-17T11:00:06Z,Houston,houston,KHOU,msn_weather,Microsoft Weather (MSN),2026-11-18,F,72,1,15:00,1,72.0,22.22,72.0,2,54,1,62.04,1.0,0.0,12.87,77.0,Mostly clear,24,live_web_scrape
-2026-11-17T11:00:06Z,Houston,houston,KHOU,msn_weather,Microsoft Weather (MSN),2026-11-19,F,74,1,16:00,1,74.0,23.33,74.0,4,57,1,64.29,1.0,0.0,12.87,83.5,Mostly clear,24,live_web_scrape
-2026-11-17T11:00:06Z,Houston,houston,KHOU,msn_weather,Microsoft Weather (MSN),2026-11-20,F,75,1,16:00,1,75.0,23.89,75.0,10,56,1,64.21,1.0,0.0,11.27,86.6,Clear,24,live_web_scrape
-2026-11-17T11:00:06Z,Houston,houston,KHOU,msn_weather,Microsoft Weather (MSN),2026-11-21,F,75,3,14:00|15:00|16:00,3,75.0,23.89,75.0,4,57,3,65.12,3.0,0.0,11.27,86.8,Mostly sunny,24,live_web_scrape
-2026-11-17T11:00:06Z,Houston,houston,KHOU,msn_weather,Microsoft Weather (MSN),2026-11-22,F,75,2,15:00|16:00,2,75.0,23.89,75.0,2,58,1,66.54,8.0,0.0,12.87,76.9,Clear,24,live_web_scrape
-2026-11-17T11:00:06Z,Houston,houston,KHOU,msn_weather,Microsoft Weather (MSN),2026-11-23,F,70,1,14:00,1,70.0,21.11,70.0,2,53,2,61.29,14.0,0.0,14.48,53.2,Sunny,24,live_web_scrape
-2026-11-17T11:00:06Z,Houston,houston,KHOU,weather_com,The Weather Channel (weather.com),2026-11-17,F,68,3,14:00|15:00|16:00,3,68.0,20.0,68.0,12,51,2,60.44,2.0,0.0,17.7,52.4,Sunny,18,live_web_api
-2026-11-17T11:00:06Z,Houston,houston,KHOU,weather_com,The Weather Channel (weather.com),2026-11-18,F,72,2,14:00|15:00,2,72.0,22.22,72.0,5,55,3,62.88,7.0,0.0,14.48,74.8,Partly Cloudy,24,live_web_api
-2026-11-17T11:00:06Z,Houston,houston,KHOU,weather_com,The Weather Channel (weather.com),2026-11-19,F,75,3,13:00|14:00|15:00,3,75.0,23.89,75.0,9,59,2,66.38,8.0,0.0,16.09,75.3,Mostly Cloudy,24,live_web_api
-2026-11-17T11:00:06Z,Houston,houston,KHOU,weather_com,The Weather Channel (weather.com),2026-11-20,F,76,1,15:00,1,76.0,24.44,76.0,4,60,2,67.29,7.0,0.0,12.87,76.2,Partly Cloudy,24,live_web_api
-2026-11-17T11:00:06Z,Houston,houston,KHOU,weather_com,The Weather Channel (weather.com),2026-11-21,F,76,1,15:00,1,76.0,24.44,76.0,4,62,2,68.5,21.0,0.0,11.27,80.0,Partly Cloudy,24,live_web_api
-2026-11-17T11:00:06Z,Houston,houston,KHOU,weather_com,The Weather Channel (weather.com),2026-11-22,F,75,3,13:00|14:00|15:00,3,75.0,23.89,75.0,12,64,1,68.83,24.0,0.0,12.87,76.2,Partly Cloudy,24,live_web_api
-2026-11-17T11:00:06Z,Houston,houston,KHOU,weather_com,The Weather Channel (weather.com),2026-11-23,F,69,4,13:00|14:00|15:00|16:00,4,69.0,20.56,69.0,4,59,3,63.79,38.0,0.75,14.48,75.5,Partly Cloudy,24,live_web_api
-2026-11-17T11:00:06Z,Houston,houston,KHOU,yr_no,Yr.no (MET Norway),2026-11-17,F,65,3,14:00|15:00|16:00,3,65.48,18.6,65.48,10,49,2,57.98,,0.0,14.76,62.4,Clearsky Day,19,live_official_api
-2026-11-17T11:00:06Z,Houston,houston,KHOU,yr_no,Yr.no (MET Norway),2026-11-18,F,70,3,14:00|15:00|16:00,3,70.34,21.3,70.34,4,54,1,61.27,,0.0,12.6,79.3,Partlycloudy Night,24,live_official_api
-2026-11-17T11:00:06Z,Houston,houston,KHOU,yr_no,Yr.no (MET Norway),2026-11-19,F,73,1,15:00,1,72.86,22.7,72.86,4,56,2,63.58,,0.0,13.32,80.5,Partlycloudy Night,24,live_official_api
-2026-11-17T11:00:06Z,Houston,houston,KHOU,yr_no,Yr.no (MET Norway),2026-11-20,F,71,1,12:00,1,70.88,21.6,70.88,12,57,1,63.54,,0.0,7.2,83.1,Clearsky Day,24,live_official_api
-2026-11-17T11:00:06Z,Houston,houston,KHOU,yr_no,Yr.no (MET Norway),2026-11-21,F,72,1,12:00,1,72.32,22.4,72.32,10,56,2,63.54,,0.0,9.0,88.4,Partlycloudy Night,24,live_official_api
-2026-11-17T11:00:06Z,Houston,houston,KHOU,yr_no,Yr.no (MET Norway),2026-11-22,F,74,2,12:00|13:00,2,74.3,23.5,74.3,10,60,5,67.02,,0.42,3.96,88.2,Clearsky Night,24,live_official_api
-2026-11-17T11:00:06Z,Houston,houston,KHOU,yr_no,Yr.no (MET Norway),2026-11-23,F,73,1,12:00,1,73.04,22.8,73.04,4,64,1,67.75,,0.72,8.28,86.3,Cloudy,24,live_official_api
+2026-11-17T12:00:06Z,Houston,houston,KHOU,apple_weather,Apple Weather (WeatherKit),2026-11-17,F,68,2,15:00|16:00,2,67.89,19.94,67.89,11,46,2,58.8,0.0,0.0,12.83,62.5,Clear,18,live_apple_weatherkit_feed
+2026-11-17T12:00:06Z,Houston,houston,KHOU,apple_weather,Apple Weather (WeatherKit),2026-11-18,F,72,1,15:00,1,71.83,22.13,71.83,7,51,1,60.58,0.0,0.0,10.03,80.5,MostlyCloudy,24,live_apple_weatherkit_feed
+2026-11-17T12:00:06Z,Houston,houston,KHOU,apple_weather,Apple Weather (WeatherKit),2026-11-19,F,75,2,14:00|15:00,2,74.71,23.73,74.71,11,56,2,64.67,0.0,0.0,10.97,80.0,Cloudy,24,live_apple_weatherkit_feed
+2026-11-17T12:00:06Z,Houston,houston,KHOU,apple_weather,Apple Weather (WeatherKit),2026-11-20,F,76,1,15:00,1,75.56,24.2,75.56,2,58,1,66.27,0.0,0.0,8.37,80.0,MostlyClear,24,live_apple_weatherkit_feed
+2026-11-17T12:00:06Z,Houston,houston,KHOU,apple_weather,Apple Weather (WeatherKit),2026-11-21,F,75,2,14:00|15:00,2,75.13,23.96,75.13,1,60,2,66.85,0.0,0.0,6.24,79.2,PartlyCloudy,24,live_apple_weatherkit_feed
+2026-11-17T12:00:06Z,Houston,houston,KHOU,apple_weather,Apple Weather (WeatherKit),2026-11-22,F,75,1,15:00,1,74.57,23.65,74.57,5,63,4,67.28,10.0,0.0,9.41,79.0,MostlyCloudy,24,live_apple_weatherkit_feed
+2026-11-17T12:00:06Z,Houston,houston,KHOU,apple_weather,Apple Weather (WeatherKit),2026-11-23,F,72,1,14:00,1,71.62,22.01,71.62,5,56,1,64.1,10.0,0.13,9.44,73.5,PartlyCloudy,24,live_apple_weatherkit_feed
+2026-11-17T12:00:06Z,Houston,houston,KHOU,foreca,Foreca,2026-11-17,F,68,2,15:00|16:00,2,68.0,20.0,68.0,9,48,3,59.61,2.0,0.0,18.0,53.4,Clear,18,live_web_scrape
+2026-11-17T12:00:06Z,Houston,houston,KHOU,foreca,Foreca,2026-11-18,F,70,4,13:00|14:00|15:00|16:00,4,70.0,21.0,70.0,1,55,2,62.54,2.0,0.0,18.0,75.2,Partly cloudy,24,live_web_scrape
+2026-11-17T12:00:06Z,Houston,houston,KHOU,foreca,Foreca,2026-11-19,F,73,2,15:00|16:00,2,73.0,23.0,73.0,9,59,4,65.42,2.0,0.0,14.0,75.4,Cloudy,24,live_web_scrape
+2026-11-17T12:00:06Z,Houston,houston,KHOU,foreca,Foreca,2026-11-20,F,73,4,13:00|14:00|15:00|16:00,4,73.0,23.0,73.0,4,61,4,66.83,6.0,0.06,18.0,78.4,Clear,24,live_web_scrape
+2026-11-17T12:00:06Z,Houston,houston,KHOU,foreca,Foreca,2026-11-21,F,75,2,15:00|16:00,2,75.0,24.0,75.0,13,61,3,67.62,15.0,0.0,14.0,82.6,Clear,24,live_web_scrape
+2026-11-17T12:00:06Z,Houston,houston,KHOU,foreca,Foreca,2026-11-22,F,73,5,13:00|14:00|15:00|16:00|17:00,5,73.0,23.0,73.0,1,63,1,67.67,30.0,0.6,14.0,78.0,Mostly clear,24,live_web_scrape
+2026-11-17T12:00:06Z,Houston,houston,KHOU,foreca,Foreca,2026-11-23,F,72,1,15:00,1,72.0,22.0,72.0,5,59,2,64.0,41.0,0.1,11.0,63.2,Clear,24,live_web_scrape
+2026-11-17T12:00:06Z,Houston,houston,KHOU,msn_weather,Microsoft Weather (MSN),2026-11-17,F,69,1,15:00,1,69.0,20.56,69.0,5,50,2,60.22,0.0,0.0,11.27,54.4,Sunny,18,live_web_scrape
+2026-11-17T12:00:06Z,Houston,houston,KHOU,msn_weather,Microsoft Weather (MSN),2026-11-18,F,72,1,15:00,1,72.0,22.22,72.0,3,54,1,62.08,1.0,0.0,12.87,76.9,Mostly clear,24,live_web_scrape
+2026-11-17T12:00:06Z,Houston,houston,KHOU,msn_weather,Microsoft Weather (MSN),2026-11-19,F,74,3,14:00|15:00|16:00,3,74.0,23.33,74.0,5,58,3,64.46,1.0,0.0,12.87,83.2,Mostly clear,24,live_web_scrape
+2026-11-17T12:00:06Z,Houston,houston,KHOU,msn_weather,Microsoft Weather (MSN),2026-11-20,F,75,1,16:00,1,75.0,23.89,75.0,11,56,1,64.21,1.0,0.0,12.87,86.4,Clear,24,live_web_scrape
+2026-11-17T12:00:06Z,Houston,houston,KHOU,msn_weather,Microsoft Weather (MSN),2026-11-21,F,75,3,14:00|15:00|16:00,3,75.0,23.89,75.0,5,57,3,65.08,3.0,0.0,11.27,86.9,Mostly sunny,24,live_web_scrape
+2026-11-17T12:00:06Z,Houston,houston,KHOU,msn_weather,Microsoft Weather (MSN),2026-11-22,F,76,1,15:00,1,76.0,24.44,76.0,1,58,1,66.62,8.0,0.0,12.87,76.6,Clear,24,live_web_scrape
+2026-11-17T12:00:06Z,Houston,houston,KHOU,msn_weather,Microsoft Weather (MSN),2026-11-23,F,71,1,14:00,1,71.0,21.67,71.0,1,53,2,61.33,14.0,0.0,14.48,53.1,Sunny,24,live_web_scrape
+2026-11-17T12:00:06Z,Houston,houston,KHOU,weather_com,The Weather Channel (weather.com),2026-11-17,F,68,3,14:00|15:00|16:00,3,68.0,20.0,68.0,13,51,2,60.5,2.0,0.0,16.09,51.7,Sunny,18,live_web_api
+2026-11-17T12:00:06Z,Houston,houston,KHOU,weather_com,The Weather Channel (weather.com),2026-11-18,F,72,2,14:00|15:00,2,72.0,22.22,72.0,6,55,3,62.88,7.0,0.0,14.48,74.8,Partly Cloudy,24,live_web_api
+2026-11-17T12:00:06Z,Houston,houston,KHOU,weather_com,The Weather Channel (weather.com),2026-11-19,F,75,3,13:00|14:00|15:00,3,75.0,23.89,75.0,10,59,2,66.42,8.0,0.0,16.09,75.0,Mostly Cloudy,24,live_web_api
+2026-11-17T12:00:06Z,Houston,houston,KHOU,weather_com,The Weather Channel (weather.com),2026-11-20,F,76,1,15:00,1,76.0,24.44,76.0,5,60,2,67.38,7.0,0.0,12.87,76.0,Partly Cloudy,24,live_web_api
+2026-11-17T12:00:06Z,Houston,houston,KHOU,weather_com,The Weather Channel (weather.com),2026-11-21,F,76,1,15:00,1,76.0,24.44,76.0,5,62,2,68.54,21.0,0.0,11.27,79.9,Partly Cloudy,24,live_web_api
+2026-11-17T12:00:06Z,Houston,houston,KHOU,weather_com,The Weather Channel (weather.com),2026-11-22,F,75,3,13:00|14:00|15:00,3,75.0,23.89,75.0,13,64,1,68.88,24.0,0.0,12.87,76.1,Partly Cloudy,24,live_web_api
+2026-11-17T12:00:06Z,Houston,houston,KHOU,weather_com,The Weather Channel (weather.com),2026-11-23,F,69,4,13:00|14:00|15:00|16:00,4,69.0,20.56,69.0,5,59,3,63.79,38.0,0.75,14.48,75.5,Partly Cloudy,24,live_web_api
+2026-11-17T12:00:06Z,Houston,houston,KHOU,yr_no,Yr.no (MET Norway),2026-11-17,F,65,3,14:00|15:00|16:00,3,65.48,18.6,65.48,11,49,2,58.43,,0.0,14.76,61.9,Clearsky Day,18,live_official_api
+2026-11-17T12:00:06Z,Houston,houston,KHOU,yr_no,Yr.no (MET Norway),2026-11-18,F,70,3,14:00|15:00|16:00,3,70.34,21.3,70.34,5,54,1,61.27,,0.0,12.6,79.3,Partlycloudy Night,24,live_official_api
+2026-11-17T12:00:06Z,Houston,houston,KHOU,yr_no,Yr.no (MET Norway),2026-11-19,F,73,1,15:00,1,72.86,22.7,72.86,5,56,2,63.6,,0.0,13.32,80.5,Partlycloudy Night,24,live_official_api
+2026-11-17T12:00:06Z,Houston,houston,KHOU,yr_no,Yr.no (MET Norway),2026-11-20,F,70,1,12:00,1,69.98,21.1,69.98,1,56,1,63.16,,0.0,9.0,82.7,Fair Night,24,live_official_api
+2026-11-17T12:00:06Z,Houston,houston,KHOU,yr_no,Yr.no (MET Norway),2026-11-21,F,71,1,12:00,1,70.88,21.6,70.88,1,55,1,62.8,,0.0,8.28,86.9,Cloudy,24,live_official_api
+2026-11-17T12:00:06Z,Houston,houston,KHOU,yr_no,Yr.no (MET Norway),2026-11-22,F,72,1,12:00,1,71.78,22.1,71.78,1,59,1,64.5,,0.24,12.6,84.9,Fair Night,24,live_official_api
+2026-11-17T12:00:06Z,Houston,houston,KHOU,yr_no,Yr.no (MET Norway),2026-11-23,F,66,1,12:00,1,65.84,18.8,65.84,1,52,1,59.67,,0.0,10.8,72.2,Clearsky Day,24,live_official_api

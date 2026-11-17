@@ -1,36 +1,36 @@
 scraped_at_utc,city,city_slug,station_icao,website_id,website_name,date,unit,highest_temperature,highest_temperature_duration_hours,highest_temperature_hours,highest_temperature_max_consecutive_hours,highest_temperature_exact,highest_temperature_c,highest_temperature_f,consecutive_scrapes_with_same_high,lowest_temperature,lowest_temperature_duration_hours,avg_temperature,max_precip_prob_pct,total_precip_mm,max_wind_speed_kmh,avg_humidity_pct,dominant_condition,hours_analyzed,source_mode
-2026-11-17T11:00:06Z,Chicago,chicago,KORD,apple_weather,Apple Weather (WeatherKit),2026-11-17,F,55,2,14:00|15:00,2,55.2,12.89,55.2,4,34,1,45.52,0.0,0.0,13.43,72.1,Clear,19,live_apple_weatherkit_feed
-2026-11-17T11:00:06Z,Chicago,chicago,KORD,apple_weather,Apple Weather (WeatherKit),2026-11-18,F,58,2,14:00|15:00,2,57.92,14.4,57.92,6,39,5,47.14,0.0,0.0,17.68,73.4,Clear,24,live_apple_weatherkit_feed
-2026-11-17T11:00:06Z,Chicago,chicago,KORD,apple_weather,Apple Weather (WeatherKit),2026-11-19,F,63,1,15:00,1,62.74,17.08,62.74,7,45,3,52.31,0.0,0.0,17.55,74.5,Clear,24,live_apple_weatherkit_feed
-2026-11-17T11:00:06Z,Chicago,chicago,KORD,apple_weather,Apple Weather (WeatherKit),2026-11-20,F,64,1,15:00,1,64.17,17.87,64.17,4,45,1,53.56,0.0,0.0,14.41,77.5,Clear,24,live_apple_weatherkit_feed
-2026-11-17T11:00:06Z,Chicago,chicago,KORD,apple_weather,Apple Weather (WeatherKit),2026-11-21,F,62,2,14:00|15:00,2,61.81,16.56,61.81,3,46,2,54.09,22.0,2.19,19.34,72.3,PartlyCloudy,24,live_apple_weatherkit_feed
-2026-11-17T11:00:06Z,Chicago,chicago,KORD,apple_weather,Apple Weather (WeatherKit),2026-11-22,F,56,2,02:00|03:00,2,56.35,13.53,56.35,1,37,1,46.75,35.0,3.8,25.61,74.6,Drizzle,24,live_apple_weatherkit_feed
-2026-11-17T11:00:06Z,Chicago,chicago,KORD,apple_weather,Apple Weather (WeatherKit),2026-11-23,F,42,3,13:00|14:00|15:00,3,42.12,5.62,42.12,3,34,1,37.88,0.0,0.0,14.05,72.9,PartlyCloudy,24,live_apple_weatherkit_feed
-2026-11-17T11:00:06Z,Chicago,chicago,KORD,foreca,Foreca,2026-11-17,F,55,2,14:00|15:00,2,55.0,13.0,55.0,2,37,1,46.84,2.0,0.0,14.0,67.1,Clear,19,live_web_scrape
-2026-11-17T11:00:06Z,Chicago,chicago,KORD,foreca,Foreca,2026-11-18,F,57,2,14:00|15:00,2,57.0,14.0,57.0,12,43,6,49.21,2.0,0.0,18.0,67.5,Clear,24,live_web_scrape
-2026-11-17T11:00:06Z,Chicago,chicago,KORD,foreca,Foreca,2026-11-19,F,61,4,13:00|14:00|15:00|16:00,4,61.0,16.0,61.0,2,48,5,53.79,2.0,0.0,22.0,72.5,Clear,24,live_web_scrape
-2026-11-17T11:00:06Z,Chicago,chicago,KORD,foreca,Foreca,2026-11-20,F,63,3,13:00|14:00|15:00,3,63.0,17.0,63.0,10,46,4,54.12,2.0,0.0,14.0,77.9,Clear,24,live_web_scrape
-2026-11-17T11:00:06Z,Chicago,chicago,KORD,foreca,Foreca,2026-11-21,F,61,4,13:00|14:00|15:00|16:00,4,61.0,16.0,61.0,10,50,3,55.92,54.0,5.0,22.0,73.5,Cloudy and showers,24,live_web_scrape
-2026-11-17T11:00:06Z,Chicago,chicago,KORD,foreca,Foreca,2026-11-22,F,55,4,00:00|01:00|02:00|03:00,4,55.0,13.0,55.0,8,43,4,47.96,59.0,1.39,25.0,72.7,Cloudy,24,live_web_scrape
-2026-11-17T11:00:06Z,Chicago,chicago,KORD,foreca,Foreca,2026-11-23,F,45,4,12:00|13:00|14:00|15:00,4,45.0,7.0,45.0,4,37,2,40.58,7.0,0.12,18.0,64.3,Cloudy,24,live_web_scrape
-2026-11-17T11:00:06Z,Chicago,chicago,KORD,msn_weather,Microsoft Weather (MSN),2026-11-17,F,59,1,15:00,1,59.0,15.0,59.0,4,35,3,48.0,0.0,0.0,12.87,60.1,Sunny,19,live_web_scrape
-2026-11-17T11:00:06Z,Chicago,chicago,KORD,msn_weather,Microsoft Weather (MSN),2026-11-18,F,61,2,14:00|15:00,2,61.0,16.11,61.0,5,39,1,50.12,1.0,0.0,25.75,57.8,Clear,24,live_web_scrape
-2026-11-17T11:00:06Z,Chicago,chicago,KORD,msn_weather,Microsoft Weather (MSN),2026-11-19,F,65,1,15:00,1,65.0,18.33,65.0,11,49,1,55.29,0.0,0.0,22.53,58.8,Clear,24,live_web_scrape
-2026-11-17T11:00:06Z,Chicago,chicago,KORD,msn_weather,Microsoft Weather (MSN),2026-11-20,F,67,1,15:00,1,67.0,19.44,67.0,4,44,2,54.88,0.0,0.0,17.7,74.4,Clear,24,live_web_scrape
-2026-11-17T11:00:06Z,Chicago,chicago,KORD,msn_weather,Microsoft Weather (MSN),2026-11-21,F,64,1,15:00,1,64.0,17.78,64.0,5,49,2,57.12,8.0,0.0,20.92,57.7,Mostly sunny,24,live_web_scrape
-2026-11-17T11:00:06Z,Chicago,chicago,KORD,msn_weather,Microsoft Weather (MSN),2026-11-22,F,61,3,01:00|02:00|03:00,3,61.0,16.11,61.0,2,40,1,50.21,48.0,0.75,32.19,80.8,Cloudy,24,live_web_scrape
-2026-11-17T11:00:06Z,Chicago,chicago,KORD,msn_weather,Microsoft Weather (MSN),2026-11-23,F,46,1,15:00,1,46.0,7.78,46.0,2,34,4,38.92,5.0,0.0,14.48,67.2,Clear,24,live_web_scrape
-2026-11-17T11:00:06Z,Chicago,chicago,KORD,weather_com,The Weather Channel (weather.com),2026-11-17,F,56,2,14:00|15:00,2,56.0,13.33,56.0,9,37,1,47.78,2.0,0.0,16.09,58.9,Sunny,18,live_web_api
-2026-11-17T11:00:06Z,Chicago,chicago,KORD,weather_com,The Weather Channel (weather.com),2026-11-18,F,59,3,13:00|14:00|15:00,3,59.0,15.0,59.0,2,40,4,49.5,5.0,0.0,22.53,58.9,Partly Cloudy,24,live_web_api
-2026-11-17T11:00:06Z,Chicago,chicago,KORD,weather_com,The Weather Channel (weather.com),2026-11-19,F,64,1,14:00,1,64.0,17.78,64.0,7,49,1,55.21,6.0,0.0,20.92,63.2,Partly Cloudy,24,live_web_api
-2026-11-17T11:00:06Z,Chicago,chicago,KORD,weather_com,The Weather Channel (weather.com),2026-11-20,F,65,3,13:00|14:00|15:00,3,65.0,18.33,65.0,4,45,1,55.08,7.0,0.0,17.7,70.8,Clear,24,live_web_api
-2026-11-17T11:00:06Z,Chicago,chicago,KORD,weather_com,The Weather Channel (weather.com),2026-11-21,F,66,3,13:00|14:00|15:00,3,66.0,18.89,66.0,7,50,4,57.79,48.0,0.5,22.53,58.2,Partly Cloudy,24,live_web_api
-2026-11-17T11:00:06Z,Chicago,chicago,KORD,weather_com,The Weather Channel (weather.com),2026-11-22,F,59,1,00:00,1,59.0,15.0,59.0,2,38,1,49.29,57.0,2.52,25.75,64.5,Partly Cloudy,24,live_web_api
-2026-11-17T11:00:06Z,Chicago,chicago,KORD,weather_com,The Weather Channel (weather.com),2026-11-23,F,41,4,12:00|13:00|14:00|15:00,4,41.0,5.0,41.0,1,32,1,36.54,4.0,0.0,14.48,68.6,Partly Cloudy,24,live_web_api
-2026-11-17T11:00:06Z,Chicago,chicago,KORD,yr_no,Yr.no (MET Norway),2026-11-17,F,54,1,14:00,1,53.78,12.1,53.78,4,35,1,44.83,,0.0,14.76,69.9,Clearsky Day,20,live_official_api
-2026-11-17T11:00:06Z,Chicago,chicago,KORD,yr_no,Yr.no (MET Norway),2026-11-18,F,57,2,14:00|15:00,2,57.02,13.9,57.02,4,39,1,47.76,,0.0,20.16,69.9,Partlycloudy Night,24,live_official_api
-2026-11-17T11:00:06Z,Chicago,chicago,KORD,yr_no,Yr.no (MET Norway),2026-11-19,F,61,1,14:00,1,60.62,15.9,60.62,4,47,2,52.6,,0.0,20.52,70.7,Clearsky Night,24,live_official_api
-2026-11-17T11:00:06Z,Chicago,chicago,KORD,yr_no,Yr.no (MET Norway),2026-11-20,F,60,2,12:00|13:00,2,60.44,15.8,60.44,10,42,1,52.14,,0.0,11.52,83.1,Clearsky Night,24,live_official_api
-2026-11-17T11:00:06Z,Chicago,chicago,KORD,yr_no,Yr.no (MET Norway),2026-11-21,F,59,7,14:00|15:00|16:00|17:00|18:00|19:00|20:00,7,59.36,15.2,59.36,12,49,1,55.28,,1.74,14.4,74.2,Cloudy,24,live_official_api
-2026-11-17T11:00:06Z,Chicago,chicago,KORD,yr_no,Yr.no (MET Norway),2026-11-22,F,57,1,00:00,1,56.84,13.8,56.84,12,37,1,45.7,,7.02,15.12,79.0,Heavyrain,24,live_official_api
-2026-11-17T11:00:06Z,Chicago,chicago,KORD,yr_no,Yr.no (MET Norway),2026-11-23,F,46,1,12:00,1,46.22,7.9,46.22,4,33,1,39.18,,0.0,6.48,74.6,Clearsky Night,24,live_official_api
+2026-11-17T12:00:06Z,Chicago,chicago,KORD,apple_weather,Apple Weather (WeatherKit),2026-11-17,F,55,2,14:00|15:00,2,55.11,12.84,55.11,5,35,2,46.21,0.0,0.0,13.49,71.0,Clear,18,live_apple_weatherkit_feed
+2026-11-17T12:00:06Z,Chicago,chicago,KORD,apple_weather,Apple Weather (WeatherKit),2026-11-18,F,58,2,14:00|15:00,2,57.92,14.4,57.92,7,39,5,47.12,0.0,0.0,17.79,73.3,MostlyCloudy,24,live_apple_weatherkit_feed
+2026-11-17T12:00:06Z,Chicago,chicago,KORD,apple_weather,Apple Weather (WeatherKit),2026-11-19,F,63,1,15:00,1,62.69,17.05,62.69,8,45,3,52.33,0.0,0.0,17.7,74.9,Clear,24,live_apple_weatherkit_feed
+2026-11-17T12:00:06Z,Chicago,chicago,KORD,apple_weather,Apple Weather (WeatherKit),2026-11-20,F,63,1,15:00,1,62.64,17.02,62.64,1,45,3,52.85,0.0,0.0,13.56,76.1,Clear,24,live_apple_weatherkit_feed
+2026-11-17T12:00:06Z,Chicago,chicago,KORD,apple_weather,Apple Weather (WeatherKit),2026-11-21,F,62,1,16:00,1,61.7,16.5,61.7,4,47,2,53.96,25.0,2.5,17.61,72.3,Clear,24,live_apple_weatherkit_feed
+2026-11-17T12:00:06Z,Chicago,chicago,KORD,apple_weather,Apple Weather (WeatherKit),2026-11-22,F,55,4,00:00|01:00|02:00|03:00,4,55.11,12.84,55.11,1,37,1,46.44,36.0,6.8,21.43,76.3,MostlyCloudy,24,live_apple_weatherkit_feed
+2026-11-17T12:00:06Z,Chicago,chicago,KORD,apple_weather,Apple Weather (WeatherKit),2026-11-23,F,42,3,13:00|14:00|15:00,3,41.86,5.48,41.86,4,35,5,37.88,0.0,0.0,17.64,72.9,MostlyCloudy,24,live_apple_weatherkit_feed
+2026-11-17T12:00:06Z,Chicago,chicago,KORD,foreca,Foreca,2026-11-17,F,54,3,13:00|14:00|15:00,3,54.0,12.0,54.0,1,37,2,47.06,2.0,0.0,14.0,66.2,Clear,18,live_web_scrape
+2026-11-17T12:00:06Z,Chicago,chicago,KORD,foreca,Foreca,2026-11-18,F,57,2,14:00|15:00,2,57.0,14.0,57.0,13,41,2,49.04,2.0,0.0,18.0,67.5,Clear,24,live_web_scrape
+2026-11-17T12:00:06Z,Chicago,chicago,KORD,foreca,Foreca,2026-11-19,F,61,3,13:00|14:00|15:00,3,61.0,16.0,61.0,3,48,6,53.42,2.0,0.0,22.0,72.8,Clear,24,live_web_scrape
+2026-11-17T12:00:06Z,Chicago,chicago,KORD,foreca,Foreca,2026-11-20,F,64,1,15:00,1,64.0,18.0,64.0,1,45,2,54.08,2.0,0.0,14.0,76.4,Clear,24,live_web_scrape
+2026-11-17T12:00:06Z,Chicago,chicago,KORD,foreca,Foreca,2026-11-21,F,61,4,13:00|14:00|15:00|16:00,4,61.0,16.0,61.0,11,50,3,55.92,54.0,5.0,22.0,73.3,Cloudy and showers,24,live_web_scrape
+2026-11-17T12:00:06Z,Chicago,chicago,KORD,foreca,Foreca,2026-11-22,F,55,4,00:00|01:00|02:00|03:00,4,55.0,13.0,55.0,9,43,2,48.12,59.0,1.39,29.0,75.0,Cloudy,24,live_web_scrape
+2026-11-17T12:00:06Z,Chicago,chicago,KORD,foreca,Foreca,2026-11-23,F,45,4,12:00|13:00|14:00|15:00,4,45.0,7.0,45.0,5,37,2,40.58,7.0,0.12,18.0,64.3,Cloudy,24,live_web_scrape
+2026-11-17T12:00:06Z,Chicago,chicago,KORD,msn_weather,Microsoft Weather (MSN),2026-11-17,F,59,1,15:00,1,59.0,15.0,59.0,5,35,2,48.72,0.0,0.0,12.87,59.7,Sunny,18,live_web_scrape
+2026-11-17T12:00:06Z,Chicago,chicago,KORD,msn_weather,Microsoft Weather (MSN),2026-11-18,F,62,1,15:00,1,62.0,16.67,62.0,1,39,1,50.0,1.0,0.0,24.14,58.6,Clear,24,live_web_scrape
+2026-11-17T12:00:06Z,Chicago,chicago,KORD,msn_weather,Microsoft Weather (MSN),2026-11-19,F,65,2,14:00|15:00,2,65.0,18.33,65.0,12,49,2,55.33,0.0,0.0,20.92,58.7,Clear,24,live_web_scrape
+2026-11-17T12:00:06Z,Chicago,chicago,KORD,msn_weather,Microsoft Weather (MSN),2026-11-20,F,67,1,15:00,1,67.0,19.44,67.0,5,43,1,54.67,0.0,0.0,17.7,74.8,Clear,24,live_web_scrape
+2026-11-17T12:00:06Z,Chicago,chicago,KORD,msn_weather,Microsoft Weather (MSN),2026-11-21,F,64,1,15:00,1,64.0,17.78,64.0,6,49,2,57.12,8.0,0.0,20.92,57.7,Mostly sunny,24,live_web_scrape
+2026-11-17T12:00:06Z,Chicago,chicago,KORD,msn_weather,Microsoft Weather (MSN),2026-11-22,F,61,3,01:00|02:00|03:00,3,61.0,16.11,61.0,3,40,1,50.17,48.0,0.75,32.19,81.0,Cloudy,24,live_web_scrape
+2026-11-17T12:00:06Z,Chicago,chicago,KORD,msn_weather,Microsoft Weather (MSN),2026-11-23,F,46,2,14:00|15:00,2,46.0,7.78,46.0,3,33,1,38.79,5.0,0.0,14.48,67.8,Clear,24,live_web_scrape
+2026-11-17T12:00:06Z,Chicago,chicago,KORD,weather_com,The Weather Channel (weather.com),2026-11-17,F,56,3,13:00|14:00|15:00,3,56.0,13.33,56.0,10,37,1,48.53,2.0,0.0,16.09,57.5,Sunny,17,live_web_api
+2026-11-17T12:00:06Z,Chicago,chicago,KORD,weather_com,The Weather Channel (weather.com),2026-11-18,F,60,1,15:00,1,60.0,15.56,60.0,1,40,4,49.58,5.0,0.0,22.53,58.5,Partly Cloudy,24,live_web_api
+2026-11-17T12:00:06Z,Chicago,chicago,KORD,weather_com,The Weather Channel (weather.com),2026-11-19,F,64,1,14:00,1,64.0,17.78,64.0,8,49,3,55.04,6.0,0.0,20.92,63.7,Partly Cloudy,24,live_web_api
+2026-11-17T12:00:06Z,Chicago,chicago,KORD,weather_com,The Weather Channel (weather.com),2026-11-20,F,65,3,13:00|14:00|15:00,3,65.0,18.33,65.0,5,45,1,55.21,7.0,0.0,17.7,70.6,Clear,24,live_web_api
+2026-11-17T12:00:06Z,Chicago,chicago,KORD,weather_com,The Weather Channel (weather.com),2026-11-21,F,66,3,13:00|14:00|15:00,3,66.0,18.89,66.0,8,49,1,57.83,46.0,0.75,22.53,58.1,Partly Cloudy,24,live_web_api
+2026-11-17T12:00:06Z,Chicago,chicago,KORD,weather_com,The Weather Channel (weather.com),2026-11-22,F,59,2,00:00|01:00,2,59.0,15.0,59.0,3,38,1,49.5,58.0,2.52,25.75,63.8,Partly Cloudy,24,live_web_api
+2026-11-17T12:00:06Z,Chicago,chicago,KORD,weather_com,The Weather Channel (weather.com),2026-11-23,F,41,4,12:00|13:00|14:00|15:00,4,41.0,5.0,41.0,2,32,1,36.54,4.0,0.0,14.48,68.8,Partly Cloudy,24,live_web_api
+2026-11-17T12:00:06Z,Chicago,chicago,KORD,yr_no,Yr.no (MET Norway),2026-11-17,F,54,1,14:00,1,53.78,12.1,53.78,5,35,1,45.76,,0.0,14.76,68.5,Clearsky Day,18,live_official_api
+2026-11-17T12:00:06Z,Chicago,chicago,KORD,yr_no,Yr.no (MET Norway),2026-11-18,F,57,2,14:00|15:00,2,57.02,13.9,57.02,5,39,1,47.76,,0.0,20.16,69.9,Partlycloudy Night,24,live_official_api
+2026-11-17T12:00:06Z,Chicago,chicago,KORD,yr_no,Yr.no (MET Norway),2026-11-19,F,61,1,14:00,1,60.62,15.9,60.62,5,47,2,52.67,,0.0,20.52,70.7,Clearsky Night,24,live_official_api
+2026-11-17T12:00:06Z,Chicago,chicago,KORD,yr_no,Yr.no (MET Norway),2026-11-20,F,61,1,12:00,1,60.62,15.9,60.62,1,43,1,52.73,,0.0,12.24,81.0,Clearsky Night,24,live_official_api
+2026-11-17T12:00:06Z,Chicago,chicago,KORD,yr_no,Yr.no (MET Norway),2026-11-21,F,57,8,12:00|13:00|14:00|15:00|16:00|17:00|18:00|19:00,8,56.84,13.8,56.84,1,48,1,53.91,,3.54,13.32,73.3,Clearsky Night,24,live_official_api
+2026-11-17T12:00:06Z,Chicago,chicago,KORD,yr_no,Yr.no (MET Norway),2026-11-22,F,56,5,02:00|03:00|04:00|05:00|06:00,5,56.48,13.6,56.48,1,39,1,48.53,,4.86,23.04,81.0,Lightrain,24,live_official_api
+2026-11-17T12:00:06Z,Chicago,chicago,KORD,yr_no,Yr.no (MET Norway),2026-11-23,F,42,1,12:00,1,41.9,5.5,41.9,1,33,1,36.96,,0.0,10.08,71.3,Clearsky Night,24,live_official_api

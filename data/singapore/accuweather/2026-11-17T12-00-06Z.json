@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-17T12:00:06Z",
+  "city": "Singapore",
+  "city_slug": "singapore",
+  "station_icao": "WSSS",
+  "station_name": "Singapore Changi Airport",
+  "latitude": 1.3644,
+  "longitude": 103.9915,
+  "timezone": "Asia/Singapore",
+  "polymarket_unit": "C",
+  "website_id": "accuweather",
+  "website_name": "AccuWeather",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.accuweather.com/en/sg/changi-village/300560/hourly-weather-forecast/300560?day=1&unit=c failed after 3 attempts: HTTP Error 403: Forbidden",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-17T12:00:06Z",
+  "city": "Warsaw",
+  "city_slug": "warsaw",
+  "station_icao": "EPWA",
+  "station_name": "Warsaw Chopin Airport",
+  "latitude": 52.1657,
+  "longitude": 20.9671,
+  "timezone": "Europe/Warsaw",
+  "polymarket_unit": "C",
+  "website_id": "accuweather",
+  "website_name": "AccuWeather",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.accuweather.com/en/pl/okecie/264639/hourly-weather-forecast/264639?day=1&unit=c failed after 3 attempts: HTTP Error 403: Forbidden",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}
