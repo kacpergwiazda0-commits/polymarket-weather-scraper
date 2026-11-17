@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-17T21:00:06Z",
+  "scraped_at_utc": "2026-11-17T22:00:06Z",
   "city": "Madrid",
   "city_slug": "madrid",
   "station_icao": "LEMD",
@@ -18,27 +18,27 @@
     {
       "date": "2026-11-17",
       "unit": "C",
-      "highest_temperature": 15,
+      "highest_temperature": 14,
       "highest_temperature_duration_hours": 1,
       "highest_temperature_hours": [
-        "22:00"
+        "23:00"
       ],
       "highest_temperature_max_consecutive_hours": 1,
-      "highest_temperature_exact": 14.67,
+      "highest_temperature_exact": 14.38,
       "highest_temperature_exact_hours": [
-        "22:00"
+        "23:00"
       ],
-      "highest_temperature_c": 14.67,
-      "highest_temperature_f": 58.41,
-      "consecutive_scrapes_with_same_high": 13,
-      "high_first_predicted_at_utc": "2026-11-17T08:22:59Z",
+      "highest_temperature_c": 14.38,
+      "highest_temperature_f": 57.88,
+      "consecutive_scrapes_with_same_high": 1,
+      "high_first_predicted_at_utc": "2026-11-17T22:00:06Z",
       "lowest_temperature": 14,
       "lowest_temperature_duration_hours": 1,
       "lowest_temperature_hours": [
         "23:00"
       ],
       "lowest_temperature_exact": 14.38,
-      "avg_temperature": 14.53,
+      "avg_temperature": 14.38,
       "max_feels_like": 11,
       "min_feels_like": 11,
       "max_humidity_pct": 89.0,
@@ -48,15 +48,15 @@
       "total_precip_mm": 0.0,
       "total_rain_mm": 0.0,
       "total_snow_cm": 0.0,
-      "max_wind_speed_kmh": 18.61,
-      "max_wind_speed_mph": 11.56,
-      "max_wind_gust_kmh": 41.26,
-      "max_wind_gust_mph": 25.64,
+      "max_wind_speed_kmh": 18.47,
+      "max_wind_speed_mph": 11.48,
+      "max_wind_gust_kmh": 39.85,
+      "max_wind_gust_mph": 24.76,
       "avg_cloud_cover_pct": 94.0,
       "avg_pressure_hpa": 1013.8,
       "max_uv_index": 0.0,
       "dominant_condition": "Cloudy",
-      "hours_analyzed": 2
+      "hours_analyzed": 1
     },
     {
       "date": "2026-11-18",
@@ -73,7 +73,7 @@
       ],
       "highest_temperature_c": 16.5,
       "highest_temperature_f": 61.7,
-      "consecutive_scrapes_with_same_high": 3,
+      "consecutive_scrapes_with_same_high": 4,
       "high_first_predicted_at_utc": "2026-11-17T19:00:06Z",
       "lowest_temperature": 14,
       "lowest_temperature_duration_hours": 10,
@@ -126,7 +126,7 @@
       ],
       "highest_temperature_c": 15.27,
       "highest_temperature_f": 59.49,
-      "consecutive_scrapes_with_same_high": 3,
+      "consecutive_scrapes_with_same_high": 4,
       "high_first_predicted_at_utc": "2026-11-17T19:00:06Z",
       "lowest_temperature": 9,
       "lowest_temperature_duration_hours": 3,
@@ -174,7 +174,7 @@
       ],
       "highest_temperature_c": 13.01,
       "highest_temperature_f": 55.42,
-      "consecutive_scrapes_with_same_high": 13,
+      "consecutive_scrapes_with_same_high": 14,
       "high_first_predicted_at_utc": "2026-11-17T08:22:59Z",
       "lowest_temperature": 7,
       "lowest_temperature_duration_hours": 7,
@@ -225,7 +225,7 @@
       ],
       "highest_temperature_c": 13.28,
       "highest_temperature_f": 55.9,
-      "consecutive_scrapes_with_same_high": 3,
+      "consecutive_scrapes_with_same_high": 4,
       "high_first_predicted_at_utc": "2026-11-17T19:00:06Z",
       "lowest_temperature": 7,
       "lowest_temperature_duration_hours": 1,
@@ -269,7 +269,7 @@
       ],
       "highest_temperature_c": 13.62,
       "highest_temperature_f": 56.52,
-      "consecutive_scrapes_with_same_high": 3,
+      "consecutive_scrapes_with_same_high": 4,
       "high_first_predicted_at_utc": "2026-11-17T19:00:06Z",
       "lowest_temperature": 7,
       "lowest_temperature_duration_hours": 1,
@@ -314,7 +314,7 @@
       ],
       "highest_temperature_c": 10.87,
       "highest_temperature_f": 51.57,
-      "consecutive_scrapes_with_same_high": 2,
+      "consecutive_scrapes_with_same_high": 3,
       "high_first_predicted_at_utc": "2026-11-17T20:00:06Z",
       "lowest_temperature": 4,
       "lowest_temperature_duration_hours": 5,
@@ -349,40 +349,6 @@
   ],
   "hourly_7day_forecast": [
     {
-      "time_local": "2026-11-17T22:00",
-      "date_local": "2026-11-17",
-      "hour_local": "22:00",
-      "time_utc": "2026-11-17T21:00:00Z",
-      "temperature_c": 14.67,
-      "temperature_f": 58.41,
-      "temperature_market": 15,
-      "temperature_market_raw": 14.67,
-      "feels_like_c": 11.18,
-      "feels_like_f": 52.12,
-      "feels_like_market": 11,
-      "dew_point_c": 12.88,
-      "dew_point_f": 55.18,
-      "humidity_pct": 89.0,
-      "precip_prob_pct": 0.0,
-      "precip_mm": 0.0,
-      "rain_mm": 0.0,
-      "snow_cm": 0.0,
-      "wind_speed_kmh": 18.61,
-      "wind_speed_mph": 11.56,
-      "wind_gust_kmh": 41.26,
-      "wind_gust_mph": 25.64,
-      "wind_direction_deg": 237,
-      "wind_direction_cardinal": "WSW",
-      "cloud_cover_pct": 94.0,
-      "pressure_hpa": 1013.7,
-      "visibility_km": 19.66,
-      "uv_index": 0.0,
-      "air_quality_index": null,
-      "condition": "Cloudy",
-      "is_daily_high_hour": true,
-      "is_daily_low_hour": false
-    },
-    {
       "time_local": "2026-11-17T23:00",
       "date_local": "2026-11-17",
       "hour_local": "23:00",
@@ -413,7 +379,7 @@
       "uv_index": 0.0,
       "air_quality_index": null,
       "condition": "Cloudy",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": true
     },
     {
@@ -5314,7 +5280,7 @@
     }
   ],
   "extra_metadata": {
-    "hours_count": 226,
+    "hours_count": 225,
     "reported_location": "Madrid, Spain"
   }
 }
