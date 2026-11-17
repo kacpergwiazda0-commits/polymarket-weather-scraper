@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-17T04:00:06Z",
+  "city": "London",
+  "city_slug": "london",
+  "station_icao": "EGLC",
+  "station_name": "London City Airport",
+  "latitude": 51.5053,
+  "longitude": 0.0553,
+  "timezone": "Europe/London",
+  "polymarket_unit": "C",
+  "website_id": "accuweather",
+  "website_name": "AccuWeather",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.accuweather.com/en/gb/north-woolwich/e16-2/hourly-weather-forecast/2532754?day=1&unit=c failed after 3 attempts: HTTP Error 403: Forbidden",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

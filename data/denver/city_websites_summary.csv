@@ -1,71 +1,71 @@
 scraped_at_utc,city,city_slug,station_icao,website_id,website_name,date,unit,highest_temperature,highest_temperature_duration_hours,highest_temperature_hours,highest_temperature_max_consecutive_hours,highest_temperature_exact,highest_temperature_c,highest_temperature_f,consecutive_scrapes_with_same_high,lowest_temperature,lowest_temperature_duration_hours,avg_temperature,max_precip_prob_pct,total_precip_mm,max_wind_speed_kmh,avg_humidity_pct,dominant_condition,hours_analyzed,source_mode
-2026-11-17T03:00:06Z,Denver,denver,KBKF,aerisweather,AerisWeather (Xweather),2026-11-16,F,64,2,14:00|15:00,2,64.4,18.0,64.4,4,31,2,45.0,0.0,0.0,14.8,50.8,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-17T03:00:06Z,Denver,denver,KBKF,aerisweather,AerisWeather (Xweather),2026-11-17,F,67,3,13:00|14:00|15:00,3,67.46,19.7,67.46,4,34,1,50.16,0.0,0.0,28.3,41.0,Overcast,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-17T03:00:06Z,Denver,denver,KBKF,aerisweather,AerisWeather (Xweather),2026-11-18,F,56,1,14:00,1,55.94,13.3,55.94,4,37,2,45.09,0.0,0.0,35.3,23.8,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-17T03:00:06Z,Denver,denver,KBKF,aerisweather,AerisWeather (Xweather),2026-11-19,F,57,1,15:00,1,56.66,13.7,56.66,4,34,2,42.98,0.0,0.0,11.3,21.0,Overcast,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-17T03:00:06Z,Denver,denver,KBKF,aerisweather,AerisWeather (Xweather),2026-11-20,F,62,1,15:00,1,61.7,16.5,61.7,4,41,1,49.44,8.0,0.0,28.0,28.0,Overcast,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-17T03:00:06Z,Denver,denver,KBKF,aerisweather,AerisWeather (Xweather),2026-11-21,F,50,2,13:00|14:00,2,50.0,10.0,50.0,4,33,2,40.28,11.0,0.0,18.5,37.2,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-17T03:00:06Z,Denver,denver,KBKF,aerisweather,AerisWeather (Xweather),2026-11-22,F,50,2,13:00|14:00,2,50.36,10.2,50.36,4,34,6,39.55,1.0,0.0,20.3,29.8,Overcast,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-17T03:00:06Z,Denver,denver,KBKF,apple_weather,Apple Weather (WeatherKit),2026-11-16,F,47,1,20:00,1,46.89,8.27,46.89,1,41,1,43.81,0.0,0.0,6.57,60.0,Cloudy,4,live_apple_weatherkit_feed
-2026-11-17T03:00:06Z,Denver,denver,KBKF,apple_weather,Apple Weather (WeatherKit),2026-11-17,F,65,2,14:00|15:00,2,65.48,18.6,65.48,5,33,2,48.39,0.0,0.0,13.41,51.2,PartlyCloudy,24,live_apple_weatherkit_feed
-2026-11-17T03:00:06Z,Denver,denver,KBKF,apple_weather,Apple Weather (WeatherKit),2026-11-18,F,57,2,14:00|15:00,2,57.36,14.09,57.36,5,34,1,46.56,0.0,0.0,15.8,34.7,Clear,24,live_apple_weatherkit_feed
-2026-11-17T03:00:06Z,Denver,denver,KBKF,apple_weather,Apple Weather (WeatherKit),2026-11-19,F,52,2,14:00|15:00,2,52.47,11.37,52.47,2,28,1,39.91,0.0,0.0,9.14,39.4,Cloudy,24,live_apple_weatherkit_feed
-2026-11-17T03:00:06Z,Denver,denver,KBKF,apple_weather,Apple Weather (WeatherKit),2026-11-20,F,57,3,12:00|13:00|14:00,3,57.33,14.07,57.33,5,38,2,45.53,1.0,0.04,19.66,40.6,MostlyClear,24,live_apple_weatherkit_feed
-2026-11-17T03:00:06Z,Denver,denver,KBKF,apple_weather,Apple Weather (WeatherKit),2026-11-21,F,49,1,14:00,1,48.61,9.23,48.61,2,30,1,38.43,0.0,0.0,9.23,38.5,MostlyClear,24,live_apple_weatherkit_feed
-2026-11-17T03:00:06Z,Denver,denver,KBKF,apple_weather,Apple Weather (WeatherKit),2026-11-22,F,48,1,15:00,1,47.59,8.66,47.59,5,26,2,36.13,0.0,0.0,6.99,40.8,PartlyCloudy,24,live_apple_weatherkit_feed
-2026-11-17T03:00:06Z,Denver,denver,KBKF,foreca,Foreca,2026-11-16,F,54,1,20:00,1,54.0,12.0,54.0,1,48,1,51.0,2.0,0.0,14.0,60.2,Partly cloudy,4,live_web_scrape
-2026-11-17T03:00:06Z,Denver,denver,KBKF,foreca,Foreca,2026-11-17,F,66,2,13:00|14:00,2,66.0,19.0,66.0,7,37,3,51.0,7.0,0.0,29.0,51.1,Mostly clear,24,live_web_scrape
-2026-11-17T03:00:06Z,Denver,denver,KBKF,foreca,Foreca,2026-11-18,F,57,1,14:00,1,57.0,14.0,57.0,7,39,1,47.38,5.0,0.0,22.0,31.8,Clear,24,live_web_scrape
-2026-11-17T03:00:06Z,Denver,denver,KBKF,foreca,Foreca,2026-11-19,F,55,2,14:00|15:00,2,55.0,13.0,55.0,4,30,1,41.62,2.0,0.0,22.0,34.2,Partly cloudy,24,live_web_scrape
-2026-11-17T03:00:06Z,Denver,denver,KBKF,foreca,Foreca,2026-11-20,F,59,3,12:00|13:00|14:00,3,59.0,15.0,59.0,3,37,1,47.12,11.0,0.0,22.0,35.1,Clear,24,live_web_scrape
-2026-11-17T03:00:06Z,Denver,denver,KBKF,foreca,Foreca,2026-11-21,F,48,3,13:00|14:00|15:00,3,48.0,9.0,48.0,7,30,2,37.83,14.0,0.0,18.0,36.1,Clear,24,live_web_scrape
-2026-11-17T03:00:06Z,Denver,denver,KBKF,foreca,Foreca,2026-11-22,F,50,1,14:00,1,50.0,10.0,50.0,3,28,4,37.17,2.0,0.0,18.0,29.8,Mostly clear,24,live_web_scrape
-2026-11-17T03:00:06Z,Denver,denver,KBKF,meteoblue,meteoblue,2026-11-16,F,63,1,14:00,1,63.0,17.22,63.0,4,35,1,47.29,0.0,0.0,9.0,,"Clear, cloudless sky",24,live_web_scrape+multimodel
-2026-11-17T03:00:06Z,Denver,denver,KBKF,meteoblue,meteoblue,2026-11-17,F,67,3,13:00|14:00|15:00,3,67.46,19.7,67.46,4,34,1,50.16,0.0,0.0,28.3,41.0,Overcast,24,live_web_scrape+multimodel
-2026-11-17T03:00:06Z,Denver,denver,KBKF,meteoblue,meteoblue,2026-11-18,F,56,1,14:00,1,55.94,13.3,55.94,4,37,2,45.09,0.0,0.0,35.3,23.8,Clear sky,24,live_web_scrape+multimodel
-2026-11-17T03:00:06Z,Denver,denver,KBKF,meteoblue,meteoblue,2026-11-19,F,57,1,15:00,1,56.66,13.7,56.66,4,34,2,42.98,0.0,0.0,11.3,21.0,Overcast,24,live_web_scrape+multimodel
-2026-11-17T03:00:06Z,Denver,denver,KBKF,meteoblue,meteoblue,2026-11-20,F,62,1,15:00,1,61.7,16.5,61.7,4,41,1,49.44,8.0,0.0,28.0,28.0,Overcast,24,live_web_scrape+multimodel
-2026-11-17T03:00:06Z,Denver,denver,KBKF,meteoblue,meteoblue,2026-11-21,F,50,2,13:00|14:00,2,50.0,10.0,50.0,4,33,2,40.28,11.0,0.0,18.5,37.2,Clear sky,24,live_web_scrape+multimodel
-2026-11-17T03:00:06Z,Denver,denver,KBKF,meteoblue,meteoblue,2026-11-22,F,50,2,13:00|14:00,2,50.36,10.2,50.36,4,34,6,39.55,1.0,0.0,20.3,29.8,Overcast,24,live_web_scrape+multimodel
-2026-11-17T03:00:06Z,Denver,denver,KBKF,msn_weather,Microsoft Weather (MSN),2026-11-16,F,43,1,20:00,1,43.0,6.11,43.0,1,38,1,40.5,0.0,0.0,11.27,67.0,Clear,4,live_web_scrape
-2026-11-17T03:00:06Z,Denver,denver,KBKF,msn_weather,Microsoft Weather (MSN),2026-11-17,F,66,2,13:00|14:00,2,66.0,18.89,66.0,4,34,1,49.5,0.0,0.0,27.36,49.8,Clear,24,live_web_scrape
-2026-11-17T03:00:06Z,Denver,denver,KBKF,msn_weather,Microsoft Weather (MSN),2026-11-18,F,59,1,14:00,1,59.0,15.0,59.0,2,40,1,48.88,0.0,0.0,25.75,27.3,Clear,24,live_web_scrape
-2026-11-17T03:00:06Z,Denver,denver,KBKF,msn_weather,Microsoft Weather (MSN),2026-11-19,F,55,1,13:00,1,55.0,12.78,55.0,2,30,1,41.75,1.0,0.0,14.48,25.3,Mostly clear,24,live_web_scrape
-2026-11-17T03:00:06Z,Denver,denver,KBKF,msn_weather,Microsoft Weather (MSN),2026-11-20,F,61,1,13:00,1,61.0,16.11,61.0,2,38,2,47.33,1.0,0.0,25.75,35.8,Clear,24,live_web_scrape
-2026-11-17T03:00:06Z,Denver,denver,KBKF,msn_weather,Microsoft Weather (MSN),2026-11-21,F,49,1,14:00,1,49.0,9.44,49.0,4,31,3,37.62,2.0,0.0,16.09,45.4,Clear,24,live_web_scrape
-2026-11-17T03:00:06Z,Denver,denver,KBKF,msn_weather,Microsoft Weather (MSN),2026-11-22,F,49,1,14:00,1,49.0,9.44,49.0,2,26,1,36.17,1.0,0.0,14.48,34.0,Clear,24,live_web_scrape
-2026-11-17T03:00:06Z,Denver,denver,KBKF,open_meteo,Open-Meteo,2026-11-16,F,64,2,14:00|15:00,2,64.4,18.0,64.4,4,31,2,45.0,0.0,0.0,14.8,50.8,Clear sky,24,live_official_api
-2026-11-17T03:00:06Z,Denver,denver,KBKF,open_meteo,Open-Meteo,2026-11-17,F,67,3,13:00|14:00|15:00,3,67.46,19.7,67.46,4,34,1,50.16,0.0,0.0,28.3,41.0,Overcast,24,live_official_api
-2026-11-17T03:00:06Z,Denver,denver,KBKF,open_meteo,Open-Meteo,2026-11-18,F,56,1,14:00,1,55.94,13.3,55.94,4,37,2,45.09,0.0,0.0,35.3,23.8,Clear sky,24,live_official_api
-2026-11-17T03:00:06Z,Denver,denver,KBKF,open_meteo,Open-Meteo,2026-11-19,F,57,1,15:00,1,56.66,13.7,56.66,4,34,2,42.98,0.0,0.0,11.3,21.0,Overcast,24,live_official_api
-2026-11-17T03:00:06Z,Denver,denver,KBKF,open_meteo,Open-Meteo,2026-11-20,F,62,1,15:00,1,61.7,16.5,61.7,4,41,1,49.44,8.0,0.0,28.0,28.0,Overcast,24,live_official_api
-2026-11-17T03:00:06Z,Denver,denver,KBKF,open_meteo,Open-Meteo,2026-11-21,F,50,2,13:00|14:00,2,50.0,10.0,50.0,4,33,2,40.28,11.0,0.0,18.5,37.2,Clear sky,24,live_official_api
-2026-11-17T03:00:06Z,Denver,denver,KBKF,open_meteo,Open-Meteo,2026-11-22,F,50,2,13:00|14:00,2,50.36,10.2,50.36,4,34,6,39.55,1.0,0.0,20.3,29.8,Overcast,24,live_official_api
-2026-11-17T03:00:06Z,Denver,denver,KBKF,uk_met_office,UK Met Office,2026-11-16,F,62,2,14:00|15:00,2,62.42,16.9,62.42,2,35,3,46.23,5.0,0.0,11.9,57.6,Clear sky,24,live_web_scrape+ukmo_model
-2026-11-17T03:00:06Z,Denver,denver,KBKF,uk_met_office,UK Met Office,2026-11-17,F,66,2,14:00|15:00,2,65.84,18.8,65.84,4,34,1,49.59,5.0,0.0,26.3,50.2,Clear night,24,live_web_scrape+ukmo_model
-2026-11-17T03:00:06Z,Denver,denver,KBKF,uk_met_office,UK Met Office,2026-11-18,F,55,3,13:00|14:00|15:00,3,55.04,12.8,55.04,2,35,1,45.49,5.0,0.0,23.0,32.9,Clear night,24,live_web_scrape+ukmo_model
-2026-11-17T03:00:06Z,Denver,denver,KBKF,uk_met_office,UK Met Office,2026-11-19,F,50,1,14:00,1,50.18,10.1,50.18,4,28,1,36.89,5.0,0.0,11.2,48.5,Clear night,24,live_web_scrape+ukmo_model
-2026-11-17T03:00:06Z,Denver,denver,KBKF,uk_met_office,UK Met Office,2026-11-20,F,58,1,11:00,1,57.92,14.4,57.92,4,35,1,45.97,30.0,0.6,28.1,40.0,Clear night,24,live_web_scrape+ukmo_model
-2026-11-17T03:00:06Z,Denver,denver,KBKF,uk_met_office,UK Met Office,2026-11-21,F,48,1,13:00,1,47.66,8.7,47.66,4,35,5,38.92,10.0,0.0,16.6,38.6,Clear night,24,live_web_scrape+ukmo_model
-2026-11-17T03:00:06Z,Denver,denver,KBKF,uk_met_office,UK Met Office,2026-11-22,F,42,1,14:00,1,41.54,5.3,41.54,4,26,2,34.59,5.0,0.0,15.1,53.2,Clear night,24,live_web_scrape+ukmo_model
-2026-11-17T03:00:06Z,Denver,denver,KBKF,weather_com,The Weather Channel (weather.com),2026-11-16,F,45,1,20:00,1,45.0,7.22,45.0,1,41,1,43.0,1.0,0.0,11.27,61.0,Partly Cloudy,4,live_web_api
-2026-11-17T03:00:06Z,Denver,denver,KBKF,weather_com,The Weather Channel (weather.com),2026-11-17,F,66,1,14:00,1,66.0,18.89,66.0,1,35,1,49.71,4.0,0.0,30.58,47.5,Partly Cloudy,24,live_web_api
-2026-11-17T03:00:06Z,Denver,denver,KBKF,weather_com,The Weather Channel (weather.com),2026-11-18,F,56,2,13:00|14:00,2,56.0,13.33,56.0,3,37,1,46.58,0.0,0.0,27.36,28.2,Clear,24,live_web_api
-2026-11-17T03:00:06Z,Denver,denver,KBKF,weather_com,The Weather Channel (weather.com),2026-11-19,F,54,1,14:00,1,54.0,12.22,54.0,2,30,2,41.21,0.0,0.0,14.48,31.9,Partly Cloudy,24,live_web_api
-2026-11-17T03:00:06Z,Denver,denver,KBKF,weather_com,The Weather Channel (weather.com),2026-11-20,F,59,3,12:00|13:00|14:00,3,59.0,15.0,59.0,2,38,1,47.5,6.0,0.0,27.36,36.0,Mostly Clear,24,live_web_api
-2026-11-17T03:00:06Z,Denver,denver,KBKF,weather_com,The Weather Channel (weather.com),2026-11-21,F,48,2,13:00|14:00,2,48.0,8.89,48.0,3,32,4,38.46,5.0,0.0,16.09,38.0,Clear,24,live_web_api
-2026-11-17T03:00:06Z,Denver,denver,KBKF,weather_com,The Weather Channel (weather.com),2026-11-22,F,50,1,14:00,1,50.0,10.0,50.0,1,27,2,36.62,1.0,0.0,16.09,42.3,Partly Cloudy,24,live_web_api
-2026-11-17T03:00:06Z,Denver,denver,KBKF,weatherbit,Weatherbit,2026-11-16,F,61,3,13:00|14:00|15:00,3,61.34,16.3,61.34,4,33,2,45.22,0.0,0.0,11.5,63.8,Clear sky,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-17T03:00:06Z,Denver,denver,KBKF,weatherbit,Weatherbit,2026-11-17,F,65,1,15:00,1,64.94,18.3,64.94,4,33,1,47.85,0.0,0.0,21.3,53.9,Overcast,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-17T03:00:06Z,Denver,denver,KBKF,weatherbit,Weatherbit,2026-11-18,F,58,2,14:00|15:00,2,57.74,14.3,57.74,4,35,1,46.63,0.0,0.0,18.6,33.9,Clear sky,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-17T03:00:06Z,Denver,denver,KBKF,weatherbit,Weatherbit,2026-11-19,F,56,1,14:00,1,55.76,13.2,55.76,4,30,2,41.52,0.0,0.0,13.3,37.2,Overcast,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-17T03:00:06Z,Denver,denver,KBKF,weatherbit,Weatherbit,2026-11-20,F,59,1,13:00,1,59.18,15.1,59.18,4,34,1,46.68,38.0,0.6,37.4,32.8,Clear sky,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-17T03:00:06Z,Denver,denver,KBKF,weatherbit,Weatherbit,2026-11-21,F,48,1,14:00,1,48.2,9.0,48.2,4,29,2,37.19,22.0,0.0,25.5,27.4,Clear sky,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-17T03:00:06Z,Denver,denver,KBKF,weatherbit,Weatherbit,2026-11-22,F,52,2,13:00|14:00,2,51.8,11.0,51.8,4,25,1,37.43,2.0,0.0,13.7,42.0,Overcast,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-17T03:00:06Z,Denver,denver,KBKF,yr_no,Yr.no (MET Norway),2026-11-16,F,47,1,20:00,1,47.12,8.4,47.12,1,42,1,44.96,,0.0,12.24,62.6,Partlycloudy Night,4,live_official_api
-2026-11-17T03:00:06Z,Denver,denver,KBKF,yr_no,Yr.no (MET Norway),2026-11-17,F,67,1,13:00,1,66.74,19.3,66.74,7,35,4,49.58,,0.0,33.84,50.2,Partlycloudy Night,24,live_official_api
-2026-11-17T03:00:06Z,Denver,denver,KBKF,yr_no,Yr.no (MET Norway),2026-11-18,F,55,2,14:00|15:00,2,55.04,12.8,55.04,2,43,1,48.49,,0.0,29.52,28.6,Clearsky Night,24,live_official_api
-2026-11-17T03:00:06Z,Denver,denver,KBKF,yr_no,Yr.no (MET Norway),2026-11-19,F,51,1,11:00,1,51.44,10.8,51.44,7,31,1,42.38,,0.0,19.8,32.3,Partlycloudy Day,24,live_official_api
-2026-11-17T03:00:06Z,Denver,denver,KBKF,yr_no,Yr.no (MET Norway),2026-11-20,F,57,1,11:00,1,57.02,13.9,57.02,7,39,1,47.79,,0.0,17.64,31.1,Clearsky Day,24,live_official_api
-2026-11-17T03:00:06Z,Denver,denver,KBKF,yr_no,Yr.no (MET Norway),2026-11-21,F,44,2,11:00|12:00,2,44.42,6.9,44.42,5,33,2,38.55,,0.0,15.12,32.1,Clearsky Day,24,live_official_api
-2026-11-17T03:00:06Z,Denver,denver,KBKF,yr_no,Yr.no (MET Norway),2026-11-22,F,44,3,11:00|12:00|13:00,3,44.42,6.9,44.42,5,30,1,37.76,,0.0,11.88,31.4,Fair Night,24,live_official_api
+2026-11-17T04:00:06Z,Denver,denver,KBKF,aerisweather,AerisWeather (Xweather),2026-11-16,F,64,2,14:00|15:00,2,64.4,18.0,64.4,5,31,2,44.84,0.0,0.0,14.8,51.0,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-17T04:00:06Z,Denver,denver,KBKF,aerisweather,AerisWeather (Xweather),2026-11-17,F,67,3,13:00|14:00|15:00,3,67.1,19.5,67.1,5,36,2,50.45,0.0,0.0,28.3,38.4,Overcast,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-17T04:00:06Z,Denver,denver,KBKF,aerisweather,AerisWeather (Xweather),2026-11-18,F,56,1,14:00,1,55.94,13.3,55.94,5,37,2,45.09,0.0,0.0,35.3,23.8,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-17T04:00:06Z,Denver,denver,KBKF,aerisweather,AerisWeather (Xweather),2026-11-19,F,57,1,15:00,1,56.66,13.7,56.66,5,34,2,42.98,0.0,0.0,11.3,21.0,Overcast,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-17T04:00:06Z,Denver,denver,KBKF,aerisweather,AerisWeather (Xweather),2026-11-20,F,62,1,15:00,1,61.7,16.5,61.7,5,41,1,49.44,8.0,0.0,28.0,28.0,Overcast,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-17T04:00:06Z,Denver,denver,KBKF,aerisweather,AerisWeather (Xweather),2026-11-21,F,50,2,13:00|14:00,2,50.0,10.0,50.0,5,33,2,40.28,11.0,0.0,18.5,37.2,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-17T04:00:06Z,Denver,denver,KBKF,aerisweather,AerisWeather (Xweather),2026-11-22,F,50,2,13:00|14:00,2,50.36,10.2,50.36,5,34,6,39.55,1.0,0.0,20.3,29.8,Overcast,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
+2026-11-17T04:00:06Z,Denver,denver,KBKF,apple_weather,Apple Weather (WeatherKit),2026-11-16,F,45,1,21:00,1,45.05,7.25,45.05,1,41,1,42.79,0.0,0.0,6.57,61.7,Cloudy,3,live_apple_weatherkit_feed
+2026-11-17T04:00:06Z,Denver,denver,KBKF,apple_weather,Apple Weather (WeatherKit),2026-11-17,F,65,2,14:00|15:00,2,65.48,18.6,65.48,6,33,2,48.38,0.0,0.0,13.41,51.8,PartlyCloudy,24,live_apple_weatherkit_feed
+2026-11-17T04:00:06Z,Denver,denver,KBKF,apple_weather,Apple Weather (WeatherKit),2026-11-18,F,57,2,14:00|15:00,2,57.36,14.09,57.36,6,34,1,46.56,0.0,0.0,15.8,34.7,Clear,24,live_apple_weatherkit_feed
+2026-11-17T04:00:06Z,Denver,denver,KBKF,apple_weather,Apple Weather (WeatherKit),2026-11-19,F,52,2,14:00|15:00,2,52.47,11.37,52.47,3,28,1,39.91,0.0,0.0,9.14,39.4,Cloudy,24,live_apple_weatherkit_feed
+2026-11-17T04:00:06Z,Denver,denver,KBKF,apple_weather,Apple Weather (WeatherKit),2026-11-20,F,57,3,12:00|13:00|14:00,3,57.33,14.07,57.33,6,38,2,45.53,1.0,0.04,19.66,40.6,MostlyClear,24,live_apple_weatherkit_feed
+2026-11-17T04:00:06Z,Denver,denver,KBKF,apple_weather,Apple Weather (WeatherKit),2026-11-21,F,49,1,14:00,1,48.61,9.23,48.61,3,30,1,38.43,0.0,0.0,9.23,38.5,MostlyClear,24,live_apple_weatherkit_feed
+2026-11-17T04:00:06Z,Denver,denver,KBKF,apple_weather,Apple Weather (WeatherKit),2026-11-22,F,48,1,15:00,1,47.59,8.66,47.59,6,26,2,36.13,0.0,0.0,6.99,40.8,PartlyCloudy,24,live_apple_weatherkit_feed
+2026-11-17T04:00:06Z,Denver,denver,KBKF,foreca,Foreca,2026-11-16,F,52,1,20:00,1,52.0,11.0,52.0,1,46,1,49.0,2.0,0.0,14.0,60.2,Partly cloudy,4,live_web_scrape
+2026-11-17T04:00:06Z,Denver,denver,KBKF,foreca,Foreca,2026-11-17,F,66,2,13:00|14:00,2,66.0,19.0,66.0,8,37,3,50.83,7.0,0.0,29.0,51.1,Mostly clear,24,live_web_scrape
+2026-11-17T04:00:06Z,Denver,denver,KBKF,foreca,Foreca,2026-11-18,F,57,1,14:00,1,57.0,14.0,57.0,8,39,1,47.38,5.0,0.0,22.0,31.8,Clear,24,live_web_scrape
+2026-11-17T04:00:06Z,Denver,denver,KBKF,foreca,Foreca,2026-11-19,F,55,2,14:00|15:00,2,55.0,13.0,55.0,5,30,1,41.62,2.0,0.0,22.0,34.2,Partly cloudy,24,live_web_scrape
+2026-11-17T04:00:06Z,Denver,denver,KBKF,foreca,Foreca,2026-11-20,F,59,3,12:00|13:00|14:00,3,59.0,15.0,59.0,4,37,1,47.12,11.0,0.0,22.0,35.1,Clear,24,live_web_scrape
+2026-11-17T04:00:06Z,Denver,denver,KBKF,foreca,Foreca,2026-11-21,F,48,3,13:00|14:00|15:00,3,48.0,9.0,48.0,8,30,2,37.83,14.0,0.0,18.0,36.1,Clear,24,live_web_scrape
+2026-11-17T04:00:06Z,Denver,denver,KBKF,foreca,Foreca,2026-11-22,F,50,1,14:00,1,50.0,10.0,50.0,4,28,4,37.17,2.0,0.0,18.0,29.8,Mostly clear,24,live_web_scrape
+2026-11-17T04:00:06Z,Denver,denver,KBKF,meteoblue,meteoblue,2026-11-16,F,63,1,14:00,1,63.0,17.22,63.0,5,35,1,46.92,0.0,0.0,9.0,,"Clear, cloudless sky",24,live_web_scrape+multimodel
+2026-11-17T04:00:06Z,Denver,denver,KBKF,meteoblue,meteoblue,2026-11-17,F,67,3,13:00|14:00|15:00,3,67.1,19.5,67.1,5,36,2,50.45,0.0,0.0,28.3,38.4,Overcast,24,live_web_scrape+multimodel
+2026-11-17T04:00:06Z,Denver,denver,KBKF,meteoblue,meteoblue,2026-11-18,F,56,1,14:00,1,55.94,13.3,55.94,5,37,2,45.09,0.0,0.0,35.3,23.8,Clear sky,24,live_web_scrape+multimodel
+2026-11-17T04:00:06Z,Denver,denver,KBKF,meteoblue,meteoblue,2026-11-19,F,57,1,15:00,1,56.66,13.7,56.66,5,34,2,42.98,0.0,0.0,11.3,21.0,Overcast,24,live_web_scrape+multimodel
+2026-11-17T04:00:06Z,Denver,denver,KBKF,meteoblue,meteoblue,2026-11-20,F,62,1,15:00,1,61.7,16.5,61.7,5,41,1,49.44,8.0,0.0,28.0,28.0,Overcast,24,live_web_scrape+multimodel
+2026-11-17T04:00:06Z,Denver,denver,KBKF,meteoblue,meteoblue,2026-11-21,F,50,2,13:00|14:00,2,50.0,10.0,50.0,5,33,2,40.28,11.0,0.0,18.5,37.2,Clear sky,24,live_web_scrape+multimodel
+2026-11-17T04:00:06Z,Denver,denver,KBKF,meteoblue,meteoblue,2026-11-22,F,50,2,13:00|14:00,2,50.36,10.2,50.36,5,34,6,39.55,1.0,0.0,20.3,29.8,Overcast,24,live_web_scrape+multimodel
+2026-11-17T04:00:06Z,Denver,denver,KBKF,msn_weather,Microsoft Weather (MSN),2026-11-16,F,41,1,21:00,1,41.0,5.0,41.0,1,39,1,40.0,0.0,0.0,11.27,69.3,Clear,3,live_web_scrape
+2026-11-17T04:00:06Z,Denver,denver,KBKF,msn_weather,Microsoft Weather (MSN),2026-11-17,F,66,1,14:00,1,66.0,18.89,66.0,5,34,1,49.21,0.0,0.0,24.14,50.0,Clear,24,live_web_scrape
+2026-11-17T04:00:06Z,Denver,denver,KBKF,msn_weather,Microsoft Weather (MSN),2026-11-18,F,58,1,14:00,1,58.0,14.44,58.0,1,40,1,49.08,1.0,0.0,22.53,25.2,Clear,24,live_web_scrape
+2026-11-17T04:00:06Z,Denver,denver,KBKF,msn_weather,Microsoft Weather (MSN),2026-11-19,F,59,1,14:00,1,59.0,15.0,59.0,1,31,1,43.79,1.0,0.0,16.09,26.1,Mostly sunny,24,live_web_scrape
+2026-11-17T04:00:06Z,Denver,denver,KBKF,msn_weather,Microsoft Weather (MSN),2026-11-20,F,60,1,14:00,1,60.0,15.56,60.0,1,38,1,48.96,2.0,0.0,20.92,36.9,Clear,24,live_web_scrape
+2026-11-17T04:00:06Z,Denver,denver,KBKF,msn_weather,Microsoft Weather (MSN),2026-11-21,F,50,1,15:00,1,50.0,10.0,50.0,1,31,3,38.62,2.0,0.0,14.48,56.3,Clear,24,live_web_scrape
+2026-11-17T04:00:06Z,Denver,denver,KBKF,msn_weather,Microsoft Weather (MSN),2026-11-22,F,50,1,13:00,1,50.0,10.0,50.0,1,30,1,38.25,1.0,0.0,16.09,35.1,Clear,24,live_web_scrape
+2026-11-17T04:00:06Z,Denver,denver,KBKF,open_meteo,Open-Meteo,2026-11-16,F,64,2,14:00|15:00,2,64.4,18.0,64.4,5,31,2,44.84,0.0,0.0,14.8,51.0,Clear sky,24,live_official_api
+2026-11-17T04:00:06Z,Denver,denver,KBKF,open_meteo,Open-Meteo,2026-11-17,F,67,3,13:00|14:00|15:00,3,67.1,19.5,67.1,5,36,2,50.45,0.0,0.0,28.3,38.4,Overcast,24,live_official_api
+2026-11-17T04:00:06Z,Denver,denver,KBKF,open_meteo,Open-Meteo,2026-11-18,F,56,1,14:00,1,55.94,13.3,55.94,5,37,2,45.09,0.0,0.0,35.3,23.8,Clear sky,24,live_official_api
+2026-11-17T04:00:06Z,Denver,denver,KBKF,open_meteo,Open-Meteo,2026-11-19,F,57,1,15:00,1,56.66,13.7,56.66,5,34,2,42.98,0.0,0.0,11.3,21.0,Overcast,24,live_official_api
+2026-11-17T04:00:06Z,Denver,denver,KBKF,open_meteo,Open-Meteo,2026-11-20,F,62,1,15:00,1,61.7,16.5,61.7,5,41,1,49.44,8.0,0.0,28.0,28.0,Overcast,24,live_official_api
+2026-11-17T04:00:06Z,Denver,denver,KBKF,open_meteo,Open-Meteo,2026-11-21,F,50,2,13:00|14:00,2,50.0,10.0,50.0,5,33,2,40.28,11.0,0.0,18.5,37.2,Clear sky,24,live_official_api
+2026-11-17T04:00:06Z,Denver,denver,KBKF,open_meteo,Open-Meteo,2026-11-22,F,50,2,13:00|14:00,2,50.36,10.2,50.36,5,34,6,39.55,1.0,0.0,20.3,29.8,Overcast,24,live_official_api
+2026-11-17T04:00:06Z,Denver,denver,KBKF,uk_met_office,UK Met Office,2026-11-16,F,62,2,14:00|15:00,2,62.42,16.9,62.42,3,35,3,46.23,5.0,0.0,11.9,57.6,Clear sky,24,live_web_scrape+ukmo_model
+2026-11-17T04:00:06Z,Denver,denver,KBKF,uk_met_office,UK Met Office,2026-11-17,F,66,2,14:00|15:00,2,65.84,18.8,65.84,5,34,1,49.59,5.0,0.0,26.3,50.2,Clear night,24,live_web_scrape+ukmo_model
+2026-11-17T04:00:06Z,Denver,denver,KBKF,uk_met_office,UK Met Office,2026-11-18,F,55,3,13:00|14:00|15:00,3,55.04,12.8,55.04,3,35,1,45.49,5.0,0.0,23.0,32.9,Clear night,24,live_web_scrape+ukmo_model
+2026-11-17T04:00:06Z,Denver,denver,KBKF,uk_met_office,UK Met Office,2026-11-19,F,50,1,14:00,1,50.18,10.1,50.18,5,28,1,36.89,5.0,0.0,11.2,48.5,Clear night,24,live_web_scrape+ukmo_model
+2026-11-17T04:00:06Z,Denver,denver,KBKF,uk_met_office,UK Met Office,2026-11-20,F,58,1,11:00,1,57.92,14.4,57.92,5,35,1,45.97,30.0,0.6,28.1,40.0,Clear night,24,live_web_scrape+ukmo_model
+2026-11-17T04:00:06Z,Denver,denver,KBKF,uk_met_office,UK Met Office,2026-11-21,F,48,1,13:00,1,47.66,8.7,47.66,5,35,5,38.92,10.0,0.0,16.6,38.6,Clear night,24,live_web_scrape+ukmo_model
+2026-11-17T04:00:06Z,Denver,denver,KBKF,uk_met_office,UK Met Office,2026-11-22,F,42,1,14:00,1,41.54,5.3,41.54,5,26,2,34.59,5.0,0.0,15.1,53.2,Clear night,24,live_web_scrape+ukmo_model
+2026-11-17T04:00:06Z,Denver,denver,KBKF,weather_com,The Weather Channel (weather.com),2026-11-16,F,44,1,21:00,1,44.0,6.67,44.0,1,41,1,42.67,1.0,0.0,14.48,59.0,Partly Cloudy,3,live_web_api
+2026-11-17T04:00:06Z,Denver,denver,KBKF,weather_com,The Weather Channel (weather.com),2026-11-17,F,66,1,14:00,1,66.0,18.89,66.0,2,35,1,49.71,4.0,0.0,30.58,47.5,Partly Cloudy,24,live_web_api
+2026-11-17T04:00:06Z,Denver,denver,KBKF,weather_com,The Weather Channel (weather.com),2026-11-18,F,56,1,14:00,1,56.0,13.33,56.0,4,37,1,46.58,0.0,0.0,25.75,27.9,Clear,24,live_web_api
+2026-11-17T04:00:06Z,Denver,denver,KBKF,weather_com,The Weather Channel (weather.com),2026-11-19,F,56,1,14:00,1,56.0,13.33,56.0,1,28,1,41.29,0.0,0.0,14.48,31.9,Partly Cloudy,24,live_web_api
+2026-11-17T04:00:06Z,Denver,denver,KBKF,weather_com,The Weather Channel (weather.com),2026-11-20,F,59,3,12:00|13:00|14:00,3,59.0,15.0,59.0,3,38,1,47.5,6.0,0.0,27.36,36.0,Mostly Clear,24,live_web_api
+2026-11-17T04:00:06Z,Denver,denver,KBKF,weather_com,The Weather Channel (weather.com),2026-11-21,F,48,2,13:00|14:00,2,48.0,8.89,48.0,4,32,4,38.5,5.0,0.0,16.09,37.9,Clear,24,live_web_api
+2026-11-17T04:00:06Z,Denver,denver,KBKF,weather_com,The Weather Channel (weather.com),2026-11-22,F,50,1,14:00,1,50.0,10.0,50.0,2,27,2,36.62,1.0,0.0,16.09,42.3,Partly Cloudy,24,live_web_api
+2026-11-17T04:00:06Z,Denver,denver,KBKF,weatherbit,Weatherbit,2026-11-16,F,61,3,13:00|14:00|15:00,3,61.34,16.3,61.34,5,33,2,45.15,0.0,0.0,11.5,62.0,Clear sky,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-17T04:00:06Z,Denver,denver,KBKF,weatherbit,Weatherbit,2026-11-17,F,66,1,15:00,1,66.02,18.9,66.02,1,31,1,47.89,0.0,0.0,26.4,51.6,Overcast,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-17T04:00:06Z,Denver,denver,KBKF,weatherbit,Weatherbit,2026-11-18,F,57,2,14:00|15:00,2,57.2,14.0,57.2,1,37,2,45.9,0.0,0.0,13.6,31.8,Clear sky,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-17T04:00:06Z,Denver,denver,KBKF,weatherbit,Weatherbit,2026-11-19,F,55,1,14:00,1,54.68,12.6,54.68,1,29,1,41.17,0.0,0.0,22.5,32.3,Overcast,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-17T04:00:06Z,Denver,denver,KBKF,weatherbit,Weatherbit,2026-11-20,F,61,2,13:00|14:00,2,61.16,16.2,61.16,1,35,1,48.26,38.0,0.6,25.0,33.3,Clear sky,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-17T04:00:06Z,Denver,denver,KBKF,weatherbit,Weatherbit,2026-11-21,F,45,2,13:00|14:00,2,44.6,7.0,44.6,1,27,1,35.5,22.0,0.0,28.3,27.4,Clear sky,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-17T04:00:06Z,Denver,denver,KBKF,weatherbit,Weatherbit,2026-11-22,F,44,2,14:00|15:00,2,44.42,6.9,44.42,1,20,1,30.91,2.0,0.0,9.5,42.0,Overcast,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
+2026-11-17T04:00:06Z,Denver,denver,KBKF,yr_no,Yr.no (MET Norway),2026-11-16,F,46,1,21:00,1,46.22,7.9,46.22,1,42,1,44.24,,0.0,10.8,63.3,Partlycloudy Night,3,live_official_api
+2026-11-17T04:00:06Z,Denver,denver,KBKF,yr_no,Yr.no (MET Norway),2026-11-17,F,67,1,13:00,1,66.74,19.3,66.74,8,35,4,49.58,,0.0,33.84,50.2,Partlycloudy Night,24,live_official_api
+2026-11-17T04:00:06Z,Denver,denver,KBKF,yr_no,Yr.no (MET Norway),2026-11-18,F,55,2,14:00|15:00,2,55.04,12.8,55.04,3,43,1,48.49,,0.0,29.52,28.6,Clearsky Night,24,live_official_api
+2026-11-17T04:00:06Z,Denver,denver,KBKF,yr_no,Yr.no (MET Norway),2026-11-19,F,51,1,11:00,1,51.44,10.8,51.44,8,31,1,42.38,,0.0,19.8,32.3,Partlycloudy Day,24,live_official_api
+2026-11-17T04:00:06Z,Denver,denver,KBKF,yr_no,Yr.no (MET Norway),2026-11-20,F,57,1,11:00,1,57.02,13.9,57.02,8,39,1,47.79,,0.0,17.64,31.1,Clearsky Day,24,live_official_api
+2026-11-17T04:00:06Z,Denver,denver,KBKF,yr_no,Yr.no (MET Norway),2026-11-21,F,44,2,11:00|12:00,2,44.42,6.9,44.42,6,33,2,38.55,,0.0,15.12,32.1,Clearsky Day,24,live_official_api
+2026-11-17T04:00:06Z,Denver,denver,KBKF,yr_no,Yr.no (MET Norway),2026-11-22,F,44,3,11:00|12:00|13:00,3,44.42,6.9,44.42,6,30,1,37.76,,0.0,11.88,31.4,Fair Night,24,live_official_api

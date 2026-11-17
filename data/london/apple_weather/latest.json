@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-17T03:00:06Z",
+  "scraped_at_utc": "2026-11-17T04:00:06Z",
   "city": "London",
   "city_slug": "london",
   "station_icao": "EGLC",
@@ -35,33 +35,36 @@
       ],
       "highest_temperature_c": 13.25,
       "highest_temperature_f": 55.85,
-      "consecutive_scrapes_with_same_high": 7,
+      "consecutive_scrapes_with_same_high": 8,
       "high_first_predicted_at_utc": "2026-11-16T15:26:25Z",
-      "lowest_temperature": 8,
-      "lowest_temperature_duration_hours": 1,
+      "lowest_temperature": 9,
+      "lowest_temperature_duration_hours": 4,
       "lowest_temperature_hours": [
-        "03:00"
+        "04:00",
+        "21:00",
+        "22:00",
+        "23:00"
       ],
-      "lowest_temperature_exact": 8.24,
-      "avg_temperature": 11.14,
+      "lowest_temperature_exact": 8.99,
+      "avg_temperature": 11.29,
       "max_feels_like": 9,
-      "min_feels_like": 3,
+      "min_feels_like": 5,
       "max_humidity_pct": 94.0,
       "min_humidity_pct": 71.0,
-      "avg_humidity_pct": 81.9,
-      "max_precip_prob_pct": 100.0,
-      "total_precip_mm": 8.96,
-      "total_rain_mm": 8.96,
+      "avg_humidity_pct": 81.4,
+      "max_precip_prob_pct": 96.0,
+      "total_precip_mm": 6.8,
+      "total_rain_mm": 6.8,
       "total_snow_cm": 0.0,
       "max_wind_speed_kmh": 27.57,
       "max_wind_speed_mph": 17.13,
       "max_wind_gust_kmh": 59.15,
       "max_wind_gust_mph": 36.75,
-      "avg_cloud_cover_pct": 76.0,
-      "avg_pressure_hpa": 981.5,
+      "avg_cloud_cover_pct": 74.8,
+      "avg_pressure_hpa": 981.4,
       "max_uv_index": 1.0,
       "dominant_condition": "MostlyCloudy",
-      "hours_analyzed": 21
+      "hours_analyzed": 20
     },
     {
       "date": "2026-11-18",
@@ -82,7 +85,7 @@
       ],
       "highest_temperature_c": 12.26,
       "highest_temperature_f": 54.07,
-      "consecutive_scrapes_with_same_high": 7,
+      "consecutive_scrapes_with_same_high": 8,
       "high_first_predicted_at_utc": "2026-11-16T15:26:25Z",
       "lowest_temperature": 9,
       "lowest_temperature_duration_hours": 11,
@@ -137,7 +140,7 @@
       ],
       "highest_temperature_c": 10.16,
       "highest_temperature_f": 50.29,
-      "consecutive_scrapes_with_same_high": 5,
+      "consecutive_scrapes_with_same_high": 6,
       "high_first_predicted_at_utc": "2026-11-16T23:40:52Z",
       "lowest_temperature": 6,
       "lowest_temperature_duration_hours": 1,
@@ -180,7 +183,7 @@
       ],
       "highest_temperature_c": 9.58,
       "highest_temperature_f": 49.24,
-      "consecutive_scrapes_with_same_high": 2,
+      "consecutive_scrapes_with_same_high": 3,
       "high_first_predicted_at_utc": "2026-11-17T02:00:06Z",
       "lowest_temperature": 5,
       "lowest_temperature_duration_hours": 1,
@@ -225,7 +228,7 @@
       ],
       "highest_temperature_c": 10.2,
       "highest_temperature_f": 50.36,
-      "consecutive_scrapes_with_same_high": 7,
+      "consecutive_scrapes_with_same_high": 8,
       "high_first_predicted_at_utc": "2026-11-16T15:26:25Z",
       "lowest_temperature": 3,
       "lowest_temperature_duration_hours": 6,
@@ -276,7 +279,7 @@
       ],
       "highest_temperature_c": 10.1,
       "highest_temperature_f": 50.18,
-      "consecutive_scrapes_with_same_high": 5,
+      "consecutive_scrapes_with_same_high": 6,
       "high_first_predicted_at_utc": "2026-11-16T23:40:52Z",
       "lowest_temperature": 7,
       "lowest_temperature_duration_hours": 6,
@@ -326,7 +329,7 @@
       ],
       "highest_temperature_c": 10.66,
       "highest_temperature_f": 51.19,
-      "consecutive_scrapes_with_same_high": 4,
+      "consecutive_scrapes_with_same_high": 5,
       "high_first_predicted_at_utc": "2026-11-17T00:27:04Z",
       "lowest_temperature": 7,
       "lowest_temperature_duration_hours": 8,
@@ -364,40 +367,6 @@
   ],
   "hourly_7day_forecast": [
     {
-      "time_local": "2026-11-17T03:00",
-      "date_local": "2026-11-17",
-      "hour_local": "03:00",
-      "time_utc": "2026-11-17T03:00:00Z",
-      "temperature_c": 8.24,
-      "temperature_f": 46.83,
-      "temperature_market": 8,
-      "temperature_market_raw": 8.24,
-      "feels_like_c": 3.2,
-      "feels_like_f": 37.76,
-      "feels_like_market": 3,
-      "dew_point_c": 7.02,
-      "dew_point_f": 44.64,
-      "humidity_pct": 92.0,
-      "precip_prob_pct": 100.0,
-      "precip_mm": 2.16,
-      "rain_mm": 2.16,
-      "snow_cm": 0.0,
-      "wind_speed_kmh": 19.71,
-      "wind_speed_mph": 12.25,
-      "wind_gust_kmh": 44.57,
-      "wind_gust_mph": 27.69,
-      "wind_direction_deg": 114,
-      "wind_direction_cardinal": "ESE",
-      "cloud_cover_pct": 100.0,
-      "pressure_hpa": 985.1,
-      "visibility_km": 11.33,
-      "uv_index": 0.0,
-      "air_quality_index": null,
-      "condition": "Rain",
-      "is_daily_high_hour": false,
-      "is_daily_low_hour": true
-    },
-    {
       "time_local": "2026-11-17T04:00",
       "date_local": "2026-11-17",
       "hour_local": "04:00",
@@ -412,7 +381,7 @@
       "dew_point_c": 7.86,
       "dew_point_f": 46.15,
       "humidity_pct": 92.0,
-      "precip_prob_pct": 99.0,
+      "precip_prob_pct": 96.0,
       "precip_mm": 3.23,
       "rain_mm": 3.23,
       "snow_cm": 0.0,
@@ -429,7 +398,7 @@
       "air_quality_index": null,
       "condition": "Rain",
       "is_daily_high_hour": false,
-      "is_daily_low_hour": false
+      "is_daily_low_hour": true
     },
     {
       "time_local": "2026-11-17T05:00",
@@ -446,7 +415,7 @@
       "dew_point_c": 9.23,
       "dew_point_f": 48.61,
       "humidity_pct": 94.0,
-      "precip_prob_pct": 80.0,
+      "precip_prob_pct": 88.0,
       "precip_mm": 0.94,
       "rain_mm": 0.94,
       "snow_cm": 0.0,
@@ -1007,7 +976,7 @@
       "air_quality_index": null,
       "condition": "MostlyCloudy",
       "is_daily_high_hour": false,
-      "is_daily_low_hour": false
+      "is_daily_low_hour": true
     },
     {
       "time_local": "2026-11-17T22:00",
@@ -1041,7 +1010,7 @@
       "air_quality_index": null,
       "condition": "MostlyCloudy",
       "is_daily_high_hour": false,
-      "is_daily_low_hour": false
+      "is_daily_low_hour": true
     },
     {
       "time_local": "2026-11-17T23:00",
@@ -1075,7 +1044,7 @@
       "air_quality_index": null,
       "condition": "Cloudy",
       "is_daily_high_hour": false,
-      "is_daily_low_hour": false
+      "is_daily_low_hour": true
     },
     {
       "time_local": "2026-11-18T00:00",
@@ -5975,7 +5944,7 @@
     }
   ],
   "extra_metadata": {
-    "hours_count": 245,
+    "hours_count": 244,
     "reported_location": "London, United Kingdom"
   }
 }

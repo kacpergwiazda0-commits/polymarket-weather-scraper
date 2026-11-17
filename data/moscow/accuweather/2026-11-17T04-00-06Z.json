@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-17T04:00:06Z",
+  "city": "Moscow",
+  "city_slug": "moscow",
+  "station_icao": "UUWW",
+  "station_name": "Moscow Vnukovo Airport",
+  "latitude": 55.5915,
+  "longitude": 37.2615,
+  "timezone": "Europe/Moscow",
+  "polymarket_unit": "C",
+  "website_id": "accuweather",
+  "website_name": "AccuWeather",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.accuweather.com/en/ru/vnukovo/289318/hourly-weather-forecast/289318?day=1&unit=c failed after 3 attempts: HTTP Error 403: Forbidden",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}
