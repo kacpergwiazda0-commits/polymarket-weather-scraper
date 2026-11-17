@@ -51,10 +51,13 @@ def save_scrape_result(output_root: Path, result: ScrapeResult) -> Path:
 
     payload = json.dumps(result.to_dict(), indent=2, ensure_ascii=False)
     ts_json_path.write_text(payload, encoding="utf-8")
-    latest_json_path.write_text(payload, encoding="utf-8")
 
     if not result.success or not result.daily_7day_summary:
+        if not latest_json_path.exists():
+            latest_json_path.write_text(payload, encoding="utf-8")
         return provider_dir
+
+    latest_json_path.write_text(payload, encoding="utf-8")
 
     # 1. Append to cumulative daily_summary.csv
     daily_csv_path = provider_dir / "daily_summary.csv"
@@ -225,8 +228,8 @@ def save_scrape_result(output_root: Path, result: ScrapeResult) -> Path:
     return provider_dir
 
 
-def _summary_row_from_dict(r: Dict, d: Dict) -> List:
-    return [
+def _summary_row_from_dict(r: Dict, d: Dict, consensus_info: Dict | None = None) -> List:
+    base_row = [
         r.get("scraped_at_utc"),
         r.get("city"),
         r.get("city_slug"),
@@ -255,6 +258,16 @@ def _summary_row_from_dict(r: Dict, d: Dict) -> List:
         d.get("hours_analyzed"),
         r.get("source_mode"),
     ]
+    if consensus_info is not None:
+        base_row.extend([
+            consensus_info.get("all_websites_agree", False),
+            consensus_info.get("consensus_high"),
+            consensus_info.get("agree_count"),
+            consensus_info.get("total_websites"),
+            consensus_info.get("agreement_pct"),
+            consensus_info.get("temp_spread"),
+        ])
+    return base_row
 
 
 def write_Overview_tables(output_root: Path, results: List[ScrapeResult] | None = None) -> None:
@@ -264,11 +277,19 @@ def write_Overview_tables(output_root: Path, results: List[ScrapeResult] | None 
       2. `city_websites_all_scrapes.csv`      (all historical hourly scrapes over time across all 11 websites)
       3. `city_websites_hourly_forecasts.csv` (hour-by-hour 7-day forecast rows across all 11 websites)
     Plus root-level master CSVs in `data/`:
-      - `all_cities_latest_summary.csv`
-      - `all_cities_all_scrapes.csv`
+      - `all_cities_latest_summary.csv`                 (includes website consensus columns)
+      - `all_cities_websites_agree_on_high.csv`         (extracts rows where all websites agree on highest temp)
+      - `all_cities_consensus_by_city_date.csv`         (1 row per city+date showing website agreement & spread)
+      - `all_cities_latest_summary_without_unanimous.csv` (latest summary with unanimous rows filtered out)
+      - `all_cities_all_scrapes.csv`                    (all historical hourly scrapes across all 55 cities)
     """
+    from collections import Counter
+
     output_root.mkdir(parents=True, exist_ok=True)
     master_latest_csv = output_root / "all_cities_latest_summary.csv"
+    master_agree_csv = output_root / "all_cities_websites_agree_on_high.csv"
+    master_without_unanimous_csv = output_root / "all_cities_latest_summary_without_unanimous.csv"
+    master_consensus_csv = output_root / "all_cities_consensus_by_city_date.csv"
     master_all_scrapes_csv = output_root / "all_cities_all_scrapes.csv"
 
     summary_headers = [
@@ -299,6 +320,35 @@ def write_Overview_tables(output_root: Path, results: List[ScrapeResult] | None 
         "dominant_condition",
         "hours_analyzed",
         "source_mode",
+    ]
+
+    latest_summary_headers = summary_headers + [
+        "all_websites_agree_on_high",
+        "consensus_highest_temperature",
+        "websites_agreeing_count",
+        "total_websites_for_date",
+        "websites_agreement_pct",
+        "websites_high_temp_spread",
+    ]
+
+    consensus_headers = [
+        "city",
+        "city_slug",
+        "station_icao",
+        "date",
+        "unit",
+        "all_websites_agree",
+        "within_1_degree_all_websites",
+        "consensus_highest_temperature",
+        "websites_agreeing_count",
+        "total_websites",
+        "agreement_ratio",
+        "agreement_pct",
+        "min_highest_temperature",
+        "max_highest_temperature",
+        "temp_spread",
+        "avg_duration_hours_at_high",
+        "website_predictions_breakdown",
     ]
 
     hourly_headers = [
@@ -348,15 +398,124 @@ def write_Overview_tables(output_root: Path, results: List[ScrapeResult] | None 
     for latest_file in sorted(output_root.glob("*/*/latest.json")):
         try:
             d = json.loads(latest_file.read_text(encoding="utf-8"))
+            if not (d.get("success") and d.get("daily_7day_summary")):
+                # Recover from the most recent valid *Z.json in the same folder if latest.json had a transient error
+                for cand in sorted(latest_file.parent.glob("*Z.json"), reverse=True):
+                    try:
+                        cand_d = json.loads(cand.read_text(encoding="utf-8"))
+                        if cand_d.get("success") and cand_d.get("daily_7day_summary"):
+                            d = cand_d
+                            latest_file.write_text(json.dumps(d, indent=2, ensure_ascii=False), encoding="utf-8")
+                            break
+                    except Exception:
+                        continue
             if d.get("success") and d.get("daily_7day_summary"):
                 by_city.setdefault(d["city_slug"], []).append(d)
         except Exception:
             continue
 
+    # Pre-compute cross-website consensus for every (city_slug, date)
+    consensus_map: Dict[Tuple[str, str], Dict] = {}
+    consensus_summary_rows: List[Tuple[Tuple, List]] = []
+
+    for city_slug, city_records in sorted(by_city.items()):
+        by_date_items: Dict[str, List[Tuple[str, int, int, Dict]]] = {}
+        city_name = city_records[0].get("city", city_slug) if city_records else city_slug
+        station_icao = city_records[0].get("station_icao", "") if city_records else ""
+        unit = city_records[0].get("polymarket_unit", "") if city_records else ""
+
+        for r in city_records:
+            w_id = r.get("website_id", "")
+            for d in r.get("daily_7day_summary", []):
+                dt = d.get("date")
+                hi = d.get("highest_temperature")
+                dur = d.get("highest_temperature_duration_hours", 0)
+                if dt is not None and hi is not None:
+                    by_date_items.setdefault(str(dt), []).append((str(w_id), int(hi), int(dur or 0), d))
+
+        for dt, items in sorted(by_date_items.items()):
+            temps = [t for _, t, _, _ in items]
+            counts = Counter(temps)
+            # Mode temperature (tie-break by highest count then temperature)
+            consensus_high, agree_count = sorted(
+                counts.items(), key=lambda kv: (-kv[1], kv[0])
+            )[0]
+            total_w = len(temps)
+            min_t = min(temps)
+            max_t = max(temps)
+            spread = max_t - min_t
+            all_agree = (spread == 0 and total_w >= 2)
+            within_1 = (spread <= 1 and total_w >= 2)
+            agree_pct = round(agree_count * 100.0 / total_w, 1) if total_w else 0.0
+
+            agree_durs = [dur for _, t, dur, _ in items if t == consensus_high]
+            avg_dur = round(sum(agree_durs) / len(agree_durs), 2) if agree_durs else 0.0
+
+            breakdown = "|".join(
+                f"{w}:{t}" for w, t, _, _ in sorted(items, key=lambda x: (x[1], x[0]))
+            )
+
+            info = {
+                "all_websites_agree": all_agree,
+                "within_1_degree": within_1,
+                "consensus_high": consensus_high,
+                "agree_count": agree_count,
+                "total_websites": total_w,
+                "agreement_pct": agree_pct,
+                "min_high": min_t,
+                "max_high": max_t,
+                "temp_spread": spread,
+                "avg_dur": avg_dur,
+                "breakdown": breakdown,
+            }
+            consensus_map[(city_slug, dt)] = info
+
+            sort_key = (
+                0 if all_agree else (1 if within_1 else 2),
+                -agree_pct,
+                spread,
+                city_slug,
+                dt,
+            )
+            consensus_summary_rows.append((
+                sort_key,
+                [
+                    city_name,
+                    city_slug,
+                    station_icao,
+                    dt,
+                    unit,
+                    all_agree,
+                    within_1,
+                    consensus_high,
+                    agree_count,
+                    total_w,
+                    f"{agree_count}/{total_w}",
+                    agree_pct,
+                    min_t,
+                    max_t,
+                    spread,
+                    avg_dur,
+                    breakdown,
+                ],
+            ))
+
+    with master_consensus_csv.open("w", newline="", encoding="utf-8") as mcf:
+        mcwriter = csv.writer(mcf)
+        mcwriter.writerow(consensus_headers)
+        for _, row in sorted(consensus_summary_rows, key=lambda x: x[0]):
+            mcwriter.writerow(row)
+
     with master_latest_csv.open("w", newline="", encoding="utf-8") as mf, \
+         master_agree_csv.open("w", newline="", encoding="utf-8") as magf, \
+         master_without_unanimous_csv.open("w", newline="", encoding="utf-8") as mwof, \
          master_all_scrapes_csv.open("w", newline="", encoding="utf-8") as maf:
         mwriter = csv.writer(mf)
-        mwriter.writerow(summary_headers)
+        mwriter.writerow(latest_summary_headers)
+        magwriter = csv.writer(magf)
+        magwriter.writerow(latest_summary_headers)
+        mwowriter = csv.writer(mwof)
+        mwowriter.writerow(latest_summary_headers)
         mawriter = csv.writer(maf)
         mawriter.writerow(summary_headers)
 
@@ -368,12 +527,18 @@ def write_Overview_tables(output_root: Path, results: List[ScrapeResult] | None 
             city_csv = city_dir / "city_websites_summary.csv"
             with city_csv.open("w", newline="", encoding="utf-8") as cf:
                 cwriter = csv.writer(cf)
-                cwriter.writerow(summary_headers)
+                cwriter.writerow(latest_summary_headers)
                 for r in city_records:
                     for d in r.get("daily_7day_summary", []):
-                        row = _summary_row_from_dict(r, d)
+                        dt = str(d.get("date"))
+                        cinfo = consensus_map.get((city_slug, dt), {})
+                        row = _summary_row_from_dict(r, d, cinfo)
                         cwriter.writerow(row)
                         mwriter.writerow(row)
+                        if cinfo.get("all_websites_agree"):
+                            magwriter.writerow(row)
+                        else:
+                            mwowriter.writerow(row)
 
             # 2. Hour-by-hour 7-day forecasts across all websites for this city (outside website folders)
             city_hourly_csv = city_dir / "city_websites_hourly_forecasts.csv"
@@ -473,4 +638,5 @@ def write_Overview_tables(output_root: Path, results: List[ScrapeResult] | None 
                 for row in sorted_rows:
                     cawriter.writerow(row)
                     mawriter.writerow(row)
+
 

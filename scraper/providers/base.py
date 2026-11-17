@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import threading
 import time
 import urllib.error
 import urllib.request
@@ -12,6 +13,8 @@ from zoneinfo import ZoneInfo
 from ..analyzer import analyze_7day_forecast
 from ..cities import CityConfig
 from ..models import HourlyForecastPoint, ScrapeResult
+
+_OPEN_METEO_SEM = threading.Semaphore(3)
 
 DEFAULT_BROWSER_HEADERS: Dict[str, str] = {
     "User-Agent": (
@@ -59,21 +62,30 @@ def http_get_text(
     url: str,
     headers: Optional[Dict[str, str]] = None,
     timeout: int = 15,
-    retries: int = 2,
+    retries: int = 4,
 ) -> str:
     merged_headers = dict(DEFAULT_BROWSER_HEADERS)
     if headers:
         merged_headers.update(headers)
+    is_open_meteo = "api.open-meteo.com" in url
     last_err: Optional[Exception] = None
     for attempt in range(retries + 1):
         try:
-            req = urllib.request.Request(url, headers=merged_headers)
-            with urllib.request.urlopen(req, timeout=timeout) as resp:
-                return resp.read().decode("utf-8", errors="ignore")
+            if is_open_meteo:
+                with _OPEN_METEO_SEM:
+                    time.sleep(0.12)
+                    req = urllib.request.Request(url, headers=merged_headers)
+                    with urllib.request.urlopen(req, timeout=timeout) as resp:
+                        return resp.read().decode("utf-8", errors="ignore")
+            else:
+                req = urllib.request.Request(url, headers=merged_headers)
+                with urllib.request.urlopen(req, timeout=timeout) as resp:
+                    return resp.read().decode("utf-8", errors="ignore")
         except Exception as e:
             last_err = e
             if attempt < retries:
-                time.sleep(0.6 * (attempt + 1))
+                wait = (1.5 * (attempt + 1)) if is_open_meteo else (0.6 * (attempt + 1))
+                time.sleep(wait)
     raise RuntimeError(f"GET {url} failed after {retries + 1} attempts: {last_err}")
 
 

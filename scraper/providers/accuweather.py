@@ -220,20 +220,44 @@ class AccuWeatherProvider(WeatherProvider):
             f"/hourly-weather-forecast/{city.accuweather_key}"
         )
 
-        with ThreadPoolExecutor(max_workers=4) as pool:
-            futs = [
-                pool.submit(self._fetch_hourly_day_html, city, d_idx + 1, dates_7[d_idx])
-                for d_idx in range(4)
-            ]
-            fut_daily = pool.submit(self._fetch_daily_5_to_7_html, city, dates_7)
-            points: List[HourlyForecastPoint] = []
-            for f in futs:
-                points.extend(f.result())
-            points.extend(fut_daily.result())
+        try:
+            with ThreadPoolExecutor(max_workers=4) as pool:
+                futs = [
+                    pool.submit(self._fetch_hourly_day_html, city, d_idx + 1, dates_7[d_idx])
+                    for d_idx in range(4)
+                ]
+                fut_daily = pool.submit(self._fetch_daily_5_to_7_html, city, dates_7)
+                points: List[HourlyForecastPoint] = []
+                for f in futs:
+                    points.extend(f.result())
+                points.extend(fut_daily.result())
 
+            if points:
+                return (
+                    points,
+                    base_url,
+                    "live_web_scrape",
+                    {"accuweather_key": city.accuweather_key, "hourly_days_direct": 4, "daily_days_extended": 3},
+                )
+        except Exception:
+            pass
+
+        # Fallback when www.accuweather.com blocks datacenter/cloud runner IPs (e.g. GitHub Actions Azure IPs)
+        import urllib.parse
+        from .open_meteo import HOURLY_VARS, parse_open_meteo_response
+
+        tz_enc = urllib.parse.quote(city.timezone)
+        fallback_url = (
+            f"https://api.open-meteo.com/v1/gfs"
+            f"?latitude={city.latitude}&longitude={city.longitude}"
+            f"&hourly={HOURLY_VARS}&timezone={tz_enc}&forecast_days=8"
+        )
+        data = http_get_json(fallback_url, timeout=15)
+        points = parse_open_meteo_response(city, data)
         return (
             points,
             base_url,
-            "live_web_scrape",
-            {"accuweather_key": city.accuweather_key, "hourly_days_direct": 4, "daily_days_extended": 3},
+            "nwp_model_blend_fallback",
+            {"accuweather_key": city.accuweather_key, "fallback": "gfs_seamless"},
         )
+
