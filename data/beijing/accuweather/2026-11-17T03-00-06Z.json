@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-17T03:00:06Z",
+  "city": "Beijing",
+  "city_slug": "beijing",
+  "station_icao": "ZBAA",
+  "station_name": "Beijing Capital International Airport",
+  "latitude": 40.0799,
+  "longitude": 116.6031,
+  "timezone": "Asia/Shanghai",
+  "polymarket_unit": "C",
+  "website_id": "accuweather",
+  "website_name": "AccuWeather",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.accuweather.com/en/cn/shunyi-district/57520/hourly-weather-forecast/57520?day=1&unit=c failed after 3 attempts: HTTP Error 403: Forbidden",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-17T03:00:06Z",
+  "city": "Manila",
+  "city_slug": "manila",
+  "station_icao": "RPLL",
+  "station_name": "Ninoy Aquino International Airport",
+  "latitude": 14.5086,
+  "longitude": 121.0194,
+  "timezone": "Asia/Manila",
+  "polymarket_unit": "C",
+  "website_id": "accuweather",
+  "website_name": "AccuWeather",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.accuweather.com/en/ph/barangay-197/3424688/hourly-weather-forecast/3424688?day=1&unit=c failed after 3 attempts: HTTP Error 403: Forbidden",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

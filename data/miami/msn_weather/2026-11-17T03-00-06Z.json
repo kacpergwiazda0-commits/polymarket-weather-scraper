@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-17T03:00:06Z",
+  "city": "Miami",
+  "city_slug": "miami",
+  "station_icao": "KMIA",
+  "station_name": "Miami International Airport",
+  "latitude": 25.7959,
+  "longitude": -80.287,
+  "timezone": "America/New_York",
+  "polymarket_unit": "F",
+  "website_id": "msn_weather",
+  "website_name": "Microsoft Weather (MSN)",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "Could not locate embedded WeatherData state on MSN Weather page",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}
