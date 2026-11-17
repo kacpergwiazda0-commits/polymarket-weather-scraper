@@ -506,14 +506,13 @@ def write_Overview_tables(output_root: Path, results: List[ScrapeResult] | None 
         for _, row in sorted(consensus_summary_rows, key=lambda x: x[0]):
             mcwriter.writerow(row)
 
+    agree_rows_sorted: List[Tuple[Tuple, List]] = []
+
     with master_latest_csv.open("w", newline="", encoding="utf-8") as mf, \
-         master_agree_csv.open("w", newline="", encoding="utf-8") as magf, \
          master_without_unanimous_csv.open("w", newline="", encoding="utf-8") as mwof, \
          master_all_scrapes_csv.open("w", newline="", encoding="utf-8") as maf:
         mwriter = csv.writer(mf)
         mwriter.writerow(latest_summary_headers)
-        magwriter = csv.writer(magf)
-        magwriter.writerow(latest_summary_headers)
         mwowriter = csv.writer(mwof)
         mwowriter.writerow(latest_summary_headers)
         mawriter = csv.writer(maf)
@@ -535,9 +534,21 @@ def write_Overview_tables(output_root: Path, results: List[ScrapeResult] | None 
                         row = _summary_row_from_dict(r, d, cinfo)
                         cwriter.writerow(row)
                         mwriter.writerow(row)
-                        if cinfo.get("all_websites_agree"):
-                            magwriter.writerow(row)
-                        else:
+                        if (
+                            cinfo.get("all_websites_agree")
+                            or cinfo.get("within_1_degree")
+                            or (cinfo.get("agreement_pct", 0.0) >= 75.0)
+                        ):
+                            skey = (
+                                0 if cinfo.get("all_websites_agree") else 1,
+                                -float(cinfo.get("agreement_pct", 0.0)),
+                                int(cinfo.get("temp_spread", 99)),
+                                city_slug,
+                                dt,
+                                str(r.get("website_id", "")),
+                            )
+                            agree_rows_sorted.append((skey, row))
+                        if not cinfo.get("all_websites_agree"):
                             mwowriter.writerow(row)
 
             # 2. Hour-by-hour 7-day forecasts across all websites for this city (outside website folders)
@@ -638,5 +649,11 @@ def write_Overview_tables(output_root: Path, results: List[ScrapeResult] | None 
                 for row in sorted_rows:
                     cawriter.writerow(row)
                     mawriter.writerow(row)
+
+    with master_agree_csv.open("w", newline="", encoding="utf-8") as magf:
+        magwriter = csv.writer(magf)
+        magwriter.writerow(latest_summary_headers)
+        for _, row in sorted(agree_rows_sorted, key=lambda x: x[0]):
+            magwriter.writerow(row)
 
 
