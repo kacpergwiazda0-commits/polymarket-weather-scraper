@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-17T08:22:59Z",
+  "city": "Austin",
+  "city_slug": "austin",
+  "station_icao": "KAUS",
+  "station_name": "Austin-Bergstrom International Airport",
+  "latitude": 30.1975,
+  "longitude": -97.6664,
+  "timezone": "America/Chicago",
+  "polymarket_unit": "F",
+  "website_id": "accuweather",
+  "website_name": "AccuWeather",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.accuweather.com/en/us/austin/78701/hourly-weather-forecast/351193?day=1&unit=f failed after 3 attempts: HTTP Error 403: Forbidden",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

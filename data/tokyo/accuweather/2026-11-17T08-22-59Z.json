@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-17T08:22:59Z",
+  "city": "Tokyo",
+  "city_slug": "tokyo",
+  "station_icao": "RJTT",
+  "station_name": "Tokyo Haneda International Airport",
+  "latitude": 35.5494,
+  "longitude": 139.7798,
+  "timezone": "Asia/Tokyo",
+  "polymarket_unit": "C",
+  "website_id": "accuweather",
+  "website_name": "AccuWeather",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.accuweather.com/en/jp/hanedakuko/2409767/hourly-weather-forecast/2409767?day=1&unit=c failed after 3 attempts: HTTP Error 403: Forbidden",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

@@ -1,71 +1,36 @@
 scraped_at_utc,city,city_slug,station_icao,website_id,website_name,date,unit,highest_temperature,highest_temperature_duration_hours,highest_temperature_hours,highest_temperature_max_consecutive_hours,highest_temperature_exact,highest_temperature_c,highest_temperature_f,consecutive_scrapes_with_same_high,lowest_temperature,lowest_temperature_duration_hours,avg_temperature,max_precip_prob_pct,total_precip_mm,max_wind_speed_kmh,avg_humidity_pct,dominant_condition,hours_analyzed,source_mode
-2026-11-17T04:00:06Z,Austin,austin,KAUS,aerisweather,AerisWeather (Xweather),2026-11-16,F,61,2,15:00|16:00,2,60.98,16.1,60.98,5,48,3,52.57,9.0,0.0,18.9,81.0,Overcast,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-17T04:00:06Z,Austin,austin,KAUS,aerisweather,AerisWeather (Xweather),2026-11-17,F,64,2,15:00|16:00,2,64.04,17.8,64.04,3,43,1,52.55,0.0,0.0,9.8,74.4,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-17T04:00:06Z,Austin,austin,KAUS,aerisweather,AerisWeather (Xweather),2026-11-18,F,68,1,16:00,1,67.82,19.9,67.82,3,43,3,55.23,0.0,0.0,9.5,75.3,Overcast,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-17T04:00:06Z,Austin,austin,KAUS,aerisweather,AerisWeather (Xweather),2026-11-19,F,71,2,14:00|15:00,2,71.06,21.7,71.06,5,56,7,61.64,1.0,0.0,10.5,74.1,Overcast,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-17T04:00:06Z,Austin,austin,KAUS,aerisweather,AerisWeather (Xweather),2026-11-20,F,75,2,15:00|16:00,2,74.84,23.8,74.84,5,55,1,63.84,0.0,0.0,9.7,74.2,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-17T04:00:06Z,Austin,austin,KAUS,aerisweather,AerisWeather (Xweather),2026-11-21,F,77,2,14:00|15:00,2,77.0,25.0,77.0,5,58,3,66.58,8.0,0.0,12.8,74.1,Clear sky,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-17T04:00:06Z,Austin,austin,KAUS,aerisweather,AerisWeather (Xweather),2026-11-22,F,78,2,14:00|15:00,2,78.08,25.6,78.08,5,63,2,68.54,13.0,3.3,9.7,78.9,Light drizzle,24,gfs_seamless_model_fallback (set AERIS_CLIENT_ID & AERIS_CLIENT_SECRET in .env for direct API)
-2026-11-17T04:00:06Z,Austin,austin,KAUS,apple_weather,Apple Weather (WeatherKit),2026-11-16,F,49,1,22:00,1,49.46,9.7,49.46,1,48,1,48.88,0.0,0.0,7.12,83.0,Clear,2,live_apple_weatherkit_feed
-2026-11-17T04:00:06Z,Austin,austin,KAUS,apple_weather,Apple Weather (WeatherKit),2026-11-17,F,66,1,15:00,1,65.71,18.73,65.71,2,43,1,53.28,0.0,0.0,8.24,72.7,Clear,24,live_apple_weatherkit_feed
-2026-11-17T04:00:06Z,Austin,austin,KAUS,apple_weather,Apple Weather (WeatherKit),2026-11-18,F,68,3,14:00|15:00|16:00,3,68.43,20.24,68.43,3,45,1,56.39,0.0,0.0,6.93,77.7,PartlyCloudy,24,live_apple_weatherkit_feed
-2026-11-17T04:00:06Z,Austin,austin,KAUS,apple_weather,Apple Weather (WeatherKit),2026-11-19,F,71,3,14:00|15:00|16:00,3,70.92,21.62,70.92,8,53,5,60.65,0.0,0.0,7.24,81.3,MostlyCloudy,24,live_apple_weatherkit_feed
-2026-11-17T04:00:06Z,Austin,austin,KAUS,apple_weather,Apple Weather (WeatherKit),2026-11-20,F,72,1,15:00,1,71.56,21.98,71.56,6,53,2,61.49,0.0,0.0,6.43,82.9,PartlyCloudy,24,live_apple_weatherkit_feed
-2026-11-17T04:00:06Z,Austin,austin,KAUS,apple_weather,Apple Weather (WeatherKit),2026-11-21,F,74,1,13:00,1,73.6,23.11,73.6,6,58,3,64.83,0.0,0.0,10.05,81.6,MostlyCloudy,24,live_apple_weatherkit_feed
-2026-11-17T04:00:06Z,Austin,austin,KAUS,apple_weather,Apple Weather (WeatherKit),2026-11-22,F,71,3,13:00|14:00|15:00,3,71.17,21.76,71.17,8,58,1,64.69,13.0,1.49,11.67,75.4,MostlyClear,24,live_apple_weatherkit_feed
-2026-11-17T04:00:06Z,Austin,austin,KAUS,foreca,Foreca,2026-11-16,F,48,1,22:00,1,48.0,9.0,48.0,2,46,1,47.0,2.0,0.0,11.0,70.0,Clear,2,live_web_scrape
-2026-11-17T04:00:06Z,Austin,austin,KAUS,foreca,Foreca,2026-11-17,F,66,3,14:00|15:00|16:00,3,66.0,19.0,66.0,8,46,8,54.38,2.0,0.0,18.0,65.0,Clear,24,live_web_scrape
-2026-11-17T04:00:06Z,Austin,austin,KAUS,foreca,Foreca,2026-11-18,F,70,2,15:00|16:00,2,70.0,21.0,70.0,8,46,3,57.21,2.0,0.0,14.0,72.0,Cloudy,24,live_web_scrape
-2026-11-17T04:00:06Z,Austin,austin,KAUS,foreca,Foreca,2026-11-19,F,72,3,14:00|15:00|16:00,3,72.0,22.0,72.0,8,52,5,60.75,2.0,0.0,18.0,79.4,Clear,24,live_web_scrape
-2026-11-17T04:00:06Z,Austin,austin,KAUS,foreca,Foreca,2026-11-20,F,75,2,15:00|16:00,2,75.0,24.0,75.0,4,54,5,62.5,4.0,0.0,18.0,80.8,Clear,24,live_web_scrape
-2026-11-17T04:00:06Z,Austin,austin,KAUS,foreca,Foreca,2026-11-21,F,77,1,15:00,1,77.0,25.0,77.0,5,55,4,65.25,24.0,0.05,18.0,80.1,Mostly clear,24,live_web_scrape
-2026-11-17T04:00:06Z,Austin,austin,KAUS,foreca,Foreca,2026-11-22,F,73,1,15:00,1,73.0,23.0,73.0,8,61,3,65.54,39.0,1.14,11.0,84.1,Partly cloudy and light rain,24,live_web_scrape
-2026-11-17T04:00:06Z,Austin,austin,KAUS,meteoblue,meteoblue,2026-11-16,F,61,1,14:00,1,61.0,16.11,61.0,4,47,1,51.96,65.0,0.0,11.0,,Mostly cloudy,24,live_web_scrape+multimodel
-2026-11-17T04:00:06Z,Austin,austin,KAUS,meteoblue,meteoblue,2026-11-17,F,64,2,15:00|16:00,2,64.04,17.8,64.04,3,43,1,52.55,0.0,0.0,9.8,74.4,Clear sky,24,live_web_scrape+multimodel
-2026-11-17T04:00:06Z,Austin,austin,KAUS,meteoblue,meteoblue,2026-11-18,F,68,1,16:00,1,67.82,19.9,67.82,3,43,3,55.23,0.0,0.0,9.5,75.3,Overcast,24,live_web_scrape+multimodel
-2026-11-17T04:00:06Z,Austin,austin,KAUS,meteoblue,meteoblue,2026-11-19,F,71,2,14:00|15:00,2,71.06,21.7,71.06,4,56,7,61.64,1.0,0.0,10.5,74.1,Overcast,24,live_web_scrape+multimodel
-2026-11-17T04:00:06Z,Austin,austin,KAUS,meteoblue,meteoblue,2026-11-20,F,75,2,15:00|16:00,2,74.84,23.8,74.84,4,55,1,63.84,0.0,0.0,9.7,74.2,Clear sky,24,live_web_scrape+multimodel
-2026-11-17T04:00:06Z,Austin,austin,KAUS,meteoblue,meteoblue,2026-11-21,F,77,2,14:00|15:00,2,77.0,25.0,77.0,4,58,3,66.58,8.0,0.0,12.8,74.1,Clear sky,24,live_web_scrape+multimodel
-2026-11-17T04:00:06Z,Austin,austin,KAUS,meteoblue,meteoblue,2026-11-22,F,78,2,14:00|15:00,2,78.08,25.6,78.08,4,63,2,68.54,13.0,3.3,9.7,78.9,Light drizzle,24,live_web_scrape+multimodel
-2026-11-17T04:00:06Z,Austin,austin,KAUS,msn_weather,Microsoft Weather (MSN),2026-11-16,F,48,1,22:00,1,48.0,8.89,48.0,1,47,1,47.5,0.0,0.0,8.05,86.5,Clear,2,live_web_scrape
-2026-11-17T04:00:06Z,Austin,austin,KAUS,msn_weather,Microsoft Weather (MSN),2026-11-17,F,67,1,15:00,1,67.0,19.44,67.0,1,41,2,52.79,0.0,0.0,6.44,76.5,Clear,24,live_web_scrape
-2026-11-17T04:00:06Z,Austin,austin,KAUS,msn_weather,Microsoft Weather (MSN),2026-11-18,F,68,1,15:00,1,68.0,20.0,68.0,1,43,2,54.79,1.0,0.0,6.44,76.1,Mostly clear,24,live_web_scrape
-2026-11-17T04:00:06Z,Austin,austin,KAUS,msn_weather,Microsoft Weather (MSN),2026-11-19,F,71,1,15:00,1,71.0,21.67,71.0,1,49,1,58.42,1.0,0.0,8.05,86.6,Clear,24,live_web_scrape
-2026-11-17T04:00:06Z,Austin,austin,KAUS,msn_weather,Microsoft Weather (MSN),2026-11-20,F,74,1,15:00,1,74.0,23.33,74.0,8,50,1,60.08,1.0,0.0,6.44,86.0,Clear,24,live_web_scrape
-2026-11-17T04:00:06Z,Austin,austin,KAUS,msn_weather,Microsoft Weather (MSN),2026-11-21,F,74,2,14:00|15:00,2,74.0,23.33,74.0,6,53,3,62.54,4.0,0.0,14.48,85.1,Mostly clear,24,live_web_scrape
-2026-11-17T04:00:06Z,Austin,austin,KAUS,msn_weather,Microsoft Weather (MSN),2026-11-22,F,73,1,14:00,1,73.0,22.78,73.0,1,56,1,63.83,14.0,0.0,14.48,66.6,Mostly cloudy,24,live_web_scrape
-2026-11-17T04:00:06Z,Austin,austin,KAUS,open_meteo,Open-Meteo,2026-11-16,F,61,2,15:00|16:00,2,60.98,16.1,60.98,4,48,3,52.57,9.0,0.0,18.9,81.0,Overcast,24,live_official_api
-2026-11-17T04:00:06Z,Austin,austin,KAUS,open_meteo,Open-Meteo,2026-11-17,F,64,2,15:00|16:00,2,64.04,17.8,64.04,3,43,1,52.55,0.0,0.0,9.8,74.4,Clear sky,24,live_official_api
-2026-11-17T04:00:06Z,Austin,austin,KAUS,open_meteo,Open-Meteo,2026-11-18,F,68,1,16:00,1,67.82,19.9,67.82,3,43,3,55.23,0.0,0.0,9.5,75.3,Overcast,24,live_official_api
-2026-11-17T04:00:06Z,Austin,austin,KAUS,open_meteo,Open-Meteo,2026-11-19,F,71,2,14:00|15:00,2,71.06,21.7,71.06,4,56,7,61.64,1.0,0.0,10.5,74.1,Overcast,24,live_official_api
-2026-11-17T04:00:06Z,Austin,austin,KAUS,open_meteo,Open-Meteo,2026-11-20,F,75,2,15:00|16:00,2,74.84,23.8,74.84,4,55,1,63.84,0.0,0.0,9.7,74.2,Clear sky,24,live_official_api
-2026-11-17T04:00:06Z,Austin,austin,KAUS,open_meteo,Open-Meteo,2026-11-21,F,77,2,14:00|15:00,2,77.0,25.0,77.0,4,58,3,66.58,8.0,0.0,12.8,74.1,Clear sky,24,live_official_api
-2026-11-17T04:00:06Z,Austin,austin,KAUS,open_meteo,Open-Meteo,2026-11-22,F,78,2,14:00|15:00,2,78.08,25.6,78.08,4,63,2,68.54,13.0,3.3,9.7,78.9,Light drizzle,24,live_official_api
-2026-11-17T04:00:06Z,Austin,austin,KAUS,uk_met_office,UK Met Office,2026-11-16,F,60,3,15:00|16:00|17:00,3,60.44,15.8,60.44,4,49,4,53.73,33.0,1.2,16.6,76.4,Clear sky,24,live_web_scrape+ukmo_model
-2026-11-17T04:00:06Z,Austin,austin,KAUS,uk_met_office,UK Met Office,2026-11-17,F,64,2,15:00|16:00,2,63.5,17.5,63.5,4,48,1,55.38,5.0,0.0,10.1,64.0,Clear night,24,live_web_scrape+ukmo_model
-2026-11-17T04:00:06Z,Austin,austin,KAUS,uk_met_office,UK Met Office,2026-11-18,F,67,1,16:00,1,66.74,19.3,66.74,3,48,2,56.94,5.0,0.0,9.4,74.1,Clear night,24,live_web_scrape+ukmo_model
-2026-11-17T04:00:06Z,Austin,austin,KAUS,uk_met_office,UK Met Office,2026-11-19,F,71,1,15:00,1,70.7,21.5,70.7,4,56,3,62.62,5.0,0.0,10.4,76.0,Clear night,24,live_web_scrape+ukmo_model
-2026-11-17T04:00:06Z,Austin,austin,KAUS,uk_met_office,UK Met Office,2026-11-20,F,65,6,15:00|16:00|17:00|18:00|19:00|20:00,6,65.12,18.4,65.12,4,59,3,62.1,5.0,0.0,8.3,87.6,Partly cloudy night,24,live_web_scrape+ukmo_model
-2026-11-17T04:00:06Z,Austin,austin,KAUS,uk_met_office,UK Met Office,2026-11-21,F,72,2,15:00|16:00,2,71.96,22.2,71.96,4,63,7,66.7,10.0,0.4,8.6,82.2,Partly cloudy night,24,live_web_scrape+ukmo_model
-2026-11-17T04:00:06Z,Austin,austin,KAUS,uk_met_office,UK Met Office,2026-11-22,F,71,3,12:00|13:00|14:00,3,70.7,21.5,70.7,4,62,1,66.77,20.0,0.2,13.0,79.9,Sunny intervals,24,live_web_scrape+ukmo_model
-2026-11-17T04:00:06Z,Austin,austin,KAUS,weather_com,The Weather Channel (weather.com),2026-11-16,F,48,1,23:00,1,48.0,8.89,48.0,1,48,1,48.0,2.0,0.0,9.66,82.0,Clear,1,live_web_api
-2026-11-17T04:00:06Z,Austin,austin,KAUS,weather_com,The Weather Channel (weather.com),2026-11-17,F,66,3,14:00|15:00|16:00,3,66.0,18.89,66.0,8,42,3,52.92,5.0,0.0,11.27,68.4,Clear,24,live_web_api
-2026-11-17T04:00:06Z,Austin,austin,KAUS,weather_com,The Weather Channel (weather.com),2026-11-18,F,71,3,14:00|15:00|16:00,3,71.0,21.67,71.0,3,43,4,56.08,7.0,0.0,9.66,75.3,Partly Cloudy,24,live_web_api
-2026-11-17T04:00:06Z,Austin,austin,KAUS,weather_com,The Weather Channel (weather.com),2026-11-19,F,73,2,14:00|15:00,2,73.0,22.78,73.0,3,51,4,60.79,10.0,0.0,11.27,81.4,Partly Cloudy,24,live_web_api
-2026-11-17T04:00:06Z,Austin,austin,KAUS,weather_com,The Weather Channel (weather.com),2026-11-20,F,73,3,14:00|15:00|16:00,3,73.0,22.78,73.0,5,54,4,62.58,9.0,0.0,9.66,81.8,Partly Cloudy,24,live_web_api
-2026-11-17T04:00:06Z,Austin,austin,KAUS,weather_com,The Weather Channel (weather.com),2026-11-21,F,73,2,15:00|16:00,2,73.0,22.78,73.0,8,59,7,64.92,19.0,0.0,12.87,86.4,Partly Cloudy,24,live_web_api
-2026-11-17T04:00:06Z,Austin,austin,KAUS,weather_com,The Weather Channel (weather.com),2026-11-22,F,71,4,14:00|15:00|16:00|17:00,4,71.0,21.67,71.0,3,61,7,64.92,37.0,0.0,12.87,82.8,Partly Cloudy,24,live_web_api
-2026-11-17T04:00:06Z,Austin,austin,KAUS,weatherbit,Weatherbit,2026-11-16,F,59,1,15:00,1,58.64,14.8,58.64,4,47,1,52.03,0.0,0.0,18.4,79.1,Overcast,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-17T04:00:06Z,Austin,austin,KAUS,weatherbit,Weatherbit,2026-11-17,F,64,2,14:00|15:00,2,63.86,17.7,63.86,1,40,1,50.99,0.0,0.0,10.0,72.0,Clear sky,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-17T04:00:06Z,Austin,austin,KAUS,weatherbit,Weatherbit,2026-11-18,F,69,1,15:00,1,68.54,20.3,68.54,1,41,1,54.0,0.0,0.0,7.7,80.6,Overcast,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-17T04:00:06Z,Austin,austin,KAUS,weatherbit,Weatherbit,2026-11-19,F,70,2,14:00|15:00,2,69.98,21.1,69.98,4,49,6,57.85,0.0,0.0,10.3,86.8,Fog,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-17T04:00:06Z,Austin,austin,KAUS,weatherbit,Weatherbit,2026-11-20,F,73,2,14:00|15:00,2,73.22,22.9,73.22,4,49,1,60.9,0.0,0.0,6.0,86.9,Partly cloudy,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-17T04:00:06Z,Austin,austin,KAUS,weatherbit,Weatherbit,2026-11-21,F,74,3,13:00|14:00|15:00,3,74.3,23.5,74.3,1,58,1,65.88,8.0,0.0,14.4,87.9,Partly cloudy,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-17T04:00:06Z,Austin,austin,KAUS,weatherbit,Weatherbit,2026-11-22,F,69,2,14:00|15:00,2,69.44,20.8,69.44,1,56,2,63.16,12.0,0.0,18.0,75.7,Clear sky,24,icon_seamless_model_fallback (set WEATHERBIT_API_KEY in .env for direct API)
-2026-11-17T04:00:06Z,Austin,austin,KAUS,yr_no,Yr.no (MET Norway),2026-11-16,F,51,1,22:00,1,50.54,10.3,50.54,1,50,1,50.18,,0.0,10.44,71.7,Clearsky Night,2,live_official_api
-2026-11-17T04:00:06Z,Austin,austin,KAUS,yr_no,Yr.no (MET Norway),2026-11-17,F,64,3,14:00|15:00|16:00,3,64.04,17.8,64.04,8,44,1,53.44,,0.0,11.52,66.3,Clearsky Day,24,live_official_api
-2026-11-17T04:00:06Z,Austin,austin,KAUS,yr_no,Yr.no (MET Norway),2026-11-18,F,67,3,14:00|15:00|16:00,3,66.92,19.4,66.92,6,45,2,55.23,,0.0,9.36,75.5,Partlycloudy Night,24,live_official_api
-2026-11-17T04:00:06Z,Austin,austin,KAUS,yr_no,Yr.no (MET Norway),2026-11-19,F,67,1,12:00,1,66.74,19.3,66.74,3,50,5,57.68,,0.0,10.08,82.2,Partlycloudy Night,24,live_official_api
-2026-11-17T04:00:06Z,Austin,austin,KAUS,yr_no,Yr.no (MET Norway),2026-11-20,F,69,2,12:00|13:00,2,69.44,20.8,69.44,6,52,1,60.85,,0.0,5.04,81.9,Clearsky Day,24,live_official_api
-2026-11-17T04:00:06Z,Austin,austin,KAUS,yr_no,Yr.no (MET Norway),2026-11-21,F,71,3,12:00|13:00|14:00,3,71.24,21.8,71.24,6,55,2,63.98,,0.18,13.32,81.9,Partlycloudy Day,24,live_official_api
-2026-11-17T04:00:06Z,Austin,austin,KAUS,yr_no,Yr.no (MET Norway),2026-11-22,F,71,1,12:00,1,70.52,21.4,70.52,6,57,1,64.86,,0.24,15.12,78.5,Fair Night,24,live_official_api
+2026-11-17T08:22:59Z,Austin,austin,KAUS,apple_weather,Apple Weather (WeatherKit),2026-11-17,F,65,3,14:00|15:00|16:00,3,65.39,18.55,65.39,1,42,2,53.51,0.0,0.0,8.42,70.8,Clear,22,live_apple_weatherkit_feed
+2026-11-17T08:22:59Z,Austin,austin,KAUS,apple_weather,Apple Weather (WeatherKit),2026-11-18,F,69,1,15:00,1,69.1,20.61,69.1,1,46,3,56.83,0.0,0.0,6.96,78.0,MostlyCloudy,24,live_apple_weatherkit_feed
+2026-11-17T08:22:59Z,Austin,austin,KAUS,apple_weather,Apple Weather (WeatherKit),2026-11-19,F,71,3,14:00|15:00|16:00,3,71.24,21.8,71.24,9,53,3,61.11,0.0,0.0,7.48,82.0,Cloudy,24,live_apple_weatherkit_feed
+2026-11-17T08:22:59Z,Austin,austin,KAUS,apple_weather,Apple Weather (WeatherKit),2026-11-20,F,73,2,14:00|15:00,2,72.86,22.7,72.86,1,52,1,62.24,0.0,0.0,6.12,80.8,MostlyClear,24,live_apple_weatherkit_feed
+2026-11-17T08:22:59Z,Austin,austin,KAUS,apple_weather,Apple Weather (WeatherKit),2026-11-21,F,74,2,14:00|15:00,2,73.8,23.22,73.8,7,58,4,65.08,0.0,0.0,11.94,81.2,PartlyCloudy,24,live_apple_weatherkit_feed
+2026-11-17T08:22:59Z,Austin,austin,KAUS,apple_weather,Apple Weather (WeatherKit),2026-11-22,F,73,1,15:00,1,72.9,22.72,72.9,1,58,1,65.31,13.0,1.58,10.98,74.7,MostlyClear,24,live_apple_weatherkit_feed
+2026-11-17T08:22:59Z,Austin,austin,KAUS,apple_weather,Apple Weather (WeatherKit),2026-11-23,F,68,1,14:00,1,67.62,19.79,67.62,1,52,2,60.49,26.0,5.08,10.34,74.5,PartlyCloudy,24,live_apple_weatherkit_feed
+2026-11-17T08:22:59Z,Austin,austin,KAUS,foreca,Foreca,2026-11-17,F,66,3,14:00|15:00|16:00,3,66.0,19.0,66.0,9,46,6,55.05,2.0,0.0,18.0,63.6,Clear,22,live_web_scrape
+2026-11-17T08:22:59Z,Austin,austin,KAUS,foreca,Foreca,2026-11-18,F,70,2,15:00|16:00,2,70.0,21.0,70.0,9,46,3,57.21,2.0,0.0,14.0,72.7,Cloudy,24,live_web_scrape
+2026-11-17T08:22:59Z,Austin,austin,KAUS,foreca,Foreca,2026-11-19,F,72,3,14:00|15:00|16:00,3,72.0,22.0,72.0,9,52,3,61.08,2.0,0.0,18.0,79.8,Clear,24,live_web_scrape
+2026-11-17T08:22:59Z,Austin,austin,KAUS,foreca,Foreca,2026-11-20,F,73,3,14:00|15:00|16:00,3,73.0,23.0,73.0,1,54,3,62.79,4.0,0.0,18.0,81.6,Clear,24,live_web_scrape
+2026-11-17T08:22:59Z,Austin,austin,KAUS,foreca,Foreca,2026-11-21,F,75,3,14:00|15:00|16:00,3,75.0,24.0,75.0,1,57,4,65.67,24.0,0.05,18.0,81.0,Mostly clear,24,live_web_scrape
+2026-11-17T08:22:59Z,Austin,austin,KAUS,foreca,Foreca,2026-11-22,F,73,1,15:00,1,73.0,23.0,73.0,9,59,2,65.12,39.0,1.14,14.0,75.6,Partly cloudy and light rain,24,live_web_scrape
+2026-11-17T08:22:59Z,Austin,austin,KAUS,foreca,Foreca,2026-11-23,F,66,2,14:00|15:00,2,66.0,19.0,66.0,1,54,2,59.04,28.0,15.94,11.0,67.8,Cloudy and showers,24,live_web_scrape
+2026-11-17T08:22:59Z,Austin,austin,KAUS,msn_weather,Microsoft Weather (MSN),2026-11-17,F,67,1,15:00,1,67.0,19.44,67.0,2,42,4,52.41,0.0,0.0,6.44,75.2,Clear,22,live_web_scrape
+2026-11-17T08:22:59Z,Austin,austin,KAUS,msn_weather,Microsoft Weather (MSN),2026-11-18,F,68,1,15:00,1,68.0,20.0,68.0,2,43,2,54.88,1.0,0.0,6.44,76.0,Mostly clear,24,live_web_scrape
+2026-11-17T08:22:59Z,Austin,austin,KAUS,msn_weather,Microsoft Weather (MSN),2026-11-19,F,71,1,15:00,1,71.0,21.67,71.0,2,49,4,58.12,1.0,0.0,8.05,86.7,Clear,24,live_web_scrape
+2026-11-17T08:22:59Z,Austin,austin,KAUS,msn_weather,Microsoft Weather (MSN),2026-11-20,F,74,1,15:00,1,74.0,23.33,74.0,9,49,1,59.79,1.0,0.0,6.44,85.9,Clear,24,live_web_scrape
+2026-11-17T08:22:59Z,Austin,austin,KAUS,msn_weather,Microsoft Weather (MSN),2026-11-21,F,75,2,14:00|15:00,2,75.0,23.89,75.0,1,52,2,62.88,4.0,0.0,14.48,83.5,Mostly clear,24,live_web_scrape
+2026-11-17T08:22:59Z,Austin,austin,KAUS,msn_weather,Microsoft Weather (MSN),2026-11-22,F,73,1,14:00,1,73.0,22.78,73.0,2,56,1,64.67,14.0,0.0,16.09,64.3,Mostly cloudy,24,live_web_scrape
+2026-11-17T08:22:59Z,Austin,austin,KAUS,msn_weather,Microsoft Weather (MSN),2026-11-23,F,70,2,15:00|16:00,2,70.0,21.11,70.0,1,51,1,61.25,11.0,0.0,11.27,55.0,Mostly cloudy,24,live_web_scrape
+2026-11-17T08:22:59Z,Austin,austin,KAUS,weather_com,The Weather Channel (weather.com),2026-11-17,F,66,3,14:00|15:00|16:00,3,66.0,18.89,66.0,9,42,4,53.81,3.0,0.0,11.27,66.8,Sunny,21,live_web_api
+2026-11-17T08:22:59Z,Austin,austin,KAUS,weather_com,The Weather Channel (weather.com),2026-11-18,F,71,3,14:00|15:00|16:00,3,71.0,21.67,71.0,4,43,1,56.38,7.0,0.0,9.66,75.8,Partly Cloudy,24,live_web_api
+2026-11-17T08:22:59Z,Austin,austin,KAUS,weather_com,The Weather Channel (weather.com),2026-11-19,F,73,3,14:00|15:00|16:00,3,73.0,22.78,73.0,4,51,1,61.17,9.0,0.0,11.27,82.0,Mostly Cloudy,24,live_web_api
+2026-11-17T08:22:59Z,Austin,austin,KAUS,weather_com,The Weather Channel (weather.com),2026-11-20,F,74,2,14:00|15:00,2,74.0,23.33,74.0,1,53,4,62.29,9.0,0.0,9.66,80.2,Mostly Clear,24,live_web_api
+2026-11-17T08:22:59Z,Austin,austin,KAUS,weather_com,The Weather Channel (weather.com),2026-11-21,F,74,3,14:00|15:00|16:00,3,74.0,23.33,74.0,1,56,1,64.25,21.0,0.0,14.48,81.1,Partly Cloudy,24,live_web_api
+2026-11-17T08:22:59Z,Austin,austin,KAUS,weather_com,The Weather Channel (weather.com),2026-11-22,F,69,3,14:00|15:00|16:00,3,69.0,20.56,69.0,1,57,1,62.67,43.0,0.75,16.09,75.2,Partly Cloudy,24,live_web_api
+2026-11-17T08:22:59Z,Austin,austin,KAUS,weather_com,The Weather Channel (weather.com),2026-11-23,F,65,3,14:00|15:00|16:00,3,65.0,18.33,65.0,1,52,1,58.21,53.0,2.77,12.87,74.8,Partly Cloudy,24,live_web_api
+2026-11-17T08:22:59Z,Austin,austin,KAUS,yr_no,Yr.no (MET Norway),2026-11-17,F,65,1,15:00,1,64.58,18.1,64.58,1,45,2,54.22,,0.0,11.52,64.8,Clearsky Day,22,live_official_api
+2026-11-17T08:22:59Z,Austin,austin,KAUS,yr_no,Yr.no (MET Norway),2026-11-18,F,69,1,15:00,1,68.54,20.3,68.54,1,46,4,56.36,,0.0,8.64,76.2,Partlycloudy Night,24,live_official_api
+2026-11-17T08:22:59Z,Austin,austin,KAUS,yr_no,Yr.no (MET Norway),2026-11-19,F,71,4,13:00|14:00|15:00|16:00,4,71.24,21.8,71.24,1,52,2,60.74,,0.0,9.36,79.7,Partlycloudy Day,24,live_official_api
+2026-11-17T08:22:59Z,Austin,austin,KAUS,yr_no,Yr.no (MET Norway),2026-11-20,F,69,2,12:00|13:00,2,69.44,20.8,69.44,7,52,1,60.85,,0.0,5.04,81.9,Clearsky Day,24,live_official_api
+2026-11-17T08:22:59Z,Austin,austin,KAUS,yr_no,Yr.no (MET Norway),2026-11-21,F,71,3,12:00|13:00|14:00,3,71.24,21.8,71.24,7,55,2,63.98,,0.18,13.32,81.9,Partlycloudy Day,24,live_official_api
+2026-11-17T08:22:59Z,Austin,austin,KAUS,yr_no,Yr.no (MET Norway),2026-11-22,F,71,1,12:00,1,70.52,21.4,70.52,7,57,1,64.86,,0.24,15.12,78.5,Fair Night,24,live_official_api
+2026-11-17T08:22:59Z,Austin,austin,KAUS,yr_no,Yr.no (MET Norway),2026-11-23,F,67,1,12:00,1,66.74,19.3,66.74,1,51,1,59.83,,0.0,9.36,72.0,Clearsky Day,24,live_official_api

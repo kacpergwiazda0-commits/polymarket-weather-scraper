@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-17T08:22:59Z",
+  "city": "Munich",
+  "city_slug": "munich",
+  "station_icao": "EDDM",
+  "station_name": "Munich Franz Josef Strauss Airport",
+  "latitude": 48.3538,
+  "longitude": 11.7861,
+  "timezone": "Europe/Berlin",
+  "polymarket_unit": "C",
+  "website_id": "accuweather",
+  "website_name": "AccuWeather",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.accuweather.com/en/de/attaching/85356/hourly-weather-forecast/1035963?day=1&unit=c failed after 3 attempts: HTTP Error 403: Forbidden",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}
