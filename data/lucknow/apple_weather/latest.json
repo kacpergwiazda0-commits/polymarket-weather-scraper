@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-17T12:00:06Z",
+  "scraped_at_utc": "2026-11-17T13:00:11Z",
   "city": "Lucknow",
   "city_slug": "lucknow",
   "station_icao": "VILK",
@@ -18,45 +18,45 @@
     {
       "date": "2026-11-17",
       "unit": "C",
-      "highest_temperature": 23,
+      "highest_temperature": 21,
       "highest_temperature_duration_hours": 1,
       "highest_temperature_hours": [
-        "17:30"
+        "18:30"
       ],
       "highest_temperature_max_consecutive_hours": 1,
-      "highest_temperature_exact": 22.97,
+      "highest_temperature_exact": 21.44,
       "highest_temperature_exact_hours": [
-        "17:30"
+        "18:30"
       ],
-      "highest_temperature_c": 22.97,
-      "highest_temperature_f": 73.35,
+      "highest_temperature_c": 21.44,
+      "highest_temperature_f": 70.59,
       "consecutive_scrapes_with_same_high": 1,
-      "high_first_predicted_at_utc": "2026-11-17T12:00:06Z",
+      "high_first_predicted_at_utc": "2026-11-17T13:00:11Z",
       "lowest_temperature": 17,
       "lowest_temperature_duration_hours": 1,
       "lowest_temperature_hours": [
         "23:30"
       ],
       "lowest_temperature_exact": 17.4,
-      "avg_temperature": 19.72,
-      "max_feels_like": 22,
+      "avg_temperature": 19.18,
+      "max_feels_like": 21,
       "min_feels_like": 17,
       "max_humidity_pct": 72.0,
-      "min_humidity_pct": 53.0,
-      "avg_humidity_pct": 64.4,
+      "min_humidity_pct": 58.0,
+      "avg_humidity_pct": 66.3,
       "max_precip_prob_pct": 0.0,
       "total_precip_mm": 0.0,
       "total_rain_mm": 0.0,
       "total_snow_cm": 0.0,
-      "max_wind_speed_kmh": 5.69,
-      "max_wind_speed_mph": 3.54,
-      "max_wind_gust_kmh": 12.12,
-      "max_wind_gust_mph": 7.53,
+      "max_wind_speed_kmh": 5.55,
+      "max_wind_speed_mph": 3.45,
+      "max_wind_gust_kmh": 10.53,
+      "max_wind_gust_mph": 6.54,
       "avg_cloud_cover_pct": 0.0,
-      "avg_pressure_hpa": 1016.3,
+      "avg_pressure_hpa": 1016.7,
       "max_uv_index": 0.0,
       "dominant_condition": "Clear",
-      "hours_analyzed": 7
+      "hours_analyzed": 6
     },
     {
       "date": "2026-11-18",
@@ -74,7 +74,7 @@
       ],
       "highest_temperature_c": 26.69,
       "highest_temperature_f": 80.04,
-      "consecutive_scrapes_with_same_high": 13,
+      "consecutive_scrapes_with_same_high": 14,
       "high_first_predicted_at_utc": "2026-11-16T15:26:25Z",
       "lowest_temperature": 14,
       "lowest_temperature_duration_hours": 2,
@@ -118,7 +118,7 @@
       ],
       "highest_temperature_c": 26.58,
       "highest_temperature_f": 79.84,
-      "consecutive_scrapes_with_same_high": 2,
+      "consecutive_scrapes_with_same_high": 3,
       "high_first_predicted_at_utc": "2026-11-17T11:00:06Z",
       "lowest_temperature": 13,
       "lowest_temperature_duration_hours": 1,
@@ -162,7 +162,7 @@
       ],
       "highest_temperature_c": 26.83,
       "highest_temperature_f": 80.29,
-      "consecutive_scrapes_with_same_high": 13,
+      "consecutive_scrapes_with_same_high": 14,
       "high_first_predicted_at_utc": "2026-11-16T15:26:25Z",
       "lowest_temperature": 15,
       "lowest_temperature_duration_hours": 4,
@@ -211,7 +211,7 @@
       ],
       "highest_temperature_c": 27.49,
       "highest_temperature_f": 81.48,
-      "consecutive_scrapes_with_same_high": 11,
+      "consecutive_scrapes_with_same_high": 12,
       "high_first_predicted_at_utc": "2026-11-16T23:40:52Z",
       "lowest_temperature": 15,
       "lowest_temperature_duration_hours": 2,
@@ -258,7 +258,7 @@
       ],
       "highest_temperature_c": 26.47,
       "highest_temperature_f": 79.65,
-      "consecutive_scrapes_with_same_high": 5,
+      "consecutive_scrapes_with_same_high": 6,
       "high_first_predicted_at_utc": "2026-11-17T08:22:59Z",
       "lowest_temperature": 17,
       "lowest_temperature_duration_hours": 2,
@@ -305,7 +305,7 @@
       ],
       "highest_temperature_c": 25.4,
       "highest_temperature_f": 77.72,
-      "consecutive_scrapes_with_same_high": 11,
+      "consecutive_scrapes_with_same_high": 12,
       "high_first_predicted_at_utc": "2026-11-16T23:40:52Z",
       "lowest_temperature": 15,
       "lowest_temperature_duration_hours": 1,
@@ -335,40 +335,6 @@
     }
   ],
   "hourly_7day_forecast": [
-    {
-      "time_local": "2026-11-17T17:30",
-      "date_local": "2026-11-17",
-      "hour_local": "17:30",
-      "time_utc": "2026-11-17T12:00:00Z",
-      "temperature_c": 22.97,
-      "temperature_f": 73.35,
-      "temperature_market": 23,
-      "temperature_market_raw": 22.97,
-      "feels_like_c": 22.3,
-      "feels_like_f": 72.14,
-      "feels_like_market": 22,
-      "dew_point_c": 12.88,
-      "dew_point_f": 55.18,
-      "humidity_pct": 53.0,
-      "precip_prob_pct": 0.0,
-      "precip_mm": 0.0,
-      "rain_mm": 0.0,
-      "snow_cm": 0.0,
-      "wind_speed_kmh": 5.69,
-      "wind_speed_mph": 3.54,
-      "wind_gust_kmh": 12.12,
-      "wind_gust_mph": 7.53,
-      "wind_direction_deg": 266,
-      "wind_direction_cardinal": "W",
-      "cloud_cover_pct": 0.0,
-      "pressure_hpa": 1014.2,
-      "visibility_km": 15.64,
-      "uv_index": 0.0,
-      "air_quality_index": null,
-      "condition": "Clear",
-      "is_daily_high_hour": true,
-      "is_daily_low_hour": false
-    },
     {
       "time_local": "2026-11-17T18:30",
       "date_local": "2026-11-17",
@@ -400,7 +366,7 @@
       "uv_index": 0.0,
       "air_quality_index": null,
       "condition": "Clear",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": false
     },
     {
@@ -5471,7 +5437,7 @@
     }
   ],
   "extra_metadata": {
-    "hours_count": 231,
+    "hours_count": 230,
     "reported_location": "Lucknow, India"
   }
 }
