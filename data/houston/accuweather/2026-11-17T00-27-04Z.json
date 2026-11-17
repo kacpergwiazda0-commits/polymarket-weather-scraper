@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-17T00:27:04Z",
+  "city": "Houston",
+  "city_slug": "houston",
+  "station_icao": "KHOU",
+  "station_name": "William P. Hobby Airport",
+  "latitude": 29.6454,
+  "longitude": -95.2789,
+  "timezone": "America/Chicago",
+  "polymarket_unit": "F",
+  "website_id": "accuweather",
+  "website_name": "AccuWeather",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.accuweather.com/en/us/greater-hobby-area/77075/hourly-weather-forecast/3593012?day=1&unit=f failed after 3 attempts: HTTP Error 403: Forbidden",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

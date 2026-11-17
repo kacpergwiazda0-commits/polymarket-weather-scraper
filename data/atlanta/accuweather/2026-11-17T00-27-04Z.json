@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-17T00:27:04Z",
+  "city": "Atlanta",
+  "city_slug": "atlanta",
+  "station_icao": "KATL",
+  "station_name": "Hartsfield-Jackson Atlanta International Airport",
+  "latitude": 33.6407,
+  "longitude": -84.4277,
+  "timezone": "America/New_York",
+  "polymarket_unit": "F",
+  "website_id": "accuweather",
+  "website_name": "AccuWeather",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.accuweather.com/en/us/college-park/30337/hourly-weather-forecast/2140212?day=1&unit=f failed after 3 attempts: HTTP Error 403: Forbidden",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

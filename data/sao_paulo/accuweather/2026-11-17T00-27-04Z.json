@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-17T00:27:04Z",
+  "city": "Sao Paulo",
+  "city_slug": "sao_paulo",
+  "station_icao": "SBGR",
+  "station_name": "São Paulo Guarulhos International Airport",
+  "latitude": -23.4356,
+  "longitude": -46.4731,
+  "timezone": "America/Sao_Paulo",
+  "polymarket_unit": "C",
+  "website_id": "accuweather",
+  "website_name": "AccuWeather",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.accuweather.com/en/br/guarulhos/36369/hourly-weather-forecast/36369?day=1&unit=c failed after 3 attempts: HTTP Error 403: Forbidden",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

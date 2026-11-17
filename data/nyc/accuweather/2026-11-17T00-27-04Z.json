@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-17T00:27:04Z",
+  "city": "New York",
+  "city_slug": "nyc",
+  "station_icao": "KLGA",
+  "station_name": "LaGuardia Airport",
+  "latitude": 40.7769,
+  "longitude": -73.874,
+  "timezone": "America/New_York",
+  "polymarket_unit": "F",
+  "website_id": "accuweather",
+  "website_name": "AccuWeather",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.accuweather.com/en/us/laguardia-airport/11371/hourly-weather-forecast/2627477?day=1&unit=f failed after 3 attempts: HTTP Error 403: Forbidden",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

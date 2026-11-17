@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-17T00:27:04Z",
+  "city": "Auckland",
+  "city_slug": "auckland",
+  "station_icao": "NZAA",
+  "station_name": "Auckland International Airport",
+  "latitude": -37.0082,
+  "longitude": 174.785,
+  "timezone": "Pacific/Auckland",
+  "polymarket_unit": "C",
+  "website_id": "accuweather",
+  "website_name": "AccuWeather",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.accuweather.com/en/nz/auckland-airport/3590243/hourly-weather-forecast/3590243?day=1&unit=c failed after 3 attempts: HTTP Error 403: Forbidden",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}
