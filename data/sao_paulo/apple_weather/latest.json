@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-18T21:00:06Z",
+  "scraped_at_utc": "2026-11-18T22:00:06Z",
   "city": "Sao Paulo",
   "city_slug": "sao_paulo",
   "station_icao": "SBGR",
@@ -18,20 +18,20 @@
     {
       "date": "2026-11-18",
       "unit": "C",
-      "highest_temperature": 25,
+      "highest_temperature": 24,
       "highest_temperature_duration_hours": 1,
       "highest_temperature_hours": [
-        "18:00"
+        "19:00"
       ],
       "highest_temperature_max_consecutive_hours": 1,
-      "highest_temperature_exact": 25.08,
+      "highest_temperature_exact": 24.1,
       "highest_temperature_exact_hours": [
-        "18:00"
+        "19:00"
       ],
-      "highest_temperature_c": 25.08,
-      "highest_temperature_f": 77.14,
+      "highest_temperature_c": 24.1,
+      "highest_temperature_f": 75.38,
       "consecutive_scrapes_with_same_high": 1,
-      "high_first_predicted_at_utc": "2026-11-18T21:00:06Z",
+      "high_first_predicted_at_utc": "2026-11-18T22:00:06Z",
       "lowest_temperature": 22,
       "lowest_temperature_duration_hours": 3,
       "lowest_temperature_hours": [
@@ -40,25 +40,25 @@
         "23:00"
       ],
       "lowest_temperature_exact": 21.65,
-      "avg_temperature": 23.06,
-      "max_feels_like": 26,
+      "avg_temperature": 22.66,
+      "max_feels_like": 25,
       "min_feels_like": 23,
       "max_humidity_pct": 88.0,
-      "min_humidity_pct": 74.0,
-      "avg_humidity_pct": 82.5,
+      "min_humidity_pct": 79.0,
+      "avg_humidity_pct": 84.2,
       "max_precip_prob_pct": 38.0,
-      "total_precip_mm": 8.62,
-      "total_rain_mm": 8.62,
+      "total_precip_mm": 7.96,
+      "total_rain_mm": 7.96,
       "total_snow_cm": 0.0,
       "max_wind_speed_kmh": 6.46,
       "max_wind_speed_mph": 4.01,
       "max_wind_gust_kmh": 13.3,
       "max_wind_gust_mph": 8.26,
-      "avg_cloud_cover_pct": 98.5,
-      "avg_pressure_hpa": 1010.2,
+      "avg_cloud_cover_pct": 98.8,
+      "avg_pressure_hpa": 1010.6,
       "max_uv_index": 0.0,
       "dominant_condition": "Cloudy",
-      "hours_analyzed": 6
+      "hours_analyzed": 5
     },
     {
       "date": "2026-11-19",
@@ -78,7 +78,7 @@
       ],
       "highest_temperature_c": 30.49,
       "highest_temperature_f": 86.88,
-      "consecutive_scrapes_with_same_high": 2,
+      "consecutive_scrapes_with_same_high": 3,
       "high_first_predicted_at_utc": "2026-11-18T20:00:06Z",
       "lowest_temperature": 20,
       "lowest_temperature_duration_hours": 4,
@@ -124,7 +124,7 @@
       ],
       "highest_temperature_c": 30.5,
       "highest_temperature_f": 86.9,
-      "consecutive_scrapes_with_same_high": 10,
+      "consecutive_scrapes_with_same_high": 11,
       "high_first_predicted_at_utc": "2026-11-18T12:00:06Z",
       "lowest_temperature": 21,
       "lowest_temperature_duration_hours": 3,
@@ -171,7 +171,7 @@
       ],
       "highest_temperature_c": 30.18,
       "highest_temperature_f": 86.32,
-      "consecutive_scrapes_with_same_high": 13,
+      "consecutive_scrapes_with_same_high": 14,
       "high_first_predicted_at_utc": "2026-11-18T09:00:03Z",
       "lowest_temperature": 21,
       "lowest_temperature_duration_hours": 2,
@@ -215,7 +215,7 @@
       ],
       "highest_temperature_c": 30.54,
       "highest_temperature_f": 86.97,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-18T21:00:06Z",
       "lowest_temperature": 21,
       "lowest_temperature_duration_hours": 1,
@@ -258,7 +258,7 @@
       ],
       "highest_temperature_c": 26.52,
       "highest_temperature_f": 79.74,
-      "consecutive_scrapes_with_same_high": 13,
+      "consecutive_scrapes_with_same_high": 14,
       "high_first_predicted_at_utc": "2026-11-18T09:00:03Z",
       "lowest_temperature": 21,
       "lowest_temperature_duration_hours": 5,
@@ -305,7 +305,7 @@
       ],
       "highest_temperature_c": 27.52,
       "highest_temperature_f": 81.54,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-18T21:00:06Z",
       "lowest_temperature": 20,
       "lowest_temperature_duration_hours": 5,
@@ -340,40 +340,6 @@
   ],
   "hourly_7day_forecast": [
     {
-      "time_local": "2026-11-18T18:00",
-      "date_local": "2026-11-18",
-      "hour_local": "18:00",
-      "time_utc": "2026-11-18T21:00:00Z",
-      "temperature_c": 25.08,
-      "temperature_f": 77.14,
-      "temperature_market": 25,
-      "temperature_market_raw": 25.08,
-      "feels_like_c": 26.01,
-      "feels_like_f": 78.82,
-      "feels_like_market": 26,
-      "dew_point_c": 20.12,
-      "dew_point_f": 68.22,
-      "humidity_pct": 74.0,
-      "precip_prob_pct": 27.0,
-      "precip_mm": 0.66,
-      "rain_mm": 0.66,
-      "snow_cm": 0.0,
-      "wind_speed_kmh": 5.49,
-      "wind_speed_mph": 3.41,
-      "wind_gust_kmh": 10.77,
-      "wind_gust_mph": 6.69,
-      "wind_direction_deg": 143,
-      "wind_direction_cardinal": "SE",
-      "cloud_cover_pct": 97.0,
-      "pressure_hpa": 1008.4,
-      "visibility_km": 17.43,
-      "uv_index": 0.0,
-      "air_quality_index": null,
-      "condition": "Cloudy",
-      "is_daily_high_hour": true,
-      "is_daily_low_hour": false
-    },
-    {
       "time_local": "2026-11-18T19:00",
       "date_local": "2026-11-18",
       "hour_local": "19:00",
@@ -404,7 +370,7 @@
       "uv_index": 0.0,
       "air_quality_index": null,
       "condition": "Cloudy",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": false
     },
     {
@@ -5441,7 +5407,7 @@
     }
   ],
   "extra_metadata": {
-    "hours_count": 230,
+    "hours_count": 229,
     "reported_location": "São Paulo, Brazil"
   }
 }
