@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-18T00:00:05Z",
+  "scraped_at_utc": "2026-11-18T01:00:05Z",
   "city": "Singapore",
   "city_slug": "singapore",
   "station_icao": "WSSS",
@@ -30,20 +30,24 @@
       ],
       "highest_temperature_c": 30.7,
       "highest_temperature_f": 87.26,
-      "consecutive_scrapes_with_same_high": 10,
+      "consecutive_scrapes_with_same_high": 11,
       "high_first_predicted_at_utc": "2026-11-17T14:00:06Z",
-      "lowest_temperature": 24,
-      "lowest_temperature_duration_hours": 1,
+      "lowest_temperature": 25,
+      "lowest_temperature_duration_hours": 5,
       "lowest_temperature_hours": [
-        "08:00"
+        "19:00",
+        "20:00",
+        "21:00",
+        "22:00",
+        "23:00"
       ],
-      "lowest_temperature_exact": 24.3,
-      "avg_temperature": 26.76,
+      "lowest_temperature_exact": 24.6,
+      "avg_temperature": 26.93,
       "max_feels_like": null,
       "min_feels_like": null,
       "max_humidity_pct": 99.4,
       "min_humidity_pct": 69.6,
-      "avg_humidity_pct": 88.0,
+      "avg_humidity_pct": 87.3,
       "max_precip_prob_pct": null,
       "total_precip_mm": 19.6,
       "total_rain_mm": 19.6,
@@ -52,11 +56,11 @@
       "max_wind_speed_mph": 8.5,
       "max_wind_gust_kmh": null,
       "max_wind_gust_mph": null,
-      "avg_cloud_cover_pct": 94.0,
+      "avg_cloud_cover_pct": 93.9,
       "avg_pressure_hpa": 1012.4,
       "max_uv_index": 10.0,
       "dominant_condition": "Heavyrain",
-      "hours_analyzed": 16
+      "hours_analyzed": 15
     },
     {
       "date": "2026-11-19",
@@ -76,7 +80,7 @@
       ],
       "highest_temperature_c": 29.1,
       "highest_temperature_f": 84.38,
-      "consecutive_scrapes_with_same_high": 16,
+      "consecutive_scrapes_with_same_high": 17,
       "high_first_predicted_at_utc": "2026-11-17T08:22:59Z",
       "lowest_temperature": 24,
       "lowest_temperature_duration_hours": 8,
@@ -127,7 +131,7 @@
       ],
       "highest_temperature_c": 30.3,
       "highest_temperature_f": 86.54,
-      "consecutive_scrapes_with_same_high": 5,
+      "consecutive_scrapes_with_same_high": 6,
       "high_first_predicted_at_utc": "2026-11-17T20:00:06Z",
       "lowest_temperature": 25,
       "lowest_temperature_duration_hours": 9,
@@ -178,7 +182,7 @@
       ],
       "highest_temperature_c": 29.9,
       "highest_temperature_f": 85.82,
-      "consecutive_scrapes_with_same_high": 12,
+      "consecutive_scrapes_with_same_high": 13,
       "high_first_predicted_at_utc": "2026-11-17T12:00:06Z",
       "lowest_temperature": 24,
       "lowest_temperature_duration_hours": 8,
@@ -230,7 +234,7 @@
       ],
       "highest_temperature_c": 28.0,
       "highest_temperature_f": 82.4,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-18T00:00:05Z",
       "lowest_temperature": 25,
       "lowest_temperature_duration_hours": 12,
@@ -292,7 +296,7 @@
       ],
       "highest_temperature_c": 26.2,
       "highest_temperature_f": 79.16,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-18T00:00:05Z",
       "lowest_temperature": 24,
       "lowest_temperature_duration_hours": 6,
@@ -347,7 +351,7 @@
       ],
       "highest_temperature_c": 26.4,
       "highest_temperature_f": 79.52,
-      "consecutive_scrapes_with_same_high": 8,
+      "consecutive_scrapes_with_same_high": 9,
       "high_first_predicted_at_utc": "2026-11-17T16:00:06Z",
       "lowest_temperature": 24,
       "lowest_temperature_duration_hours": 9,
@@ -385,40 +389,6 @@
     }
   ],
   "hourly_7day_forecast": [
-    {
-      "time_local": "2026-11-18T08:00",
-      "date_local": "2026-11-18",
-      "hour_local": "08:00",
-      "time_utc": "2026-11-18T00:00:00Z",
-      "temperature_c": 24.3,
-      "temperature_f": 75.74,
-      "temperature_market": 24,
-      "temperature_market_raw": 24.3,
-      "feels_like_c": null,
-      "feels_like_f": null,
-      "feels_like_market": null,
-      "dew_point_c": 24.0,
-      "dew_point_f": 75.2,
-      "humidity_pct": 98.2,
-      "precip_prob_pct": null,
-      "precip_mm": 0.0,
-      "rain_mm": 0.0,
-      "snow_cm": null,
-      "wind_speed_kmh": 7.56,
-      "wind_speed_mph": 4.7,
-      "wind_gust_kmh": null,
-      "wind_gust_mph": null,
-      "wind_direction_deg": 273,
-      "wind_direction_cardinal": "W",
-      "cloud_cover_pct": 95.3,
-      "pressure_hpa": 1013.2,
-      "visibility_km": null,
-      "uv_index": 0.8,
-      "air_quality_index": null,
-      "condition": "Fog",
-      "is_daily_high_hour": false,
-      "is_daily_low_hour": true
-    },
     {
       "time_local": "2026-11-18T09:00",
       "date_local": "2026-11-18",
@@ -791,7 +761,7 @@
       "air_quality_index": null,
       "condition": "Rain",
       "is_daily_high_hour": false,
-      "is_daily_low_hour": false
+      "is_daily_low_hour": true
     },
     {
       "time_local": "2026-11-18T20:00",
@@ -825,7 +795,7 @@
       "air_quality_index": null,
       "condition": "Partlycloudy Night",
       "is_daily_high_hour": false,
-      "is_daily_low_hour": false
+      "is_daily_low_hour": true
     },
     {
       "time_local": "2026-11-18T21:00",
@@ -859,7 +829,7 @@
       "air_quality_index": null,
       "condition": "Lightrain",
       "is_daily_high_hour": false,
-      "is_daily_low_hour": false
+      "is_daily_low_hour": true
     },
     {
       "time_local": "2026-11-18T22:00",
@@ -893,7 +863,7 @@
       "air_quality_index": null,
       "condition": "Rain",
       "is_daily_high_hour": false,
-      "is_daily_low_hour": false
+      "is_daily_low_hour": true
     },
     {
       "time_local": "2026-11-18T23:00",
@@ -927,7 +897,7 @@
       "air_quality_index": null,
       "condition": "Rain",
       "is_daily_high_hour": false,
-      "is_daily_low_hour": false
+      "is_daily_low_hour": true
     },
     {
       "time_local": "2026-11-19T00:00",
@@ -5827,7 +5797,7 @@
     }
   ],
   "extra_metadata": {
-    "updated_at": "2026-11-17T23:18:21Z",
+    "updated_at": "2026-11-17T23:17:32Z",
     "yr_web_coordinates": "1.3644,103.9915"
   }
 }
