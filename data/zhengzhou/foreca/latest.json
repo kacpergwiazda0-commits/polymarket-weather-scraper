@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-18T10:00:06Z",
+  "scraped_at_utc": "2026-11-18T11:00:06Z",
   "city": "Zhengzhou",
   "city_slug": "zhengzhou",
   "station_icao": "ZHCC",
@@ -18,20 +18,24 @@
     {
       "date": "2026-11-18",
       "unit": "C",
-      "highest_temperature": 7,
-      "highest_temperature_duration_hours": 1,
+      "highest_temperature": 6,
+      "highest_temperature_duration_hours": 3,
       "highest_temperature_hours": [
-        "18:00"
+        "19:00",
+        "20:00",
+        "21:00"
       ],
-      "highest_temperature_max_consecutive_hours": 1,
-      "highest_temperature_exact": 7.0,
+      "highest_temperature_max_consecutive_hours": 3,
+      "highest_temperature_exact": 6.0,
       "highest_temperature_exact_hours": [
-        "18:00"
+        "19:00",
+        "20:00",
+        "21:00"
       ],
-      "highest_temperature_c": 7.0,
-      "highest_temperature_f": 45.0,
+      "highest_temperature_c": 6.0,
+      "highest_temperature_f": 43.0,
       "consecutive_scrapes_with_same_high": 1,
-      "high_first_predicted_at_utc": "2026-11-18T10:00:06Z",
+      "high_first_predicted_at_utc": "2026-11-18T11:00:06Z",
       "lowest_temperature": 5,
       "lowest_temperature_duration_hours": 2,
       "lowest_temperature_hours": [
@@ -39,12 +43,12 @@
         "23:00"
       ],
       "lowest_temperature_exact": 5.0,
-      "avg_temperature": 5.83,
+      "avg_temperature": 5.6,
       "max_feels_like": 5,
       "min_feels_like": 2,
       "max_humidity_pct": 54.0,
-      "min_humidity_pct": 43.0,
-      "avg_humidity_pct": 48.7,
+      "min_humidity_pct": 46.0,
+      "avg_humidity_pct": 49.8,
       "max_precip_prob_pct": 2.0,
       "total_precip_mm": 0.0,
       "total_rain_mm": 0.0,
@@ -57,7 +61,7 @@
       "avg_pressure_hpa": 1029.2,
       "max_uv_index": 0.0,
       "dominant_condition": "Clear",
-      "hours_analyzed": 6
+      "hours_analyzed": 5
     },
     {
       "date": "2026-11-19",
@@ -78,7 +82,7 @@
       ],
       "highest_temperature_c": 13.0,
       "highest_temperature_f": 55.0,
-      "consecutive_scrapes_with_same_high": 2,
+      "consecutive_scrapes_with_same_high": 3,
       "high_first_predicted_at_utc": "2026-11-18T09:00:03Z",
       "lowest_temperature": 4,
       "lowest_temperature_duration_hours": 6,
@@ -130,7 +134,7 @@
       ],
       "highest_temperature_c": 14.0,
       "highest_temperature_f": 57.0,
-      "consecutive_scrapes_with_same_high": 32,
+      "consecutive_scrapes_with_same_high": 33,
       "high_first_predicted_at_utc": "2026-11-16T15:26:25Z",
       "lowest_temperature": 4,
       "lowest_temperature_duration_hours": 4,
@@ -180,7 +184,7 @@
       ],
       "highest_temperature_c": 10.0,
       "highest_temperature_f": 50.0,
-      "consecutive_scrapes_with_same_high": 32,
+      "consecutive_scrapes_with_same_high": 33,
       "high_first_predicted_at_utc": "2026-11-16T15:26:25Z",
       "lowest_temperature": 3,
       "lowest_temperature_duration_hours": 4,
@@ -230,7 +234,7 @@
       ],
       "highest_temperature_c": 13.0,
       "highest_temperature_f": 55.0,
-      "consecutive_scrapes_with_same_high": 12,
+      "consecutive_scrapes_with_same_high": 13,
       "high_first_predicted_at_utc": "2026-11-17T21:00:06Z",
       "lowest_temperature": 1,
       "lowest_temperature_duration_hours": 2,
@@ -276,7 +280,7 @@
       ],
       "highest_temperature_c": 12.0,
       "highest_temperature_f": 54.0,
-      "consecutive_scrapes_with_same_high": 2,
+      "consecutive_scrapes_with_same_high": 3,
       "high_first_predicted_at_utc": "2026-11-18T09:00:03Z",
       "lowest_temperature": 5,
       "lowest_temperature_duration_hours": 2,
@@ -320,7 +324,7 @@
       ],
       "highest_temperature_c": 14.0,
       "highest_temperature_f": 57.0,
-      "consecutive_scrapes_with_same_high": 2,
+      "consecutive_scrapes_with_same_high": 3,
       "high_first_predicted_at_utc": "2026-11-18T09:00:03Z",
       "lowest_temperature": 2,
       "lowest_temperature_duration_hours": 2,
@@ -352,40 +356,6 @@
   ],
   "hourly_7day_forecast": [
     {
-      "time_local": "2026-11-18T18:00",
-      "date_local": "2026-11-18",
-      "hour_local": "18:00",
-      "time_utc": "2026-11-18T16:00:00.000Z",
-      "temperature_c": 7.0,
-      "temperature_f": 45.0,
-      "temperature_market": 7,
-      "temperature_market_raw": 7.0,
-      "feels_like_c": 5.0,
-      "feels_like_f": 41.0,
-      "feels_like_market": 5,
-      "dew_point_c": -4.0,
-      "dew_point_f": 25.0,
-      "humidity_pct": 43.0,
-      "precip_prob_pct": 2.0,
-      "precip_mm": 0.0,
-      "rain_mm": 0.0,
-      "snow_cm": 0.0,
-      "wind_speed_kmh": 11.0,
-      "wind_speed_mph": 7.0,
-      "wind_gust_kmh": 14.0,
-      "wind_gust_mph": 9.0,
-      "wind_direction_deg": 270,
-      "wind_direction_cardinal": "W",
-      "cloud_cover_pct": 0.0,
-      "pressure_hpa": 1029.0,
-      "visibility_km": null,
-      "uv_index": 0.0,
-      "air_quality_index": 97,
-      "condition": "Clear",
-      "is_daily_high_hour": true,
-      "is_daily_low_hour": false
-    },
-    {
       "time_local": "2026-11-18T19:00",
       "date_local": "2026-11-18",
       "hour_local": "19:00",
@@ -416,7 +386,7 @@
       "uv_index": 0.0,
       "air_quality_index": 109,
       "condition": "Clear",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": false
     },
     {
@@ -450,7 +420,7 @@
       "uv_index": 0.0,
       "air_quality_index": 104,
       "condition": "Clear",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": false
     },
     {
@@ -484,7 +454,7 @@
       "uv_index": 0.0,
       "air_quality_index": 95,
       "condition": "Clear",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": false
     },
     {
@@ -1536,7 +1506,7 @@
       "pressure_hpa": 1029.0,
       "visibility_km": null,
       "uv_index": 0.0,
-      "air_quality_index": 59,
+      "air_quality_index": 58,
       "condition": "Clear",
       "is_daily_high_hour": false,
       "is_daily_low_hour": true
