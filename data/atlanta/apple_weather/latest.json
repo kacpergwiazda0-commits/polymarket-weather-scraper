@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-19T02:00:06Z",
+  "scraped_at_utc": "2026-11-19T03:00:06Z",
   "city": "Atlanta",
   "city_slug": "atlanta",
   "station_icao": "KATL",
@@ -18,32 +18,32 @@
     {
       "date": "2026-11-18",
       "unit": "F",
-      "highest_temperature": 54,
+      "highest_temperature": 52,
       "highest_temperature_duration_hours": 1,
       "highest_temperature_hours": [
-        "21:00"
+        "22:00"
       ],
       "highest_temperature_max_consecutive_hours": 1,
-      "highest_temperature_exact": 53.89,
+      "highest_temperature_exact": 51.78,
       "highest_temperature_exact_hours": [
-        "21:00"
+        "22:00"
       ],
-      "highest_temperature_c": 12.16,
-      "highest_temperature_f": 53.89,
+      "highest_temperature_c": 10.99,
+      "highest_temperature_f": 51.78,
       "consecutive_scrapes_with_same_high": 1,
-      "high_first_predicted_at_utc": "2026-11-19T02:00:06Z",
+      "high_first_predicted_at_utc": "2026-11-19T03:00:06Z",
       "lowest_temperature": 50,
       "lowest_temperature_duration_hours": 1,
       "lowest_temperature_hours": [
         "23:00"
       ],
       "lowest_temperature_exact": 50.23,
-      "avg_temperature": 51.97,
-      "max_feels_like": 47,
+      "avg_temperature": 51.0,
+      "max_feels_like": 44,
       "min_feels_like": 42,
       "max_humidity_pct": 67.0,
-      "min_humidity_pct": 63.0,
-      "avg_humidity_pct": 65.3,
+      "min_humidity_pct": 66.0,
+      "avg_humidity_pct": 66.5,
       "max_precip_prob_pct": 0.0,
       "total_precip_mm": 0.0,
       "total_rain_mm": 0.0,
@@ -52,11 +52,11 @@
       "max_wind_speed_mph": 9.24,
       "max_wind_gust_kmh": 32.09,
       "max_wind_gust_mph": 19.94,
-      "avg_cloud_cover_pct": 8.3,
+      "avg_cloud_cover_pct": 11.0,
       "avg_pressure_hpa": 1029.5,
       "max_uv_index": 0.0,
       "dominant_condition": "Clear",
-      "hours_analyzed": 3
+      "hours_analyzed": 2
     },
     {
       "date": "2026-11-19",
@@ -75,7 +75,7 @@
       ],
       "highest_temperature_c": 19.08,
       "highest_temperature_f": 66.34,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-19T02:00:06Z",
       "lowest_temperature": 45,
       "lowest_temperature_duration_hours": 3,
@@ -121,7 +121,7 @@
       ],
       "highest_temperature_c": 19.86,
       "highest_temperature_f": 67.75,
-      "consecutive_scrapes_with_same_high": 8,
+      "consecutive_scrapes_with_same_high": 9,
       "high_first_predicted_at_utc": "2026-11-18T19:00:06Z",
       "lowest_temperature": 51,
       "lowest_temperature_duration_hours": 4,
@@ -169,7 +169,7 @@
       ],
       "highest_temperature_c": 19.71,
       "highest_temperature_f": 67.48,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-19T02:00:06Z",
       "lowest_temperature": 51,
       "lowest_temperature_duration_hours": 3,
@@ -214,7 +214,7 @@
       ],
       "highest_temperature_c": 19.17,
       "highest_temperature_f": 66.51,
-      "consecutive_scrapes_with_same_high": 4,
+      "consecutive_scrapes_with_same_high": 5,
       "high_first_predicted_at_utc": "2026-11-18T23:00:06Z",
       "lowest_temperature": 51,
       "lowest_temperature_duration_hours": 2,
@@ -259,7 +259,7 @@
       ],
       "highest_temperature_c": 18.2,
       "highest_temperature_f": 64.76,
-      "consecutive_scrapes_with_same_high": 6,
+      "consecutive_scrapes_with_same_high": 7,
       "high_first_predicted_at_utc": "2026-11-18T21:00:06Z",
       "lowest_temperature": 53,
       "lowest_temperature_duration_hours": 1,
@@ -302,7 +302,7 @@
       ],
       "highest_temperature_c": 14.81,
       "highest_temperature_f": 58.66,
-      "consecutive_scrapes_with_same_high": 6,
+      "consecutive_scrapes_with_same_high": 7,
       "high_first_predicted_at_utc": "2026-11-18T21:00:06Z",
       "lowest_temperature": 50,
       "lowest_temperature_duration_hours": 1,
@@ -332,40 +332,6 @@
     }
   ],
   "hourly_7day_forecast": [
-    {
-      "time_local": "2026-11-18T21:00",
-      "date_local": "2026-11-18",
-      "hour_local": "21:00",
-      "time_utc": "2026-11-19T02:00:00Z",
-      "temperature_c": 12.16,
-      "temperature_f": 53.89,
-      "temperature_market": 54,
-      "temperature_market_raw": 53.89,
-      "feels_like_c": 8.14,
-      "feels_like_f": 46.65,
-      "feels_like_market": 47,
-      "dew_point_c": 5.32,
-      "dew_point_f": 41.58,
-      "humidity_pct": 63.0,
-      "precip_prob_pct": 0.0,
-      "precip_mm": 0.0,
-      "rain_mm": 0.0,
-      "snow_cm": 0.0,
-      "wind_speed_kmh": 13.42,
-      "wind_speed_mph": 8.34,
-      "wind_gust_kmh": 29.32,
-      "wind_gust_mph": 18.22,
-      "wind_direction_deg": 74,
-      "wind_direction_cardinal": "ENE",
-      "cloud_cover_pct": 3.0,
-      "pressure_hpa": 1029.5,
-      "visibility_km": 38.61,
-      "uv_index": 0.0,
-      "air_quality_index": null,
-      "condition": "Clear",
-      "is_daily_high_hour": true,
-      "is_daily_low_hour": false
-    },
     {
       "time_local": "2026-11-18T22:00",
       "date_local": "2026-11-18",
@@ -397,7 +363,7 @@
       "uv_index": 0.0,
       "air_quality_index": null,
       "condition": "Clear",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": false
     },
     {
@@ -5332,7 +5298,7 @@
     }
   ],
   "extra_metadata": {
-    "hours_count": 227,
+    "hours_count": 226,
     "reported_location": "Atlanta, GA"
   }
 }
