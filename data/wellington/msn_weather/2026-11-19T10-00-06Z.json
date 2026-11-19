@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-19T10:00:06Z",
+  "city": "Wellington",
+  "city_slug": "wellington",
+  "station_icao": "NZWN",
+  "station_name": "Wellington International Airport",
+  "latitude": -41.3272,
+  "longitude": 174.8053,
+  "timezone": "Pacific/Auckland",
+  "polymarket_unit": "C",
+  "website_id": "msn_weather",
+  "website_name": "Microsoft Weather (MSN)",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "Could not locate embedded WeatherData state on MSN Weather page",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}
