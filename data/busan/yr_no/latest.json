@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-19T10:00:06Z",
+  "scraped_at_utc": "2026-11-19T11:00:06Z",
   "city": "Busan",
   "city_slug": "busan",
   "station_icao": "RKPK",
@@ -18,20 +18,21 @@
     {
       "date": "2026-11-19",
       "unit": "C",
-      "highest_temperature": 4,
-      "highest_temperature_duration_hours": 1,
+      "highest_temperature": 3,
+      "highest_temperature_duration_hours": 2,
       "highest_temperature_hours": [
-        "19:00"
+        "20:00",
+        "21:00"
       ],
-      "highest_temperature_max_consecutive_hours": 1,
-      "highest_temperature_exact": 3.9,
+      "highest_temperature_max_consecutive_hours": 2,
+      "highest_temperature_exact": 3.2,
       "highest_temperature_exact_hours": [
-        "19:00"
+        "20:00"
       ],
-      "highest_temperature_c": 3.9,
-      "highest_temperature_f": 39.02,
+      "highest_temperature_c": 3.2,
+      "highest_temperature_f": 37.76,
       "consecutive_scrapes_with_same_high": 1,
-      "high_first_predicted_at_utc": "2026-11-19T10:00:06Z",
+      "high_first_predicted_at_utc": "2026-11-19T11:00:06Z",
       "lowest_temperature": 2,
       "lowest_temperature_duration_hours": 2,
       "lowest_temperature_hours": [
@@ -39,12 +40,12 @@
         "23:00"
       ],
       "lowest_temperature_exact": 1.8,
-      "avg_temperature": 2.8,
+      "avg_temperature": 2.53,
       "max_feels_like": null,
       "min_feels_like": null,
       "max_humidity_pct": 71.9,
-      "min_humidity_pct": 63.3,
-      "avg_humidity_pct": 67.5,
+      "min_humidity_pct": 65.7,
+      "avg_humidity_pct": 68.6,
       "max_precip_prob_pct": null,
       "total_precip_mm": 0.0,
       "total_rain_mm": 0.0,
@@ -53,11 +54,11 @@
       "max_wind_speed_mph": 12.3,
       "max_wind_gust_kmh": null,
       "max_wind_gust_mph": null,
-      "avg_cloud_cover_pct": 6.5,
+      "avg_cloud_cover_pct": 7.2,
       "avg_pressure_hpa": 1017.2,
       "max_uv_index": 0.0,
       "dominant_condition": "Clearsky Night",
-      "hours_analyzed": 5
+      "hours_analyzed": 4
     },
     {
       "date": "2026-11-20",
@@ -74,7 +75,7 @@
       ],
       "highest_temperature_c": 7.0,
       "highest_temperature_f": 44.6,
-      "consecutive_scrapes_with_same_high": 55,
+      "consecutive_scrapes_with_same_high": 56,
       "high_first_predicted_at_utc": "2026-11-16T15:26:25Z",
       "lowest_temperature": -1,
       "lowest_temperature_duration_hours": 1,
@@ -119,7 +120,7 @@
       ],
       "highest_temperature_c": 7.0,
       "highest_temperature_f": 44.6,
-      "consecutive_scrapes_with_same_high": 55,
+      "consecutive_scrapes_with_same_high": 56,
       "high_first_predicted_at_utc": "2026-11-16T15:26:25Z",
       "lowest_temperature": -3,
       "lowest_temperature_duration_hours": 2,
@@ -163,7 +164,7 @@
       ],
       "highest_temperature_c": 6.2,
       "highest_temperature_f": 43.16,
-      "consecutive_scrapes_with_same_high": 10,
+      "consecutive_scrapes_with_same_high": 11,
       "high_first_predicted_at_utc": "2026-11-19T00:00:05Z",
       "lowest_temperature": -3,
       "lowest_temperature_duration_hours": 5,
@@ -211,7 +212,7 @@
       ],
       "highest_temperature_c": 13.9,
       "highest_temperature_f": 57.02,
-      "consecutive_scrapes_with_same_high": 10,
+      "consecutive_scrapes_with_same_high": 11,
       "high_first_predicted_at_utc": "2026-11-19T00:00:05Z",
       "lowest_temperature": -2,
       "lowest_temperature_duration_hours": 2,
@@ -256,7 +257,7 @@
       ],
       "highest_temperature_c": 11.1,
       "highest_temperature_f": 51.98,
-      "consecutive_scrapes_with_same_high": 10,
+      "consecutive_scrapes_with_same_high": 11,
       "high_first_predicted_at_utc": "2026-11-19T00:00:05Z",
       "lowest_temperature": 0,
       "lowest_temperature_duration_hours": 2,
@@ -300,7 +301,7 @@
       ],
       "highest_temperature_c": 7.8,
       "highest_temperature_f": 46.04,
-      "consecutive_scrapes_with_same_high": 10,
+      "consecutive_scrapes_with_same_high": 11,
       "high_first_predicted_at_utc": "2026-11-19T00:00:05Z",
       "lowest_temperature": -2,
       "lowest_temperature_duration_hours": 3,
@@ -333,40 +334,6 @@
   ],
   "hourly_7day_forecast": [
     {
-      "time_local": "2026-11-19T19:00",
-      "date_local": "2026-11-19",
-      "hour_local": "19:00",
-      "time_utc": "2026-11-19T10:00:00Z",
-      "temperature_c": 3.9,
-      "temperature_f": 39.02,
-      "temperature_market": 4,
-      "temperature_market_raw": 3.9,
-      "feels_like_c": null,
-      "feels_like_f": null,
-      "feels_like_market": null,
-      "dew_point_c": -2.6,
-      "dew_point_f": 27.32,
-      "humidity_pct": 63.3,
-      "precip_prob_pct": null,
-      "precip_mm": 0.0,
-      "rain_mm": 0.0,
-      "snow_cm": null,
-      "wind_speed_kmh": 19.44,
-      "wind_speed_mph": 12.08,
-      "wind_gust_kmh": null,
-      "wind_gust_mph": null,
-      "wind_direction_deg": 274,
-      "wind_direction_cardinal": "W",
-      "cloud_cover_pct": 3.9,
-      "pressure_hpa": 1017.0,
-      "visibility_km": null,
-      "uv_index": 0.0,
-      "air_quality_index": null,
-      "condition": "Clearsky Night",
-      "is_daily_high_hour": true,
-      "is_daily_low_hour": false
-    },
-    {
       "time_local": "2026-11-19T20:00",
       "date_local": "2026-11-19",
       "hour_local": "20:00",
@@ -397,7 +364,7 @@
       "uv_index": 0.0,
       "air_quality_index": null,
       "condition": "Clearsky Night",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": false
     },
     {
@@ -431,7 +398,7 @@
       "uv_index": 0.0,
       "air_quality_index": null,
       "condition": "Clearsky Night",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": false
     },
     {
@@ -5400,7 +5367,7 @@
     }
   ],
   "extra_metadata": {
-    "updated_at": "2026-11-19T09:21:51Z",
+    "updated_at": "2026-11-19T09:21:53Z",
     "yr_web_coordinates": "35.1795,128.9382"
   }
 }
