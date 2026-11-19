@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-19T22:00:07Z",
+  "city": "Kuala Lumpur",
+  "city_slug": "kuala_lumpur",
+  "station_icao": "WMKK",
+  "station_name": "Kuala Lumpur International Airport",
+  "latitude": 2.7456,
+  "longitude": 101.7099,
+  "timezone": "Asia/Kuala_Lumpur",
+  "polymarket_unit": "C",
+  "website_id": "msn_weather",
+  "website_name": "Microsoft Weather (MSN)",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "Could not locate embedded WeatherData state on MSN Weather page",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}
