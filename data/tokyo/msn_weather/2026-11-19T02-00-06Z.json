@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-19T02:00:06Z",
+  "city": "Tokyo",
+  "city_slug": "tokyo",
+  "station_icao": "RJTT",
+  "station_name": "Tokyo Haneda International Airport",
+  "latitude": 35.5494,
+  "longitude": 139.7798,
+  "timezone": "Asia/Tokyo",
+  "polymarket_unit": "C",
+  "website_id": "msn_weather",
+  "website_name": "Microsoft Weather (MSN)",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "Could not locate embedded WeatherData state on MSN Weather page",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}
