@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-20T17:40:57Z",
+  "scraped_at_utc": "2026-11-20T18:00:06Z",
   "city": "Madrid",
   "city_slug": "madrid",
   "station_icao": "LEMD",
@@ -18,20 +18,21 @@
     {
       "date": "2026-11-20",
       "unit": "C",
-      "highest_temperature": 13,
-      "highest_temperature_duration_hours": 1,
+      "highest_temperature": 12,
+      "highest_temperature_duration_hours": 2,
       "highest_temperature_hours": [
-        "18:00"
+        "19:00",
+        "20:00"
       ],
-      "highest_temperature_max_consecutive_hours": 1,
-      "highest_temperature_exact": 12.75,
+      "highest_temperature_max_consecutive_hours": 2,
+      "highest_temperature_exact": 12.21,
       "highest_temperature_exact_hours": [
-        "18:00"
+        "19:00"
       ],
-      "highest_temperature_c": 12.75,
-      "highest_temperature_f": 54.95,
+      "highest_temperature_c": 12.21,
+      "highest_temperature_f": 53.98,
       "consecutive_scrapes_with_same_high": 1,
-      "high_first_predicted_at_utc": "2026-11-20T17:40:57Z",
+      "high_first_predicted_at_utc": "2026-11-20T18:00:06Z",
       "lowest_temperature": 11,
       "lowest_temperature_duration_hours": 3,
       "lowest_temperature_hours": [
@@ -40,25 +41,25 @@
         "23:00"
       ],
       "lowest_temperature_exact": 11.04,
-      "avg_temperature": 11.71,
+      "avg_temperature": 11.5,
       "max_feels_like": 12,
       "min_feels_like": 12,
       "max_humidity_pct": 83.0,
-      "min_humidity_pct": 73.0,
-      "avg_humidity_pct": 79.0,
+      "min_humidity_pct": 76.0,
+      "avg_humidity_pct": 80.2,
       "max_precip_prob_pct": 11.0,
       "total_precip_mm": 0.01,
       "total_rain_mm": 0.01,
       "total_snow_cm": 0.0,
-      "max_wind_speed_kmh": 7.42,
-      "max_wind_speed_mph": 4.61,
-      "max_wind_gust_kmh": 13.29,
-      "max_wind_gust_mph": 8.26,
-      "avg_cloud_cover_pct": 89.3,
-      "avg_pressure_hpa": 1023.1,
+      "max_wind_speed_kmh": 5.5,
+      "max_wind_speed_mph": 3.42,
+      "max_wind_gust_kmh": 12.11,
+      "max_wind_gust_mph": 7.52,
+      "avg_cloud_cover_pct": 96.2,
+      "avg_pressure_hpa": 1023.2,
       "max_uv_index": 0.0,
       "dominant_condition": "Cloudy",
-      "hours_analyzed": 6
+      "hours_analyzed": 5
     },
     {
       "date": "2026-11-21",
@@ -80,7 +81,7 @@
       ],
       "highest_temperature_c": 13.43,
       "highest_temperature_f": 56.17,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-20T17:40:57Z",
       "lowest_temperature": 10,
       "lowest_temperature_duration_hours": 6,
@@ -129,7 +130,7 @@
       ],
       "highest_temperature_c": 13.84,
       "highest_temperature_f": 56.91,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-20T17:40:57Z",
       "lowest_temperature": 7,
       "lowest_temperature_duration_hours": 1,
@@ -174,7 +175,7 @@
       ],
       "highest_temperature_c": 12.16,
       "highest_temperature_f": 53.89,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-20T17:40:57Z",
       "lowest_temperature": 4,
       "lowest_temperature_duration_hours": 4,
@@ -224,7 +225,7 @@
       ],
       "highest_temperature_c": 10.16,
       "highest_temperature_f": 50.29,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-20T17:40:57Z",
       "lowest_temperature": 5,
       "lowest_temperature_duration_hours": 3,
@@ -273,7 +274,7 @@
       ],
       "highest_temperature_c": 10.39,
       "highest_temperature_f": 50.7,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-20T17:40:57Z",
       "lowest_temperature": 6,
       "lowest_temperature_duration_hours": 1,
@@ -316,7 +317,7 @@
       ],
       "highest_temperature_c": 9.52,
       "highest_temperature_f": 49.14,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-20T17:40:57Z",
       "lowest_temperature": 5,
       "lowest_temperature_duration_hours": 7,
@@ -353,40 +354,6 @@
   ],
   "hourly_7day_forecast": [
     {
-      "time_local": "2026-11-20T18:00",
-      "date_local": "2026-11-20",
-      "hour_local": "18:00",
-      "time_utc": "2026-11-20T17:00:00Z",
-      "temperature_c": 12.75,
-      "temperature_f": 54.95,
-      "temperature_market": 13,
-      "temperature_market_raw": 12.75,
-      "feels_like_c": 11.51,
-      "feels_like_f": 52.72,
-      "feels_like_market": 12,
-      "dew_point_c": 8.03,
-      "dew_point_f": 46.45,
-      "humidity_pct": 73.0,
-      "precip_prob_pct": 0.0,
-      "precip_mm": 0.0,
-      "rain_mm": 0.0,
-      "snow_cm": 0.0,
-      "wind_speed_kmh": 7.42,
-      "wind_speed_mph": 4.61,
-      "wind_gust_kmh": 13.29,
-      "wind_gust_mph": 8.26,
-      "wind_direction_deg": 195,
-      "wind_direction_cardinal": "SSW",
-      "cloud_cover_pct": 55.0,
-      "pressure_hpa": 1022.5,
-      "visibility_km": 33.89,
-      "uv_index": 0.0,
-      "air_quality_index": null,
-      "condition": "PartlyCloudy",
-      "is_daily_high_hour": true,
-      "is_daily_low_hour": false
-    },
-    {
       "time_local": "2026-11-20T19:00",
       "date_local": "2026-11-20",
       "hour_local": "19:00",
@@ -417,7 +384,7 @@
       "uv_index": 0.0,
       "air_quality_index": null,
       "condition": "Cloudy",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": false
     },
     {
@@ -451,7 +418,7 @@
       "uv_index": 0.0,
       "air_quality_index": null,
       "condition": "Cloudy",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": false
     },
     {
@@ -5454,7 +5421,7 @@
     }
   ],
   "extra_metadata": {
-    "hours_count": 230,
+    "hours_count": 229,
     "reported_location": "Madrid, Spain"
   }
 }
