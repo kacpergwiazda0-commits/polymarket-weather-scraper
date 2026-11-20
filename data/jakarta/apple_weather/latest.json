@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-20T14:00:06Z",
+  "scraped_at_utc": "2026-11-20T15:00:06Z",
   "city": "Jakarta",
   "city_slug": "jakarta",
   "station_icao": "WIHH",
@@ -18,20 +18,21 @@
     {
       "date": "2026-11-20",
       "unit": "C",
-      "highest_temperature": 28,
-      "highest_temperature_duration_hours": 1,
+      "highest_temperature": 27,
+      "highest_temperature_duration_hours": 2,
       "highest_temperature_hours": [
-        "21:00"
+        "22:00",
+        "23:00"
       ],
-      "highest_temperature_max_consecutive_hours": 1,
-      "highest_temperature_exact": 27.71,
+      "highest_temperature_max_consecutive_hours": 2,
+      "highest_temperature_exact": 27.43,
       "highest_temperature_exact_hours": [
-        "21:00"
+        "22:00"
       ],
-      "highest_temperature_c": 27.71,
-      "highest_temperature_f": 81.88,
-      "consecutive_scrapes_with_same_high": 3,
-      "high_first_predicted_at_utc": "2026-11-20T12:00:06Z",
+      "highest_temperature_c": 27.43,
+      "highest_temperature_f": 81.37,
+      "consecutive_scrapes_with_same_high": 1,
+      "high_first_predicted_at_utc": "2026-11-20T15:00:06Z",
       "lowest_temperature": 27,
       "lowest_temperature_duration_hours": 2,
       "lowest_temperature_hours": [
@@ -39,25 +40,25 @@
         "23:00"
       ],
       "lowest_temperature_exact": 27.2,
-      "avg_temperature": 27.45,
+      "avg_temperature": 27.31,
       "max_feels_like": 30,
       "min_feels_like": 29,
       "max_humidity_pct": 83.0,
-      "min_humidity_pct": 81.0,
-      "avg_humidity_pct": 82.0,
+      "min_humidity_pct": 82.0,
+      "avg_humidity_pct": 82.5,
       "max_precip_prob_pct": 27.0,
-      "total_precip_mm": 1.26,
-      "total_rain_mm": 1.26,
+      "total_precip_mm": 0.69,
+      "total_rain_mm": 0.69,
       "total_snow_cm": 0.0,
-      "max_wind_speed_kmh": 4.33,
-      "max_wind_speed_mph": 2.69,
+      "max_wind_speed_kmh": 3.91,
+      "max_wind_speed_mph": 2.43,
       "max_wind_gust_kmh": 7.53,
       "max_wind_gust_mph": 4.68,
-      "avg_cloud_cover_pct": 87.0,
+      "avg_cloud_cover_pct": 84.0,
       "avg_pressure_hpa": 1013.7,
       "max_uv_index": 0.0,
-      "dominant_condition": "Drizzle",
-      "hours_analyzed": 3
+      "dominant_condition": "Cloudy",
+      "hours_analyzed": 2
     },
     {
       "date": "2026-11-21",
@@ -74,7 +75,7 @@
       ],
       "highest_temperature_c": 32.57,
       "highest_temperature_f": 90.63,
-      "consecutive_scrapes_with_same_high": 7,
+      "consecutive_scrapes_with_same_high": 8,
       "high_first_predicted_at_utc": "2026-11-20T08:14:43Z",
       "lowest_temperature": 26,
       "lowest_temperature_duration_hours": 5,
@@ -123,7 +124,7 @@
       ],
       "highest_temperature_c": 32.82,
       "highest_temperature_f": 91.08,
-      "consecutive_scrapes_with_same_high": 9,
+      "consecutive_scrapes_with_same_high": 10,
       "high_first_predicted_at_utc": "2026-11-20T05:00:06Z",
       "lowest_temperature": 25,
       "lowest_temperature_duration_hours": 3,
@@ -169,7 +170,7 @@
       ],
       "highest_temperature_c": 33.77,
       "highest_temperature_f": 92.79,
-      "consecutive_scrapes_with_same_high": 4,
+      "consecutive_scrapes_with_same_high": 5,
       "high_first_predicted_at_utc": "2026-11-20T11:00:06Z",
       "lowest_temperature": 26,
       "lowest_temperature_duration_hours": 7,
@@ -220,7 +221,7 @@
       ],
       "highest_temperature_c": 33.16,
       "highest_temperature_f": 91.69,
-      "consecutive_scrapes_with_same_high": 4,
+      "consecutive_scrapes_with_same_high": 5,
       "high_first_predicted_at_utc": "2026-11-20T11:00:06Z",
       "lowest_temperature": 26,
       "lowest_temperature_duration_hours": 9,
@@ -272,7 +273,7 @@
       ],
       "highest_temperature_c": 32.7,
       "highest_temperature_f": 90.86,
-      "consecutive_scrapes_with_same_high": 4,
+      "consecutive_scrapes_with_same_high": 5,
       "high_first_predicted_at_utc": "2026-11-20T11:00:06Z",
       "lowest_temperature": 25,
       "lowest_temperature_duration_hours": 7,
@@ -322,7 +323,7 @@
       ],
       "highest_temperature_c": 31.93,
       "highest_temperature_f": 89.47,
-      "consecutive_scrapes_with_same_high": 20,
+      "consecutive_scrapes_with_same_high": 21,
       "high_first_predicted_at_utc": "2026-11-19T18:05:21Z",
       "lowest_temperature": 25,
       "lowest_temperature_duration_hours": 7,
@@ -359,40 +360,6 @@
   ],
   "hourly_7day_forecast": [
     {
-      "time_local": "2026-11-20T21:00",
-      "date_local": "2026-11-20",
-      "hour_local": "21:00",
-      "time_utc": "2026-11-20T14:00:00Z",
-      "temperature_c": 27.71,
-      "temperature_f": 81.88,
-      "temperature_market": 28,
-      "temperature_market_raw": 27.71,
-      "feels_like_c": 29.77,
-      "feels_like_f": 85.59,
-      "feels_like_market": 30,
-      "dew_point_c": 24.15,
-      "dew_point_f": 75.47,
-      "humidity_pct": 81.0,
-      "precip_prob_pct": 26.0,
-      "precip_mm": 0.57,
-      "rain_mm": 0.57,
-      "snow_cm": 0.0,
-      "wind_speed_kmh": 4.33,
-      "wind_speed_mph": 2.69,
-      "wind_gust_kmh": 6.86,
-      "wind_gust_mph": 4.26,
-      "wind_direction_deg": 126,
-      "wind_direction_cardinal": "SE",
-      "cloud_cover_pct": 93.0,
-      "pressure_hpa": 1013.6,
-      "visibility_km": 17.82,
-      "uv_index": 0.0,
-      "air_quality_index": null,
-      "condition": "Cloudy",
-      "is_daily_high_hour": true,
-      "is_daily_low_hour": false
-    },
-    {
       "time_local": "2026-11-20T22:00",
       "date_local": "2026-11-20",
       "hour_local": "22:00",
@@ -422,8 +389,8 @@
       "visibility_km": 17.43,
       "uv_index": 0.0,
       "air_quality_index": null,
-      "condition": "Drizzle",
-      "is_daily_high_hour": false,
+      "condition": "Cloudy",
+      "is_daily_high_hour": true,
       "is_daily_low_hour": true
     },
     {
@@ -457,7 +424,7 @@
       "uv_index": 0.0,
       "air_quality_index": null,
       "condition": "Drizzle",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": true
     },
     {
@@ -5358,7 +5325,7 @@
     }
   ],
   "extra_metadata": {
-    "hours_count": 227,
+    "hours_count": 226,
     "reported_location": "Jakarta, Indonesia"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-20T14:00:06Z",
+  "scraped_at_utc": "2026-11-20T15:00:06Z",
   "city": "Austin",
   "city_slug": "austin",
   "station_icao": "KAUS",
@@ -31,20 +31,21 @@
       ],
       "highest_temperature_c": 22.9,
       "highest_temperature_f": 73.22,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-20T14:00:06Z",
-      "lowest_temperature": 53,
-      "lowest_temperature_duration_hours": 1,
+      "lowest_temperature": 58,
+      "lowest_temperature_duration_hours": 2,
       "lowest_temperature_hours": [
-        "08:00"
+        "09:00",
+        "23:00"
       ],
-      "lowest_temperature_exact": 52.88,
-      "avg_temperature": 64.9,
+      "lowest_temperature_exact": 58.28,
+      "avg_temperature": 65.7,
       "max_feels_like": null,
       "min_feels_like": null,
-      "max_humidity_pct": 93.6,
+      "max_humidity_pct": 88.9,
       "min_humidity_pct": 51.2,
-      "avg_humidity_pct": 71.8,
+      "avg_humidity_pct": 70.4,
       "max_precip_prob_pct": null,
       "total_precip_mm": 0.0,
       "total_rain_mm": 0.0,
@@ -53,11 +54,11 @@
       "max_wind_speed_mph": 6.93,
       "max_wind_gust_kmh": null,
       "max_wind_gust_mph": null,
-      "avg_cloud_cover_pct": 29.6,
-      "avg_pressure_hpa": 1018.3,
+      "avg_cloud_cover_pct": 30.1,
+      "avg_pressure_hpa": 1018.1,
       "max_uv_index": 4.5,
       "dominant_condition": "Clearsky Day",
-      "hours_analyzed": 16
+      "hours_analyzed": 15
     },
     {
       "date": "2026-11-21",
@@ -74,7 +75,7 @@
       ],
       "highest_temperature_c": 22.3,
       "highest_temperature_f": 72.14,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-20T14:00:06Z",
       "lowest_temperature": 53,
       "lowest_temperature_duration_hours": 1,
@@ -119,7 +120,7 @@
       ],
       "highest_temperature_c": 22.4,
       "highest_temperature_f": 72.32,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-20T14:00:06Z",
       "lowest_temperature": 57,
       "lowest_temperature_duration_hours": 1,
@@ -163,7 +164,7 @@
       ],
       "highest_temperature_c": 14.1,
       "highest_temperature_f": 57.38,
-      "consecutive_scrapes_with_same_high": 3,
+      "consecutive_scrapes_with_same_high": 4,
       "high_first_predicted_at_utc": "2026-11-20T12:00:06Z",
       "lowest_temperature": 49,
       "lowest_temperature_duration_hours": 2,
@@ -208,7 +209,7 @@
       ],
       "highest_temperature_c": 12.9,
       "highest_temperature_f": 55.22,
-      "consecutive_scrapes_with_same_high": 3,
+      "consecutive_scrapes_with_same_high": 4,
       "high_first_predicted_at_utc": "2026-11-20T12:00:06Z",
       "lowest_temperature": 45,
       "lowest_temperature_duration_hours": 2,
@@ -252,7 +253,7 @@
       ],
       "highest_temperature_c": 13.1,
       "highest_temperature_f": 55.58,
-      "consecutive_scrapes_with_same_high": 14,
+      "consecutive_scrapes_with_same_high": 15,
       "high_first_predicted_at_utc": "2026-11-20T00:00:06Z",
       "lowest_temperature": 41,
       "lowest_temperature_duration_hours": 1,
@@ -295,7 +296,7 @@
       ],
       "highest_temperature_c": 14.8,
       "highest_temperature_f": 58.64,
-      "consecutive_scrapes_with_same_high": 3,
+      "consecutive_scrapes_with_same_high": 4,
       "high_first_predicted_at_utc": "2026-11-20T12:00:06Z",
       "lowest_temperature": 40,
       "lowest_temperature_duration_hours": 2,
@@ -326,40 +327,6 @@
     }
   ],
   "hourly_7day_forecast": [
-    {
-      "time_local": "2026-11-20T08:00",
-      "date_local": "2026-11-20",
-      "hour_local": "08:00",
-      "time_utc": "2026-11-20T14:00:00Z",
-      "temperature_c": 11.6,
-      "temperature_f": 52.88,
-      "temperature_market": 53,
-      "temperature_market_raw": 52.88,
-      "feels_like_c": null,
-      "feels_like_f": null,
-      "feels_like_market": null,
-      "dew_point_c": 10.7,
-      "dew_point_f": 51.26,
-      "humidity_pct": 93.6,
-      "precip_prob_pct": null,
-      "precip_mm": 0.0,
-      "rain_mm": 0.0,
-      "snow_cm": null,
-      "wind_speed_kmh": 6.84,
-      "wind_speed_mph": 4.25,
-      "wind_gust_kmh": null,
-      "wind_gust_mph": null,
-      "wind_direction_deg": 316,
-      "wind_direction_cardinal": "NW",
-      "cloud_cover_pct": 23.4,
-      "pressure_hpa": 1021.2,
-      "visibility_km": null,
-      "uv_index": 0.4,
-      "air_quality_index": null,
-      "condition": "Fair Day",
-      "is_daily_high_hour": false,
-      "is_daily_low_hour": true
-    },
     {
       "time_local": "2026-11-20T09:00",
       "date_local": "2026-11-20",
@@ -392,7 +359,7 @@
       "air_quality_index": null,
       "condition": "Clearsky Day",
       "is_daily_high_hour": false,
-      "is_daily_low_hour": false
+      "is_daily_low_hour": true
     },
     {
       "time_local": "2026-11-20T10:00",
@@ -868,7 +835,7 @@
       "air_quality_index": null,
       "condition": "Clearsky Night",
       "is_daily_high_hour": false,
-      "is_daily_low_hour": false
+      "is_daily_low_hour": true
     },
     {
       "time_local": "2026-11-21T00:00",
@@ -5768,7 +5735,7 @@
     }
   ],
   "extra_metadata": {
-    "updated_at": "2026-11-20T13:17:01Z",
+    "updated_at": "2026-11-20T13:17:00Z",
     "yr_web_coordinates": "30.1975,-97.6664"
   }
 }
