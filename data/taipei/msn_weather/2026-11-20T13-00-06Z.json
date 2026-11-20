@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-20T13:00:06Z",
+  "city": "Taipei",
+  "city_slug": "taipei",
+  "station_icao": "RCSS",
+  "station_name": "Taipei Songshan Airport",
+  "latitude": 25.0694,
+  "longitude": 121.5525,
+  "timezone": "Asia/Taipei",
+  "polymarket_unit": "C",
+  "website_id": "msn_weather",
+  "website_name": "Microsoft Weather (MSN)",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "Could not locate embedded WeatherData state on MSN Weather page",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}
