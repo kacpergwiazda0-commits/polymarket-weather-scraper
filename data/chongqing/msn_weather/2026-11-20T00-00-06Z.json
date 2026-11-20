@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-20T00:00:06Z",
+  "city": "Chongqing",
+  "city_slug": "chongqing",
+  "station_icao": "ZUCK",
+  "station_name": "Chongqing Jiangbei International Airport",
+  "latitude": 29.7192,
+  "longitude": 106.6417,
+  "timezone": "Asia/Shanghai",
+  "polymarket_unit": "C",
+  "website_id": "msn_weather",
+  "website_name": "Microsoft Weather (MSN)",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "Could not locate embedded WeatherData state on MSN Weather page",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}
