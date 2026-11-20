@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-20T02:00:06Z",
+  "scraped_at_utc": "2026-11-20T03:00:07Z",
   "city": "Miami",
   "city_slug": "miami",
   "station_icao": "KMIA",
@@ -18,20 +18,21 @@
     {
       "date": "2026-11-19",
       "unit": "F",
-      "highest_temperature": 72,
-      "highest_temperature_duration_hours": 1,
+      "highest_temperature": 71,
+      "highest_temperature_duration_hours": 2,
       "highest_temperature_hours": [
-        "21:00"
+        "22:00",
+        "23:00"
       ],
-      "highest_temperature_max_consecutive_hours": 1,
-      "highest_temperature_exact": 72.14,
+      "highest_temperature_max_consecutive_hours": 2,
+      "highest_temperature_exact": 71.42,
       "highest_temperature_exact_hours": [
-        "21:00"
+        "22:00"
       ],
-      "highest_temperature_c": 22.3,
-      "highest_temperature_f": 72.14,
+      "highest_temperature_c": 21.9,
+      "highest_temperature_f": 71.42,
       "consecutive_scrapes_with_same_high": 1,
-      "high_first_predicted_at_utc": "2026-11-20T02:00:06Z",
+      "high_first_predicted_at_utc": "2026-11-20T03:00:07Z",
       "lowest_temperature": 71,
       "lowest_temperature_duration_hours": 2,
       "lowest_temperature_hours": [
@@ -39,12 +40,12 @@
         "23:00"
       ],
       "lowest_temperature_exact": 70.88,
-      "avg_temperature": 71.48,
+      "avg_temperature": 71.15,
       "max_feels_like": null,
       "min_feels_like": null,
       "max_humidity_pct": 98.3,
-      "min_humidity_pct": 97.3,
-      "avg_humidity_pct": 97.8,
+      "min_humidity_pct": 97.9,
+      "avg_humidity_pct": 98.1,
       "max_precip_prob_pct": null,
       "total_precip_mm": 0.0,
       "total_rain_mm": 0.0,
@@ -53,11 +54,11 @@
       "max_wind_speed_mph": 3.8,
       "max_wind_gust_kmh": null,
       "max_wind_gust_mph": null,
-      "avg_cloud_cover_pct": 51.0,
-      "avg_pressure_hpa": 1013.7,
+      "avg_cloud_cover_pct": 47.2,
+      "avg_pressure_hpa": 1013.8,
       "max_uv_index": 0.0,
-      "dominant_condition": "Partlycloudy Night",
-      "hours_analyzed": 3
+      "dominant_condition": "Fair Night",
+      "hours_analyzed": 2
     },
     {
       "date": "2026-11-20",
@@ -74,7 +75,7 @@
       ],
       "highest_temperature_c": 27.0,
       "highest_temperature_f": 80.6,
-      "consecutive_scrapes_with_same_high": 7,
+      "consecutive_scrapes_with_same_high": 8,
       "high_first_predicted_at_utc": "2026-11-19T20:00:06Z",
       "lowest_temperature": 69,
       "lowest_temperature_duration_hours": 7,
@@ -125,7 +126,7 @@
       ],
       "highest_temperature_c": 26.7,
       "highest_temperature_f": 80.06,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-20T02:00:06Z",
       "lowest_temperature": 68,
       "lowest_temperature_duration_hours": 2,
@@ -169,7 +170,7 @@
       ],
       "highest_temperature_c": 27.3,
       "highest_temperature_f": 81.14,
-      "consecutive_scrapes_with_same_high": 3,
+      "consecutive_scrapes_with_same_high": 4,
       "high_first_predicted_at_utc": "2026-11-20T00:00:06Z",
       "lowest_temperature": 69,
       "lowest_temperature_duration_hours": 9,
@@ -220,7 +221,7 @@
       ],
       "highest_temperature_c": 24.4,
       "highest_temperature_f": 75.92,
-      "consecutive_scrapes_with_same_high": 14,
+      "consecutive_scrapes_with_same_high": 15,
       "high_first_predicted_at_utc": "2026-11-19T12:00:06Z",
       "lowest_temperature": 64,
       "lowest_temperature_duration_hours": 2,
@@ -264,7 +265,7 @@
       ],
       "highest_temperature_c": 24.4,
       "highest_temperature_f": 75.92,
-      "consecutive_scrapes_with_same_high": 3,
+      "consecutive_scrapes_with_same_high": 4,
       "high_first_predicted_at_utc": "2026-11-20T00:00:06Z",
       "lowest_temperature": 67,
       "lowest_temperature_duration_hours": 8,
@@ -314,7 +315,7 @@
       ],
       "highest_temperature_c": 25.2,
       "highest_temperature_f": 77.36,
-      "consecutive_scrapes_with_same_high": 3,
+      "consecutive_scrapes_with_same_high": 4,
       "high_first_predicted_at_utc": "2026-11-20T00:00:06Z",
       "lowest_temperature": 66,
       "lowest_temperature_duration_hours": 4,
@@ -348,40 +349,6 @@
   ],
   "hourly_7day_forecast": [
     {
-      "time_local": "2026-11-19T21:00",
-      "date_local": "2026-11-19",
-      "hour_local": "21:00",
-      "time_utc": "2026-11-20T02:00:00Z",
-      "temperature_c": 22.3,
-      "temperature_f": 72.14,
-      "temperature_market": 72,
-      "temperature_market_raw": 72.14,
-      "feels_like_c": null,
-      "feels_like_f": null,
-      "feels_like_market": null,
-      "dew_point_c": 21.9,
-      "dew_point_f": 71.42,
-      "humidity_pct": 97.3,
-      "precip_prob_pct": null,
-      "precip_mm": 0.0,
-      "rain_mm": 0.0,
-      "snow_cm": null,
-      "wind_speed_kmh": 4.68,
-      "wind_speed_mph": 2.91,
-      "wind_gust_kmh": null,
-      "wind_gust_mph": null,
-      "wind_direction_deg": 256,
-      "wind_direction_cardinal": "WSW",
-      "cloud_cover_pct": 58.6,
-      "pressure_hpa": 1013.5,
-      "visibility_km": null,
-      "uv_index": 0.0,
-      "air_quality_index": null,
-      "condition": "Partlycloudy Night",
-      "is_daily_high_hour": true,
-      "is_daily_low_hour": false
-    },
-    {
       "time_local": "2026-11-19T22:00",
       "date_local": "2026-11-19",
       "hour_local": "22:00",
@@ -412,7 +379,7 @@
       "uv_index": 0.0,
       "air_quality_index": null,
       "condition": "Fair Night",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": true
     },
     {
@@ -446,7 +413,7 @@
       "uv_index": 0.0,
       "air_quality_index": null,
       "condition": "Partlycloudy Night",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": true
     },
     {
@@ -5347,7 +5314,7 @@
     }
   ],
   "extra_metadata": {
-    "updated_at": "2026-11-20T01:17:29Z",
+    "updated_at": "2026-11-20T01:16:54Z",
     "yr_web_coordinates": "25.7959,-80.287"
   }
 }
