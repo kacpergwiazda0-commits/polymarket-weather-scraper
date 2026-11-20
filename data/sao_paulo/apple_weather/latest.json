@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-20T00:00:06Z",
+  "scraped_at_utc": "2026-11-20T01:00:05Z",
   "city": "Sao Paulo",
   "city_slug": "sao_paulo",
   "station_icao": "SBGR",
@@ -18,20 +18,21 @@
     {
       "date": "2026-11-19",
       "unit": "C",
-      "highest_temperature": 25,
-      "highest_temperature_duration_hours": 1,
+      "highest_temperature": 24,
+      "highest_temperature_duration_hours": 2,
       "highest_temperature_hours": [
-        "21:00"
+        "22:00",
+        "23:00"
       ],
-      "highest_temperature_max_consecutive_hours": 1,
-      "highest_temperature_exact": 25.13,
+      "highest_temperature_max_consecutive_hours": 2,
+      "highest_temperature_exact": 24.45,
       "highest_temperature_exact_hours": [
-        "21:00"
+        "22:00"
       ],
-      "highest_temperature_c": 25.13,
-      "highest_temperature_f": 77.23,
+      "highest_temperature_c": 24.45,
+      "highest_temperature_f": 76.01,
       "consecutive_scrapes_with_same_high": 1,
-      "high_first_predicted_at_utc": "2026-11-20T00:00:06Z",
+      "high_first_predicted_at_utc": "2026-11-20T01:00:05Z",
       "lowest_temperature": 24,
       "lowest_temperature_duration_hours": 2,
       "lowest_temperature_hours": [
@@ -39,25 +40,25 @@
         "23:00"
       ],
       "lowest_temperature_exact": 23.91,
-      "avg_temperature": 24.5,
-      "max_feels_like": 26,
+      "avg_temperature": 24.18,
+      "max_feels_like": 25,
       "min_feels_like": 25,
       "max_humidity_pct": 78.0,
-      "min_humidity_pct": 73.0,
-      "avg_humidity_pct": 75.7,
+      "min_humidity_pct": 76.0,
+      "avg_humidity_pct": 77.0,
       "max_precip_prob_pct": 0.0,
       "total_precip_mm": 0.0,
       "total_rain_mm": 0.0,
       "total_snow_cm": 0.0,
-      "max_wind_speed_kmh": 4.78,
-      "max_wind_speed_mph": 2.97,
+      "max_wind_speed_kmh": 4.74,
+      "max_wind_speed_mph": 2.95,
       "max_wind_gust_kmh": 11.69,
       "max_wind_gust_mph": 7.26,
-      "avg_cloud_cover_pct": 54.7,
-      "avg_pressure_hpa": 1011.2,
+      "avg_cloud_cover_pct": 60.5,
+      "avg_pressure_hpa": 1011.4,
       "max_uv_index": 0.0,
       "dominant_condition": "PartlyCloudy",
-      "hours_analyzed": 3
+      "hours_analyzed": 2
     },
     {
       "date": "2026-11-20",
@@ -74,7 +75,7 @@
       ],
       "highest_temperature_c": 31.16,
       "highest_temperature_f": 88.09,
-      "consecutive_scrapes_with_same_high": 6,
+      "consecutive_scrapes_with_same_high": 7,
       "high_first_predicted_at_utc": "2026-11-19T19:00:06Z",
       "lowest_temperature": 22,
       "lowest_temperature_duration_hours": 4,
@@ -121,7 +122,7 @@
       ],
       "highest_temperature_c": 30.75,
       "highest_temperature_f": 87.35,
-      "consecutive_scrapes_with_same_high": 17,
+      "consecutive_scrapes_with_same_high": 18,
       "high_first_predicted_at_utc": "2026-11-19T06:00:06Z",
       "lowest_temperature": 21,
       "lowest_temperature_duration_hours": 2,
@@ -167,7 +168,7 @@
       ],
       "highest_temperature_c": 30.25,
       "highest_temperature_f": 86.45,
-      "consecutive_scrapes_with_same_high": 2,
+      "consecutive_scrapes_with_same_high": 3,
       "high_first_predicted_at_utc": "2026-11-19T23:00:06Z",
       "lowest_temperature": 22,
       "lowest_temperature_duration_hours": 5,
@@ -218,7 +219,7 @@
       ],
       "highest_temperature_c": 25.41,
       "highest_temperature_f": 77.74,
-      "consecutive_scrapes_with_same_high": 2,
+      "consecutive_scrapes_with_same_high": 3,
       "high_first_predicted_at_utc": "2026-11-19T23:00:06Z",
       "lowest_temperature": 21,
       "lowest_temperature_duration_hours": 6,
@@ -268,7 +269,7 @@
       ],
       "highest_temperature_c": 28.01,
       "highest_temperature_f": 82.42,
-      "consecutive_scrapes_with_same_high": 26,
+      "consecutive_scrapes_with_same_high": 27,
       "high_first_predicted_at_utc": "2026-11-18T21:00:06Z",
       "lowest_temperature": 20,
       "lowest_temperature_duration_hours": 2,
@@ -315,7 +316,7 @@
       ],
       "highest_temperature_c": 27.44,
       "highest_temperature_f": 81.39,
-      "consecutive_scrapes_with_same_high": 17,
+      "consecutive_scrapes_with_same_high": 18,
       "high_first_predicted_at_utc": "2026-11-19T06:00:06Z",
       "lowest_temperature": 20,
       "lowest_temperature_duration_hours": 2,
@@ -347,40 +348,6 @@
   ],
   "hourly_7day_forecast": [
     {
-      "time_local": "2026-11-19T21:00",
-      "date_local": "2026-11-19",
-      "hour_local": "21:00",
-      "time_utc": "2026-11-20T00:00:00Z",
-      "temperature_c": 25.13,
-      "temperature_f": 77.23,
-      "temperature_market": 25,
-      "temperature_market_raw": 25.13,
-      "feels_like_c": 25.92,
-      "feels_like_f": 78.66,
-      "feels_like_market": 26,
-      "dew_point_c": 19.95,
-      "dew_point_f": 67.91,
-      "humidity_pct": 73.0,
-      "precip_prob_pct": 0.0,
-      "precip_mm": 0.0,
-      "rain_mm": 0.0,
-      "snow_cm": 0.0,
-      "wind_speed_kmh": 4.78,
-      "wind_speed_mph": 2.97,
-      "wind_gust_kmh": 10.7,
-      "wind_gust_mph": 6.65,
-      "wind_direction_deg": 75,
-      "wind_direction_cardinal": "ENE",
-      "cloud_cover_pct": 43.0,
-      "pressure_hpa": 1010.9,
-      "visibility_km": 24.94,
-      "uv_index": 0.0,
-      "air_quality_index": null,
-      "condition": "PartlyCloudy",
-      "is_daily_high_hour": true,
-      "is_daily_low_hour": false
-    },
-    {
       "time_local": "2026-11-19T22:00",
       "date_local": "2026-11-19",
       "hour_local": "22:00",
@@ -411,7 +378,7 @@
       "uv_index": 0.0,
       "air_quality_index": null,
       "condition": "PartlyCloudy",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": true
     },
     {
@@ -445,7 +412,7 @@
       "uv_index": 0.0,
       "air_quality_index": null,
       "condition": "MostlyCloudy",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": true
     },
     {
@@ -5346,7 +5313,7 @@
     }
   ],
   "extra_metadata": {
-    "hours_count": 227,
+    "hours_count": 226,
     "reported_location": "São Paulo, Brazil"
   }
 }
