@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-21T00:00:06Z",
+  "scraped_at_utc": "2026-11-21T01:00:06Z",
   "city": "Kuala Lumpur",
   "city_slug": "kuala_lumpur",
   "station_icao": "WMKK",
@@ -32,20 +32,23 @@
       ],
       "highest_temperature_c": 32.34,
       "highest_temperature_f": 90.21,
-      "consecutive_scrapes_with_same_high": 2,
+      "consecutive_scrapes_with_same_high": 3,
       "high_first_predicted_at_utc": "2026-11-20T23:00:06Z",
-      "lowest_temperature": 26,
-      "lowest_temperature_duration_hours": 1,
+      "lowest_temperature": 27,
+      "lowest_temperature_duration_hours": 4,
       "lowest_temperature_hours": [
-        "08:00"
+        "09:00",
+        "21:00",
+        "22:00",
+        "23:00"
       ],
-      "lowest_temperature_exact": 25.55,
-      "avg_temperature": 29.23,
+      "lowest_temperature_exact": 26.79,
+      "avg_temperature": 29.47,
       "max_feels_like": 34,
-      "min_feels_like": 28,
-      "max_humidity_pct": 86.0,
+      "min_feels_like": 29,
+      "max_humidity_pct": 84.0,
       "min_humidity_pct": 61.0,
-      "avg_humidity_pct": 72.9,
+      "avg_humidity_pct": 72.0,
       "max_precip_prob_pct": 42.0,
       "total_precip_mm": 6.7,
       "total_rain_mm": 6.7,
@@ -54,11 +57,11 @@
       "max_wind_speed_mph": 4.13,
       "max_wind_gust_kmh": 19.97,
       "max_wind_gust_mph": 12.41,
-      "avg_cloud_cover_pct": 93.4,
+      "avg_cloud_cover_pct": 94.5,
       "avg_pressure_hpa": 1012.8,
       "max_uv_index": 6.0,
       "dominant_condition": "Cloudy",
-      "hours_analyzed": 16
+      "hours_analyzed": 15
     },
     {
       "date": "2026-11-22",
@@ -75,7 +78,7 @@
       ],
       "highest_temperature_c": 31.69,
       "highest_temperature_f": 89.04,
-      "consecutive_scrapes_with_same_high": 13,
+      "consecutive_scrapes_with_same_high": 14,
       "high_first_predicted_at_utc": "2026-11-20T12:00:06Z",
       "lowest_temperature": 25,
       "lowest_temperature_duration_hours": 3,
@@ -122,7 +125,7 @@
       ],
       "highest_temperature_c": 31.28,
       "highest_temperature_f": 88.3,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-21T00:00:06Z",
       "lowest_temperature": 25,
       "lowest_temperature_duration_hours": 5,
@@ -171,7 +174,7 @@
       ],
       "highest_temperature_c": 30.13,
       "highest_temperature_f": 86.23,
-      "consecutive_scrapes_with_same_high": 8,
+      "consecutive_scrapes_with_same_high": 9,
       "high_first_predicted_at_utc": "2026-11-20T17:40:57Z",
       "lowest_temperature": 25,
       "lowest_temperature_duration_hours": 6,
@@ -221,7 +224,7 @@
       ],
       "highest_temperature_c": 31.13,
       "highest_temperature_f": 88.03,
-      "consecutive_scrapes_with_same_high": 8,
+      "consecutive_scrapes_with_same_high": 9,
       "high_first_predicted_at_utc": "2026-11-20T17:40:57Z",
       "lowest_temperature": 24,
       "lowest_temperature_duration_hours": 3,
@@ -269,7 +272,7 @@
       ],
       "highest_temperature_c": 30.38,
       "highest_temperature_f": 86.68,
-      "consecutive_scrapes_with_same_high": 8,
+      "consecutive_scrapes_with_same_high": 9,
       "high_first_predicted_at_utc": "2026-11-20T17:40:57Z",
       "lowest_temperature": 24,
       "lowest_temperature_duration_hours": 2,
@@ -314,7 +317,7 @@
       ],
       "highest_temperature_c": 30.86,
       "highest_temperature_f": 87.55,
-      "consecutive_scrapes_with_same_high": 8,
+      "consecutive_scrapes_with_same_high": 9,
       "high_first_predicted_at_utc": "2026-11-20T17:40:57Z",
       "lowest_temperature": 25,
       "lowest_temperature_duration_hours": 7,
@@ -351,40 +354,6 @@
   ],
   "hourly_7day_forecast": [
     {
-      "time_local": "2026-11-21T08:00",
-      "date_local": "2026-11-21",
-      "hour_local": "08:00",
-      "time_utc": "2026-11-21T00:00:00Z",
-      "temperature_c": 25.55,
-      "temperature_f": 77.99,
-      "temperature_market": 26,
-      "temperature_market_raw": 25.55,
-      "feels_like_c": 27.52,
-      "feels_like_f": 81.54,
-      "feels_like_market": 28,
-      "dew_point_c": 23.03,
-      "dew_point_f": 73.45,
-      "humidity_pct": 86.0,
-      "precip_prob_pct": 0.0,
-      "precip_mm": 0.0,
-      "rain_mm": 0.0,
-      "snow_cm": 0.0,
-      "wind_speed_kmh": 3.3,
-      "wind_speed_mph": 2.05,
-      "wind_gust_kmh": 7.81,
-      "wind_gust_mph": 4.85,
-      "wind_direction_deg": 66,
-      "wind_direction_cardinal": "ENE",
-      "cloud_cover_pct": 77.0,
-      "pressure_hpa": 1013.6,
-      "visibility_km": 21.72,
-      "uv_index": 0.0,
-      "air_quality_index": null,
-      "condition": "MostlyCloudy",
-      "is_daily_high_hour": false,
-      "is_daily_low_hour": true
-    },
-    {
       "time_local": "2026-11-21T09:00",
       "date_local": "2026-11-21",
       "hour_local": "09:00",
@@ -416,7 +385,7 @@
       "air_quality_index": null,
       "condition": "MostlyCloudy",
       "is_daily_high_hour": false,
-      "is_daily_low_hour": false
+      "is_daily_low_hour": true
     },
     {
       "time_local": "2026-11-21T10:00",
@@ -824,7 +793,7 @@
       "air_quality_index": null,
       "condition": "Cloudy",
       "is_daily_high_hour": false,
-      "is_daily_low_hour": false
+      "is_daily_low_hour": true
     },
     {
       "time_local": "2026-11-21T22:00",
@@ -858,7 +827,7 @@
       "air_quality_index": null,
       "condition": "Cloudy",
       "is_daily_high_hour": false,
-      "is_daily_low_hour": false
+      "is_daily_low_hour": true
     },
     {
       "time_local": "2026-11-21T23:00",
@@ -892,7 +861,7 @@
       "air_quality_index": null,
       "condition": "Drizzle",
       "is_daily_high_hour": false,
-      "is_daily_low_hour": false
+      "is_daily_low_hour": true
     },
     {
       "time_local": "2026-11-22T00:00",
@@ -5792,7 +5761,7 @@
     }
   ],
   "extra_metadata": {
-    "hours_count": 240,
+    "hours_count": 239,
     "reported_location": "Kuala Lumpur, Malaysia"
   }
 }
