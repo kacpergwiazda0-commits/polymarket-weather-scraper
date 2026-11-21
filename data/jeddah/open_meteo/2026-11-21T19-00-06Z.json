@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-21T19:00:06Z",
+  "city": "Jeddah",
+  "city_slug": "jeddah",
+  "station_icao": "OEJN",
+  "station_name": "King Abdulaziz International Airport",
+  "latitude": 21.6796,
+  "longitude": 39.1565,
+  "timezone": "Asia/Riyadh",
+  "polymarket_unit": "C",
+  "website_id": "open_meteo",
+  "website_name": "Open-Meteo",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "Expecting value: line 1 column 1 (char 0)",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

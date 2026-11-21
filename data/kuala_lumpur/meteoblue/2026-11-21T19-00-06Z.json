@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-21T19:00:06Z",
+  "city": "Kuala Lumpur",
+  "city_slug": "kuala_lumpur",
+  "station_icao": "WMKK",
+  "station_name": "Kuala Lumpur International Airport",
+  "latitude": 2.7456,
+  "longitude": 101.7099,
+  "timezone": "Asia/Kuala_Lumpur",
+  "polymarket_unit": "C",
+  "website_id": "meteoblue",
+  "website_name": "meteoblue",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "Expecting value: line 1 column 1 (char 0)",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

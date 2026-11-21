@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-21T19:00:06Z",
+  "city": "Qingdao",
+  "city_slug": "qingdao",
+  "station_icao": "ZSQD",
+  "station_name": "Qingdao Jiaodong International Airport",
+  "latitude": 36.3667,
+  "longitude": 120.0944,
+  "timezone": "Asia/Shanghai",
+  "polymarket_unit": "C",
+  "website_id": "open_meteo",
+  "website_name": "Open-Meteo",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "Expecting value: line 1 column 1 (char 0)",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

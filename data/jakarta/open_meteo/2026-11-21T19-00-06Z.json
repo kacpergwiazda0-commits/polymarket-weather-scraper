@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-21T19:00:06Z",
+  "city": "Jakarta",
+  "city_slug": "jakarta",
+  "station_icao": "WIHH",
+  "station_name": "Halim Perdanakusuma International Airport",
+  "latitude": -6.2666,
+  "longitude": 106.8906,
+  "timezone": "Asia/Jakarta",
+  "polymarket_unit": "C",
+  "website_id": "open_meteo",
+  "website_name": "Open-Meteo",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "Expecting value: line 1 column 1 (char 0)",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

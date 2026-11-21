@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-21T19:00:06Z",
+  "city": "Lagos",
+  "city_slug": "lagos",
+  "station_icao": "DNMM",
+  "station_name": "Murtala Muhammed International Airport",
+  "latitude": 6.5774,
+  "longitude": 3.3212,
+  "timezone": "Africa/Lagos",
+  "polymarket_unit": "C",
+  "website_id": "open_meteo",
+  "website_name": "Open-Meteo",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://api.open-meteo.com/v1/forecast?latitude=6.5774&longitude=3.3212&hourly=temperature_2m,relative_humidity_2m,dew_point_2m,apparent_temperature,precipitation_probability,precipitation,rain,snowfall,weather_code,pressure_msl,cloud_cover,visibility,wind_speed_10m,wind_direction_10m,wind_gusts_10m,uv_index&timezone=Africa/Lagos&forecast_days=8 failed after 3 attempts: The read operation timed out",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}
