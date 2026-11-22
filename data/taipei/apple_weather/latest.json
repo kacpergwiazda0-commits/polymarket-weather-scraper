@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-22T00:35:52Z",
+  "scraped_at_utc": "2026-11-22T01:00:06Z",
   "city": "Taipei",
   "city_slug": "taipei",
   "station_icao": "RCSS",
@@ -31,20 +31,20 @@
       ],
       "highest_temperature_c": 22.75,
       "highest_temperature_f": 72.95,
-      "consecutive_scrapes_with_same_high": 36,
+      "consecutive_scrapes_with_same_high": 37,
       "high_first_predicted_at_utc": "2026-11-20T11:00:06Z",
-      "lowest_temperature": 17,
+      "lowest_temperature": 18,
       "lowest_temperature_duration_hours": 1,
       "lowest_temperature_hours": [
-        "08:00"
+        "23:00"
       ],
-      "lowest_temperature_exact": 16.67,
-      "avg_temperature": 20.05,
+      "lowest_temperature_exact": 18.42,
+      "avg_temperature": 20.28,
       "max_feels_like": 22,
       "min_feels_like": 15,
       "max_humidity_pct": 72.0,
       "min_humidity_pct": 52.0,
-      "avg_humidity_pct": 61.1,
+      "avg_humidity_pct": 60.6,
       "max_precip_prob_pct": 0.0,
       "total_precip_mm": 0.0,
       "total_rain_mm": 0.0,
@@ -53,11 +53,11 @@
       "max_wind_speed_mph": 13.59,
       "max_wind_gust_kmh": 43.34,
       "max_wind_gust_mph": 26.93,
-      "avg_cloud_cover_pct": 7.3,
-      "avg_pressure_hpa": 1024.8,
+      "avg_cloud_cover_pct": 7.4,
+      "avg_pressure_hpa": 1024.6,
       "max_uv_index": 6.0,
       "dominant_condition": "Clear",
-      "hours_analyzed": 16
+      "hours_analyzed": 15
     },
     {
       "date": "2026-11-23",
@@ -74,7 +74,7 @@
       ],
       "highest_temperature_c": 25.58,
       "highest_temperature_f": 78.04,
-      "consecutive_scrapes_with_same_high": 21,
+      "consecutive_scrapes_with_same_high": 22,
       "high_first_predicted_at_utc": "2026-11-21T02:00:06Z",
       "lowest_temperature": 16,
       "lowest_temperature_duration_hours": 4,
@@ -124,7 +124,7 @@
       ],
       "highest_temperature_c": 20.03,
       "highest_temperature_f": 68.05,
-      "consecutive_scrapes_with_same_high": 27,
+      "consecutive_scrapes_with_same_high": 28,
       "high_first_predicted_at_utc": "2026-11-20T20:00:07Z",
       "lowest_temperature": 17,
       "lowest_temperature_duration_hours": 4,
@@ -173,7 +173,7 @@
       ],
       "highest_temperature_c": 18.91,
       "highest_temperature_f": 66.04,
-      "consecutive_scrapes_with_same_high": 6,
+      "consecutive_scrapes_with_same_high": 7,
       "high_first_predicted_at_utc": "2026-11-21T17:00:05Z",
       "lowest_temperature": 15,
       "lowest_temperature_duration_hours": 2,
@@ -220,7 +220,7 @@
       ],
       "highest_temperature_c": 23.46,
       "highest_temperature_f": 74.23,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-22T00:35:52Z",
       "lowest_temperature": 17,
       "lowest_temperature_duration_hours": 2,
@@ -267,7 +267,7 @@
       ],
       "highest_temperature_c": 25.19,
       "highest_temperature_f": 77.34,
-      "consecutive_scrapes_with_same_high": 2,
+      "consecutive_scrapes_with_same_high": 3,
       "high_first_predicted_at_utc": "2026-11-21T21:00:06Z",
       "lowest_temperature": 17,
       "lowest_temperature_duration_hours": 2,
@@ -312,7 +312,7 @@
       ],
       "highest_temperature_c": 22.83,
       "highest_temperature_f": 73.09,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-22T00:35:52Z",
       "lowest_temperature": 18,
       "lowest_temperature_duration_hours": 6,
@@ -347,40 +347,6 @@
     }
   ],
   "hourly_7day_forecast": [
-    {
-      "time_local": "2026-11-22T08:00",
-      "date_local": "2026-11-22",
-      "hour_local": "08:00",
-      "time_utc": "2026-11-22T00:00:00Z",
-      "temperature_c": 16.67,
-      "temperature_f": 62.01,
-      "temperature_market": 17,
-      "temperature_market_raw": 16.67,
-      "feels_like_c": 16.2,
-      "feels_like_f": 61.16,
-      "feels_like_market": 16,
-      "dew_point_c": 10.74,
-      "dew_point_f": 51.33,
-      "humidity_pct": 68.0,
-      "precip_prob_pct": 0.0,
-      "precip_mm": 0.0,
-      "rain_mm": 0.0,
-      "snow_cm": 0.0,
-      "wind_speed_kmh": 15.66,
-      "wind_speed_mph": 9.73,
-      "wind_gust_kmh": 30.99,
-      "wind_gust_mph": 19.26,
-      "wind_direction_deg": 87,
-      "wind_direction_cardinal": "E",
-      "cloud_cover_pct": 6.0,
-      "pressure_hpa": 1027.6,
-      "visibility_km": 27.34,
-      "uv_index": 1.0,
-      "air_quality_index": null,
-      "condition": "Clear",
-      "is_daily_high_hour": false,
-      "is_daily_low_hour": true
-    },
     {
       "time_local": "2026-11-22T09:00",
       "date_local": "2026-11-22",
@@ -889,7 +855,7 @@
       "air_quality_index": null,
       "condition": "Clear",
       "is_daily_high_hour": false,
-      "is_daily_low_hour": false
+      "is_daily_low_hour": true
     },
     {
       "time_local": "2026-11-23T00:00",
@@ -5789,7 +5755,7 @@
     }
   ],
   "extra_metadata": {
-    "hours_count": 240,
+    "hours_count": 239,
     "reported_location": "Taipei City, Taiwan"
   }
 }

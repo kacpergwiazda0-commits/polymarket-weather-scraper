@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-22T00:35:52Z",
+  "scraped_at_utc": "2026-11-22T01:00:06Z",
   "city": "Seoul",
   "city_slug": "seoul",
   "station_icao": "RKSI",
@@ -33,15 +33,15 @@
       ],
       "highest_temperature_c": 4.3,
       "highest_temperature_f": 39.74,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-22T00:35:52Z",
-      "lowest_temperature": -4,
+      "lowest_temperature": -2,
       "lowest_temperature_duration_hours": 1,
       "lowest_temperature_hours": [
-        "09:00"
+        "10:00"
       ],
-      "lowest_temperature_exact": -3.81,
-      "avg_temperature": 1.89,
+      "lowest_temperature_exact": -1.69,
+      "avg_temperature": 2.29,
       "max_feels_like": 7,
       "min_feels_like": 1,
       "max_humidity_pct": 70.0,
@@ -55,11 +55,11 @@
       "max_wind_speed_mph": 3.16,
       "max_wind_gust_kmh": 12.95,
       "max_wind_gust_mph": 8.05,
-      "avg_cloud_cover_pct": 23.1,
-      "avg_pressure_hpa": 1030.4,
+      "avg_cloud_cover_pct": 24.7,
+      "avg_pressure_hpa": 1030.2,
       "max_uv_index": 2.0,
       "dominant_condition": "Clear",
-      "hours_analyzed": 15
+      "hours_analyzed": 14
     },
     {
       "date": "2026-11-23",
@@ -76,7 +76,7 @@
       ],
       "highest_temperature_c": 10.9,
       "highest_temperature_f": 51.62,
-      "consecutive_scrapes_with_same_high": 12,
+      "consecutive_scrapes_with_same_high": 13,
       "high_first_predicted_at_utc": "2026-11-21T11:00:07Z",
       "lowest_temperature": -1,
       "lowest_temperature_duration_hours": 2,
@@ -120,7 +120,7 @@
       ],
       "highest_temperature_c": 3.98,
       "highest_temperature_f": 39.16,
-      "consecutive_scrapes_with_same_high": 3,
+      "consecutive_scrapes_with_same_high": 4,
       "high_first_predicted_at_utc": "2026-11-21T20:00:07Z",
       "lowest_temperature": -4,
       "lowest_temperature_duration_hours": 2,
@@ -165,7 +165,7 @@
       ],
       "highest_temperature_c": 7.39,
       "highest_temperature_f": 45.3,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-22T00:35:52Z",
       "lowest_temperature": -5,
       "lowest_temperature_duration_hours": 5,
@@ -214,7 +214,7 @@
       ],
       "highest_temperature_c": 14.31,
       "highest_temperature_f": 57.76,
-      "consecutive_scrapes_with_same_high": 11,
+      "consecutive_scrapes_with_same_high": 12,
       "high_first_predicted_at_utc": "2026-11-21T12:00:06Z",
       "lowest_temperature": 4,
       "lowest_temperature_duration_hours": 3,
@@ -261,7 +261,7 @@
       ],
       "highest_temperature_c": 15.07,
       "highest_temperature_f": 59.13,
-      "consecutive_scrapes_with_same_high": 17,
+      "consecutive_scrapes_with_same_high": 18,
       "high_first_predicted_at_utc": "2026-11-21T06:18:49Z",
       "lowest_temperature": 7,
       "lowest_temperature_duration_hours": 1,
@@ -308,7 +308,7 @@
       ],
       "highest_temperature_c": 7.09,
       "highest_temperature_f": 44.76,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-22T00:35:52Z",
       "lowest_temperature": 2,
       "lowest_temperature_duration_hours": 4,
@@ -342,40 +342,6 @@
   ],
   "hourly_7day_forecast": [
     {
-      "time_local": "2026-11-22T09:00",
-      "date_local": "2026-11-22",
-      "hour_local": "09:00",
-      "time_utc": "2026-11-22T00:00:00Z",
-      "temperature_c": -3.81,
-      "temperature_f": 25.14,
-      "temperature_market": -4,
-      "temperature_market_raw": -3.81,
-      "feels_like_c": 1.2,
-      "feels_like_f": 34.16,
-      "feels_like_market": 1,
-      "dew_point_c": -11.31,
-      "dew_point_f": 11.64,
-      "humidity_pct": 56.0,
-      "precip_prob_pct": 0.0,
-      "precip_mm": 0.0,
-      "rain_mm": 0.0,
-      "snow_cm": 0.0,
-      "wind_speed_kmh": 2.08,
-      "wind_speed_mph": 1.29,
-      "wind_gust_kmh": 8.27,
-      "wind_gust_mph": 5.14,
-      "wind_direction_deg": 59,
-      "wind_direction_cardinal": "ENE",
-      "cloud_cover_pct": 1.0,
-      "pressure_hpa": 1032.3,
-      "visibility_km": 23.25,
-      "uv_index": 0.0,
-      "air_quality_index": null,
-      "condition": "Clear",
-      "is_daily_high_hour": false,
-      "is_daily_low_hour": true
-    },
-    {
       "time_local": "2026-11-22T10:00",
       "date_local": "2026-11-22",
       "hour_local": "10:00",
@@ -407,7 +373,7 @@
       "air_quality_index": null,
       "condition": "Clear",
       "is_daily_high_hour": false,
-      "is_daily_low_hour": false
+      "is_daily_low_hour": true
     },
     {
       "time_local": "2026-11-22T11:00",
@@ -5749,7 +5715,7 @@
     }
   ],
   "extra_metadata": {
-    "hours_count": 239,
+    "hours_count": 238,
     "reported_location": "Seoul, South Korea"
   }
 }

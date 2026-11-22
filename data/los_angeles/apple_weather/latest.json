@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-22T00:35:52Z",
+  "scraped_at_utc": "2026-11-22T01:00:06Z",
   "city": "Los Angeles",
   "city_slug": "los_angeles",
   "station_icao": "KLAX",
@@ -18,20 +18,20 @@
     {
       "date": "2026-11-21",
       "unit": "F",
-      "highest_temperature": 67,
+      "highest_temperature": 62,
       "highest_temperature_duration_hours": 1,
       "highest_temperature_hours": [
-        "16:00"
+        "17:00"
       ],
       "highest_temperature_max_consecutive_hours": 1,
-      "highest_temperature_exact": 66.87,
+      "highest_temperature_exact": 61.83,
       "highest_temperature_exact_hours": [
-        "16:00"
+        "17:00"
       ],
-      "highest_temperature_c": 19.37,
-      "highest_temperature_f": 66.87,
+      "highest_temperature_c": 16.57,
+      "highest_temperature_f": 61.83,
       "consecutive_scrapes_with_same_high": 1,
-      "high_first_predicted_at_utc": "2026-11-22T00:35:52Z",
+      "high_first_predicted_at_utc": "2026-11-22T01:00:06Z",
       "lowest_temperature": 53,
       "lowest_temperature_duration_hours": 2,
       "lowest_temperature_hours": [
@@ -39,12 +39,12 @@
         "23:00"
       ],
       "lowest_temperature_exact": 52.7,
-      "avg_temperature": 57.75,
-      "max_feels_like": 66,
+      "avg_temperature": 56.45,
+      "max_feels_like": 59,
       "min_feels_like": 51,
       "max_humidity_pct": 65.0,
-      "min_humidity_pct": 31.0,
-      "avg_humidity_pct": 52.9,
+      "min_humidity_pct": 46.0,
+      "avg_humidity_pct": 56.0,
       "max_precip_prob_pct": 0.0,
       "total_precip_mm": 0.0,
       "total_rain_mm": 0.0,
@@ -53,11 +53,11 @@
       "max_wind_speed_mph": 4.59,
       "max_wind_gust_kmh": 14.52,
       "max_wind_gust_mph": 9.02,
-      "avg_cloud_cover_pct": 50.5,
-      "avg_pressure_hpa": 1016.6,
+      "avg_cloud_cover_pct": 46.3,
+      "avg_pressure_hpa": 1016.7,
       "max_uv_index": 0.0,
       "dominant_condition": "MostlyCloudy",
-      "hours_analyzed": 8
+      "hours_analyzed": 7
     },
     {
       "date": "2026-11-22",
@@ -76,7 +76,7 @@
       ],
       "highest_temperature_c": 18.36,
       "highest_temperature_f": 65.05,
-      "consecutive_scrapes_with_same_high": 12,
+      "consecutive_scrapes_with_same_high": 13,
       "high_first_predicted_at_utc": "2026-11-21T11:00:07Z",
       "lowest_temperature": 46,
       "lowest_temperature_duration_hours": 3,
@@ -122,7 +122,7 @@
       ],
       "highest_temperature_c": 19.47,
       "highest_temperature_f": 67.05,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-22T00:35:52Z",
       "lowest_temperature": 48,
       "lowest_temperature_duration_hours": 1,
@@ -167,7 +167,7 @@
       ],
       "highest_temperature_c": 20.72,
       "highest_temperature_f": 69.3,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-22T00:35:52Z",
       "lowest_temperature": 50,
       "lowest_temperature_duration_hours": 2,
@@ -212,7 +212,7 @@
       ],
       "highest_temperature_c": 21.66,
       "highest_temperature_f": 70.99,
-      "consecutive_scrapes_with_same_high": 2,
+      "consecutive_scrapes_with_same_high": 3,
       "high_first_predicted_at_utc": "2026-11-21T21:00:06Z",
       "lowest_temperature": 53,
       "lowest_temperature_duration_hours": 1,
@@ -256,7 +256,7 @@
       ],
       "highest_temperature_c": 22.22,
       "highest_temperature_f": 72.0,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-22T00:35:52Z",
       "lowest_temperature": 50,
       "lowest_temperature_duration_hours": 1,
@@ -300,7 +300,7 @@
       ],
       "highest_temperature_c": 22.75,
       "highest_temperature_f": 72.95,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-22T00:35:52Z",
       "lowest_temperature": 55,
       "lowest_temperature_duration_hours": 1,
@@ -330,40 +330,6 @@
     }
   ],
   "hourly_7day_forecast": [
-    {
-      "time_local": "2026-11-21T16:00",
-      "date_local": "2026-11-21",
-      "hour_local": "16:00",
-      "time_utc": "2026-11-22T00:00:00Z",
-      "temperature_c": 19.37,
-      "temperature_f": 66.87,
-      "temperature_market": 67,
-      "temperature_market_raw": 66.87,
-      "feels_like_c": 18.81,
-      "feels_like_f": 65.86,
-      "feels_like_market": 66,
-      "dew_point_c": 1.8,
-      "dew_point_f": 35.24,
-      "humidity_pct": 31.0,
-      "precip_prob_pct": 0.0,
-      "precip_mm": 0.0,
-      "rain_mm": 0.0,
-      "snow_cm": 0.0,
-      "wind_speed_kmh": 5.77,
-      "wind_speed_mph": 3.59,
-      "wind_gust_kmh": 10.51,
-      "wind_gust_mph": 6.53,
-      "wind_direction_deg": 251,
-      "wind_direction_cardinal": "WSW",
-      "cloud_cover_pct": 80.0,
-      "pressure_hpa": 1016.0,
-      "visibility_km": 59.67,
-      "uv_index": 0.0,
-      "air_quality_index": null,
-      "condition": "MostlyCloudy",
-      "is_daily_high_hour": true,
-      "is_daily_low_hour": false
-    },
     {
       "time_local": "2026-11-21T17:00",
       "date_local": "2026-11-21",
@@ -395,7 +361,7 @@
       "uv_index": 0.0,
       "air_quality_index": null,
       "condition": "MostlyClear",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": false
     },
     {
@@ -5500,7 +5466,7 @@
     }
   ],
   "extra_metadata": {
-    "hours_count": 232,
+    "hours_count": 231,
     "reported_location": "Los Angeles, CA"
   }
 }
