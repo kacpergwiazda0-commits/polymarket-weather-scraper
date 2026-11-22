@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-22T19:00:06Z",
+  "city": "Seoul",
+  "city_slug": "seoul",
+  "station_icao": "RKSI",
+  "station_name": "Incheon International Airport",
+  "latitude": 37.4602,
+  "longitude": 126.4407,
+  "timezone": "Asia/Seoul",
+  "polymarket_unit": "C",
+  "website_id": "open_meteo",
+  "website_name": "Open-Meteo",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "Expecting value: line 1 column 1 (char 0)",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

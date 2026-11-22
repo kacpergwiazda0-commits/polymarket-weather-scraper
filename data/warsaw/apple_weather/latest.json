@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-22T18:00:06Z",
+  "scraped_at_utc": "2026-11-22T19:00:06Z",
   "city": "Warsaw",
   "city_slug": "warsaw",
   "station_icao": "EPWA",
@@ -18,20 +18,23 @@
     {
       "date": "2026-11-22",
       "unit": "C",
-      "highest_temperature": 3,
-      "highest_temperature_duration_hours": 1,
+      "highest_temperature": 2,
+      "highest_temperature_duration_hours": 4,
       "highest_temperature_hours": [
-        "19:00"
+        "20:00",
+        "21:00",
+        "22:00",
+        "23:00"
       ],
-      "highest_temperature_max_consecutive_hours": 1,
-      "highest_temperature_exact": 2.51,
+      "highest_temperature_max_consecutive_hours": 4,
+      "highest_temperature_exact": 2.21,
       "highest_temperature_exact_hours": [
-        "19:00"
+        "20:00"
       ],
-      "highest_temperature_c": 2.51,
-      "highest_temperature_f": 36.52,
-      "consecutive_scrapes_with_same_high": 3,
-      "high_first_predicted_at_utc": "2026-11-22T16:00:07Z",
+      "highest_temperature_c": 2.21,
+      "highest_temperature_f": 35.98,
+      "consecutive_scrapes_with_same_high": 1,
+      "high_first_predicted_at_utc": "2026-11-22T19:00:06Z",
       "lowest_temperature": 2,
       "lowest_temperature_duration_hours": 4,
       "lowest_temperature_hours": [
@@ -41,25 +44,25 @@
         "23:00"
       ],
       "lowest_temperature_exact": 1.61,
-      "avg_temperature": 2.01,
+      "avg_temperature": 1.89,
       "max_feels_like": -1,
-      "min_feels_like": -2,
+      "min_feels_like": -1,
       "max_humidity_pct": 91.0,
-      "min_humidity_pct": 84.0,
-      "avg_humidity_pct": 88.2,
+      "min_humidity_pct": 87.0,
+      "avg_humidity_pct": 89.2,
       "max_precip_prob_pct": 5.0,
       "total_precip_mm": 0.01,
       "total_rain_mm": 0.01,
       "total_snow_cm": 0.01,
-      "max_wind_speed_kmh": 14.05,
-      "max_wind_speed_mph": 8.73,
-      "max_wind_gust_kmh": 28.94,
-      "max_wind_gust_mph": 17.98,
+      "max_wind_speed_kmh": 12.99,
+      "max_wind_speed_mph": 8.07,
+      "max_wind_gust_kmh": 27.08,
+      "max_wind_gust_mph": 16.83,
       "avg_cloud_cover_pct": 82.2,
-      "avg_pressure_hpa": 1006.8,
+      "avg_pressure_hpa": 1006.9,
       "max_uv_index": 0.0,
       "dominant_condition": "MostlyCloudy",
-      "hours_analyzed": 5
+      "hours_analyzed": 4
     },
     {
       "date": "2026-11-23",
@@ -82,7 +85,7 @@
       ],
       "highest_temperature_c": 2.34,
       "highest_temperature_f": 36.21,
-      "consecutive_scrapes_with_same_high": 12,
+      "consecutive_scrapes_with_same_high": 13,
       "high_first_predicted_at_utc": "2026-11-22T07:00:06Z",
       "lowest_temperature": 1,
       "lowest_temperature_duration_hours": 17,
@@ -141,7 +144,7 @@
       ],
       "highest_temperature_c": 3.54,
       "highest_temperature_f": 38.37,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-22T18:00:06Z",
       "lowest_temperature": 0,
       "lowest_temperature_duration_hours": 7,
@@ -193,7 +196,7 @@
       ],
       "highest_temperature_c": 1.87,
       "highest_temperature_f": 35.37,
-      "consecutive_scrapes_with_same_high": 13,
+      "consecutive_scrapes_with_same_high": 14,
       "high_first_predicted_at_utc": "2026-11-22T06:00:07Z",
       "lowest_temperature": -1,
       "lowest_temperature_duration_hours": 3,
@@ -244,7 +247,7 @@
       ],
       "highest_temperature_c": 0.45,
       "highest_temperature_f": 32.81,
-      "consecutive_scrapes_with_same_high": 2,
+      "consecutive_scrapes_with_same_high": 3,
       "high_first_predicted_at_utc": "2026-11-22T17:00:05Z",
       "lowest_temperature": -3,
       "lowest_temperature_duration_hours": 1,
@@ -291,7 +294,7 @@
       ],
       "highest_temperature_c": 1.14,
       "highest_temperature_f": 34.05,
-      "consecutive_scrapes_with_same_high": 10,
+      "consecutive_scrapes_with_same_high": 11,
       "high_first_predicted_at_utc": "2026-11-22T09:00:06Z",
       "lowest_temperature": -3,
       "lowest_temperature_duration_hours": 6,
@@ -342,7 +345,7 @@
       ],
       "highest_temperature_c": -0.82,
       "highest_temperature_f": 30.52,
-      "consecutive_scrapes_with_same_high": 2,
+      "consecutive_scrapes_with_same_high": 3,
       "high_first_predicted_at_utc": "2026-11-22T17:00:05Z",
       "lowest_temperature": -4,
       "lowest_temperature_duration_hours": 3,
@@ -375,40 +378,6 @@
   ],
   "hourly_7day_forecast": [
     {
-      "time_local": "2026-11-22T19:00",
-      "date_local": "2026-11-22",
-      "hour_local": "19:00",
-      "time_utc": "2026-11-22T18:00:00Z",
-      "temperature_c": 2.51,
-      "temperature_f": 36.52,
-      "temperature_market": 3,
-      "temperature_market_raw": 2.51,
-      "feels_like_c": -1.52,
-      "feels_like_f": 29.26,
-      "feels_like_market": -2,
-      "dew_point_c": 0.08,
-      "dew_point_f": 32.14,
-      "humidity_pct": 84.0,
-      "precip_prob_pct": 0.0,
-      "precip_mm": 0.0,
-      "rain_mm": 0.0,
-      "snow_cm": 0.0,
-      "wind_speed_kmh": 14.05,
-      "wind_speed_mph": 8.73,
-      "wind_gust_kmh": 28.94,
-      "wind_gust_mph": 17.98,
-      "wind_direction_deg": 269,
-      "wind_direction_cardinal": "W",
-      "cloud_cover_pct": 82.0,
-      "pressure_hpa": 1006.5,
-      "visibility_km": 23.35,
-      "uv_index": 0.0,
-      "air_quality_index": null,
-      "condition": "MostlyCloudy",
-      "is_daily_high_hour": true,
-      "is_daily_low_hour": false
-    },
-    {
       "time_local": "2026-11-22T20:00",
       "date_local": "2026-11-22",
       "hour_local": "20:00",
@@ -439,7 +408,7 @@
       "uv_index": 0.0,
       "air_quality_index": null,
       "condition": "MostlyCloudy",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": true
     },
     {
@@ -473,7 +442,7 @@
       "uv_index": 0.0,
       "air_quality_index": null,
       "condition": "MostlyCloudy",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": true
     },
     {
@@ -507,7 +476,7 @@
       "uv_index": 0.0,
       "air_quality_index": null,
       "condition": "MostlyCloudy",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": true
     },
     {
@@ -541,7 +510,7 @@
       "uv_index": 0.0,
       "air_quality_index": null,
       "condition": "Cloudy",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": true
     },
     {
@@ -5442,7 +5411,7 @@
     }
   ],
   "extra_metadata": {
-    "hours_count": 229,
+    "hours_count": 228,
     "reported_location": "Warsaw, Poland"
   }
 }
