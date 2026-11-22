@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-22T03:00:06Z",
+  "scraped_at_utc": "2026-11-22T04:00:07Z",
   "city": "Karachi",
   "city_slug": "karachi",
   "station_icao": "OPKC",
@@ -30,20 +30,21 @@
       ],
       "highest_temperature_c": 30.63,
       "highest_temperature_f": 87.13,
-      "consecutive_scrapes_with_same_high": 4,
+      "consecutive_scrapes_with_same_high": 5,
       "high_first_predicted_at_utc": "2026-11-22T00:35:52Z",
-      "lowest_temperature": 18,
-      "lowest_temperature_duration_hours": 1,
+      "lowest_temperature": 21,
+      "lowest_temperature_duration_hours": 2,
       "lowest_temperature_hours": [
-        "08:00"
+        "09:00",
+        "23:00"
       ],
-      "lowest_temperature_exact": 18.07,
-      "avg_temperature": 25.81,
+      "lowest_temperature_exact": 21.05,
+      "avg_temperature": 26.32,
       "max_feels_like": 32,
       "min_feels_like": 19,
-      "max_humidity_pct": 51.0,
+      "max_humidity_pct": 45.0,
       "min_humidity_pct": 22.0,
-      "avg_humidity_pct": 32.7,
+      "avg_humidity_pct": 31.5,
       "max_precip_prob_pct": 0.0,
       "total_precip_mm": 0.0,
       "total_rain_mm": 0.0,
@@ -56,7 +57,7 @@
       "avg_pressure_hpa": 1018.7,
       "max_uv_index": 6.0,
       "dominant_condition": "Clear",
-      "hours_analyzed": 16
+      "hours_analyzed": 15
     },
     {
       "date": "2026-11-23",
@@ -73,7 +74,7 @@
       ],
       "highest_temperature_c": 29.66,
       "highest_temperature_f": 85.39,
-      "consecutive_scrapes_with_same_high": 30,
+      "consecutive_scrapes_with_same_high": 31,
       "high_first_predicted_at_utc": "2026-11-20T20:00:07Z",
       "lowest_temperature": 18,
       "lowest_temperature_duration_hours": 2,
@@ -119,7 +120,7 @@
       ],
       "highest_temperature_c": 29.43,
       "highest_temperature_f": 84.97,
-      "consecutive_scrapes_with_same_high": 4,
+      "consecutive_scrapes_with_same_high": 5,
       "high_first_predicted_at_utc": "2026-11-22T00:35:52Z",
       "lowest_temperature": 16,
       "lowest_temperature_duration_hours": 1,
@@ -162,7 +163,7 @@
       ],
       "highest_temperature_c": 29.67,
       "highest_temperature_f": 85.41,
-      "consecutive_scrapes_with_same_high": 39,
+      "consecutive_scrapes_with_same_high": 40,
       "high_first_predicted_at_utc": "2026-11-20T11:00:06Z",
       "lowest_temperature": 16,
       "lowest_temperature_duration_hours": 1,
@@ -207,7 +208,7 @@
       ],
       "highest_temperature_c": 29.29,
       "highest_temperature_f": 84.72,
-      "consecutive_scrapes_with_same_high": 4,
+      "consecutive_scrapes_with_same_high": 5,
       "high_first_predicted_at_utc": "2026-11-22T00:35:52Z",
       "lowest_temperature": 19,
       "lowest_temperature_duration_hours": 5,
@@ -255,7 +256,7 @@
       ],
       "highest_temperature_c": 28.76,
       "highest_temperature_f": 83.77,
-      "consecutive_scrapes_with_same_high": 8,
+      "consecutive_scrapes_with_same_high": 9,
       "high_first_predicted_at_utc": "2026-11-21T18:00:05Z",
       "lowest_temperature": 19,
       "lowest_temperature_duration_hours": 2,
@@ -300,7 +301,7 @@
       ],
       "highest_temperature_c": 28.76,
       "highest_temperature_f": 83.77,
-      "consecutive_scrapes_with_same_high": 7,
+      "consecutive_scrapes_with_same_high": 8,
       "high_first_predicted_at_utc": "2026-11-21T19:00:06Z",
       "lowest_temperature": 18,
       "lowest_temperature_duration_hours": 2,
@@ -331,40 +332,6 @@
     }
   ],
   "hourly_7day_forecast": [
-    {
-      "time_local": "2026-11-22T08:00",
-      "date_local": "2026-11-22",
-      "hour_local": "08:00",
-      "time_utc": "2026-11-22T03:00:00Z",
-      "temperature_c": 18.07,
-      "temperature_f": 64.53,
-      "temperature_market": 18,
-      "temperature_market_raw": 18.07,
-      "feels_like_c": 19.09,
-      "feels_like_f": 66.36,
-      "feels_like_market": 19,
-      "dew_point_c": 7.78,
-      "dew_point_f": 46.0,
-      "humidity_pct": 51.0,
-      "precip_prob_pct": 0.0,
-      "precip_mm": 0.0,
-      "rain_mm": 0.0,
-      "snow_cm": 0.0,
-      "wind_speed_kmh": 8.44,
-      "wind_speed_mph": 5.24,
-      "wind_gust_kmh": 14.44,
-      "wind_gust_mph": 8.97,
-      "wind_direction_deg": 44,
-      "wind_direction_cardinal": "NE",
-      "cloud_cover_pct": 0.0,
-      "pressure_hpa": 1019.7,
-      "visibility_km": 19.65,
-      "uv_index": 0.0,
-      "air_quality_index": null,
-      "condition": "Clear",
-      "is_daily_high_hour": false,
-      "is_daily_low_hour": true
-    },
     {
       "time_local": "2026-11-22T09:00",
       "date_local": "2026-11-22",
@@ -397,7 +364,7 @@
       "air_quality_index": null,
       "condition": "Clear",
       "is_daily_high_hour": false,
-      "is_daily_low_hour": false
+      "is_daily_low_hour": true
     },
     {
       "time_local": "2026-11-22T10:00",
@@ -873,7 +840,7 @@
       "air_quality_index": null,
       "condition": "Clear",
       "is_daily_high_hour": false,
-      "is_daily_low_hour": false
+      "is_daily_low_hour": true
     },
     {
       "time_local": "2026-11-23T00:00",
@@ -5773,7 +5740,7 @@
     }
   ],
   "extra_metadata": {
-    "hours_count": 240,
+    "hours_count": 239,
     "reported_location": "Karachi, Pakistan"
   }
 }
