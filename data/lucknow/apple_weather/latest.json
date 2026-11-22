@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-22T14:00:06Z",
+  "scraped_at_utc": "2026-11-22T15:00:06Z",
   "city": "Lucknow",
   "city_slug": "lucknow",
   "station_icao": "VILK",
@@ -18,45 +18,46 @@
     {
       "date": "2026-11-22",
       "unit": "C",
-      "highest_temperature": 21,
-      "highest_temperature_duration_hours": 1,
+      "highest_temperature": 20,
+      "highest_temperature_duration_hours": 2,
       "highest_temperature_hours": [
-        "19:30"
+        "20:30",
+        "21:30"
       ],
-      "highest_temperature_max_consecutive_hours": 1,
-      "highest_temperature_exact": 21.23,
+      "highest_temperature_max_consecutive_hours": 2,
+      "highest_temperature_exact": 20.29,
       "highest_temperature_exact_hours": [
-        "19:30"
+        "20:30"
       ],
-      "highest_temperature_c": 21.23,
-      "highest_temperature_f": 70.21,
+      "highest_temperature_c": 20.29,
+      "highest_temperature_f": 68.52,
       "consecutive_scrapes_with_same_high": 1,
-      "high_first_predicted_at_utc": "2026-11-22T14:00:06Z",
+      "high_first_predicted_at_utc": "2026-11-22T15:00:06Z",
       "lowest_temperature": 18,
       "lowest_temperature_duration_hours": 1,
       "lowest_temperature_hours": [
         "23:30"
       ],
       "lowest_temperature_exact": 18.17,
-      "avg_temperature": 19.63,
-      "max_feels_like": 21,
+      "avg_temperature": 19.23,
+      "max_feels_like": 20,
       "min_feels_like": 17,
       "max_humidity_pct": 78.0,
-      "min_humidity_pct": 70.0,
-      "avg_humidity_pct": 74.6,
+      "min_humidity_pct": 73.0,
+      "avg_humidity_pct": 75.8,
       "max_precip_prob_pct": 0.0,
       "total_precip_mm": 0.0,
       "total_rain_mm": 0.0,
       "total_snow_cm": 0.0,
       "max_wind_speed_kmh": 6.69,
       "max_wind_speed_mph": 4.16,
-      "max_wind_gust_kmh": 13.66,
-      "max_wind_gust_mph": 8.49,
-      "avg_cloud_cover_pct": 6.6,
-      "avg_pressure_hpa": 1018.1,
+      "max_wind_gust_kmh": 13.09,
+      "max_wind_gust_mph": 8.13,
+      "avg_cloud_cover_pct": 6.0,
+      "avg_pressure_hpa": 1018.2,
       "max_uv_index": 0.0,
       "dominant_condition": "Clear",
-      "hours_analyzed": 5
+      "hours_analyzed": 4
     },
     {
       "date": "2026-11-23",
@@ -74,7 +75,7 @@
       ],
       "highest_temperature_c": 25.78,
       "highest_temperature_f": 78.4,
-      "consecutive_scrapes_with_same_high": 98,
+      "consecutive_scrapes_with_same_high": 99,
       "high_first_predicted_at_utc": "2026-11-18T06:00:06Z",
       "lowest_temperature": 15,
       "lowest_temperature_duration_hours": 2,
@@ -120,7 +121,7 @@
       ],
       "highest_temperature_c": 25.12,
       "highest_temperature_f": 77.22,
-      "consecutive_scrapes_with_same_high": 25,
+      "consecutive_scrapes_with_same_high": 26,
       "high_first_predicted_at_utc": "2026-11-21T12:00:06Z",
       "lowest_temperature": 13,
       "lowest_temperature_duration_hours": 2,
@@ -166,7 +167,7 @@
       ],
       "highest_temperature_c": 25.11,
       "highest_temperature_f": 77.2,
-      "consecutive_scrapes_with_same_high": 38,
+      "consecutive_scrapes_with_same_high": 39,
       "high_first_predicted_at_utc": "2026-11-20T23:00:06Z",
       "lowest_temperature": 13,
       "lowest_temperature_duration_hours": 3,
@@ -212,7 +213,7 @@
       ],
       "highest_temperature_c": 24.72,
       "highest_temperature_f": 76.5,
-      "consecutive_scrapes_with_same_high": 47,
+      "consecutive_scrapes_with_same_high": 48,
       "high_first_predicted_at_utc": "2026-11-20T14:00:06Z",
       "lowest_temperature": 13,
       "lowest_temperature_duration_hours": 3,
@@ -257,7 +258,7 @@
       ],
       "highest_temperature_c": 24.59,
       "highest_temperature_f": 76.26,
-      "consecutive_scrapes_with_same_high": 16,
+      "consecutive_scrapes_with_same_high": 17,
       "high_first_predicted_at_utc": "2026-11-21T21:00:06Z",
       "lowest_temperature": 13,
       "lowest_temperature_duration_hours": 3,
@@ -306,7 +307,7 @@
       ],
       "highest_temperature_c": 23.46,
       "highest_temperature_f": 74.23,
-      "consecutive_scrapes_with_same_high": 3,
+      "consecutive_scrapes_with_same_high": 4,
       "high_first_predicted_at_utc": "2026-11-22T12:00:06Z",
       "lowest_temperature": 13,
       "lowest_temperature_duration_hours": 3,
@@ -339,40 +340,6 @@
   ],
   "hourly_7day_forecast": [
     {
-      "time_local": "2026-11-22T19:30",
-      "date_local": "2026-11-22",
-      "hour_local": "19:30",
-      "time_utc": "2026-11-22T14:00:00Z",
-      "temperature_c": 21.23,
-      "temperature_f": 70.21,
-      "temperature_market": 21,
-      "temperature_market_raw": 21.23,
-      "feels_like_c": 20.77,
-      "feels_like_f": 69.39,
-      "feels_like_market": 21,
-      "dew_point_c": 15.54,
-      "dew_point_f": 59.97,
-      "humidity_pct": 70.0,
-      "precip_prob_pct": 0.0,
-      "precip_mm": 0.0,
-      "rain_mm": 0.0,
-      "snow_cm": 0.0,
-      "wind_speed_kmh": 6.33,
-      "wind_speed_mph": 3.93,
-      "wind_gust_kmh": 13.66,
-      "wind_gust_mph": 8.49,
-      "wind_direction_deg": 318,
-      "wind_direction_cardinal": "NW",
-      "cloud_cover_pct": 9.0,
-      "pressure_hpa": 1017.5,
-      "visibility_km": 14.55,
-      "uv_index": 0.0,
-      "air_quality_index": null,
-      "condition": "Clear",
-      "is_daily_high_hour": true,
-      "is_daily_low_hour": false
-    },
-    {
       "time_local": "2026-11-22T20:30",
       "date_local": "2026-11-22",
       "hour_local": "20:30",
@@ -403,7 +370,7 @@
       "uv_index": 0.0,
       "air_quality_index": null,
       "condition": "Clear",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": false
     },
     {
@@ -437,7 +404,7 @@
       "uv_index": 0.0,
       "air_quality_index": null,
       "condition": "Clear",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": false
     },
     {
@@ -5406,7 +5373,7 @@
     }
   ],
   "extra_metadata": {
-    "hours_count": 229,
+    "hours_count": 228,
     "reported_location": "Lucknow, India"
   }
 }
