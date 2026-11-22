@@ -31,7 +31,7 @@ concurrency:
 jobs:
   scrape-forecasts:
     runs-on: ubuntu-latest
-    timeout-minutes: 330
+    timeout-minutes: 350
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -56,8 +56,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          for CYCLE in 1 2 3 4 5; do
-            echo "=== Cycle ${CYCLE}/5 at $(date -u +"%Y-%m-%dT%H:%M:%SZ") ==="
+          for CYCLE in 1 2 3 4 5 6; do
+            echo "=== Cycle ${CYCLE}/6 at $(date -u +"%Y-%m-%dT%H:%M:%SZ") ==="
             git fetch origin main --depth=5 || true
             git pull --rebase origin main || true
 
@@ -75,7 +75,9 @@ jobs:
                 --cities "${{ inputs.cities }}" \
                 --websites "${{ inputs.websites }}"
 
-              git add data/
+              git rm -f --ignore-unmatch data/all_cities_all_scrapes.csv || true
+              rm -f data/all_cities_all_scrapes.csv
+              git add -A data/
               if git diff --cached --quiet; then
                 echo "No forecast changes to commit."
               else
@@ -89,7 +91,7 @@ jobs:
               echo "Current UTC hour (${CURR_HOUR}) already scraped; waiting for next top-of-hour."
             fi
 
-            if [ "$CYCLE" -lt 5 ]; then
+            if [ "$CYCLE" -lt 6 ]; then
               NOW_EPOCH=$(date -u +%s)
               SLEEP_SECS=$(( 3600 - (NOW_EPOCH % 3600) + 5 ))
               NEXT_RUN=$(date -u -d "@$((NOW_EPOCH + SLEEP_SECS))" +"%Y-%m-%dT%H:%M:%SZ")
