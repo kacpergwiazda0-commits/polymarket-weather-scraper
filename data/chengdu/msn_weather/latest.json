@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-22T17:00:05Z",
+  "scraped_at_utc": "2026-11-22T18:00:06Z",
   "city": "Chengdu",
   "city_slug": "chengdu",
   "station_icao": "ZUUU",
@@ -30,7 +30,7 @@
       ],
       "highest_temperature_c": 19.0,
       "highest_temperature_f": 66.2,
-      "consecutive_scrapes_with_same_high": 10,
+      "consecutive_scrapes_with_same_high": 11,
       "high_first_predicted_at_utc": "2026-11-22T08:00:06Z",
       "lowest_temperature": 13,
       "lowest_temperature_duration_hours": 7,
@@ -44,12 +44,12 @@
         "09:00"
       ],
       "lowest_temperature_exact": 13.0,
-      "avg_temperature": 15.09,
+      "avg_temperature": 15.14,
       "max_feels_like": 24,
       "min_feels_like": 13,
       "max_humidity_pct": 77.0,
       "min_humidity_pct": 48.0,
-      "avg_humidity_pct": 65.3,
+      "avg_humidity_pct": 65.1,
       "max_precip_prob_pct": 8.0,
       "total_precip_mm": 0.0,
       "total_rain_mm": 0.0,
@@ -58,11 +58,11 @@
       "max_wind_speed_mph": 4.97,
       "max_wind_gust_kmh": 17.0,
       "max_wind_gust_mph": 10.56,
-      "avg_cloud_cover_pct": 80.2,
-      "avg_pressure_hpa": 1025.0,
+      "avg_cloud_cover_pct": 80.3,
+      "avg_pressure_hpa": 1025.1,
       "max_uv_index": 1.0,
       "dominant_condition": "Mostly cloudy",
-      "hours_analyzed": 23
+      "hours_analyzed": 22
     },
     {
       "date": "2026-11-24",
@@ -79,7 +79,7 @@
       ],
       "highest_temperature_c": 17.0,
       "highest_temperature_f": 62.6,
-      "consecutive_scrapes_with_same_high": 8,
+      "consecutive_scrapes_with_same_high": 9,
       "high_first_predicted_at_utc": "2026-11-22T10:00:06Z",
       "lowest_temperature": 12,
       "lowest_temperature_duration_hours": 2,
@@ -125,7 +125,7 @@
       ],
       "highest_temperature_c": 18.0,
       "highest_temperature_f": 64.4,
-      "consecutive_scrapes_with_same_high": 14,
+      "consecutive_scrapes_with_same_high": 15,
       "high_first_predicted_at_utc": "2026-11-22T04:00:07Z",
       "lowest_temperature": 8,
       "lowest_temperature_duration_hours": 1,
@@ -176,7 +176,7 @@
       ],
       "highest_temperature_c": 15.0,
       "highest_temperature_f": 59.0,
-      "consecutive_scrapes_with_same_high": 2,
+      "consecutive_scrapes_with_same_high": 3,
       "high_first_predicted_at_utc": "2026-11-22T16:00:07Z",
       "lowest_temperature": 10,
       "lowest_temperature_duration_hours": 1,
@@ -219,7 +219,7 @@
       ],
       "highest_temperature_c": 20.0,
       "highest_temperature_f": 68.0,
-      "consecutive_scrapes_with_same_high": 10,
+      "consecutive_scrapes_with_same_high": 11,
       "high_first_predicted_at_utc": "2026-11-22T08:00:06Z",
       "lowest_temperature": 8,
       "lowest_temperature_duration_hours": 5,
@@ -270,7 +270,7 @@
       ],
       "highest_temperature_c": 19.0,
       "highest_temperature_f": 66.2,
-      "consecutive_scrapes_with_same_high": 8,
+      "consecutive_scrapes_with_same_high": 9,
       "high_first_predicted_at_utc": "2026-11-22T10:00:06Z",
       "lowest_temperature": 10,
       "lowest_temperature_duration_hours": 6,
@@ -322,7 +322,7 @@
       ],
       "highest_temperature_c": 19.0,
       "highest_temperature_f": 66.2,
-      "consecutive_scrapes_with_same_high": 2,
+      "consecutive_scrapes_with_same_high": 3,
       "high_first_predicted_at_utc": "2026-11-22T16:00:07Z",
       "lowest_temperature": 11,
       "lowest_temperature_duration_hours": 6,
@@ -358,10 +358,10 @@
   ],
   "hourly_7day_forecast": [
     {
-      "time_local": "2026-11-23T01:00",
+      "time_local": "2026-11-23T02:00",
       "date_local": "2026-11-23",
-      "hour_local": "01:00",
-      "time_utc": "2026-11-22T17:00:00Z",
+      "hour_local": "02:00",
+      "time_utc": "2026-11-22T18:00:00Z",
       "temperature_c": 14.0,
       "temperature_f": 57.2,
       "temperature_market": 14,
@@ -386,42 +386,8 @@
       "pressure_hpa": 1022.0,
       "visibility_km": 8.0,
       "uv_index": 0.0,
-      "air_quality_index": 246,
+      "air_quality_index": 249,
       "condition": "Cloudy",
-      "is_daily_high_hour": false,
-      "is_daily_low_hour": false
-    },
-    {
-      "time_local": "2026-11-23T02:00",
-      "date_local": "2026-11-23",
-      "hour_local": "02:00",
-      "time_utc": "2026-11-22T18:00:00Z",
-      "temperature_c": 14.0,
-      "temperature_f": 57.2,
-      "temperature_market": 14,
-      "temperature_market_raw": 14.0,
-      "feels_like_c": 13.0,
-      "feels_like_f": 55.4,
-      "feels_like_market": 13,
-      "dew_point_c": 8.0,
-      "dew_point_f": 46.4,
-      "humidity_pct": 70.0,
-      "precip_prob_pct": 1.0,
-      "precip_mm": 0.0,
-      "rain_mm": 0.0,
-      "snow_cm": 0.0,
-      "wind_speed_kmh": 5.0,
-      "wind_speed_mph": 3.11,
-      "wind_gust_kmh": 14.0,
-      "wind_gust_mph": 8.7,
-      "wind_direction_deg": 329,
-      "wind_direction_cardinal": "NNW",
-      "cloud_cover_pct": 78.0,
-      "pressure_hpa": 1022.0,
-      "visibility_km": 10.0,
-      "uv_index": 0.0,
-      "air_quality_index": 247,
-      "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
     },
@@ -440,7 +406,7 @@
       "dew_point_c": 9.0,
       "dew_point_f": 48.2,
       "humidity_pct": 73.0,
-      "precip_prob_pct": 2.0,
+      "precip_prob_pct": 1.0,
       "precip_mm": 0.0,
       "rain_mm": 0.0,
       "snow_cm": 0.0,
@@ -454,7 +420,7 @@
       "pressure_hpa": 1022.0,
       "visibility_km": 10.0,
       "uv_index": 0.0,
-      "air_quality_index": 245,
+      "air_quality_index": 251,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": true
@@ -488,7 +454,7 @@
       "pressure_hpa": 1022.0,
       "visibility_km": 10.0,
       "uv_index": 0.0,
-      "air_quality_index": 243,
+      "air_quality_index": 251,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": true
@@ -508,7 +474,7 @@
       "dew_point_c": 9.0,
       "dew_point_f": 48.2,
       "humidity_pct": 77.0,
-      "precip_prob_pct": 4.0,
+      "precip_prob_pct": 3.0,
       "precip_mm": 0.0,
       "rain_mm": 0.0,
       "snow_cm": 0.0,
@@ -522,7 +488,7 @@
       "pressure_hpa": 1022.0,
       "visibility_km": 9.0,
       "uv_index": 0.0,
-      "air_quality_index": 241,
+      "air_quality_index": 251,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": true
@@ -556,7 +522,7 @@
       "pressure_hpa": 1023.0,
       "visibility_km": 10.0,
       "uv_index": 0.0,
-      "air_quality_index": 0,
+      "air_quality_index": 243,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": true
@@ -1202,7 +1168,7 @@
       "pressure_hpa": 1030.0,
       "visibility_km": 15.0,
       "uv_index": 0.0,
-      "air_quality_index": 131,
+      "air_quality_index": 0,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -1236,7 +1202,7 @@
       "pressure_hpa": 1031.0,
       "visibility_km": 10.0,
       "uv_index": 0.0,
-      "air_quality_index": 127,
+      "air_quality_index": 136,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -1270,7 +1236,7 @@
       "pressure_hpa": 1031.0,
       "visibility_km": 10.0,
       "uv_index": 0.0,
-      "air_quality_index": 123,
+      "air_quality_index": 131,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -1304,7 +1270,7 @@
       "pressure_hpa": 1031.0,
       "visibility_km": 10.0,
       "uv_index": 0.0,
-      "air_quality_index": 119,
+      "air_quality_index": 126,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -1338,7 +1304,7 @@
       "pressure_hpa": 1031.0,
       "visibility_km": 10.0,
       "uv_index": 0.0,
-      "air_quality_index": 114,
+      "air_quality_index": 121,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -1372,7 +1338,7 @@
       "pressure_hpa": 1032.0,
       "visibility_km": 10.0,
       "uv_index": 0.0,
-      "air_quality_index": 113,
+      "air_quality_index": 119,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -1406,7 +1372,7 @@
       "pressure_hpa": 1032.0,
       "visibility_km": 10.0,
       "uv_index": 0.0,
-      "air_quality_index": 110,
+      "air_quality_index": 116,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": true
@@ -1440,7 +1406,7 @@
       "pressure_hpa": 1033.0,
       "visibility_km": 10.0,
       "uv_index": 0.0,
-      "air_quality_index": 106,
+      "air_quality_index": 111,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -1474,7 +1440,7 @@
       "pressure_hpa": 1033.0,
       "visibility_km": 10.0,
       "uv_index": 0.0,
-      "air_quality_index": 100,
+      "air_quality_index": 104,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -1508,7 +1474,7 @@
       "pressure_hpa": 1034.0,
       "visibility_km": 7.0,
       "uv_index": 0.0,
-      "air_quality_index": 96,
+      "air_quality_index": 99,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -1542,7 +1508,7 @@
       "pressure_hpa": 1034.0,
       "visibility_km": 6.0,
       "uv_index": 1.0,
-      "air_quality_index": 92,
+      "air_quality_index": 95,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -1576,7 +1542,7 @@
       "pressure_hpa": 1034.0,
       "visibility_km": 6.0,
       "uv_index": 1.0,
-      "air_quality_index": 90,
+      "air_quality_index": 92,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -1610,7 +1576,7 @@
       "pressure_hpa": 1033.0,
       "visibility_km": 6.0,
       "uv_index": 1.0,
-      "air_quality_index": 87,
+      "air_quality_index": 90,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -1644,7 +1610,7 @@
       "pressure_hpa": 1032.0,
       "visibility_km": 5.0,
       "uv_index": 1.0,
-      "air_quality_index": 85,
+      "air_quality_index": 87,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -1678,7 +1644,7 @@
       "pressure_hpa": 1031.0,
       "visibility_km": 5.0,
       "uv_index": 1.0,
-      "air_quality_index": 83,
+      "air_quality_index": 85,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": true,
       "is_daily_low_hour": false
@@ -1712,7 +1678,7 @@
       "pressure_hpa": 1030.0,
       "visibility_km": 5.0,
       "uv_index": 1.0,
-      "air_quality_index": 81,
+      "air_quality_index": 83,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -1746,7 +1712,7 @@
       "pressure_hpa": 1030.0,
       "visibility_km": 5.0,
       "uv_index": 0.0,
-      "air_quality_index": 79,
+      "air_quality_index": 81,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -1780,7 +1746,7 @@
       "pressure_hpa": 1031.0,
       "visibility_km": 5.0,
       "uv_index": 0.0,
-      "air_quality_index": 78,
+      "air_quality_index": 80,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -1814,7 +1780,7 @@
       "pressure_hpa": 1031.0,
       "visibility_km": 5.0,
       "uv_index": 0.0,
-      "air_quality_index": 77,
+      "air_quality_index": 79,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -1848,7 +1814,7 @@
       "pressure_hpa": 1031.0,
       "visibility_km": 5.0,
       "uv_index": 0.0,
-      "air_quality_index": 76,
+      "air_quality_index": 78,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -1882,7 +1848,7 @@
       "pressure_hpa": 1032.0,
       "visibility_km": 6.0,
       "uv_index": 0.0,
-      "air_quality_index": 76,
+      "air_quality_index": 78,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -1916,7 +1882,7 @@
       "pressure_hpa": 1032.0,
       "visibility_km": 6.0,
       "uv_index": 0.0,
-      "air_quality_index": 77,
+      "air_quality_index": 79,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -1950,7 +1916,7 @@
       "pressure_hpa": 1032.0,
       "visibility_km": 5.0,
       "uv_index": 0.0,
-      "air_quality_index": 78,
+      "air_quality_index": 80,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": true
@@ -1984,7 +1950,7 @@
       "pressure_hpa": 1031.0,
       "visibility_km": 5.0,
       "uv_index": 0.0,
-      "air_quality_index": 79,
+      "air_quality_index": 80,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -2018,7 +1984,7 @@
       "pressure_hpa": 1031.0,
       "visibility_km": 5.0,
       "uv_index": 0.0,
-      "air_quality_index": 80,
+      "air_quality_index": 81,
       "condition": "Partly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -2052,7 +2018,7 @@
       "pressure_hpa": 1030.0,
       "visibility_km": 5.0,
       "uv_index": 0.0,
-      "air_quality_index": 81,
+      "air_quality_index": 83,
       "condition": "Partly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -2086,7 +2052,7 @@
       "pressure_hpa": 1030.0,
       "visibility_km": 5.0,
       "uv_index": 0.0,
-      "air_quality_index": 82,
+      "air_quality_index": 84,
       "condition": "Partly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -2120,7 +2086,7 @@
       "pressure_hpa": 1029.0,
       "visibility_km": 5.0,
       "uv_index": 0.0,
-      "air_quality_index": 83,
+      "air_quality_index": 85,
       "condition": "Partly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -2154,7 +2120,7 @@
       "pressure_hpa": 1028.0,
       "visibility_km": 4.0,
       "uv_index": 0.0,
-      "air_quality_index": 85,
+      "air_quality_index": 86,
       "condition": "Partly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -2188,7 +2154,7 @@
       "pressure_hpa": 1028.0,
       "visibility_km": 3.0,
       "uv_index": 0.0,
-      "air_quality_index": 85,
+      "air_quality_index": 86,
       "condition": "Partly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -2222,7 +2188,7 @@
       "pressure_hpa": 1028.0,
       "visibility_km": 3.0,
       "uv_index": 0.0,
-      "air_quality_index": 85,
+      "air_quality_index": 86,
       "condition": "Partly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": true
@@ -2256,7 +2222,7 @@
       "pressure_hpa": 1028.0,
       "visibility_km": 4.0,
       "uv_index": 0.0,
-      "air_quality_index": 86,
+      "air_quality_index": 88,
       "condition": "Mostly sunny",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -2290,7 +2256,7 @@
       "pressure_hpa": 1028.0,
       "visibility_km": 5.0,
       "uv_index": 0.0,
-      "air_quality_index": 88,
+      "air_quality_index": 90,
       "condition": "Mostly sunny",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -2324,7 +2290,7 @@
       "pressure_hpa": 1028.0,
       "visibility_km": 10.0,
       "uv_index": 1.0,
-      "air_quality_index": 88,
+      "air_quality_index": 90,
       "condition": "Mostly sunny",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -2358,7 +2324,7 @@
       "pressure_hpa": 1028.0,
       "visibility_km": 10.0,
       "uv_index": 1.0,
-      "air_quality_index": 88,
+      "air_quality_index": 89,
       "condition": "Mostly sunny",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -2392,7 +2358,7 @@
       "pressure_hpa": 1027.0,
       "visibility_km": 10.0,
       "uv_index": 2.0,
-      "air_quality_index": 88,
+      "air_quality_index": 89,
       "condition": "Mostly sunny",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -2426,7 +2392,7 @@
       "pressure_hpa": 1026.0,
       "visibility_km": 10.0,
       "uv_index": 2.0,
-      "air_quality_index": 88,
+      "air_quality_index": 89,
       "condition": "Mostly sunny",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -2460,7 +2426,7 @@
       "pressure_hpa": 1024.0,
       "visibility_km": 15.0,
       "uv_index": 2.0,
-      "air_quality_index": 88,
+      "air_quality_index": 90,
       "condition": "Mostly sunny",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -2494,7 +2460,7 @@
       "pressure_hpa": 1022.0,
       "visibility_km": 15.0,
       "uv_index": 2.0,
-      "air_quality_index": 89,
+      "air_quality_index": 90,
       "condition": "Mostly sunny",
       "is_daily_high_hour": true,
       "is_daily_low_hour": false
@@ -2528,7 +2494,7 @@
       "pressure_hpa": 1021.0,
       "visibility_km": 15.0,
       "uv_index": 1.0,
-      "air_quality_index": 89,
+      "air_quality_index": 91,
       "condition": "Mostly sunny",
       "is_daily_high_hour": true,
       "is_daily_low_hour": false
@@ -2562,7 +2528,7 @@
       "pressure_hpa": 1021.0,
       "visibility_km": 15.0,
       "uv_index": 1.0,
-      "air_quality_index": 90,
+      "air_quality_index": 91,
       "condition": "Mostly sunny",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -2596,7 +2562,7 @@
       "pressure_hpa": 1021.0,
       "visibility_km": 10.0,
       "uv_index": 1.0,
-      "air_quality_index": 91,
+      "air_quality_index": 93,
       "condition": "Mostly sunny",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -2630,7 +2596,7 @@
       "pressure_hpa": 1021.0,
       "visibility_km": 10.0,
       "uv_index": 0.0,
-      "air_quality_index": 94,
+      "air_quality_index": 95,
       "condition": "Partly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -2664,7 +2630,7 @@
       "pressure_hpa": 1022.0,
       "visibility_km": 10.0,
       "uv_index": 0.0,
-      "air_quality_index": 98,
+      "air_quality_index": 100,
       "condition": "Partly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -2698,7 +2664,7 @@
       "pressure_hpa": 1022.0,
       "visibility_km": 10.0,
       "uv_index": 0.0,
-      "air_quality_index": 104,
+      "air_quality_index": 106,
       "condition": "Partly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -2732,7 +2698,7 @@
       "pressure_hpa": 1022.0,
       "visibility_km": 10.0,
       "uv_index": 0.0,
-      "air_quality_index": 110,
+      "air_quality_index": 112,
       "condition": "Partly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -2766,7 +2732,7 @@
       "pressure_hpa": 1022.0,
       "visibility_km": 10.0,
       "uv_index": 0.0,
-      "air_quality_index": 116,
+      "air_quality_index": 118,
       "condition": "Partly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -2800,7 +2766,7 @@
       "pressure_hpa": 1022.0,
       "visibility_km": 10.0,
       "uv_index": 0.0,
-      "air_quality_index": 122,
+      "air_quality_index": 124,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -2834,7 +2800,7 @@
       "pressure_hpa": 1022.0,
       "visibility_km": 9.0,
       "uv_index": 0.0,
-      "air_quality_index": 129,
+      "air_quality_index": 131,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -2868,7 +2834,7 @@
       "pressure_hpa": 1021.0,
       "visibility_km": 10.0,
       "uv_index": 0.0,
-      "air_quality_index": 135,
+      "air_quality_index": 137,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -2902,7 +2868,7 @@
       "pressure_hpa": 1020.0,
       "visibility_km": 10.0,
       "uv_index": 0.0,
-      "air_quality_index": 141,
+      "air_quality_index": 143,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -2936,7 +2902,7 @@
       "pressure_hpa": 1020.0,
       "visibility_km": 10.0,
       "uv_index": 0.0,
-      "air_quality_index": 147,
+      "air_quality_index": 149,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -3038,7 +3004,7 @@
       "pressure_hpa": 1020.0,
       "visibility_km": 10.0,
       "uv_index": 0.0,
-      "air_quality_index": 153,
+      "air_quality_index": 154,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": true
@@ -3072,7 +3038,7 @@
       "pressure_hpa": 1020.0,
       "visibility_km": 10.0,
       "uv_index": 0.0,
-      "air_quality_index": 154,
+      "air_quality_index": 155,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -3106,7 +3072,7 @@
       "pressure_hpa": 1020.0,
       "visibility_km": 10.0,
       "uv_index": 0.0,
-      "air_quality_index": 155,
+      "air_quality_index": 156,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -3140,7 +3106,7 @@
       "pressure_hpa": 1021.0,
       "visibility_km": 10.0,
       "uv_index": 0.0,
-      "air_quality_index": 156,
+      "air_quality_index": 157,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -3208,7 +3174,7 @@
       "pressure_hpa": 1020.0,
       "visibility_km": 10.0,
       "uv_index": 1.0,
-      "air_quality_index": 157,
+      "air_quality_index": 158,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -3276,7 +3242,7 @@
       "pressure_hpa": 1018.0,
       "visibility_km": 10.0,
       "uv_index": 1.0,
-      "air_quality_index": 158,
+      "air_quality_index": 159,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": true,
       "is_daily_low_hour": false
@@ -3344,7 +3310,7 @@
       "pressure_hpa": 1016.0,
       "visibility_km": 10.0,
       "uv_index": 1.0,
-      "air_quality_index": 159,
+      "air_quality_index": 160,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": true,
       "is_daily_low_hour": false
@@ -3378,7 +3344,7 @@
       "pressure_hpa": 1016.0,
       "visibility_km": 10.0,
       "uv_index": 0.0,
-      "air_quality_index": 159,
+      "air_quality_index": 160,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": true,
       "is_daily_low_hour": false
@@ -3412,7 +3378,7 @@
       "pressure_hpa": 1016.0,
       "visibility_km": 10.0,
       "uv_index": 0.0,
-      "air_quality_index": 159,
+      "air_quality_index": 160,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": true,
       "is_daily_low_hour": false
@@ -3446,7 +3412,7 @@
       "pressure_hpa": 1016.0,
       "visibility_km": 10.0,
       "uv_index": 0.0,
-      "air_quality_index": 158,
+      "air_quality_index": 159,
       "condition": "Mostly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -3480,7 +3446,7 @@
       "pressure_hpa": 1018.0,
       "visibility_km": 10.0,
       "uv_index": 0.0,
-      "air_quality_index": 156,
+      "air_quality_index": 157,
       "condition": "Partly cloudy",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -3548,7 +3514,7 @@
       "pressure_hpa": 1020.0,
       "visibility_km": 8.0,
       "uv_index": 0.0,
-      "air_quality_index": 153,
+      "air_quality_index": 154,
       "condition": "Mostly clear",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
@@ -3582,7 +3548,7 @@
       "pressure_hpa": 1020.0,
       "visibility_km": 6.0,
       "uv_index": 0.0,
-      "air_quality_index": 151,
+      "air_quality_index": 152,
       "condition": "Mostly clear",
       "is_daily_high_hour": false,
       "is_daily_low_hour": false
