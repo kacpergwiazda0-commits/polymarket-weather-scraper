@@ -506,17 +506,21 @@ def write_Overview_tables(output_root: Path, results: List[ScrapeResult] | None 
         for _, row in sorted(consensus_summary_rows, key=lambda x: x[0]):
             mcwriter.writerow(row)
 
+    master_all_scrapes_csv = output_root / "all_cities_all_scrapes.csv"
+    if master_all_scrapes_csv.exists():
+        try:
+            master_all_scrapes_csv.unlink()
+        except Exception:
+            pass
+
     agree_rows_sorted: List[Tuple[Tuple, List]] = []
 
     with master_latest_csv.open("w", newline="", encoding="utf-8") as mf, \
-         master_without_unanimous_csv.open("w", newline="", encoding="utf-8") as mwof, \
-         master_all_scrapes_csv.open("w", newline="", encoding="utf-8") as maf:
+         master_without_unanimous_csv.open("w", newline="", encoding="utf-8") as mwof:
         mwriter = csv.writer(mf)
         mwriter.writerow(latest_summary_headers)
         mwowriter = csv.writer(mwof)
         mwowriter.writerow(latest_summary_headers)
-        mawriter = csv.writer(maf)
-        mawriter.writerow(summary_headers)
 
         for city_slug, city_records in sorted(by_city.items()):
             city_dir = output_root / city_slug
@@ -643,12 +647,14 @@ def write_Overview_tables(output_root: Path, results: List[ScrapeResult] | None 
                 existing_rows[k]
                 for k in sorted(existing_rows.keys(), key=lambda x: (x[0], x[1], x[2]))
             ]
+            # Keep under 250,000 rows (~55 MB) per city file so no file can ever exceed GitHub's 100 MB limit
+            if len(sorted_rows) > 250000:
+                sorted_rows = sorted_rows[-250000:]
             with city_all_scrapes_csv.open("w", newline="", encoding="utf-8") as caf:
                 cawriter = csv.writer(caf)
                 cawriter.writerow(summary_headers)
                 for row in sorted_rows:
                     cawriter.writerow(row)
-                    mawriter.writerow(row)
 
     with master_agree_csv.open("w", newline="", encoding="utf-8") as magf:
         magwriter = csv.writer(magf)
