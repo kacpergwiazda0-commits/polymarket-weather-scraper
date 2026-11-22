@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-22T08:00:06Z",
+  "scraped_at_utc": "2026-11-22T09:00:06Z",
   "city": "Panama City",
   "city_slug": "panama_city",
   "station_icao": "MPMG",
@@ -30,7 +30,7 @@
       ],
       "highest_temperature_c": 31.6,
       "highest_temperature_f": 88.88,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-22T08:00:06Z",
       "lowest_temperature": 25,
       "lowest_temperature_duration_hours": 6,
@@ -82,7 +82,7 @@
       ],
       "highest_temperature_c": 31.2,
       "highest_temperature_f": 88.16,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-22T08:00:06Z",
       "lowest_temperature": 24,
       "lowest_temperature_duration_hours": 4,
@@ -132,7 +132,7 @@
       ],
       "highest_temperature_c": 31.0,
       "highest_temperature_f": 87.8,
-      "consecutive_scrapes_with_same_high": 9,
+      "consecutive_scrapes_with_same_high": 10,
       "high_first_predicted_at_utc": "2026-11-22T00:35:52Z",
       "lowest_temperature": 25,
       "lowest_temperature_duration_hours": 8,
@@ -182,7 +182,7 @@
       ],
       "highest_temperature_c": 30.9,
       "highest_temperature_f": 87.62,
-      "consecutive_scrapes_with_same_high": 9,
+      "consecutive_scrapes_with_same_high": 10,
       "high_first_predicted_at_utc": "2026-11-22T00:35:52Z",
       "lowest_temperature": 25,
       "lowest_temperature_duration_hours": 7,
@@ -231,7 +231,7 @@
       ],
       "highest_temperature_c": 28.5,
       "highest_temperature_f": 83.3,
-      "consecutive_scrapes_with_same_high": 31,
+      "consecutive_scrapes_with_same_high": 32,
       "high_first_predicted_at_utc": "2026-11-21T00:00:06Z",
       "lowest_temperature": 25,
       "lowest_temperature_duration_hours": 4,
@@ -277,7 +277,7 @@
       ],
       "highest_temperature_c": 28.7,
       "highest_temperature_f": 83.66,
-      "consecutive_scrapes_with_same_high": 9,
+      "consecutive_scrapes_with_same_high": 10,
       "high_first_predicted_at_utc": "2026-11-22T00:35:52Z",
       "lowest_temperature": 25,
       "lowest_temperature_duration_hours": 10,
@@ -329,7 +329,7 @@
       ],
       "highest_temperature_c": 29.7,
       "highest_temperature_f": 85.46,
-      "consecutive_scrapes_with_same_high": 4,
+      "consecutive_scrapes_with_same_high": 5,
       "high_first_predicted_at_utc": "2026-11-22T05:00:07Z",
       "lowest_temperature": 25,
       "lowest_temperature_duration_hours": 10,
@@ -5980,7 +5980,7 @@
     }
   ],
   "extra_metadata": {
-    "updated_at": "2026-11-22T07:17:03Z",
+    "updated_at": "2026-11-22T08:19:18Z",
     "yr_web_coordinates": "8.9733,-79.5556"
   }
 }
