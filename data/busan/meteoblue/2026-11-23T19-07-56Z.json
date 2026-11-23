@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-23T19:07:56Z",
+  "city": "Busan",
+  "city_slug": "busan",
+  "station_icao": "RKPK",
+  "station_name": "Busan Gimhae International Airport",
+  "latitude": 35.1795,
+  "longitude": 128.9382,
+  "timezone": "Asia/Seoul",
+  "polymarket_unit": "C",
+  "website_id": "meteoblue",
+  "website_name": "meteoblue",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "Expecting value: line 1 column 1 (char 0)",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-23T19:07:56Z",
+  "city": "Chongqing",
+  "city_slug": "chongqing",
+  "station_icao": "ZUCK",
+  "station_name": "Chongqing Jiangbei International Airport",
+  "latitude": 29.7192,
+  "longitude": 106.6417,
+  "timezone": "Asia/Shanghai",
+  "polymarket_unit": "C",
+  "website_id": "meteoblue",
+  "website_name": "meteoblue",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "Expecting value: line 1 column 1 (char 0)",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

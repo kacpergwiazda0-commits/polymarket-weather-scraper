@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-23T19:07:56Z",
+  "city": "Cape Town",
+  "city_slug": "cape_town",
+  "station_icao": "FACT",
+  "station_name": "Cape Town International Airport",
+  "latitude": -33.9715,
+  "longitude": 18.6021,
+  "timezone": "Africa/Johannesburg",
+  "polymarket_unit": "C",
+  "website_id": "meteoblue",
+  "website_name": "meteoblue",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "Expecting value: line 1 column 1 (char 0)",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}
