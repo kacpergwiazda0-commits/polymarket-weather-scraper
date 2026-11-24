@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-24T01:00:06Z",
+  "city": "Sao Paulo",
+  "city_slug": "sao_paulo",
+  "station_icao": "SBGR",
+  "station_name": "São Paulo Guarulhos International Airport",
+  "latitude": -23.4356,
+  "longitude": -46.4731,
+  "timezone": "America/Sao_Paulo",
+  "polymarket_unit": "C",
+  "website_id": "open_meteo",
+  "website_name": "Open-Meteo",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "Expecting value: line 1 column 1 (char 0)",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

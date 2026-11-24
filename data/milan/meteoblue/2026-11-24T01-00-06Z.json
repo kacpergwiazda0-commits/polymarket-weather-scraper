@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-24T01:00:06Z",
+  "city": "Milan",
+  "city_slug": "milan",
+  "station_icao": "LIMC",
+  "station_name": "Milan Malpensa Airport",
+  "latitude": 45.6306,
+  "longitude": 8.7281,
+  "timezone": "Europe/Rome",
+  "polymarket_unit": "C",
+  "website_id": "meteoblue",
+  "website_name": "meteoblue",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "Expecting value: line 1 column 1 (char 0)",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

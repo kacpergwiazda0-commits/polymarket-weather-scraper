@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-24T01:00:06Z",
+  "city": "Shenzhen",
+  "city_slug": "shenzhen",
+  "station_icao": "ZGSZ",
+  "station_name": "Shenzhen Bao'an International Airport",
+  "latitude": 22.6393,
+  "longitude": 113.8107,
+  "timezone": "Asia/Shanghai",
+  "polymarket_unit": "C",
+  "website_id": "meteoblue",
+  "website_name": "meteoblue",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "Expecting value: line 1 column 1 (char 0)",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}
