@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-24T21:00:07Z",
+  "city": "Houston",
+  "city_slug": "houston",
+  "station_icao": "KHOU",
+  "station_name": "William P. Hobby Airport",
+  "latitude": 29.6454,
+  "longitude": -95.2789,
+  "timezone": "America/Chicago",
+  "polymarket_unit": "F",
+  "website_id": "msn_weather",
+  "website_name": "Microsoft Weather (MSN)",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "Could not locate embedded WeatherData state on MSN Weather page",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}
