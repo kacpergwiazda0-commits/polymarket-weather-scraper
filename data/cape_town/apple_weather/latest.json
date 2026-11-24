@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-24T15:42:37Z",
+  "scraped_at_utc": "2026-11-24T16:00:06Z",
   "city": "Cape Town",
   "city_slug": "cape_town",
   "station_icao": "FACT",
@@ -18,20 +18,20 @@
     {
       "date": "2026-11-24",
       "unit": "C",
-      "highest_temperature": 21,
+      "highest_temperature": 20,
       "highest_temperature_duration_hours": 1,
       "highest_temperature_hours": [
-        "17:00"
+        "18:00"
       ],
       "highest_temperature_max_consecutive_hours": 1,
-      "highest_temperature_exact": 21.48,
+      "highest_temperature_exact": 20.15,
       "highest_temperature_exact_hours": [
-        "17:00"
+        "18:00"
       ],
-      "highest_temperature_c": 21.48,
-      "highest_temperature_f": 70.66,
+      "highest_temperature_c": 20.15,
+      "highest_temperature_f": 68.27,
       "consecutive_scrapes_with_same_high": 1,
-      "high_first_predicted_at_utc": "2026-11-24T15:42:37Z",
+      "high_first_predicted_at_utc": "2026-11-24T16:00:06Z",
       "lowest_temperature": 16,
       "lowest_temperature_duration_hours": 2,
       "lowest_temperature_hours": [
@@ -39,12 +39,12 @@
         "23:00"
       ],
       "lowest_temperature_exact": 15.83,
-      "avg_temperature": 18.12,
-      "max_feels_like": 21,
+      "avg_temperature": 17.56,
+      "max_feels_like": 18,
       "min_feels_like": 11,
       "max_humidity_pct": 70.0,
-      "min_humidity_pct": 49.0,
-      "avg_humidity_pct": 61.4,
+      "min_humidity_pct": 53.0,
+      "avg_humidity_pct": 63.5,
       "max_precip_prob_pct": 0.0,
       "total_precip_mm": 0.0,
       "total_rain_mm": 0.0,
@@ -53,11 +53,11 @@
       "max_wind_speed_mph": 14.93,
       "max_wind_gust_kmh": 41.51,
       "max_wind_gust_mph": 25.79,
-      "avg_cloud_cover_pct": 5.1,
-      "avg_pressure_hpa": 1020.8,
-      "max_uv_index": 2.0,
+      "avg_cloud_cover_pct": 5.7,
+      "avg_pressure_hpa": 1020.9,
+      "max_uv_index": 1.0,
       "dominant_condition": "Clear",
-      "hours_analyzed": 7
+      "hours_analyzed": 6
     },
     {
       "date": "2026-11-25",
@@ -75,7 +75,7 @@
       ],
       "highest_temperature_c": 24.82,
       "highest_temperature_f": 76.68,
-      "consecutive_scrapes_with_same_high": 4,
+      "consecutive_scrapes_with_same_high": 5,
       "high_first_predicted_at_utc": "2026-11-24T08:00:06Z",
       "lowest_temperature": 14,
       "lowest_temperature_duration_hours": 4,
@@ -123,7 +123,7 @@
       ],
       "highest_temperature_c": 25.1,
       "highest_temperature_f": 77.18,
-      "consecutive_scrapes_with_same_high": 4,
+      "consecutive_scrapes_with_same_high": 5,
       "high_first_predicted_at_utc": "2026-11-24T08:00:06Z",
       "lowest_temperature": 15,
       "lowest_temperature_duration_hours": 3,
@@ -173,7 +173,7 @@
       ],
       "highest_temperature_c": 22.23,
       "highest_temperature_f": 72.01,
-      "consecutive_scrapes_with_same_high": 10,
+      "consecutive_scrapes_with_same_high": 11,
       "high_first_predicted_at_utc": "2026-11-24T02:00:06Z",
       "lowest_temperature": 15,
       "lowest_temperature_duration_hours": 3,
@@ -223,7 +223,7 @@
       ],
       "highest_temperature_c": 22.23,
       "highest_temperature_f": 72.01,
-      "consecutive_scrapes_with_same_high": 15,
+      "consecutive_scrapes_with_same_high": 16,
       "high_first_predicted_at_utc": "2026-11-23T21:00:06Z",
       "lowest_temperature": 16,
       "lowest_temperature_duration_hours": 2,
@@ -271,7 +271,7 @@
       ],
       "highest_temperature_c": 23.48,
       "highest_temperature_f": 74.26,
-      "consecutive_scrapes_with_same_high": 7,
+      "consecutive_scrapes_with_same_high": 8,
       "high_first_predicted_at_utc": "2026-11-24T05:00:06Z",
       "lowest_temperature": 17,
       "lowest_temperature_duration_hours": 4,
@@ -319,7 +319,7 @@
       ],
       "highest_temperature_c": 23.17,
       "highest_temperature_f": 73.71,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-24T15:42:37Z",
       "lowest_temperature": 16,
       "lowest_temperature_duration_hours": 4,
@@ -353,40 +353,6 @@
   ],
   "hourly_7day_forecast": [
     {
-      "time_local": "2026-11-24T17:00",
-      "date_local": "2026-11-24",
-      "hour_local": "17:00",
-      "time_utc": "2026-11-24T15:00:00Z",
-      "temperature_c": 21.48,
-      "temperature_f": 70.66,
-      "temperature_market": 21,
-      "temperature_market_raw": 21.48,
-      "feels_like_c": 20.63,
-      "feels_like_f": 69.13,
-      "feels_like_market": 21,
-      "dew_point_c": 10.32,
-      "dew_point_f": 50.58,
-      "humidity_pct": 49.0,
-      "precip_prob_pct": 0.0,
-      "precip_mm": 0.0,
-      "rain_mm": 0.0,
-      "snow_cm": 0.0,
-      "wind_speed_kmh": 20.68,
-      "wind_speed_mph": 12.85,
-      "wind_gust_kmh": 36.65,
-      "wind_gust_mph": 22.77,
-      "wind_direction_deg": 173,
-      "wind_direction_cardinal": "S",
-      "cloud_cover_pct": 2.0,
-      "pressure_hpa": 1020.4,
-      "visibility_km": 35.36,
-      "uv_index": 2.0,
-      "air_quality_index": null,
-      "condition": "Clear",
-      "is_daily_high_hour": true,
-      "is_daily_low_hour": false
-    },
-    {
       "time_local": "2026-11-24T18:00",
       "date_local": "2026-11-24",
       "hour_local": "18:00",
@@ -417,7 +383,7 @@
       "uv_index": 1.0,
       "air_quality_index": null,
       "condition": "Clear",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": false
     },
     {
@@ -5488,7 +5454,7 @@
     }
   ],
   "extra_metadata": {
-    "hours_count": 231,
+    "hours_count": 230,
     "reported_location": "Cape Town, South Africa"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-24T15:42:37Z",
+  "scraped_at_utc": "2026-11-24T16:00:06Z",
   "city": "Munich",
   "city_slug": "munich",
   "station_icao": "EDDM",
@@ -18,20 +18,20 @@
     {
       "date": "2026-11-24",
       "unit": "C",
-      "highest_temperature": 2,
+      "highest_temperature": 0,
       "highest_temperature_duration_hours": 1,
       "highest_temperature_hours": [
-        "16:00"
+        "17:00"
       ],
       "highest_temperature_max_consecutive_hours": 1,
-      "highest_temperature_exact": 1.95,
+      "highest_temperature_exact": 0.37,
       "highest_temperature_exact_hours": [
-        "16:00"
+        "17:00"
       ],
-      "highest_temperature_c": 1.95,
-      "highest_temperature_f": 35.51,
+      "highest_temperature_c": 0.37,
+      "highest_temperature_f": 32.67,
       "consecutive_scrapes_with_same_high": 1,
-      "high_first_predicted_at_utc": "2026-11-24T15:42:37Z",
+      "high_first_predicted_at_utc": "2026-11-24T16:00:06Z",
       "lowest_temperature": -3,
       "lowest_temperature_duration_hours": 3,
       "lowest_temperature_hours": [
@@ -40,25 +40,25 @@
         "23:00"
       ],
       "lowest_temperature_exact": -3.47,
-      "avg_temperature": -1.44,
-      "max_feels_like": -2,
+      "avg_temperature": -1.93,
+      "max_feels_like": -4,
       "min_feels_like": -5,
       "max_humidity_pct": 82.0,
-      "min_humidity_pct": 57.0,
-      "avg_humidity_pct": 70.8,
+      "min_humidity_pct": 62.0,
+      "avg_humidity_pct": 72.7,
       "max_precip_prob_pct": 0.0,
       "total_precip_mm": 0.0,
       "total_rain_mm": 0.0,
       "total_snow_cm": 0.0,
-      "max_wind_speed_kmh": 11.94,
-      "max_wind_speed_mph": 7.42,
+      "max_wind_speed_kmh": 11.66,
+      "max_wind_speed_mph": 7.25,
       "max_wind_gust_kmh": 26.63,
       "max_wind_gust_mph": 16.55,
-      "avg_cloud_cover_pct": 37.1,
-      "avg_pressure_hpa": 1023.2,
+      "avg_cloud_cover_pct": 41.3,
+      "avg_pressure_hpa": 1023.0,
       "max_uv_index": 0.0,
       "dominant_condition": "MostlyClear",
-      "hours_analyzed": 8
+      "hours_analyzed": 7
     },
     {
       "date": "2026-11-25",
@@ -78,7 +78,7 @@
       ],
       "highest_temperature_c": 2.47,
       "highest_temperature_f": 36.45,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-24T15:42:37Z",
       "lowest_temperature": -4,
       "lowest_temperature_duration_hours": 9,
@@ -132,7 +132,7 @@
       ],
       "highest_temperature_c": -0.27,
       "highest_temperature_f": 31.51,
-      "consecutive_scrapes_with_same_high": 17,
+      "consecutive_scrapes_with_same_high": 18,
       "high_first_predicted_at_utc": "2026-11-23T19:07:56Z",
       "lowest_temperature": -2,
       "lowest_temperature_duration_hours": 9,
@@ -185,7 +185,7 @@
       ],
       "highest_temperature_c": -0.2,
       "highest_temperature_f": 31.64,
-      "consecutive_scrapes_with_same_high": 17,
+      "consecutive_scrapes_with_same_high": 18,
       "high_first_predicted_at_utc": "2026-11-23T19:07:56Z",
       "lowest_temperature": -3,
       "lowest_temperature_duration_hours": 8,
@@ -237,7 +237,7 @@
       ],
       "highest_temperature_c": -0.11,
       "highest_temperature_f": 31.8,
-      "consecutive_scrapes_with_same_high": 3,
+      "consecutive_scrapes_with_same_high": 4,
       "high_first_predicted_at_utc": "2026-11-24T09:00:07Z",
       "lowest_temperature": -4,
       "lowest_temperature_duration_hours": 6,
@@ -288,7 +288,7 @@
       ],
       "highest_temperature_c": 1.02,
       "highest_temperature_f": 33.84,
-      "consecutive_scrapes_with_same_high": 3,
+      "consecutive_scrapes_with_same_high": 4,
       "high_first_predicted_at_utc": "2026-11-24T09:00:07Z",
       "lowest_temperature": -5,
       "lowest_temperature_duration_hours": 2,
@@ -338,7 +338,7 @@
       ],
       "highest_temperature_c": 3.48,
       "highest_temperature_f": 38.26,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-24T15:42:37Z",
       "lowest_temperature": -2,
       "lowest_temperature_duration_hours": 1,
@@ -368,40 +368,6 @@
     }
   ],
   "hourly_7day_forecast": [
-    {
-      "time_local": "2026-11-24T16:00",
-      "date_local": "2026-11-24",
-      "hour_local": "16:00",
-      "time_utc": "2026-11-24T15:00:00Z",
-      "temperature_c": 1.95,
-      "temperature_f": 35.51,
-      "temperature_market": 2,
-      "temperature_market_raw": 1.95,
-      "feels_like_c": -1.64,
-      "feels_like_f": 29.05,
-      "feels_like_market": -2,
-      "dew_point_c": -5.68,
-      "dew_point_f": 21.78,
-      "humidity_pct": 57.0,
-      "precip_prob_pct": 0.0,
-      "precip_mm": 0.0,
-      "rain_mm": 0.0,
-      "snow_cm": 0.0,
-      "wind_speed_kmh": 11.94,
-      "wind_speed_mph": 7.42,
-      "wind_gust_kmh": 25.69,
-      "wind_gust_mph": 15.96,
-      "wind_direction_deg": 86,
-      "wind_direction_cardinal": "E",
-      "cloud_cover_pct": 8.0,
-      "pressure_hpa": 1024.5,
-      "visibility_km": 29.46,
-      "uv_index": 0.0,
-      "air_quality_index": null,
-      "condition": "Clear",
-      "is_daily_high_hour": true,
-      "is_daily_low_hour": false
-    },
     {
       "time_local": "2026-11-24T17:00",
       "date_local": "2026-11-24",
@@ -433,7 +399,7 @@
       "uv_index": 0.0,
       "air_quality_index": null,
       "condition": "Clear",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": false
     },
     {
@@ -5538,7 +5504,7 @@
     }
   ],
   "extra_metadata": {
-    "hours_count": 232,
+    "hours_count": 231,
     "reported_location": "Munich, Germany"
   }
 }
