@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-25T23:00:06Z",
+  "city": "Seattle",
+  "city_slug": "seattle",
+  "station_icao": "KSEA",
+  "station_name": "Seattle-Tacoma International Airport",
+  "latitude": 47.4502,
+  "longitude": -122.3088,
+  "timezone": "America/Los_Angeles",
+  "polymarket_unit": "F",
+  "website_id": "msn_weather",
+  "website_name": "Microsoft Weather (MSN)",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "Could not locate embedded WeatherData state on MSN Weather page",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}
