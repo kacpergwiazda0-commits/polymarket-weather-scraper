@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-25T16:00:06Z",
+  "city": "Philadelphia",
+  "city_slug": "philadelphia",
+  "station_icao": "KPHL",
+  "station_name": "Philadelphia International Airport",
+  "latitude": 39.8729,
+  "longitude": -75.2437,
+  "timezone": "America/New_York",
+  "polymarket_unit": "F",
+  "website_id": "msn_weather",
+  "website_name": "Microsoft Weather (MSN)",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "Could not locate embedded WeatherData state on MSN Weather page",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}
