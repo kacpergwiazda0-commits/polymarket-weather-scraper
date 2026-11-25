@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-25T17:00:06Z",
+  "city": "Wuhan",
+  "city_slug": "wuhan",
+  "station_icao": "ZHHH",
+  "station_name": "Wuhan Tianhe International Airport",
+  "latitude": 30.7838,
+  "longitude": 114.2081,
+  "timezone": "Asia/Shanghai",
+  "polymarket_unit": "C",
+  "website_id": "msn_weather",
+  "website_name": "Microsoft Weather (MSN)",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "Could not locate embedded WeatherData state on MSN Weather page",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}
