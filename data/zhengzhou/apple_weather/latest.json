@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-25T09:46:00Z",
+  "scraped_at_utc": "2026-11-25T10:00:06Z",
   "city": "Zhengzhou",
   "city_slug": "zhengzhou",
   "station_icao": "ZHCC",
@@ -18,20 +18,20 @@
     {
       "date": "2026-11-25",
       "unit": "C",
-      "highest_temperature": 16,
+      "highest_temperature": 14,
       "highest_temperature_duration_hours": 1,
       "highest_temperature_hours": [
-        "17:00"
+        "18:00"
       ],
       "highest_temperature_max_consecutive_hours": 1,
-      "highest_temperature_exact": 15.81,
+      "highest_temperature_exact": 14.03,
       "highest_temperature_exact_hours": [
-        "17:00"
+        "18:00"
       ],
-      "highest_temperature_c": 15.81,
-      "highest_temperature_f": 60.46,
+      "highest_temperature_c": 14.03,
+      "highest_temperature_f": 57.25,
       "consecutive_scrapes_with_same_high": 1,
-      "high_first_predicted_at_utc": "2026-11-25T09:46:00Z",
+      "high_first_predicted_at_utc": "2026-11-25T10:00:06Z",
       "lowest_temperature": 11,
       "lowest_temperature_duration_hours": 2,
       "lowest_temperature_hours": [
@@ -39,12 +39,12 @@
         "23:00"
       ],
       "lowest_temperature_exact": 10.57,
-      "avg_temperature": 12.56,
-      "max_feels_like": 13,
+      "avg_temperature": 12.02,
+      "max_feels_like": 11,
       "min_feels_like": 8,
       "max_humidity_pct": 67.0,
-      "min_humidity_pct": 48.0,
-      "avg_humidity_pct": 61.1,
+      "min_humidity_pct": 56.0,
+      "avg_humidity_pct": 63.3,
       "max_precip_prob_pct": 0.0,
       "total_precip_mm": 0.0,
       "total_rain_mm": 0.0,
@@ -53,11 +53,11 @@
       "max_wind_speed_mph": 8.0,
       "max_wind_gust_kmh": 30.27,
       "max_wind_gust_mph": 18.81,
-      "avg_cloud_cover_pct": 3.1,
+      "avg_cloud_cover_pct": 3.3,
       "avg_pressure_hpa": 1013.1,
       "max_uv_index": 0.0,
       "dominant_condition": "Clear",
-      "hours_analyzed": 7
+      "hours_analyzed": 6
     },
     {
       "date": "2026-11-26",
@@ -74,7 +74,7 @@
       ],
       "highest_temperature_c": 20.61,
       "highest_temperature_f": 69.1,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-25T09:46:00Z",
       "lowest_temperature": 7,
       "lowest_temperature_duration_hours": 1,
@@ -120,7 +120,7 @@
       ],
       "highest_temperature_c": 15.98,
       "highest_temperature_f": 60.76,
-      "consecutive_scrapes_with_same_high": 7,
+      "consecutive_scrapes_with_same_high": 8,
       "high_first_predicted_at_utc": "2026-11-25T01:00:06Z",
       "lowest_temperature": 8,
       "lowest_temperature_duration_hours": 1,
@@ -167,7 +167,7 @@
       ],
       "highest_temperature_c": 13.49,
       "highest_temperature_f": 56.28,
-      "consecutive_scrapes_with_same_high": 7,
+      "consecutive_scrapes_with_same_high": 8,
       "high_first_predicted_at_utc": "2026-11-25T01:00:06Z",
       "lowest_temperature": 6,
       "lowest_temperature_duration_hours": 4,
@@ -214,7 +214,7 @@
       ],
       "highest_temperature_c": 19.02,
       "highest_temperature_f": 66.24,
-      "consecutive_scrapes_with_same_high": 7,
+      "consecutive_scrapes_with_same_high": 8,
       "high_first_predicted_at_utc": "2026-11-25T01:00:06Z",
       "lowest_temperature": 4,
       "lowest_temperature_duration_hours": 1,
@@ -258,7 +258,7 @@
       ],
       "highest_temperature_c": 20.17,
       "highest_temperature_f": 68.31,
-      "consecutive_scrapes_with_same_high": 17,
+      "consecutive_scrapes_with_same_high": 18,
       "high_first_predicted_at_utc": "2026-11-24T15:42:37Z",
       "lowest_temperature": 5,
       "lowest_temperature_duration_hours": 1,
@@ -302,7 +302,7 @@
       ],
       "highest_temperature_c": 18.06,
       "highest_temperature_f": 64.51,
-      "consecutive_scrapes_with_same_high": 16,
+      "consecutive_scrapes_with_same_high": 17,
       "high_first_predicted_at_utc": "2026-11-24T16:00:06Z",
       "lowest_temperature": 8,
       "lowest_temperature_duration_hours": 3,
@@ -335,40 +335,6 @@
   ],
   "hourly_7day_forecast": [
     {
-      "time_local": "2026-11-25T17:00",
-      "date_local": "2026-11-25",
-      "hour_local": "17:00",
-      "time_utc": "2026-11-25T09:00:00Z",
-      "temperature_c": 15.81,
-      "temperature_f": 60.46,
-      "temperature_market": 16,
-      "temperature_market_raw": 15.81,
-      "feels_like_c": 12.87,
-      "feels_like_f": 55.17,
-      "feels_like_market": 13,
-      "dew_point_c": 4.82,
-      "dew_point_f": 40.68,
-      "humidity_pct": 48.0,
-      "precip_prob_pct": 0.0,
-      "precip_mm": 0.0,
-      "rain_mm": 0.0,
-      "snow_cm": 0.0,
-      "wind_speed_kmh": 12.01,
-      "wind_speed_mph": 7.46,
-      "wind_gust_kmh": 26.29,
-      "wind_gust_mph": 16.34,
-      "wind_direction_deg": 197,
-      "wind_direction_cardinal": "SSW",
-      "cloud_cover_pct": 2.0,
-      "pressure_hpa": 1013.0,
-      "visibility_km": 17.77,
-      "uv_index": 0.0,
-      "air_quality_index": null,
-      "condition": "Clear",
-      "is_daily_high_hour": true,
-      "is_daily_low_hour": false
-    },
-    {
       "time_local": "2026-11-25T18:00",
       "date_local": "2026-11-25",
       "hour_local": "18:00",
@@ -399,7 +365,7 @@
       "uv_index": 0.0,
       "air_quality_index": null,
       "condition": "MostlyClear",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": false
     },
     {
@@ -5470,7 +5436,7 @@
     }
   ],
   "extra_metadata": {
-    "hours_count": 231,
+    "hours_count": 230,
     "reported_location": "Zhengzhou, China"
   }
 }
