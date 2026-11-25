@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-25T18:00:07Z",
+  "scraped_at_utc": "2026-11-25T19:00:06Z",
   "city": "Jeddah",
   "city_slug": "jeddah",
   "station_icao": "OEJN",
@@ -18,20 +18,21 @@
     {
       "date": "2026-11-25",
       "unit": "C",
-      "highest_temperature": 28,
-      "highest_temperature_duration_hours": 1,
+      "highest_temperature": 27,
+      "highest_temperature_duration_hours": 2,
       "highest_temperature_hours": [
-        "21:00"
+        "22:00",
+        "23:00"
       ],
-      "highest_temperature_max_consecutive_hours": 1,
-      "highest_temperature_exact": 27.8,
+      "highest_temperature_max_consecutive_hours": 2,
+      "highest_temperature_exact": 27.31,
       "highest_temperature_exact_hours": [
-        "21:00"
+        "22:00"
       ],
-      "highest_temperature_c": 27.8,
-      "highest_temperature_f": 82.04,
-      "consecutive_scrapes_with_same_high": 2,
-      "high_first_predicted_at_utc": "2026-11-25T17:00:06Z",
+      "highest_temperature_c": 27.31,
+      "highest_temperature_f": 81.16,
+      "consecutive_scrapes_with_same_high": 1,
+      "high_first_predicted_at_utc": "2026-11-25T19:00:06Z",
       "lowest_temperature": 27,
       "lowest_temperature_duration_hours": 2,
       "lowest_temperature_hours": [
@@ -39,25 +40,25 @@
         "23:00"
       ],
       "lowest_temperature_exact": 26.86,
-      "avg_temperature": 27.32,
+      "avg_temperature": 27.09,
       "max_feels_like": 28,
       "min_feels_like": 27,
       "max_humidity_pct": 72.0,
-      "min_humidity_pct": 69.0,
-      "avg_humidity_pct": 70.3,
+      "min_humidity_pct": 70.0,
+      "avg_humidity_pct": 71.0,
       "max_precip_prob_pct": 0.0,
       "total_precip_mm": 0.0,
       "total_rain_mm": 0.0,
       "total_snow_cm": 0.0,
       "max_wind_speed_kmh": 5.9,
       "max_wind_speed_mph": 3.67,
-      "max_wind_gust_kmh": 11.98,
-      "max_wind_gust_mph": 7.44,
-      "avg_cloud_cover_pct": 1.7,
-      "avg_pressure_hpa": 1015.1,
+      "max_wind_gust_kmh": 10.31,
+      "max_wind_gust_mph": 6.41,
+      "avg_cloud_cover_pct": 2.0,
+      "avg_pressure_hpa": 1015.2,
       "max_uv_index": 0.0,
       "dominant_condition": "Clear",
-      "hours_analyzed": 3
+      "hours_analyzed": 2
     },
     {
       "date": "2026-11-26",
@@ -76,7 +77,7 @@
       ],
       "highest_temperature_c": 33.01,
       "highest_temperature_f": 91.42,
-      "consecutive_scrapes_with_same_high": 11,
+      "consecutive_scrapes_with_same_high": 12,
       "high_first_predicted_at_utc": "2026-11-25T06:00:06Z",
       "lowest_temperature": 24,
       "lowest_temperature_duration_hours": 2,
@@ -121,7 +122,7 @@
       ],
       "highest_temperature_c": 32.65,
       "highest_temperature_f": 90.77,
-      "consecutive_scrapes_with_same_high": 8,
+      "consecutive_scrapes_with_same_high": 9,
       "high_first_predicted_at_utc": "2026-11-25T11:00:07Z",
       "lowest_temperature": 24,
       "lowest_temperature_duration_hours": 3,
@@ -168,7 +169,7 @@
       ],
       "highest_temperature_c": 32.89,
       "highest_temperature_f": 91.2,
-      "consecutive_scrapes_with_same_high": 40,
+      "consecutive_scrapes_with_same_high": 41,
       "high_first_predicted_at_utc": "2026-11-23T21:00:06Z",
       "lowest_temperature": 24,
       "lowest_temperature_duration_hours": 1,
@@ -211,7 +212,7 @@
       ],
       "highest_temperature_c": 32.58,
       "highest_temperature_f": 90.64,
-      "consecutive_scrapes_with_same_high": 7,
+      "consecutive_scrapes_with_same_high": 8,
       "high_first_predicted_at_utc": "2026-11-25T12:00:06Z",
       "lowest_temperature": 24,
       "lowest_temperature_duration_hours": 2,
@@ -257,7 +258,7 @@
       ],
       "highest_temperature_c": 33.08,
       "highest_temperature_f": 91.54,
-      "consecutive_scrapes_with_same_high": 22,
+      "consecutive_scrapes_with_same_high": 23,
       "high_first_predicted_at_utc": "2026-11-24T19:00:07Z",
       "lowest_temperature": 25,
       "lowest_temperature_duration_hours": 3,
@@ -306,7 +307,7 @@
       ],
       "highest_temperature_c": 30.18,
       "highest_temperature_f": 86.32,
-      "consecutive_scrapes_with_same_high": 2,
+      "consecutive_scrapes_with_same_high": 3,
       "high_first_predicted_at_utc": "2026-11-25T17:00:06Z",
       "lowest_temperature": 25,
       "lowest_temperature_duration_hours": 2,
@@ -338,40 +339,6 @@
   ],
   "hourly_7day_forecast": [
     {
-      "time_local": "2026-11-25T21:00",
-      "date_local": "2026-11-25",
-      "hour_local": "21:00",
-      "time_utc": "2026-11-25T18:00:00Z",
-      "temperature_c": 27.8,
-      "temperature_f": 82.04,
-      "temperature_market": 28,
-      "temperature_market_raw": 27.8,
-      "feels_like_c": 28.39,
-      "feels_like_f": 83.1,
-      "feels_like_market": 28,
-      "dew_point_c": 21.59,
-      "dew_point_f": 70.86,
-      "humidity_pct": 69.0,
-      "precip_prob_pct": 0.0,
-      "precip_mm": 0.0,
-      "rain_mm": 0.0,
-      "snow_cm": 0.0,
-      "wind_speed_kmh": 5.81,
-      "wind_speed_mph": 3.61,
-      "wind_gust_kmh": 11.98,
-      "wind_gust_mph": 7.44,
-      "wind_direction_deg": 321,
-      "wind_direction_cardinal": "NW",
-      "cloud_cover_pct": 1.0,
-      "pressure_hpa": 1015.0,
-      "visibility_km": 19.22,
-      "uv_index": 0.0,
-      "air_quality_index": null,
-      "condition": "Clear",
-      "is_daily_high_hour": true,
-      "is_daily_low_hour": false
-    },
-    {
       "time_local": "2026-11-25T22:00",
       "date_local": "2026-11-25",
       "hour_local": "22:00",
@@ -402,7 +369,7 @@
       "uv_index": 0.0,
       "air_quality_index": null,
       "condition": "Clear",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": true
     },
     {
@@ -436,7 +403,7 @@
       "uv_index": 0.0,
       "air_quality_index": null,
       "condition": "Clear",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": true
     },
     {
@@ -5337,7 +5304,7 @@
     }
   ],
   "extra_metadata": {
-    "hours_count": 227,
+    "hours_count": 226,
     "reported_location": "Jeddah, Saudi Arabia"
   }
 }

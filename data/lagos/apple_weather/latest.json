@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-25T18:00:07Z",
+  "scraped_at_utc": "2026-11-25T19:00:06Z",
   "city": "Lagos",
   "city_slug": "lagos",
   "station_icao": "DNMM",
@@ -18,20 +18,21 @@
     {
       "date": "2026-11-25",
       "unit": "C",
-      "highest_temperature": 30,
-      "highest_temperature_duration_hours": 1,
+      "highest_temperature": 29,
+      "highest_temperature_duration_hours": 2,
       "highest_temperature_hours": [
-        "19:00"
+        "20:00",
+        "21:00"
       ],
-      "highest_temperature_max_consecutive_hours": 1,
-      "highest_temperature_exact": 29.6,
+      "highest_temperature_max_consecutive_hours": 2,
+      "highest_temperature_exact": 28.91,
       "highest_temperature_exact_hours": [
-        "19:00"
+        "20:00"
       ],
-      "highest_temperature_c": 29.6,
-      "highest_temperature_f": 85.28,
+      "highest_temperature_c": 28.91,
+      "highest_temperature_f": 84.04,
       "consecutive_scrapes_with_same_high": 1,
-      "high_first_predicted_at_utc": "2026-11-25T18:00:07Z",
+      "high_first_predicted_at_utc": "2026-11-25T19:00:06Z",
       "lowest_temperature": 28,
       "lowest_temperature_duration_hours": 2,
       "lowest_temperature_hours": [
@@ -39,25 +40,25 @@
         "23:00"
       ],
       "lowest_temperature_exact": 27.92,
-      "avg_temperature": 28.62,
-      "max_feels_like": 31,
+      "avg_temperature": 28.38,
+      "max_feels_like": 30,
       "min_feels_like": 29,
       "max_humidity_pct": 86.0,
-      "min_humidity_pct": 78.0,
-      "avg_humidity_pct": 82.6,
+      "min_humidity_pct": 81.0,
+      "avg_humidity_pct": 83.8,
       "max_precip_prob_pct": 0.0,
       "total_precip_mm": 0.0,
       "total_rain_mm": 0.0,
       "total_snow_cm": 0.0,
-      "max_wind_speed_kmh": 10.36,
-      "max_wind_speed_mph": 6.44,
-      "max_wind_gust_kmh": 19.17,
-      "max_wind_gust_mph": 11.91,
-      "avg_cloud_cover_pct": 12.2,
-      "avg_pressure_hpa": 1011.8,
+      "max_wind_speed_kmh": 9.7,
+      "max_wind_speed_mph": 6.03,
+      "max_wind_gust_kmh": 17.94,
+      "max_wind_gust_mph": 11.15,
+      "avg_cloud_cover_pct": 12.8,
+      "avg_pressure_hpa": 1012.1,
       "max_uv_index": 0.0,
       "dominant_condition": "Clear",
-      "hours_analyzed": 5
+      "hours_analyzed": 4
     },
     {
       "date": "2026-11-26",
@@ -74,7 +75,7 @@
       ],
       "highest_temperature_c": 32.63,
       "highest_temperature_f": 90.73,
-      "consecutive_scrapes_with_same_high": 4,
+      "consecutive_scrapes_with_same_high": 5,
       "high_first_predicted_at_utc": "2026-11-25T15:00:06Z",
       "lowest_temperature": 27,
       "lowest_temperature_duration_hours": 7,
@@ -126,7 +127,7 @@
       ],
       "highest_temperature_c": 31.91,
       "highest_temperature_f": 89.44,
-      "consecutive_scrapes_with_same_high": 29,
+      "consecutive_scrapes_with_same_high": 30,
       "high_first_predicted_at_utc": "2026-11-24T08:00:06Z",
       "lowest_temperature": 27,
       "lowest_temperature_duration_hours": 8,
@@ -176,7 +177,7 @@
       ],
       "highest_temperature_c": 32.54,
       "highest_temperature_f": 90.57,
-      "consecutive_scrapes_with_same_high": 2,
+      "consecutive_scrapes_with_same_high": 3,
       "high_first_predicted_at_utc": "2026-11-25T17:00:06Z",
       "lowest_temperature": 26,
       "lowest_temperature_duration_hours": 1,
@@ -220,7 +221,7 @@
       ],
       "highest_temperature_c": 33.0,
       "highest_temperature_f": 91.4,
-      "consecutive_scrapes_with_same_high": 24,
+      "consecutive_scrapes_with_same_high": 25,
       "high_first_predicted_at_utc": "2026-11-24T17:00:07Z",
       "lowest_temperature": 27,
       "lowest_temperature_duration_hours": 7,
@@ -270,7 +271,7 @@
       ],
       "highest_temperature_c": 31.79,
       "highest_temperature_f": 89.22,
-      "consecutive_scrapes_with_same_high": 4,
+      "consecutive_scrapes_with_same_high": 5,
       "high_first_predicted_at_utc": "2026-11-25T15:00:06Z",
       "lowest_temperature": 26,
       "lowest_temperature_duration_hours": 2,
@@ -314,7 +315,7 @@
       ],
       "highest_temperature_c": 31.7,
       "highest_temperature_f": 89.06,
-      "consecutive_scrapes_with_same_high": 10,
+      "consecutive_scrapes_with_same_high": 11,
       "high_first_predicted_at_utc": "2026-11-25T09:46:00Z",
       "lowest_temperature": 26,
       "lowest_temperature_duration_hours": 5,
@@ -349,40 +350,6 @@
   ],
   "hourly_7day_forecast": [
     {
-      "time_local": "2026-11-25T19:00",
-      "date_local": "2026-11-25",
-      "hour_local": "19:00",
-      "time_utc": "2026-11-25T18:00:00Z",
-      "temperature_c": 29.6,
-      "temperature_f": 85.28,
-      "temperature_market": 30,
-      "temperature_market_raw": 29.6,
-      "feels_like_c": 30.52,
-      "feels_like_f": 86.94,
-      "feels_like_market": 31,
-      "dew_point_c": 25.36,
-      "dew_point_f": 77.65,
-      "humidity_pct": 78.0,
-      "precip_prob_pct": 0.0,
-      "precip_mm": 0.0,
-      "rain_mm": 0.0,
-      "snow_cm": 0.0,
-      "wind_speed_kmh": 10.36,
-      "wind_speed_mph": 6.44,
-      "wind_gust_kmh": 19.17,
-      "wind_gust_mph": 11.91,
-      "wind_direction_deg": 216,
-      "wind_direction_cardinal": "SW",
-      "cloud_cover_pct": 10.0,
-      "pressure_hpa": 1010.6,
-      "visibility_km": 19.25,
-      "uv_index": 0.0,
-      "air_quality_index": null,
-      "condition": "Clear",
-      "is_daily_high_hour": true,
-      "is_daily_low_hour": false
-    },
-    {
       "time_local": "2026-11-25T20:00",
       "date_local": "2026-11-25",
       "hour_local": "20:00",
@@ -413,7 +380,7 @@
       "uv_index": 0.0,
       "air_quality_index": null,
       "condition": "Clear",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": false
     },
     {
@@ -447,7 +414,7 @@
       "uv_index": 0.0,
       "air_quality_index": null,
       "condition": "Clear",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": false
     },
     {
@@ -5416,7 +5383,7 @@
     }
   ],
   "extra_metadata": {
-    "hours_count": 229,
+    "hours_count": 228,
     "reported_location": "Lagos, Nigeria"
   }
 }
