@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-25T15:00:06Z",
+  "city": "Jeddah",
+  "city_slug": "jeddah",
+  "station_icao": "OEJN",
+  "station_name": "King Abdulaziz International Airport",
+  "latitude": 21.6796,
+  "longitude": 39.1565,
+  "timezone": "Asia/Riyadh",
+  "polymarket_unit": "C",
+  "website_id": "msn_weather",
+  "website_name": "Microsoft Weather (MSN)",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "Could not locate embedded WeatherData state on MSN Weather page",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}
