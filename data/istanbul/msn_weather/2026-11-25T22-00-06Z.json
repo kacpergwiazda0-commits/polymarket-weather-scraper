@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-25T22:00:06Z",
+  "city": "Istanbul",
+  "city_slug": "istanbul",
+  "station_icao": "LTFM",
+  "station_name": "Istanbul Airport",
+  "latitude": 41.2753,
+  "longitude": 28.7519,
+  "timezone": "Europe/Istanbul",
+  "polymarket_unit": "C",
+  "website_id": "msn_weather",
+  "website_name": "Microsoft Weather (MSN)",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "Could not locate embedded WeatherData state on MSN Weather page",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}
