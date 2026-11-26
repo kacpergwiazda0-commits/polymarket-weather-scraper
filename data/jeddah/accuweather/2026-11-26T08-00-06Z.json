@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-26T08:00:06Z",
+  "city": "Jeddah",
+  "city_slug": "jeddah",
+  "station_icao": "OEJN",
+  "station_name": "King Abdulaziz International Airport",
+  "latitude": 21.6796,
+  "longitude": 39.1565,
+  "timezone": "Asia/Riyadh",
+  "polymarket_unit": "C",
+  "website_id": "accuweather",
+  "website_name": "AccuWeather",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://api.open-meteo.com/v1/gfs?latitude=21.6796&longitude=39.1565&hourly=temperature_2m,relative_humidity_2m,dew_point_2m,apparent_temperature,precipitation_probability,precipitation,rain,snowfall,weather_code,pressure_msl,cloud_cover,visibility,wind_speed_10m,wind_direction_10m,wind_gusts_10m,uv_index&timezone=Asia/Riyadh&forecast_days=8 failed after 3 attempts: HTTP Error 429: Too Many Requests",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

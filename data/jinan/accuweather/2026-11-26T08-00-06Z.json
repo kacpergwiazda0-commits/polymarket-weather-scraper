@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-26T08:00:06Z",
+  "city": "Jinan",
+  "city_slug": "jinan",
+  "station_icao": "ZSJN",
+  "station_name": "Jinan Yaoqiang International Airport",
+  "latitude": 36.8572,
+  "longitude": 117.216,
+  "timezone": "Asia/Shanghai",
+  "polymarket_unit": "C",
+  "website_id": "accuweather",
+  "website_name": "AccuWeather",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://api.open-meteo.com/v1/gfs?latitude=36.8572&longitude=117.216&hourly=temperature_2m,relative_humidity_2m,dew_point_2m,apparent_temperature,precipitation_probability,precipitation,rain,snowfall,weather_code,pressure_msl,cloud_cover,visibility,wind_speed_10m,wind_direction_10m,wind_gusts_10m,uv_index&timezone=Asia/Shanghai&forecast_days=8 failed after 3 attempts: HTTP Error 429: Too Many Requests",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-26T08:00:06Z",
+  "city": "London",
+  "city_slug": "london",
+  "station_icao": "EGLC",
+  "station_name": "London City Airport",
+  "latitude": 51.5053,
+  "longitude": 0.0553,
+  "timezone": "Europe/London",
+  "polymarket_unit": "C",
+  "website_id": "open_meteo",
+  "website_name": "Open-Meteo",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://api.open-meteo.com/v1/forecast?latitude=51.5053&longitude=0.0553&hourly=temperature_2m,relative_humidity_2m,dew_point_2m,apparent_temperature,precipitation_probability,precipitation,rain,snowfall,weather_code,pressure_msl,cloud_cover,visibility,wind_speed_10m,wind_direction_10m,wind_gusts_10m,uv_index&timezone=Europe/London&forecast_days=8 failed after 3 attempts: HTTP Error 429: Too Many Requests",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}
