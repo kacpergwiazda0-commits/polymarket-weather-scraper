@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-26T01:00:08Z",
+  "city": "Helsinki",
+  "city_slug": "helsinki",
+  "station_icao": "EFHK",
+  "station_name": "Helsinki Vantaa Airport",
+  "latitude": 60.3172,
+  "longitude": 24.9633,
+  "timezone": "Europe/Helsinki",
+  "polymarket_unit": "C",
+  "website_id": "open_meteo",
+  "website_name": "Open-Meteo",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "Expecting value: line 1 column 1 (char 0)",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

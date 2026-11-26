@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-26T01:00:08Z",
+  "city": "Amsterdam",
+  "city_slug": "amsterdam",
+  "station_icao": "EHAM",
+  "station_name": "Amsterdam Airport Schiphol",
+  "latitude": 52.3086,
+  "longitude": 4.7639,
+  "timezone": "Europe/Amsterdam",
+  "polymarket_unit": "C",
+  "website_id": "meteoblue",
+  "website_name": "meteoblue",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://api.open-meteo.com/v1/forecast?latitude=52.3086&longitude=4.7639&hourly=temperature_2m,relative_humidity_2m,dew_point_2m,apparent_temperature,precipitation_probability,precipitation,rain,snowfall,weather_code,pressure_msl,cloud_cover,visibility,wind_speed_10m,wind_direction_10m,wind_gusts_10m,uv_index&models=best_match&timezone=Europe/Amsterdam&forecast_days=8 failed after 3 attempts: HTTP Error 503: Service Unavailable",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}
