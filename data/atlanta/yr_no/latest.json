@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-26T06:00:08Z",
+  "scraped_at_utc": "2026-11-26T07:00:06Z",
   "city": "Atlanta",
   "city_slug": "atlanta",
   "station_icao": "KATL",
@@ -30,7 +30,7 @@
       ],
       "highest_temperature_c": 10.6,
       "highest_temperature_f": 51.08,
-      "consecutive_scrapes_with_same_high": 11,
+      "consecutive_scrapes_with_same_high": 12,
       "high_first_predicted_at_utc": "2026-11-25T20:00:06Z",
       "lowest_temperature": 41,
       "lowest_temperature_duration_hours": 4,
@@ -77,7 +77,7 @@
       ],
       "highest_temperature_c": 9.7,
       "highest_temperature_f": 49.46,
-      "consecutive_scrapes_with_same_high": 5,
+      "consecutive_scrapes_with_same_high": 6,
       "high_first_predicted_at_utc": "2026-11-26T02:00:06Z",
       "lowest_temperature": 40,
       "lowest_temperature_duration_hours": 8,
@@ -127,7 +127,7 @@
       ],
       "highest_temperature_c": 13.8,
       "highest_temperature_f": 56.84,
-      "consecutive_scrapes_with_same_high": 7,
+      "consecutive_scrapes_with_same_high": 8,
       "high_first_predicted_at_utc": "2026-11-26T00:00:06Z",
       "lowest_temperature": 36,
       "lowest_temperature_duration_hours": 1,
@@ -170,7 +170,7 @@
       ],
       "highest_temperature_c": 17.0,
       "highest_temperature_f": 62.6,
-      "consecutive_scrapes_with_same_high": 7,
+      "consecutive_scrapes_with_same_high": 8,
       "high_first_predicted_at_utc": "2026-11-26T00:00:06Z",
       "lowest_temperature": 42,
       "lowest_temperature_duration_hours": 3,
@@ -216,7 +216,7 @@
       ],
       "highest_temperature_c": 10.8,
       "highest_temperature_f": 51.44,
-      "consecutive_scrapes_with_same_high": 7,
+      "consecutive_scrapes_with_same_high": 8,
       "high_first_predicted_at_utc": "2026-11-26T00:00:06Z",
       "lowest_temperature": 41,
       "lowest_temperature_duration_hours": 1,
@@ -259,7 +259,7 @@
       ],
       "highest_temperature_c": 13.5,
       "highest_temperature_f": 56.3,
-      "consecutive_scrapes_with_same_high": 19,
+      "consecutive_scrapes_with_same_high": 20,
       "high_first_predicted_at_utc": "2026-11-25T12:00:06Z",
       "lowest_temperature": 38,
       "lowest_temperature_duration_hours": 1,
@@ -302,7 +302,7 @@
       ],
       "highest_temperature_c": 14.0,
       "highest_temperature_f": 57.2,
-      "consecutive_scrapes_with_same_high": 2,
+      "consecutive_scrapes_with_same_high": 3,
       "high_first_predicted_at_utc": "2026-11-26T05:00:06Z",
       "lowest_temperature": 38,
       "lowest_temperature_duration_hours": 1,
@@ -6012,7 +6012,7 @@
     }
   ],
   "extra_metadata": {
-    "updated_at": "2026-11-26T05:21:43Z",
+    "updated_at": "2026-11-26T05:22:36Z",
     "yr_web_coordinates": "33.6407,-84.4277"
   }
 }
