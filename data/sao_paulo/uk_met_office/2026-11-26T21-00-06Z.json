@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-26T21:00:06Z",
+  "city": "Sao Paulo",
+  "city_slug": "sao_paulo",
+  "station_icao": "SBGR",
+  "station_name": "São Paulo Guarulhos International Airport",
+  "latitude": -23.4356,
+  "longitude": -46.4731,
+  "timezone": "America/Sao_Paulo",
+  "polymarket_unit": "C",
+  "website_id": "uk_met_office",
+  "website_name": "UK Met Office",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://api.open-meteo.com/v1/forecast?latitude=-23.4356&longitude=-46.4731&hourly=temperature_2m,relative_humidity_2m,dew_point_2m,apparent_temperature,precipitation_probability,precipitation,rain,snowfall,weather_code,pressure_msl,cloud_cover,visibility,wind_speed_10m,wind_direction_10m,wind_gusts_10m,uv_index&models=ukmo_seamless&timezone=America/Sao_Paulo&forecast_days=8 failed after 3 attempts: HTTP Error 503: Service Unavailable",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-26T21:00:06Z",
+  "city": "Lucknow",
+  "city_slug": "lucknow",
+  "station_icao": "VILK",
+  "station_name": "Chaudhary Charan Singh International Airport",
+  "latitude": 26.7606,
+  "longitude": 80.8893,
+  "timezone": "Asia/Kolkata",
+  "polymarket_unit": "C",
+  "website_id": "meteoblue",
+  "website_name": "meteoblue",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "Expecting value: line 1 column 1 (char 0)",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}

@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-26T21:00:06Z",
+  "city": "London",
+  "city_slug": "london",
+  "station_icao": "EGLC",
+  "station_name": "London City Airport",
+  "latitude": 51.5053,
+  "longitude": 0.0553,
+  "timezone": "Europe/London",
+  "polymarket_unit": "C",
+  "website_id": "open_meteo",
+  "website_name": "Open-Meteo",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "Expecting value: line 1 column 1 (char 0)",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}
