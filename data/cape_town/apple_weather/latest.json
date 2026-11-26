@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-26T18:00:06Z",
+  "scraped_at_utc": "2026-11-26T19:00:06Z",
   "city": "Cape Town",
   "city_slug": "cape_town",
   "station_icao": "FACT",
@@ -18,45 +18,46 @@
     {
       "date": "2026-11-26",
       "unit": "C",
-      "highest_temperature": 20,
-      "highest_temperature_duration_hours": 1,
+      "highest_temperature": 19,
+      "highest_temperature_duration_hours": 2,
       "highest_temperature_hours": [
-        "20:00"
+        "21:00",
+        "22:00"
       ],
-      "highest_temperature_max_consecutive_hours": 1,
-      "highest_temperature_exact": 19.51,
+      "highest_temperature_max_consecutive_hours": 2,
+      "highest_temperature_exact": 18.99,
       "highest_temperature_exact_hours": [
-        "20:00"
+        "21:00"
       ],
-      "highest_temperature_c": 19.51,
-      "highest_temperature_f": 67.12,
+      "highest_temperature_c": 18.99,
+      "highest_temperature_f": 66.18,
       "consecutive_scrapes_with_same_high": 1,
-      "high_first_predicted_at_utc": "2026-11-26T18:00:06Z",
+      "high_first_predicted_at_utc": "2026-11-26T19:00:06Z",
       "lowest_temperature": 18,
       "lowest_temperature_duration_hours": 1,
       "lowest_temperature_hours": [
         "23:00"
       ],
       "lowest_temperature_exact": 18.21,
-      "avg_temperature": 18.83,
+      "avg_temperature": 18.61,
       "max_feels_like": 16,
       "min_feels_like": 16,
       "max_humidity_pct": 77.0,
-      "min_humidity_pct": 74.0,
-      "avg_humidity_pct": 75.8,
+      "min_humidity_pct": 76.0,
+      "avg_humidity_pct": 76.3,
       "max_precip_prob_pct": 0.0,
       "total_precip_mm": 0.0,
       "total_rain_mm": 0.0,
       "total_snow_cm": 0.0,
-      "max_wind_speed_kmh": 17.55,
-      "max_wind_speed_mph": 10.91,
-      "max_wind_gust_kmh": 34.57,
-      "max_wind_gust_mph": 21.48,
+      "max_wind_speed_kmh": 15.78,
+      "max_wind_speed_mph": 9.81,
+      "max_wind_gust_kmh": 30.53,
+      "max_wind_gust_mph": 18.97,
       "avg_cloud_cover_pct": 0.0,
       "avg_pressure_hpa": 1009.7,
       "max_uv_index": 0.0,
       "dominant_condition": "Clear",
-      "hours_analyzed": 4
+      "hours_analyzed": 3
     },
     {
       "date": "2026-11-27",
@@ -77,7 +78,7 @@
       ],
       "highest_temperature_c": 21.43,
       "highest_temperature_f": 70.57,
-      "consecutive_scrapes_with_same_high": 10,
+      "consecutive_scrapes_with_same_high": 11,
       "high_first_predicted_at_utc": "2026-11-26T08:00:06Z",
       "lowest_temperature": 14,
       "lowest_temperature_duration_hours": 2,
@@ -123,7 +124,7 @@
       ],
       "highest_temperature_c": 21.77,
       "highest_temperature_f": 71.19,
-      "consecutive_scrapes_with_same_high": 22,
+      "consecutive_scrapes_with_same_high": 23,
       "high_first_predicted_at_utc": "2026-11-25T20:00:06Z",
       "lowest_temperature": 16,
       "lowest_temperature_duration_hours": 5,
@@ -170,7 +171,7 @@
       ],
       "highest_temperature_c": 23.53,
       "highest_temperature_f": 74.35,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-26T18:00:06Z",
       "lowest_temperature": 16,
       "lowest_temperature_duration_hours": 5,
@@ -220,7 +221,7 @@
       ],
       "highest_temperature_c": 24.42,
       "highest_temperature_f": 75.96,
-      "consecutive_scrapes_with_same_high": 2,
+      "consecutive_scrapes_with_same_high": 3,
       "high_first_predicted_at_utc": "2026-11-26T17:00:06Z",
       "lowest_temperature": 15,
       "lowest_temperature_duration_hours": 3,
@@ -267,7 +268,7 @@
       ],
       "highest_temperature_c": 22.72,
       "highest_temperature_f": 72.9,
-      "consecutive_scrapes_with_same_high": 30,
+      "consecutive_scrapes_with_same_high": 31,
       "high_first_predicted_at_utc": "2026-11-25T12:00:06Z",
       "lowest_temperature": 16,
       "lowest_temperature_duration_hours": 5,
@@ -315,7 +316,7 @@
       ],
       "highest_temperature_c": 22.72,
       "highest_temperature_f": 72.9,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-26T18:00:06Z",
       "lowest_temperature": 17,
       "lowest_temperature_duration_hours": 9,
@@ -354,40 +355,6 @@
   ],
   "hourly_7day_forecast": [
     {
-      "time_local": "2026-11-26T20:00",
-      "date_local": "2026-11-26",
-      "hour_local": "20:00",
-      "time_utc": "2026-11-26T18:00:00Z",
-      "temperature_c": 19.51,
-      "temperature_f": 67.12,
-      "temperature_market": 20,
-      "temperature_market_raw": 19.51,
-      "feels_like_c": 16.25,
-      "feels_like_f": 61.25,
-      "feels_like_market": 16,
-      "dew_point_c": 14.75,
-      "dew_point_f": 58.55,
-      "humidity_pct": 74.0,
-      "precip_prob_pct": 0.0,
-      "precip_mm": 0.0,
-      "rain_mm": 0.0,
-      "snow_cm": 0.0,
-      "wind_speed_kmh": 17.55,
-      "wind_speed_mph": 10.91,
-      "wind_gust_kmh": 34.57,
-      "wind_gust_mph": 21.48,
-      "wind_direction_deg": 164,
-      "wind_direction_cardinal": "SSE",
-      "cloud_cover_pct": 0.0,
-      "pressure_hpa": 1009.8,
-      "visibility_km": 28.52,
-      "uv_index": 0.0,
-      "air_quality_index": null,
-      "condition": "Clear",
-      "is_daily_high_hour": true,
-      "is_daily_low_hour": false
-    },
-    {
       "time_local": "2026-11-26T21:00",
       "date_local": "2026-11-26",
       "hour_local": "21:00",
@@ -418,7 +385,7 @@
       "uv_index": 0.0,
       "air_quality_index": null,
       "condition": "Clear",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": false
     },
     {
@@ -452,7 +419,7 @@
       "uv_index": 0.0,
       "air_quality_index": null,
       "condition": "Clear",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": false
     },
     {
@@ -5387,7 +5354,7 @@
     }
   ],
   "extra_metadata": {
-    "hours_count": 228,
+    "hours_count": 227,
     "reported_location": "Cape Town, South Africa"
   }
 }
