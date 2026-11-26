@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-26T09:00:06Z",
+  "scraped_at_utc": "2026-11-26T10:00:07Z",
   "city": "Buenos Aires",
   "city_slug": "buenos_aires",
   "station_icao": "SAEZ",
@@ -30,20 +30,20 @@
       ],
       "highest_temperature_c": 25.61,
       "highest_temperature_f": 78.1,
-      "consecutive_scrapes_with_same_high": 10,
+      "consecutive_scrapes_with_same_high": 11,
       "high_first_predicted_at_utc": "2026-11-26T00:00:06Z",
-      "lowest_temperature": 14,
+      "lowest_temperature": 15,
       "lowest_temperature_duration_hours": 1,
       "lowest_temperature_hours": [
-        "06:00"
+        "07:00"
       ],
-      "lowest_temperature_exact": 14.15,
-      "avg_temperature": 21.74,
+      "lowest_temperature_exact": 15.49,
+      "avg_temperature": 22.18,
       "max_feels_like": 26,
-      "min_feels_like": 12,
+      "min_feels_like": 16,
       "max_humidity_pct": 70.0,
       "min_humidity_pct": 32.0,
-      "avg_humidity_pct": 48.6,
+      "avg_humidity_pct": 47.4,
       "max_precip_prob_pct": 0.0,
       "total_precip_mm": 0.0,
       "total_rain_mm": 0.0,
@@ -52,11 +52,11 @@
       "max_wind_speed_mph": 8.82,
       "max_wind_gust_kmh": 29.65,
       "max_wind_gust_mph": 18.42,
-      "avg_cloud_cover_pct": 6.4,
-      "avg_pressure_hpa": 1022.3,
+      "avg_cloud_cover_pct": 6.7,
+      "avg_pressure_hpa": 1022.2,
       "max_uv_index": 12.0,
       "dominant_condition": "Clear",
-      "hours_analyzed": 18
+      "hours_analyzed": 17
     },
     {
       "date": "2026-11-27",
@@ -76,7 +76,7 @@
       ],
       "highest_temperature_c": 30.17,
       "highest_temperature_f": 86.31,
-      "consecutive_scrapes_with_same_high": 23,
+      "consecutive_scrapes_with_same_high": 24,
       "high_first_predicted_at_utc": "2026-11-25T11:00:07Z",
       "lowest_temperature": 18,
       "lowest_temperature_duration_hours": 5,
@@ -125,7 +125,7 @@
       ],
       "highest_temperature_c": 31.94,
       "highest_temperature_f": 89.49,
-      "consecutive_scrapes_with_same_high": 11,
+      "consecutive_scrapes_with_same_high": 12,
       "high_first_predicted_at_utc": "2026-11-25T23:00:06Z",
       "lowest_temperature": 20,
       "lowest_temperature_duration_hours": 2,
@@ -172,7 +172,7 @@
       ],
       "highest_temperature_c": 32.46,
       "highest_temperature_f": 90.43,
-      "consecutive_scrapes_with_same_high": 10,
+      "consecutive_scrapes_with_same_high": 11,
       "high_first_predicted_at_utc": "2026-11-26T00:00:06Z",
       "lowest_temperature": 22,
       "lowest_temperature_duration_hours": 3,
@@ -221,7 +221,7 @@
       ],
       "highest_temperature_c": 32.38,
       "highest_temperature_f": 90.28,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-26T09:00:06Z",
       "lowest_temperature": 22,
       "lowest_temperature_duration_hours": 2,
@@ -266,7 +266,7 @@
       ],
       "highest_temperature_c": 29.59,
       "highest_temperature_f": 85.26,
-      "consecutive_scrapes_with_same_high": 4,
+      "consecutive_scrapes_with_same_high": 5,
       "high_first_predicted_at_utc": "2026-11-26T06:00:08Z",
       "lowest_temperature": 21,
       "lowest_temperature_duration_hours": 1,
@@ -310,7 +310,7 @@
       ],
       "highest_temperature_c": 24.81,
       "highest_temperature_f": 76.66,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-26T09:00:06Z",
       "lowest_temperature": 16,
       "lowest_temperature_duration_hours": 1,
@@ -340,40 +340,6 @@
     }
   ],
   "hourly_7day_forecast": [
-    {
-      "time_local": "2026-11-26T06:00",
-      "date_local": "2026-11-26",
-      "hour_local": "06:00",
-      "time_utc": "2026-11-26T09:00:00Z",
-      "temperature_c": 14.15,
-      "temperature_f": 57.47,
-      "temperature_market": 14,
-      "temperature_market_raw": 14.15,
-      "feels_like_c": 11.96,
-      "feels_like_f": 53.53,
-      "feels_like_market": 12,
-      "dew_point_c": 8.54,
-      "dew_point_f": 47.37,
-      "humidity_pct": 69.0,
-      "precip_prob_pct": 0.0,
-      "precip_mm": 0.0,
-      "rain_mm": 0.0,
-      "snow_cm": 0.0,
-      "wind_speed_kmh": 11.68,
-      "wind_speed_mph": 7.26,
-      "wind_gust_kmh": 22.42,
-      "wind_gust_mph": 13.93,
-      "wind_direction_deg": 131,
-      "wind_direction_cardinal": "SE",
-      "cloud_cover_pct": 1.0,
-      "pressure_hpa": 1024.3,
-      "visibility_km": 34.44,
-      "uv_index": 0.0,
-      "air_quality_index": null,
-      "condition": "Clear",
-      "is_daily_high_hour": false,
-      "is_daily_low_hour": true
-    },
     {
       "time_local": "2026-11-26T07:00",
       "date_local": "2026-11-26",
@@ -406,7 +372,7 @@
       "air_quality_index": null,
       "condition": "Clear",
       "is_daily_high_hour": false,
-      "is_daily_low_hour": false
+      "is_daily_low_hour": true
     },
     {
       "time_local": "2026-11-26T08:00",
@@ -5850,7 +5816,7 @@
     }
   ],
   "extra_metadata": {
-    "hours_count": 241,
+    "hours_count": 240,
     "reported_location": "Buenos Aires, Argentina"
   }
 }
