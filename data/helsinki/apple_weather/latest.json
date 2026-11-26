@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-26T15:00:07Z",
+  "scraped_at_utc": "2026-11-26T16:00:07Z",
   "city": "Helsinki",
   "city_slug": "helsinki",
   "station_icao": "EFHK",
@@ -18,20 +18,21 @@
     {
       "date": "2026-11-26",
       "unit": "C",
-      "highest_temperature": -2,
-      "highest_temperature_duration_hours": 1,
+      "highest_temperature": -3,
+      "highest_temperature_duration_hours": 2,
       "highest_temperature_hours": [
-        "17:00"
+        "18:00",
+        "19:00"
       ],
-      "highest_temperature_max_consecutive_hours": 1,
-      "highest_temperature_exact": -2.47,
+      "highest_temperature_max_consecutive_hours": 2,
+      "highest_temperature_exact": -2.96,
       "highest_temperature_exact_hours": [
-        "17:00"
+        "18:00"
       ],
-      "highest_temperature_c": -2.47,
-      "highest_temperature_f": 27.55,
-      "consecutive_scrapes_with_same_high": 4,
-      "high_first_predicted_at_utc": "2026-11-26T12:08:05Z",
+      "highest_temperature_c": -2.96,
+      "highest_temperature_f": 26.67,
+      "consecutive_scrapes_with_same_high": 1,
+      "high_first_predicted_at_utc": "2026-11-26T16:00:07Z",
       "lowest_temperature": -4,
       "lowest_temperature_duration_hours": 4,
       "lowest_temperature_hours": [
@@ -41,25 +42,25 @@
         "23:00"
       ],
       "lowest_temperature_exact": -4.4,
-      "avg_temperature": -3.56,
+      "avg_temperature": -3.74,
       "max_feels_like": -9,
       "min_feels_like": -11,
       "max_humidity_pct": 84.0,
-      "min_humidity_pct": 74.0,
-      "avg_humidity_pct": 78.7,
+      "min_humidity_pct": 76.0,
+      "avg_humidity_pct": 79.5,
       "max_precip_prob_pct": 0.0,
       "total_precip_mm": 0.0,
       "total_rain_mm": 0.0,
       "total_snow_cm": 0.0,
       "max_wind_speed_kmh": 16.03,
       "max_wind_speed_mph": 9.96,
-      "max_wind_gust_kmh": 34.86,
-      "max_wind_gust_mph": 21.66,
-      "avg_cloud_cover_pct": 11.3,
-      "avg_pressure_hpa": 1027.3,
+      "max_wind_gust_kmh": 34.29,
+      "max_wind_gust_mph": 21.31,
+      "avg_cloud_cover_pct": 13.0,
+      "avg_pressure_hpa": 1027.4,
       "max_uv_index": 0.0,
       "dominant_condition": "Clear",
-      "hours_analyzed": 7
+      "hours_analyzed": 6
     },
     {
       "date": "2026-11-27",
@@ -77,7 +78,7 @@
       ],
       "highest_temperature_c": -2.35,
       "highest_temperature_f": 27.77,
-      "consecutive_scrapes_with_same_high": 30,
+      "consecutive_scrapes_with_same_high": 31,
       "high_first_predicted_at_utc": "2026-11-25T09:46:00Z",
       "lowest_temperature": -5,
       "lowest_temperature_duration_hours": 15,
@@ -136,7 +137,7 @@
       ],
       "highest_temperature_c": 0.82,
       "highest_temperature_f": 33.48,
-      "consecutive_scrapes_with_same_high": 9,
+      "consecutive_scrapes_with_same_high": 10,
       "high_first_predicted_at_utc": "2026-11-26T06:00:08Z",
       "lowest_temperature": -6,
       "lowest_temperature_duration_hours": 10,
@@ -191,7 +192,7 @@
       ],
       "highest_temperature_c": 2.87,
       "highest_temperature_f": 37.17,
-      "consecutive_scrapes_with_same_high": 9,
+      "consecutive_scrapes_with_same_high": 10,
       "high_first_predicted_at_utc": "2026-11-26T06:00:08Z",
       "lowest_temperature": 0,
       "lowest_temperature_duration_hours": 8,
@@ -247,7 +248,7 @@
       ],
       "highest_temperature_c": 4.14,
       "highest_temperature_f": 39.45,
-      "consecutive_scrapes_with_same_high": 4,
+      "consecutive_scrapes_with_same_high": 5,
       "high_first_predicted_at_utc": "2026-11-26T12:08:05Z",
       "lowest_temperature": 0,
       "lowest_temperature_duration_hours": 4,
@@ -297,7 +298,7 @@
       ],
       "highest_temperature_c": 5.76,
       "highest_temperature_f": 42.37,
-      "consecutive_scrapes_with_same_high": 4,
+      "consecutive_scrapes_with_same_high": 5,
       "high_first_predicted_at_utc": "2026-11-26T12:08:05Z",
       "lowest_temperature": 3,
       "lowest_temperature_duration_hours": 8,
@@ -352,7 +353,7 @@
       ],
       "highest_temperature_c": 6.02,
       "highest_temperature_f": 42.84,
-      "consecutive_scrapes_with_same_high": 3,
+      "consecutive_scrapes_with_same_high": 4,
       "high_first_predicted_at_utc": "2026-11-26T13:00:06Z",
       "lowest_temperature": 4,
       "lowest_temperature_duration_hours": 11,
@@ -393,40 +394,6 @@
   ],
   "hourly_7day_forecast": [
     {
-      "time_local": "2026-11-26T17:00",
-      "date_local": "2026-11-26",
-      "hour_local": "17:00",
-      "time_utc": "2026-11-26T15:00:00Z",
-      "temperature_c": -2.47,
-      "temperature_f": 27.55,
-      "temperature_market": -2,
-      "temperature_market_raw": -2.47,
-      "feels_like_c": -8.82,
-      "feels_like_f": 16.12,
-      "feels_like_market": -9,
-      "dew_point_c": -6.47,
-      "dew_point_f": 20.35,
-      "humidity_pct": 74.0,
-      "precip_prob_pct": 0.0,
-      "precip_mm": 0.0,
-      "rain_mm": 0.0,
-      "snow_cm": 0.0,
-      "wind_speed_kmh": 15.96,
-      "wind_speed_mph": 9.92,
-      "wind_gust_kmh": 34.86,
-      "wind_gust_mph": 21.66,
-      "wind_direction_deg": 347,
-      "wind_direction_cardinal": "NNW",
-      "cloud_cover_pct": 1.0,
-      "pressure_hpa": 1026.8,
-      "visibility_km": 38.44,
-      "uv_index": 0.0,
-      "air_quality_index": null,
-      "condition": "Clear",
-      "is_daily_high_hour": true,
-      "is_daily_low_hour": false
-    },
-    {
       "time_local": "2026-11-26T18:00",
       "date_local": "2026-11-26",
       "hour_local": "18:00",
@@ -457,7 +424,7 @@
       "uv_index": 0.0,
       "air_quality_index": null,
       "condition": "Clear",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": false
     },
     {
@@ -491,7 +458,7 @@
       "uv_index": 0.0,
       "air_quality_index": null,
       "condition": "Clear",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": false
     },
     {
@@ -5528,7 +5495,7 @@
     }
   ],
   "extra_metadata": {
-    "hours_count": 231,
+    "hours_count": 230,
     "reported_location": "Helsinki, Finland"
   }
 }
