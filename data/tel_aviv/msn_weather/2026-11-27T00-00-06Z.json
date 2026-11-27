@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-27T00:00:06Z",
+  "city": "Tel Aviv",
+  "city_slug": "tel_aviv",
+  "station_icao": "LLBG",
+  "station_name": "Ben Gurion International Airport",
+  "latitude": 32.0114,
+  "longitude": 34.8867,
+  "timezone": "Asia/Jerusalem",
+  "polymarket_unit": "C",
+  "website_id": "msn_weather",
+  "website_name": "Microsoft Weather (MSN)",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "Could not locate embedded WeatherData state on MSN Weather page",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}
