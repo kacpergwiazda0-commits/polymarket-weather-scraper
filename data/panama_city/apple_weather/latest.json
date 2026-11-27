@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-27T12:00:06Z",
+  "scraped_at_utc": "2026-11-27T13:00:06Z",
   "city": "Panama City",
   "city_slug": "panama_city",
   "station_icao": "MPMG",
@@ -33,20 +33,20 @@
       ],
       "highest_temperature_c": 33.27,
       "highest_temperature_f": 91.89,
-      "consecutive_scrapes_with_same_high": 81,
+      "consecutive_scrapes_with_same_high": 82,
       "high_first_predicted_at_utc": "2026-11-23T21:00:06Z",
-      "lowest_temperature": 26,
+      "lowest_temperature": 27,
       "lowest_temperature_duration_hours": 1,
       "lowest_temperature_hours": [
-        "07:00"
+        "23:00"
       ],
-      "lowest_temperature_exact": 26.45,
-      "avg_temperature": 29.98,
+      "lowest_temperature_exact": 27.21,
+      "avg_temperature": 30.2,
       "max_feels_like": 35,
       "min_feels_like": 28,
-      "max_humidity_pct": 90.0,
+      "max_humidity_pct": 89.0,
       "min_humidity_pct": 61.0,
-      "avg_humidity_pct": 75.6,
+      "avg_humidity_pct": 74.7,
       "max_precip_prob_pct": 20.0,
       "total_precip_mm": 1.48,
       "total_rain_mm": 1.48,
@@ -56,10 +56,10 @@
       "max_wind_gust_kmh": 29.94,
       "max_wind_gust_mph": 18.6,
       "avg_cloud_cover_pct": 45.1,
-      "avg_pressure_hpa": 1009.6,
+      "avg_pressure_hpa": 1009.5,
       "max_uv_index": 7.0,
       "dominant_condition": "PartlyCloudy",
-      "hours_analyzed": 17
+      "hours_analyzed": 16
     },
     {
       "date": "2026-11-28",
@@ -77,7 +77,7 @@
       ],
       "highest_temperature_c": 33.0,
       "highest_temperature_f": 91.4,
-      "consecutive_scrapes_with_same_high": 14,
+      "consecutive_scrapes_with_same_high": 15,
       "high_first_predicted_at_utc": "2026-11-26T23:00:06Z",
       "lowest_temperature": 26,
       "lowest_temperature_duration_hours": 4,
@@ -124,7 +124,7 @@
       ],
       "highest_temperature_c": 32.68,
       "highest_temperature_f": 90.82,
-      "consecutive_scrapes_with_same_high": 11,
+      "consecutive_scrapes_with_same_high": 12,
       "high_first_predicted_at_utc": "2026-11-27T02:00:06Z",
       "lowest_temperature": 26,
       "lowest_temperature_duration_hours": 5,
@@ -173,7 +173,7 @@
       ],
       "highest_temperature_c": 31.06,
       "highest_temperature_f": 87.91,
-      "consecutive_scrapes_with_same_high": 24,
+      "consecutive_scrapes_with_same_high": 25,
       "high_first_predicted_at_utc": "2026-11-26T13:00:06Z",
       "lowest_temperature": 25,
       "lowest_temperature_duration_hours": 4,
@@ -219,7 +219,7 @@
       ],
       "highest_temperature_c": 30.86,
       "highest_temperature_f": 87.55,
-      "consecutive_scrapes_with_same_high": 42,
+      "consecutive_scrapes_with_same_high": 43,
       "high_first_predicted_at_utc": "2026-11-25T18:00:07Z",
       "lowest_temperature": 25,
       "lowest_temperature_duration_hours": 6,
@@ -267,7 +267,7 @@
       ],
       "highest_temperature_c": 30.57,
       "highest_temperature_f": 87.03,
-      "consecutive_scrapes_with_same_high": 3,
+      "consecutive_scrapes_with_same_high": 4,
       "high_first_predicted_at_utc": "2026-11-27T10:00:06Z",
       "lowest_temperature": 24,
       "lowest_temperature_duration_hours": 4,
@@ -313,7 +313,7 @@
       ],
       "highest_temperature_c": 29.6,
       "highest_temperature_f": 85.28,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-27T12:00:06Z",
       "lowest_temperature": 24,
       "lowest_temperature_duration_hours": 3,
@@ -345,40 +345,6 @@
     }
   ],
   "hourly_7day_forecast": [
-    {
-      "time_local": "2026-11-27T07:00",
-      "date_local": "2026-11-27",
-      "hour_local": "07:00",
-      "time_utc": "2026-11-27T12:00:00Z",
-      "temperature_c": 26.45,
-      "temperature_f": 79.61,
-      "temperature_market": 26,
-      "temperature_market_raw": 26.45,
-      "feels_like_c": 27.92,
-      "feels_like_f": 82.26,
-      "feels_like_market": 28,
-      "dew_point_c": 24.68,
-      "dew_point_f": 76.42,
-      "humidity_pct": 90.0,
-      "precip_prob_pct": 0.0,
-      "precip_mm": 0.0,
-      "rain_mm": 0.0,
-      "snow_cm": 0.0,
-      "wind_speed_kmh": 10.96,
-      "wind_speed_mph": 6.81,
-      "wind_gust_kmh": 21.19,
-      "wind_gust_mph": 13.17,
-      "wind_direction_deg": 312,
-      "wind_direction_cardinal": "NW",
-      "cloud_cover_pct": 45.0,
-      "pressure_hpa": 1010.6,
-      "visibility_km": 21.12,
-      "uv_index": 0.0,
-      "air_quality_index": null,
-      "condition": "PartlyCloudy",
-      "is_daily_high_hour": false,
-      "is_daily_low_hour": true
-    },
     {
       "time_local": "2026-11-27T08:00",
       "date_local": "2026-11-27",
@@ -921,7 +887,7 @@
       "air_quality_index": null,
       "condition": "PartlyCloudy",
       "is_daily_high_hour": false,
-      "is_daily_low_hour": false
+      "is_daily_low_hour": true
     },
     {
       "time_local": "2026-11-28T00:00",
@@ -5821,7 +5787,7 @@
     }
   ],
   "extra_metadata": {
-    "hours_count": 238,
+    "hours_count": 240,
     "reported_location": "Panama City, Panama"
   }
 }
