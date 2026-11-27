@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-27T04:00:07Z",
+  "scraped_at_utc": "2026-11-27T05:00:07Z",
   "city": "Hong Kong",
   "city_slug": "hong_kong",
   "station_icao": "VHHH",
@@ -32,7 +32,7 @@
       ],
       "highest_temperature_c": 24.5,
       "highest_temperature_f": 76.1,
-      "consecutive_scrapes_with_same_high": 70,
+      "consecutive_scrapes_with_same_high": 71,
       "high_first_predicted_at_utc": "2026-11-24T00:00:06Z",
       "lowest_temperature": 21,
       "lowest_temperature_duration_hours": 2,
@@ -78,7 +78,7 @@
       ],
       "highest_temperature_c": 25.7,
       "highest_temperature_f": 78.26,
-      "consecutive_scrapes_with_same_high": 50,
+      "consecutive_scrapes_with_same_high": 51,
       "high_first_predicted_at_utc": "2026-11-25T00:00:06Z",
       "lowest_temperature": 18,
       "lowest_temperature_duration_hours": 2,
@@ -125,7 +125,7 @@
       ],
       "highest_temperature_c": 22.9,
       "highest_temperature_f": 73.22,
-      "consecutive_scrapes_with_same_high": 40,
+      "consecutive_scrapes_with_same_high": 41,
       "high_first_predicted_at_utc": "2026-11-25T12:00:06Z",
       "lowest_temperature": 16,
       "lowest_temperature_duration_hours": 3,
@@ -170,7 +170,7 @@
       ],
       "highest_temperature_c": 24.8,
       "highest_temperature_f": 76.64,
-      "consecutive_scrapes_with_same_high": 50,
+      "consecutive_scrapes_with_same_high": 51,
       "high_first_predicted_at_utc": "2026-11-25T00:00:06Z",
       "lowest_temperature": 18,
       "lowest_temperature_duration_hours": 7,
@@ -219,7 +219,7 @@
       ],
       "highest_temperature_c": 25.7,
       "highest_temperature_f": 78.26,
-      "consecutive_scrapes_with_same_high": 58,
+      "consecutive_scrapes_with_same_high": 59,
       "high_first_predicted_at_utc": "2026-11-24T16:00:06Z",
       "lowest_temperature": 21,
       "lowest_temperature_duration_hours": 12,
@@ -274,7 +274,7 @@
       ],
       "highest_temperature_c": 26.3,
       "highest_temperature_f": 79.34,
-      "consecutive_scrapes_with_same_high": 17,
+      "consecutive_scrapes_with_same_high": 18,
       "high_first_predicted_at_utc": "2026-11-26T12:08:05Z",
       "lowest_temperature": 21,
       "lowest_temperature_duration_hours": 9,
@@ -325,7 +325,7 @@
       ],
       "highest_temperature_c": 28.7,
       "highest_temperature_f": 83.66,
-      "consecutive_scrapes_with_same_high": 5,
+      "consecutive_scrapes_with_same_high": 6,
       "high_first_predicted_at_utc": "2026-11-27T00:00:06Z",
       "lowest_temperature": 23,
       "lowest_temperature_duration_hours": 11,
@@ -5671,7 +5671,7 @@
     }
   ],
   "extra_metadata": {
-    "updated_at": "2026-11-27T01:18:02Z",
+    "updated_at": "2026-11-27T01:18:22Z",
     "yr_web_coordinates": "22.308,113.9185"
   }
 }
