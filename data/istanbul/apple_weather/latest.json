@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-27T06:00:06Z",
+  "scraped_at_utc": "2026-11-27T07:00:06Z",
   "city": "Istanbul",
   "city_slug": "istanbul",
   "station_icao": "LTFM",
@@ -31,20 +31,23 @@
       ],
       "highest_temperature_c": 15.62,
       "highest_temperature_f": 60.12,
-      "consecutive_scrapes_with_same_high": 43,
+      "consecutive_scrapes_with_same_high": 44,
       "high_first_predicted_at_utc": "2026-11-25T11:00:07Z",
-      "lowest_temperature": 12,
-      "lowest_temperature_duration_hours": 1,
+      "lowest_temperature": 13,
+      "lowest_temperature_duration_hours": 4,
       "lowest_temperature_hours": [
-        "09:00"
+        "10:00",
+        "21:00",
+        "22:00",
+        "23:00"
       ],
-      "lowest_temperature_exact": 11.74,
-      "avg_temperature": 14.11,
+      "lowest_temperature_exact": 12.64,
+      "avg_temperature": 14.28,
       "max_feels_like": 15,
       "min_feels_like": 9,
-      "max_humidity_pct": 71.0,
+      "max_humidity_pct": 70.0,
       "min_humidity_pct": 60.0,
-      "avg_humidity_pct": 65.7,
+      "avg_humidity_pct": 65.4,
       "max_precip_prob_pct": 0.0,
       "total_precip_mm": 0.0,
       "total_rain_mm": 0.0,
@@ -53,11 +56,11 @@
       "max_wind_speed_mph": 8.74,
       "max_wind_gust_kmh": 26.3,
       "max_wind_gust_mph": 16.34,
-      "avg_cloud_cover_pct": 88.9,
-      "avg_pressure_hpa": 1018.1,
+      "avg_cloud_cover_pct": 88.5,
+      "avg_pressure_hpa": 1018.0,
       "max_uv_index": 2.0,
       "dominant_condition": "Cloudy",
-      "hours_analyzed": 15
+      "hours_analyzed": 14
     },
     {
       "date": "2026-11-28",
@@ -75,7 +78,7 @@
       ],
       "highest_temperature_c": 15.96,
       "highest_temperature_f": 60.73,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-27T06:00:06Z",
       "lowest_temperature": 11,
       "lowest_temperature_duration_hours": 3,
@@ -122,7 +125,7 @@
       ],
       "highest_temperature_c": 12.84,
       "highest_temperature_f": 55.11,
-      "consecutive_scrapes_with_same_high": 34,
+      "consecutive_scrapes_with_same_high": 35,
       "high_first_predicted_at_utc": "2026-11-25T20:00:06Z",
       "lowest_temperature": 7,
       "lowest_temperature_duration_hours": 2,
@@ -171,7 +174,7 @@
       ],
       "highest_temperature_c": 6.91,
       "highest_temperature_f": 44.44,
-      "consecutive_scrapes_with_same_high": 45,
+      "consecutive_scrapes_with_same_high": 46,
       "high_first_predicted_at_utc": "2026-11-25T09:46:00Z",
       "lowest_temperature": 5,
       "lowest_temperature_duration_hours": 5,
@@ -221,7 +224,7 @@
       ],
       "highest_temperature_c": 6.91,
       "highest_temperature_f": 44.44,
-      "consecutive_scrapes_with_same_high": 32,
+      "consecutive_scrapes_with_same_high": 33,
       "high_first_predicted_at_utc": "2026-11-25T22:00:06Z",
       "lowest_temperature": 4,
       "lowest_temperature_duration_hours": 2,
@@ -268,7 +271,7 @@
       ],
       "highest_temperature_c": 5.21,
       "highest_temperature_f": 41.38,
-      "consecutive_scrapes_with_same_high": 2,
+      "consecutive_scrapes_with_same_high": 3,
       "high_first_predicted_at_utc": "2026-11-27T05:00:07Z",
       "lowest_temperature": 3,
       "lowest_temperature_duration_hours": 9,
@@ -320,7 +323,7 @@
       ],
       "highest_temperature_c": 6.67,
       "highest_temperature_f": 44.01,
-      "consecutive_scrapes_with_same_high": 1,
+      "consecutive_scrapes_with_same_high": 2,
       "high_first_predicted_at_utc": "2026-11-27T06:00:06Z",
       "lowest_temperature": 2,
       "lowest_temperature_duration_hours": 7,
@@ -357,40 +360,6 @@
   ],
   "hourly_7day_forecast": [
     {
-      "time_local": "2026-11-27T09:00",
-      "date_local": "2026-11-27",
-      "hour_local": "09:00",
-      "time_utc": "2026-11-27T06:00:00Z",
-      "temperature_c": 11.74,
-      "temperature_f": 53.13,
-      "temperature_market": 12,
-      "temperature_market_raw": 11.74,
-      "feels_like_c": 8.57,
-      "feels_like_f": 47.43,
-      "feels_like_market": 9,
-      "dew_point_c": 6.65,
-      "dew_point_f": 43.97,
-      "humidity_pct": 71.0,
-      "precip_prob_pct": 0.0,
-      "precip_mm": 0.0,
-      "rain_mm": 0.0,
-      "snow_cm": 0.0,
-      "wind_speed_kmh": 13.0,
-      "wind_speed_mph": 8.08,
-      "wind_gust_kmh": 23.81,
-      "wind_gust_mph": 14.79,
-      "wind_direction_deg": 192,
-      "wind_direction_cardinal": "SSW",
-      "cloud_cover_pct": 94.0,
-      "pressure_hpa": 1018.7,
-      "visibility_km": 28.56,
-      "uv_index": 0.0,
-      "air_quality_index": null,
-      "condition": "Cloudy",
-      "is_daily_high_hour": false,
-      "is_daily_low_hour": true
-    },
-    {
       "time_local": "2026-11-27T10:00",
       "date_local": "2026-11-27",
       "hour_local": "10:00",
@@ -422,7 +391,7 @@
       "air_quality_index": null,
       "condition": "Cloudy",
       "is_daily_high_hour": false,
-      "is_daily_low_hour": false
+      "is_daily_low_hour": true
     },
     {
       "time_local": "2026-11-27T11:00",
@@ -796,7 +765,7 @@
       "air_quality_index": null,
       "condition": "MostlyCloudy",
       "is_daily_high_hour": false,
-      "is_daily_low_hour": false
+      "is_daily_low_hour": true
     },
     {
       "time_local": "2026-11-27T22:00",
@@ -830,7 +799,7 @@
       "air_quality_index": null,
       "condition": "MostlyCloudy",
       "is_daily_high_hour": false,
-      "is_daily_low_hour": false
+      "is_daily_low_hour": true
     },
     {
       "time_local": "2026-11-27T23:00",
@@ -864,7 +833,7 @@
       "air_quality_index": null,
       "condition": "MostlyCloudy",
       "is_daily_high_hour": false,
-      "is_daily_low_hour": false
+      "is_daily_low_hour": true
     },
     {
       "time_local": "2026-11-28T00:00",
@@ -5764,7 +5733,7 @@
     }
   ],
   "extra_metadata": {
-    "hours_count": 239,
+    "hours_count": 238,
     "reported_location": "Istanbul, Türkiye"
   }
 }
