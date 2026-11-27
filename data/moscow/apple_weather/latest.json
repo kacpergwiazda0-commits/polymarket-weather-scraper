@@ -1,5 +1,5 @@
 {
-  "scraped_at_utc": "2026-11-27T15:00:06Z",
+  "scraped_at_utc": "2026-11-27T16:00:06Z",
   "city": "Moscow",
   "city_slug": "moscow",
   "station_icao": "UUWW",
@@ -18,45 +18,48 @@
     {
       "date": "2026-11-27",
       "unit": "C",
-      "highest_temperature": -2,
-      "highest_temperature_duration_hours": 1,
+      "highest_temperature": -3,
+      "highest_temperature_duration_hours": 4,
       "highest_temperature_hours": [
-        "18:00"
+        "19:00",
+        "20:00",
+        "21:00",
+        "22:00"
       ],
-      "highest_temperature_max_consecutive_hours": 1,
-      "highest_temperature_exact": -2.24,
+      "highest_temperature_max_consecutive_hours": 4,
+      "highest_temperature_exact": -2.56,
       "highest_temperature_exact_hours": [
-        "18:00"
+        "19:00"
       ],
-      "highest_temperature_c": -2.24,
-      "highest_temperature_f": 27.97,
-      "consecutive_scrapes_with_same_high": 22,
-      "high_first_predicted_at_utc": "2026-11-26T18:00:06Z",
+      "highest_temperature_c": -2.56,
+      "highest_temperature_f": 27.39,
+      "consecutive_scrapes_with_same_high": 1,
+      "high_first_predicted_at_utc": "2026-11-27T16:00:06Z",
       "lowest_temperature": -4,
       "lowest_temperature_duration_hours": 1,
       "lowest_temperature_hours": [
         "23:00"
       ],
       "lowest_temperature_exact": -3.7,
-      "avg_temperature": -2.87,
+      "avg_temperature": -3.0,
       "max_feels_like": -7,
       "min_feels_like": -7,
       "max_humidity_pct": 92.0,
-      "min_humidity_pct": 88.0,
-      "avg_humidity_pct": 90.5,
-      "max_precip_prob_pct": 15.0,
-      "total_precip_mm": 0.34,
-      "total_rain_mm": 0.34,
-      "total_snow_cm": 0.4,
-      "max_wind_speed_kmh": 15.04,
-      "max_wind_speed_mph": 9.35,
-      "max_wind_gust_kmh": 37.06,
-      "max_wind_gust_mph": 23.03,
-      "avg_cloud_cover_pct": 91.2,
-      "avg_pressure_hpa": 1022.5,
+      "min_humidity_pct": 90.0,
+      "avg_humidity_pct": 91.0,
+      "max_precip_prob_pct": 12.0,
+      "total_precip_mm": 0.2,
+      "total_rain_mm": 0.2,
+      "total_snow_cm": 0.24,
+      "max_wind_speed_kmh": 14.42,
+      "max_wind_speed_mph": 8.96,
+      "max_wind_gust_kmh": 36.49,
+      "max_wind_gust_mph": 22.67,
+      "avg_cloud_cover_pct": 90.6,
+      "avg_pressure_hpa": 1022.9,
       "max_uv_index": 0.0,
       "dominant_condition": "Cloudy",
-      "hours_analyzed": 6
+      "hours_analyzed": 5
     },
     {
       "date": "2026-11-28",
@@ -82,7 +85,7 @@
       ],
       "highest_temperature_c": -3.77,
       "highest_temperature_f": 25.21,
-      "consecutive_scrapes_with_same_high": 2,
+      "consecutive_scrapes_with_same_high": 3,
       "high_first_predicted_at_utc": "2026-11-27T14:00:08Z",
       "lowest_temperature": -5,
       "lowest_temperature_duration_hours": 14,
@@ -138,7 +141,7 @@
       ],
       "highest_temperature_c": -3.48,
       "highest_temperature_f": 25.74,
-      "consecutive_scrapes_with_same_high": 5,
+      "consecutive_scrapes_with_same_high": 6,
       "high_first_predicted_at_utc": "2026-11-27T11:00:06Z",
       "lowest_temperature": -6,
       "lowest_temperature_duration_hours": 5,
@@ -185,7 +188,7 @@
       ],
       "highest_temperature_c": -4.43,
       "highest_temperature_f": 24.03,
-      "consecutive_scrapes_with_same_high": 10,
+      "consecutive_scrapes_with_same_high": 11,
       "high_first_predicted_at_utc": "2026-11-27T06:00:06Z",
       "lowest_temperature": -8,
       "lowest_temperature_duration_hours": 2,
@@ -229,7 +232,7 @@
       ],
       "highest_temperature_c": -4.43,
       "highest_temperature_f": 24.03,
-      "consecutive_scrapes_with_same_high": 2,
+      "consecutive_scrapes_with_same_high": 3,
       "high_first_predicted_at_utc": "2026-11-27T14:00:08Z",
       "lowest_temperature": -9,
       "lowest_temperature_duration_hours": 1,
@@ -276,7 +279,7 @@
       ],
       "highest_temperature_c": -1.07,
       "highest_temperature_f": 30.07,
-      "consecutive_scrapes_with_same_high": 4,
+      "consecutive_scrapes_with_same_high": 5,
       "high_first_predicted_at_utc": "2026-11-27T12:00:06Z",
       "lowest_temperature": -5,
       "lowest_temperature_duration_hours": 9,
@@ -336,7 +339,7 @@
       ],
       "highest_temperature_c": -1.55,
       "highest_temperature_f": 29.21,
-      "consecutive_scrapes_with_same_high": 2,
+      "consecutive_scrapes_with_same_high": 3,
       "high_first_predicted_at_utc": "2026-11-27T14:00:08Z",
       "lowest_temperature": -4,
       "lowest_temperature_duration_hours": 3,
@@ -369,40 +372,6 @@
   ],
   "hourly_7day_forecast": [
     {
-      "time_local": "2026-11-27T18:00",
-      "date_local": "2026-11-27",
-      "hour_local": "18:00",
-      "time_utc": "2026-11-27T15:00:00Z",
-      "temperature_c": -2.24,
-      "temperature_f": 27.97,
-      "temperature_market": -2,
-      "temperature_market_raw": -2.24,
-      "feels_like_c": -6.95,
-      "feels_like_f": 19.49,
-      "feels_like_market": -7,
-      "dew_point_c": -3.96,
-      "dew_point_f": 24.87,
-      "humidity_pct": 88.0,
-      "precip_prob_pct": 15.0,
-      "precip_mm": 0.14,
-      "rain_mm": 0.14,
-      "snow_cm": 0.16,
-      "wind_speed_kmh": 15.04,
-      "wind_speed_mph": 9.35,
-      "wind_gust_kmh": 37.06,
-      "wind_gust_mph": 23.03,
-      "wind_direction_deg": 296,
-      "wind_direction_cardinal": "WNW",
-      "cloud_cover_pct": 94.0,
-      "pressure_hpa": 1020.7,
-      "visibility_km": 10.08,
-      "uv_index": 0.0,
-      "air_quality_index": null,
-      "condition": "Cloudy",
-      "is_daily_high_hour": true,
-      "is_daily_low_hour": false
-    },
-    {
       "time_local": "2026-11-27T19:00",
       "date_local": "2026-11-27",
       "hour_local": "19:00",
@@ -432,8 +401,8 @@
       "visibility_km": 9.2,
       "uv_index": 0.0,
       "air_quality_index": null,
-      "condition": "Flurries",
-      "is_daily_high_hour": false,
+      "condition": "Cloudy",
+      "is_daily_high_hour": true,
       "is_daily_low_hour": false
     },
     {
@@ -467,7 +436,7 @@
       "uv_index": 0.0,
       "air_quality_index": null,
       "condition": "Cloudy",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": false
     },
     {
@@ -501,7 +470,7 @@
       "uv_index": 0.0,
       "air_quality_index": null,
       "condition": "Cloudy",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": false
     },
     {
@@ -535,7 +504,7 @@
       "uv_index": 0.0,
       "air_quality_index": null,
       "condition": "MostlyCloudy",
-      "is_daily_high_hour": false,
+      "is_daily_high_hour": true,
       "is_daily_low_hour": false
     },
     {
@@ -5470,7 +5439,7 @@
     }
   ],
   "extra_metadata": {
-    "hours_count": 230,
+    "hours_count": 229,
     "reported_location": "Moscow, Russia"
   }
 }
