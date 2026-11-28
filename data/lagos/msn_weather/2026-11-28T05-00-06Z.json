@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-28T05:00:06Z",
+  "city": "Lagos",
+  "city_slug": "lagos",
+  "station_icao": "DNMM",
+  "station_name": "Murtala Muhammed International Airport",
+  "latitude": 6.5774,
+  "longitude": 3.3212,
+  "timezone": "Africa/Lagos",
+  "polymarket_unit": "C",
+  "website_id": "msn_weather",
+  "website_name": "Microsoft Weather (MSN)",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "Could not locate embedded WeatherData state on MSN Weather page",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}
