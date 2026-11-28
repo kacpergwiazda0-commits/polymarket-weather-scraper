@@ -1,0 +1,20 @@
+{
+  "scraped_at_utc": "2026-11-28T08:00:06Z",
+  "city": "San Francisco",
+  "city_slug": "san_francisco",
+  "station_icao": "KSFO",
+  "station_name": "San Francisco International Airport",
+  "latitude": 37.6213,
+  "longitude": -122.379,
+  "timezone": "America/Los_Angeles",
+  "polymarket_unit": "F",
+  "website_id": "foreca",
+  "website_name": "Foreca",
+  "source_url": "",
+  "source_mode": "error",
+  "success": false,
+  "error": "GET https://www.foreca.com/105391959/San-Francisco/hourly?day=0 failed after 5 attempts: The read operation timed out",
+  "daily_7day_summary": [],
+  "hourly_7day_forecast": [],
+  "extra_metadata": {}
+}
